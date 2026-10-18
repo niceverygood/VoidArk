@@ -1,0 +1,15 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+const output=path.join(root,'release','VOID-ARK-win-x64-'+Date.now());
+await fs.mkdir(output,{recursive:true});
+await fs.cp(path.join(root,'desktop/node_modules/electron/dist'),output,{recursive:true});
+await fs.rename(path.join(output,'electron.exe'),path.join(output,'VOID ARK.exe'));
+const app=path.join(output,'resources/app');
+await fs.mkdir(app,{recursive:true});
+for(const file of ['main.cjs','content-path.cjs'])await fs.copyFile(path.join(root,'desktop',file),path.join(app,file));
+await fs.writeFile(path.join(app,'package.json'),JSON.stringify({name:'void-ark',version:'0.1.0',main:'main.cjs'}));
+for(const item of ['index.html','assets','audio','licenses','favicon.svg','nation-designs.json'])await fs.cp(path.join(root,'dist',item),path.join(app,'game',item),{recursive:true});
+await fs.writeFile(path.join(root,'release/latest.json'),JSON.stringify({output,appId:4884820,executable:'VOID ARK.exe',platform:'windows',architecture:'x64',steamUploaded:false},null,2));
+console.log(output);

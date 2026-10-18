@@ -1,0 +1,3 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {createRequire} from 'node:module';import path from 'node:path';
+const {contentPath}=createRequire(import.meta.url)('../desktop/content-path.cjs');
+test('desktop serves packaged assets but rejects QA entry, other origins and encoded traversal',()=>{const root=path.resolve('release-test');assert.equal(contentPath(root,'ark://game/'),path.join(root,'index.html'));assert.equal(contentPath(root,'ark://game/assets/model.glb'),path.join(root,'assets/model.glb'));for(const url of ['ark://game/?qa=1','ark://game/combat-preview.html','https://game/index.html','ark://evil/index.html','ark://game/%2e%2e%5csecret.txt','ark://game/%00.txt','ark://game/%ZZ'])assert.equal(contentPath(root,url),null);});

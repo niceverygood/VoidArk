@@ -1,0 +1,879 @@
+{
+  "at": "2026-10-18T00:20:40.551Z",
+  "scope": "Actual native/candidate ProjectileVisuals.create/update(active=false)/root disposal. Explicit memory shots and empty asset adapter; Node window undefined disables GLB mounts. No Simulation, storage, browser, GPU, wake tick, real frame scheduling or Steam FPS. Eight alternating-order pairs; host/GC jitter retained, not attributed.",
+  "rows": [
+    {
+      "ratePerLogicalSecond": 12,
+      "logicalFrames": 600,
+      "lifeFrames": 60,
+      "meanTotalMs": {
+        "before": 47.84564999999995,
+        "after": 64.5229125
+      },
+      "pairs": [
+        {
+          "order": "AB",
+          "before": {
+            "totalMs": 30.39919999999995,
+            "frames": {
+              "mean": 0.05039933333333503,
+              "p95": 0.0946999999999889,
+              "p99": 0.36559999999997217,
+              "max": 7.76279999999997
+            },
+            "creates": 120,
+            "disposed": 120,
+            "peak": 13,
+            "materialCreates": 240
+          },
+          "after": {
+            "totalMs": 64.14429999999993,
+            "frames": {
+              "mean": 0.10671683333333287,
+              "p95": 0.08970000000010714,
+              "p99": 3.0631000000000768,
+              "max": 20.987100000000055
+            },
+            "creates": 120,
+            "disposed": 120,
+            "peak": 13,
+            "materialCreates": 12,
+            "pool": {
+              "entries": 0,
+              "refs": 0,
+              "created": 12,
+              "released": 12
+            }
+          }
+        },
+        {
+          "order": "BA",
+          "before": {
+            "totalMs": 36.87340000000006,
+            "frames": {
+              "mean": 0.061268833333332204,
+              "p95": 0.12289999999995871,
+              "p99": 1.4162000000000035,
+              "max": 8.610000000000014
+            },
+            "creates": 120,
+            "disposed": 120,
+            "peak": 13,
+            "materialCreates": 240
+          },
+          "after": {
+            "totalMs": 18.577300000000037,
+            "frames": {
+              "mean": 0.030408333333328603,
+              "p95": 0.06929999999999836,
+              "p99": 0.32650000000001,
+              "max": 2.730799999999931
+            },
+            "creates": 120,
+            "disposed": 120,
+            "peak": 13,
+            "materialCreates": 12,
+            "pool": {
+              "entries": 0,
+              "refs": 0,
+              "created": 12,
+              "released": 12
+            }
+          }
+        },
+        {
+          "order": "AB",
+          "before": {
+            "totalMs": 38.143499999999904,
+            "frames": {
+              "mean": 0.0632801666666694,
+              "p95": 0.11779999999998836,
+              "p99": 0.5288000000000466,
+              "max": 14.173700000000053
+            },
+            "creates": 120,
+            "disposed": 120,
+            "peak": 13,
+            "materialCreates": 240
+          },
+          "after": {
+            "totalMs": 43.94360000000006,
+            "frames": {
+              "mean": 0.0731583333333333,
+              "p95": 0.0944000000001779,
+              "p99": 0.5722999999998137,
+              "max": 21.475299999999834
+            },
+            "creates": 120,
+            "disposed": 120,
+            "peak": 13,
+            "materialCreates": 12,
+            "pool": {
+              "entries": 0,
+              "refs": 0,
+              "created": 12,
+              "released": 12
+            }
+          }
+        },
+        {
+          "order": "BA",
+          "before": {
+            "totalMs": 25.68209999999999,
+            "frames": {
+              "mean": 0.04273149999999949,
+              "p95": 0.08690000000001419,
+              "p99": 0.4209000000000742,
+              "max": 7.834699999999884
+            },
+            "creates": 120,
+            "disposed": 120,
+            "peak": 13,
+            "materialCreates": 240
+          },
+          "after": {
+            "totalMs": 26.311100000000124,
+            "frames": {
+              "mean": 0.04377533333333266,
+              "p95": 0.061399999999821375,
+              "p99": 0.3442000000000007,
+              "max": 7.751800000000003
+            },
+            "creates": 120,
+            "disposed": 120,
+            "peak": 13,
+            "materialCreates": 12,
+            "pool": {
+              "entries": 0,
+              "refs": 0,
+              "created": 12,
+              "released": 12
+            }
+          }
+        },
+        {
+          "order": "AB",
+          "before": {
+            "totalMs": 34.29600000000005,
+            "frames": {
+              "mean": 0.05709083333332956,
+              "p95": 0.10069999999996071,
+              "p99": 0.4360999999998967,
+              "max": 18.675700000000006
+            },
+            "creates": 120,
+            "disposed": 120,
+            "peak": 13,
+            "materialCreates": 240
+          },
+          "after": {
+            "totalMs": 16.31970000000001,
+            "frames": {
+              "mean": 0.027129333333333155,
+              "p95": 0.057500000000118234,
+              "p99": 0.372899999999845,
+              "max": 3.5634999999999764
+            },
+            "creates": 120,
+            "disposed": 120,
+            "peak": 13,
+            "materialCreates": 12,
+            "pool": {
+              "entries": 0,
+              "refs": 0,
+              "created": 12,
+              "released": 12
+            }
+          }
+        },
+        {
+          "order": "BA",
+          "before": {
+            "totalMs": 42.6117999999999,
+            "frames": {
+              "mean": 0.07080866666666301,
+              "p95": 0.07529999999997017,
+              "p99": 0.3118000000001757,
+              "max": 23.43399999999997
+            },
+            "creates": 120,
+            "disposed": 120,
+            "peak": 13,
+            "materialCreates": 240
+          },
+          "after": {
+            "totalMs": 199.31279999999992,
+            "frames": {
+              "mean": 0.3320954999999996,
+              "p95": 0.10619999999994434,
+              "p99": 0.6158000000000357,
+              "max": 109.85930000000008
+            },
+            "creates": 120,
+            "disposed": 120,
+            "peak": 13,
+            "materialCreates": 12,
+            "pool": {
+              "entries": 0,
+              "refs": 0,
+              "created": 12,
+              "released": 12
+            }
+          }
+        },
+        {
+          "order": "AB",
+          "before": {
+            "totalMs": 134.12979999999993,
+            "frames": {
+              "mean": 0.2234818333333294,
+              "p95": 0.07930000000010295,
+              "p99": 1.2747999999999138,
+              "max": 109.34079999999994
+            },
+            "creates": 120,
+            "disposed": 120,
+            "peak": 13,
+            "materialCreates": 240
+          },
+          "after": {
+            "totalMs": 90.55060000000003,
+            "frames": {
+              "mean": 0.15084216666666633,
+              "p95": 0.06989999999996144,
+              "p99": 0.4796000000001186,
+              "max": 46.16090000000008
+            },
+            "creates": 120,
+            "disposed": 120,
+            "peak": 13,
+            "materialCreates": 12,
+            "pool": {
+              "entries": 0,
+              "refs": 0,
+              "created": 12,
+              "released": 12
+            }
+          }
+        },
+        {
+          "order": "BA",
+          "before": {
+            "totalMs": 40.629399999999805,
+            "frames": {
+              "mean": 0.06763550000000236,
+              "p95": 0.1573000000000775,
+              "p99": 0.6724999999999,
+              "max": 14.317900000000009
+            },
+            "creates": 120,
+            "disposed": 120,
+            "peak": 13,
+            "materialCreates": 240
+          },
+          "after": {
+            "totalMs": 57.02389999999991,
+            "frames": {
+              "mean": 0.09495416666666642,
+              "p95": 0.08979999999996835,
+              "p99": 1.8567999999997937,
+              "max": 16.22440000000006
+            },
+            "creates": 120,
+            "disposed": 120,
+            "peak": 13,
+            "materialCreates": 12,
+            "pool": {
+              "entries": 0,
+              "refs": 0,
+              "created": 12,
+              "released": 12
+            }
+          }
+        }
+      ]
+    },
+    {
+      "ratePerLogicalSecond": 60,
+      "logicalFrames": 600,
+      "lifeFrames": 60,
+      "meanTotalMs": {
+        "before": 378.05756249999996,
+        "after": 225.5760749999999
+      },
+      "pairs": [
+        {
+          "order": "AB",
+          "before": {
+            "totalMs": 1358.4807999999998,
+            "frames": {
+              "mean": 2.2639826666666734,
+              "p95": 0.49349999999958527,
+              "p99": 2.4299999999998363,
+              "max": 600.4571999999998
+            },
+            "creates": 600,
+            "disposed": 600,
+            "peak": 61,
+            "materialCreates": 1200
+          },
+          "after": {
+            "totalMs": 218.63639999999987,
+            "frames": {
+              "mean": 0.3642788333333442,
+              "p95": 0.2116000000000895,
+              "p99": 2.7845000000002074,
+              "max": 119.01009999999997
+            },
+            "creates": 600,
+            "disposed": 600,
+            "peak": 61,
+            "materialCreates": 12,
+            "pool": {
+              "entries": 0,
+              "refs": 0,
+              "created": 12,
+              "released": 12
+            }
+          }
+        },
+        {
+          "order": "BA",
+          "before": {
+            "totalMs": 457.91069999999945,
+            "frames": {
+              "mean": 0.7609624999999975,
+              "p95": 1.3491999999996551,
+              "p99": 18.05329999999958,
+              "max": 77.15610000000015
+            },
+            "creates": 600,
+            "disposed": 600,
+            "peak": 61,
+            "materialCreates": 1200
+          },
+          "after": {
+            "totalMs": 318.1239999999998,
+            "frames": {
+              "mean": 0.5299089999999903,
+              "p95": 0.7674999999999272,
+              "p99": 4.101399999999558,
+              "max": 138.63910000000033
+            },
+            "creates": 600,
+            "disposed": 600,
+            "peak": 61,
+            "materialCreates": 12,
+            "pool": {
+              "entries": 0,
+              "refs": 0,
+              "created": 12,
+              "released": 12
+            }
+          }
+        },
+        {
+          "order": "AB",
+          "before": {
+            "totalMs": 148.22670000000016,
+            "frames": {
+              "mean": 0.24689966666666804,
+              "p95": 0.5829000000003361,
+              "p99": 4.102700000000368,
+              "max": 34.719599999999446
+            },
+            "creates": 600,
+            "disposed": 600,
+            "peak": 61,
+            "materialCreates": 1200
+          },
+          "after": {
+            "totalMs": 67.24439999999959,
+            "frames": {
+              "mean": 0.11192416666668578,
+              "p95": 0.2305000000005748,
+              "p99": 1.3115000000007058,
+              "max": 6.936699999999291
+            },
+            "creates": 600,
+            "disposed": 600,
+            "peak": 61,
+            "materialCreates": 12,
+            "pool": {
+              "entries": 0,
+              "refs": 0,
+              "created": 12,
+              "released": 12
+            }
+          }
+        },
+        {
+          "order": "BA",
+          "before": {
+            "totalMs": 156.44530000000032,
+            "frames": {
+              "mean": 0.2605593333333369,
+              "p95": 0.5834999999997308,
+              "p99": 5.095499999999447,
+              "max": 18.27520000000004
+            },
+            "creates": 600,
+            "disposed": 600,
+            "peak": 61,
+            "materialCreates": 1200
+          },
+          "after": {
+            "totalMs": 101.69460000000072,
+            "frames": {
+              "mean": 0.16937066666667608,
+              "p95": 0.31569999999919673,
+              "p99": 3.3716999999996915,
+              "max": 26.039999999999964
+            },
+            "creates": 600,
+            "disposed": 600,
+            "peak": 61,
+            "materialCreates": 12,
+            "pool": {
+              "entries": 0,
+              "refs": 0,
+              "created": 12,
+              "released": 12
+            }
+          }
+        },
+        {
+          "order": "AB",
+          "before": {
+            "totalMs": 274.3874000000005,
+            "frames": {
+              "mean": 0.4570980000000009,
+              "p95": 0.4444999999996071,
+              "p99": 3.5564000000003944,
+              "max": 97.20160000000033
+            },
+            "creates": 600,
+            "disposed": 600,
+            "peak": 61,
+            "materialCreates": 1200
+          },
+          "after": {
+            "totalMs": 290.98149999999987,
+            "frames": {
+              "mean": 0.4840421666666786,
+              "p95": 0.4444000000003143,
+              "p99": 13.40689999999995,
+              "max": 77.93499999999949
+            },
+            "creates": 600,
+            "disposed": 600,
+            "peak": 61,
+            "materialCreates": 12,
+            "pool": {
+              "entries": 0,
+              "refs": 0,
+              "created": 12,
+              "released": 12
+            }
+          }
+        },
+        {
+          "order": "BA",
+          "before": {
+            "totalMs": 395.1284999999998,
+            "frames": {
+              "mean": 0.6583671666666866,
+              "p95": 0.4633000000003449,
+              "p99": 12.36790000000019,
+              "max": 172.09559999999965
+            },
+            "creates": 600,
+            "disposed": 600,
+            "peak": 61,
+            "materialCreates": 1200
+          },
+          "after": {
+            "totalMs": 364.2673999999997,
+            "frames": {
+              "mean": 0.5628775000000269,
+              "p95": 0.8370999999997366,
+              "p99": 15.797700000000077,
+              "max": 61.56829999999991
+            },
+            "creates": 600,
+            "disposed": 600,
+            "peak": 61,
+            "materialCreates": 12,
+            "pool": {
+              "entries": 0,
+              "refs": 0,
+              "created": 12,
+              "released": 12
+            }
+          }
+        },
+        {
+          "order": "AB",
+          "before": {
+            "totalMs": 156.92849999999999,
+            "frames": {
+              "mean": 0.22354883333334177,
+              "p95": 0.4279000000005908,
+              "p99": 2.702400000000125,
+              "max": 33.471699999999146
+            },
+            "creates": 600,
+            "disposed": 600,
+            "peak": 61,
+            "materialCreates": 1200
+          },
+          "after": {
+            "totalMs": 122.44719999999961,
+            "frames": {
+              "mean": 0.2039581666666739,
+              "p95": 0.2511999999996988,
+              "p99": 2.6413000000002285,
+              "max": 32.38310000000001
+            },
+            "creates": 600,
+            "disposed": 600,
+            "peak": 61,
+            "materialCreates": 12,
+            "pool": {
+              "entries": 0,
+              "refs": 0,
+              "created": 12,
+              "released": 12
+            }
+          }
+        },
+        {
+          "order": "BA",
+          "before": {
+            "totalMs": 76.95259999999962,
+            "frames": {
+              "mean": 0.12814366666667715,
+              "p95": 0.21639999999933934,
+              "p99": 1.1896999999999025,
+              "max": 12.342800000000352
+            },
+            "creates": 600,
+            "disposed": 600,
+            "peak": 61,
+            "materialCreates": 1200
+          },
+          "after": {
+            "totalMs": 321.21309999999994,
+            "frames": {
+              "mean": 0.5352101666666477,
+              "p95": 0.5787000000000262,
+              "p99": 19.881000000000313,
+              "max": 31.497299999999996
+            },
+            "creates": 600,
+            "disposed": 600,
+            "peak": 61,
+            "materialCreates": 12,
+            "pool": {
+              "entries": 0,
+              "refs": 0,
+              "created": 12,
+              "released": 12
+            }
+          }
+        }
+      ]
+    },
+    {
+      "ratePerLogicalSecond": 240,
+      "logicalFrames": 600,
+      "lifeFrames": 60,
+      "meanTotalMs": {
+        "before": 864.8542249999998,
+        "after": 550.6394374999998
+      },
+      "pairs": [
+        {
+          "order": "AB",
+          "before": {
+            "totalMs": 1315.9259000000002,
+            "frames": {
+              "mean": 2.1927961666666005,
+              "p95": 3.7294999999994616,
+              "p99": 40.54860000000008,
+              "max": 194.9261000000006
+            },
+            "creates": 2400,
+            "disposed": 2400,
+            "peak": 244,
+            "materialCreates": 4800
+          },
+          "after": {
+            "totalMs": 381.4548999999988,
+            "frames": {
+              "mean": 0.6353754999999486,
+              "p95": 1.3873999999996158,
+              "p99": 5.1525000000001455,
+              "max": 51.40380000000005
+            },
+            "creates": 2400,
+            "disposed": 2400,
+            "peak": 244,
+            "materialCreates": 12,
+            "pool": {
+              "entries": 0,
+              "refs": 0,
+              "created": 12,
+              "released": 12
+            }
+          }
+        },
+        {
+          "order": "BA",
+          "before": {
+            "totalMs": 961.7141999999985,
+            "frames": {
+              "mean": 1.6023881666666784,
+              "p95": 3.413300000000163,
+              "p99": 12.811200000000099,
+              "max": 224.08079999999973
+            },
+            "creates": 2400,
+            "disposed": 2400,
+            "peak": 244,
+            "materialCreates": 4800
+          },
+          "after": {
+            "totalMs": 671.515800000001,
+            "frames": {
+              "mean": 1.118856500000035,
+              "p95": 1.6467999999986205,
+              "p99": 12.474999999998545,
+              "max": 206.09779999999955
+            },
+            "creates": 2400,
+            "disposed": 2400,
+            "peak": 244,
+            "materialCreates": 12,
+            "pool": {
+              "entries": 0,
+              "refs": 0,
+              "created": 12,
+              "released": 12
+            }
+          }
+        },
+        {
+          "order": "AB",
+          "before": {
+            "totalMs": 1341.536399999999,
+            "frames": {
+              "mean": 2.235443666666688,
+              "p95": 3.407100000000355,
+              "p99": 28.988499999999476,
+              "max": 284.0633999999991
+            },
+            "creates": 2400,
+            "disposed": 2400,
+            "peak": 244,
+            "materialCreates": 4800
+          },
+          "after": {
+            "totalMs": 350.6852999999992,
+            "frames": {
+              "mean": 0.584121499999986,
+              "p95": 1.1123999999999796,
+              "p99": 3.6261000000013155,
+              "max": 77.58359999999993
+            },
+            "creates": 2400,
+            "disposed": 2400,
+            "peak": 244,
+            "materialCreates": 12,
+            "pool": {
+              "entries": 0,
+              "refs": 0,
+              "created": 12,
+              "released": 12
+            }
+          }
+        },
+        {
+          "order": "BA",
+          "before": {
+            "totalMs": 542.0511999999999,
+            "frames": {
+              "mean": 0.9030303333333722,
+              "p95": 2.9733999999989464,
+              "p99": 7.90769999999975,
+              "max": 14.173399999999674
+            },
+            "creates": 2400,
+            "disposed": 2400,
+            "peak": 244,
+            "materialCreates": 4800
+          },
+          "after": {
+            "totalMs": 586.9729000000007,
+            "frames": {
+              "mean": 0.9777454999999615,
+              "p95": 2.8167000000012195,
+              "p99": 10.010999999998603,
+              "max": 124.52590000000055
+            },
+            "creates": 2400,
+            "disposed": 2400,
+            "peak": 244,
+            "materialCreates": 12,
+            "pool": {
+              "entries": 0,
+              "refs": 0,
+              "created": 12,
+              "released": 12
+            }
+          }
+        },
+        {
+          "order": "AB",
+          "before": {
+            "totalMs": 510.08620000000155,
+            "frames": {
+              "mean": 0.8497695000000295,
+              "p95": 2.4377999999996973,
+              "p99": 4.607999999998356,
+              "max": 37.16309999999976
+            },
+            "creates": 2400,
+            "disposed": 2400,
+            "peak": 244,
+            "materialCreates": 4800
+          },
+          "after": {
+            "totalMs": 864.3216000000011,
+            "frames": {
+              "mean": 1.3703289999999622,
+              "p95": 2.7409999999999854,
+              "p99": 18.12459999999919,
+              "max": 222.97809999999663
+            },
+            "creates": 2400,
+            "disposed": 2400,
+            "peak": 244,
+            "materialCreates": 12,
+            "pool": {
+              "entries": 0,
+              "refs": 0,
+              "created": 12,
+              "released": 12
+            }
+          }
+        },
+        {
+          "order": "BA",
+          "before": {
+            "totalMs": 682.5427999999993,
+            "frames": {
+              "mean": 1.1371403333333971,
+              "p95": 3.1834000000017113,
+              "p99": 6.247400000000198,
+              "max": 103.16029999999955
+            },
+            "creates": 2400,
+            "disposed": 2400,
+            "peak": 244,
+            "materialCreates": 4800
+          },
+          "after": {
+            "totalMs": 686.2504999999983,
+            "frames": {
+              "mean": 1.143273999999989,
+              "p95": 3.278699999998935,
+              "p99": 15.96849999999904,
+              "max": 77.47739999999976
+            },
+            "creates": 2400,
+            "disposed": 2400,
+            "peak": 244,
+            "materialCreates": 12,
+            "pool": {
+              "entries": 0,
+              "refs": 0,
+              "created": 12,
+              "released": 12
+            }
+          }
+        },
+        {
+          "order": "AB",
+          "before": {
+            "totalMs": 773.6188000000002,
+            "frames": {
+              "mean": 1.2888833333332939,
+              "p95": 2.8796000000002095,
+              "p99": 10.581599999997707,
+              "max": 129.568299999999
+            },
+            "creates": 2400,
+            "disposed": 2400,
+            "peak": 244,
+            "materialCreates": 4800
+          },
+          "after": {
+            "totalMs": 460.5656999999992,
+            "frames": {
+              "mean": 0.767194666666613,
+              "p95": 1.766700000000128,
+              "p99": 5.549599999998463,
+              "max": 53.988500000003114
+            },
+            "creates": 2400,
+            "disposed": 2400,
+            "peak": 244,
+            "materialCreates": 12,
+            "pool": {
+              "entries": 0,
+              "refs": 0,
+              "created": 12,
+              "released": 12
+            }
+          }
+        },
+        {
+          "order": "BA",
+          "before": {
+            "totalMs": 791.3582999999999,
+            "frames": {
+              "mean": 1.3183873333333516,
+              "p95": 3.7445999999981723,
+              "p99": 16.847399999998743,
+              "max": 84.1875
+            },
+            "creates": 2400,
+            "disposed": 2400,
+            "peak": 244,
+            "materialCreates": 4800
+          },
+          "after": {
+            "totalMs": 403.34879999999976,
+            "frames": {
+              "mean": 0.6718895000000763,
+              "p95": 1.499599999999191,
+              "p99": 4.847200000000157,
+              "max": 46.02720000000045
+            },
+            "creates": 2400,
+            "disposed": 2400,
+            "peak": 244,
+            "materialCreates": 12,
+            "pool": {
+              "entries": 0,
+              "refs": 0,
+              "created": 12,
+              "released": 12
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

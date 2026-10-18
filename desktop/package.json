@@ -1,0 +1,1 @@
+{"name":"void-ark-desktop","version":"0.1.0","private":true,"description":"VOID ARK desktop distribution preparation","main":"main.cjs","devDependencies":{"electron":"44.7.0"}}

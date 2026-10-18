@@ -1,0 +1,37 @@
+VOID ARK Steam PC 전투 최적화 session03~05 / 2026-10-18T00:12:03.421Z
+
+제품 소스163 SHA가 시작 기준과 모두 일치합니다. game-De5_jikA.js/Windows 후보/기존612검사 검증판 유지. 이번에는 렌더 진단과 미채택·검수중 후보를 분리해 기록합니다.
+
+Session03 — 실제 renderer/index/sort 진단
+WORK Native Three0.180.0의 renderLists.get/list.sort, renderer.render, index.prepare만 감쌌습니다. 실제 비교함수·receiver·인자·반환·예외와 정렬 결과를 유지합니다. 고정ring/스택, rendering-manager교체·overflow를 감지합니다. 초기4/5는 종료 뒤 외부에서 교체한 throwing sort를 잘못 호출하던 테스트 오류였고, 기대 예외와 진짜 중첩 renderer검수로 교정해5/5 통과했습니다. 제품 오류가 아닙니다.
+Node진단overhead8쌍 평균에는 큰 native outlier가 있어 음수extra가 나왔습니다. 이를 성능 이득으로 보지 않습니다. 모든 관측 양수pair extra는.1ms상한 아래였으나 브라우저 overhead 보장은 아닙니다. WORK빌드11.53초, engine500kB경고.
+30초준비+60초/별도4274/1280x720 HIGH scale1/LV22/120적+보스/선단10·요격기10/seed91471 fixture.2645frames/trace2645/drop0/overflow0/manager변경0/실패0/listwrapper5. 평균44.0346FPS/p95 37.2/p99 51.1/max113.2ms는 진단 단일표본이며 이전버전과 개선·회귀 인과 비교 아님.
+프레임당 mainRender3.9997ms, 그중 sort.0955ms는 사전대상gate.3ms보다 작아 정렬교체 미착수. main sort 전1.0259ms/후2.8783ms는 복합 JS/GL/호스트 구간이며 pureJS·GPU로 확정하지 않음. Primary index.7713ms(프레임당1.0495회/근접화면뒤복구포함)여서 순회 후보를 다음으로 검토했습니다. secondaryindex.0400ms, post render14.0495회/.2058ms. 전체·중첩phase는 합산하지 않습니다.
+errors[]/savePreservedtrue(별도origin)/audit valid·pending0/XYZ불일치0. 사용자 저장 증명으로 확대하지 않음. 캡처중 자체빌드/검사/스크린샷/문서쓰기 없음; 기존QA타이머·외부host는 존재.
+
+Session04 — 현재 DFS 한 번 순회 후보 미채택
+부모체인을 반복 찾는 부분을 source의현재DFS로 바꾼 WORK 후보는 기존13검사 통과. 레이어/최근그룹/선택·복구·동적삽입·reparent·callback/LOD/skinfallback·borrowed resource 검수입니다.
+20초준비+1초장면을 만든뒤 같은 paused장면64회×8교대쌍. 기존평균0.252930ms→후보0.582227ms,8쌍모두 느림. view·stats oracle동일/등록13908·drawable8242·활성322/래퍼2. 절약.15msgate실패로 미채택. 제품수정/실제전투FPS후보행렬 없음. 1초장면FPS를 개선근거로 쓰지 않음. 기존60초진단번들과 main을 별도로 보관하고SHA복구대조했습니다.
+
+Session05 — 투명 투사체 발광 재질 재사용 후보 검수중
+원본은 매투사체 glow ShaderMaterial1개+clone core1개를 생성합니다. WORK pool은 색관리enabled/workingSpace/색별 live lease, 마지막참조때두재질해제, idle보유0입니다. body불투명재질/Object3D/geometry/움직임·wake는 유지. 기본ProjectileVisuals는 개별시간uniform/개별재질을 유지하고 WORK main만 모든update에같은 time을주므로공유를명시선택했습니다. 기본combat-preview는 변경하지 않습니다.
+Helper4검사(shader/색·blend동일/lease·색관리세대·종료예외)와 실제class통합4검사(48tick동일root변환·uniform/wake모든배열·만료·부모와색별수명·generic시간독립·body실패뒤반납) 통과. 전체612를재실행하거나620통과로더하지 않았습니다.
+재질만Node생성/해제8교대쌍: 24동시lease48→12재질,120은240→12,1000은2000→12 생성. count1은2→2/생성·총비용오히려증가. largecount 생성CPU 이득이 있지만120native평균outlier변동을그대로보존하며 생성그래프/GPU/GC/실전FPS로확대하지 않습니다.
+아직제품미채택. 다음은 같은 실제메인 장면에서 기존per-root glow clone과 shared shader의 픽셀/순서·GLB·resource lifetime 검증, 필요context복구, 캡처중추가부하없는전후pair로평균과p95/p99/max/50·100초과비교. 실패면후보제외/검증실행본유지.
+
+이미미채택된Unit4공통추진부parent재사용(.024~.035ms), Unit32thruster연속pow재사용(함수이득이나전체tail악화), 과거particleactive-list는 반복하지 않습니다. 실제trail10000/10000alive기록이므로 죽은trailbitset을 추측만으로 만들지 않았습니다.
+원본/SteamfrozenRC2/다른자동화/제출/가격/서명/ZIP/모바일/사용자저장보존. 자기탭15닫음/viewport·visibility원복/4274자기PID42944→42424만경로확인종료. 사용자1~5·Steamhandoff보존. native입력0. 22시마감/21:45정리정책유지.
+
+[2026-10-18T00:21:28.466Z] Session05 continued — WORK browser preparation and actual factory CPU
+Separate WORK build game-C6llIJjW.js completed in70s; engine500kB warning/outDir no-empty notice preserved. Product src163 SHA unchanged; prior612/game-De5_jikA.js/Windows executable retained. QA-only oracle prepared for same-root private-cloned shader vs shared primary framebuffer + actualCameraSubview, GLB-ready/visible roots/common-time/renderer state/last-root release; not yet browser executed. Matched own4275/4276 qaNoSave/qaFresh/qaStorageAudit 30s warmup+90s capture harness prepared.
+Browser tool could list existing user1–5 but three documented own-tab create paths timed out while attaching. No own tab reported after attempts; open_in_codex fallback stayed pending and was terminated. This is a tool connection failure, not a game/GPU failure. Own server24952 path-verified stopped, visibility false restored, viewport unchanged/Steamhandoff retained. Pixel/PIP/GLB/context/full battle captures0, no invented success.
+Actualclass Node create/update(active=false)/root disposal, empty asset adapter/windowundefined means noGLB/wake tick/GPU/Simulation/storage. 600 logicalframes at12/60/240births perlogicalsecond, life60frames,8alternatingpairs each.
+{"rate":12,"meanTotalMs":{"before":47.84564999999995,"after":64.5229125},"peak":13,"creates":120,"materialCreates":{"before":240,"after":12},"fasterPairs":3,"worseMaxPairs":4,"allRootsDisposed":true}
+{"rate":60,"meanTotalMs":{"before":378.05756249999996,"after":225.5760749999999},"peak":61,"creates":600,"materialCreates":{"before":1200,"after":12},"fasterPairs":6,"worseMaxPairs":3,"allRootsDisposed":true}
+{"rate":240,"meanTotalMs":{"before":864.8542249999998,"after":550.6394374999998},"peak":244,"creates":2400,"materialCreates":{"before":4800,"after":12},"fasterPairs":5,"worseMaxPairs":2,"allRootsDisposed":true}
+Lower mean at these memory fixtures does not guarantee fewer long frames: some candidate maxima are worse; all rawp95/p99/max retained. No GC or host cause attribution. All created root disposals complete/poolentries&refs0/created==released. Candidate remains unadopted.
+Next: single own-tab retry when attach works, actual paused primary/PIP pixel oracle then alternating battle pairs and resource lifetime. No unchanged large rebuild/test matrix repeat. If UI remains unavailable, retain this candidate and do an independent measured diagnostic; do not apply unvalidated shaders to the verified execution build. Deadline22:00KST/21:45finalization and all releases/original/user saves preserved.
+
+[2026-10-18T00:21:59.574Z] CPU 결과 문구 교정: 앞 문단의 모든 rate 평균개선 표현은 잘못된 템플릿 해석입니다. 12발/논리초는47.84565→64.52291ms/600논리프레임으로 평균 악화(3/8쌍만 빠름,4/8max악화).60발은378.05756→225.57607(6/8빠름,3/8max악화),240발은864.85422→550.63944(5/8빠름,2/8max악화). 모든raw/p95/p99/max·숫자summary 불변, 최초JSON별도보존. 개선일관성·tail보장없음/제품미채택 유지.
+
+[2026-10-18T00:42:55.689Z] Session05 WORK발광실제픽셀검수완료: 사용자정상HTTP직접열기후25root모두GLBready/3색/common time1/69materialbindings; primary1280x720/PIP320x180모든RGBA차이0,272calls/1454993triangles동일/renderer복원true. clear뒤entries0/refs0/created46=released46. auditvalid/pending0/instance638불일치0/errors[]/별도origin저장동일. 25root한고정장면·3색범위/전체6look·자세·context/기기/FPS검수아님. 전후90s성능pair0/제품미채택유지. 탭16닫음/viewportreset/수동표시true유지/4276PID31128경로확인종료/사용자1~5보존. 최신사용자GitHub niceverygood/VoidArk푸시+다른컴퓨터Codex인수인계프롬프트요청우선진행.

@@ -1,0 +1,144 @@
+{
+  "nations": [
+    {
+      "id": "A",
+      "name": "CELESTIAL ARK",
+      "galaxy": "milky"
+    },
+    {
+      "id": "B",
+      "name": "IRON FRONTIER",
+      "galaxy": "andromeda"
+    },
+    {
+      "id": "C",
+      "name": "LIVING COSMOS",
+      "galaxy": "verdant"
+    },
+    {
+      "id": "D",
+      "name": "NOVA LEGENDS",
+      "galaxy": "milky"
+    },
+    {
+      "id": "E",
+      "name": "SOLAR VOYAGERS",
+      "galaxy": "milky"
+    },
+    {
+      "id": "F",
+      "name": "PRISM ASCENDANCY",
+      "galaxy": "origin"
+    },
+    {
+      "id": "G",
+      "name": "ROGUE CONSTELLATION",
+      "galaxy": "milky"
+    },
+    {
+      "id": "H",
+      "name": "ANCIENT STARFORGE",
+      "galaxy": "origin"
+    },
+    {
+      "id": "I",
+      "name": "SILKSTAR REGATTA",
+      "galaxy": "andromeda"
+    },
+    {
+      "id": "J",
+      "name": "ABYSSAL PILGRIMS",
+      "galaxy": "abyss"
+    },
+    {
+      "id": "K",
+      "name": "CHORUS SWARM",
+      "galaxy": "verdant"
+    },
+    {
+      "id": "L",
+      "name": "PORCELAIN GARDENS",
+      "galaxy": "verdant"
+    },
+    {
+      "id": "M",
+      "name": "NOMAD METROPOLIS",
+      "galaxy": "milky"
+    },
+    {
+      "id": "N",
+      "name": "HYPERDRIVE CIRCUIT",
+      "galaxy": "andromeda"
+    },
+    {
+      "id": "O",
+      "name": "MAGNETAR ORDER",
+      "galaxy": "abyss"
+    },
+    {
+      "id": "P",
+      "name": "GLACIAL DRIFTERS",
+      "galaxy": "abyss"
+    },
+    {
+      "id": "Q",
+      "name": "ECLIPSE OPTICS",
+      "galaxy": "abyss"
+    },
+    {
+      "id": "R",
+      "name": "DUNE CARAVANS",
+      "galaxy": "andromeda"
+    },
+    {
+      "id": "S",
+      "name": "AURORA IMPERIAL",
+      "galaxy": "andromeda"
+    },
+    {
+      "id": "T",
+      "name": "CINDER FORGE",
+      "galaxy": "andromeda"
+    },
+    {
+      "id": "U",
+      "name": "FOLDSPACE ATELIER",
+      "galaxy": "origin"
+    },
+    {
+      "id": "V",
+      "name": "MYCELIUM ORBIT",
+      "galaxy": "verdant"
+    },
+    {
+      "id": "W",
+      "name": "PENDULUM SYNDICATE",
+      "galaxy": "origin"
+    },
+    {
+      "id": "X",
+      "name": "TEMPEST SANCTUARY",
+      "galaxy": "verdant"
+    },
+    {
+      "id": "Y",
+      "name": "IMPERIAL DUSK",
+      "galaxy": "abyss"
+    },
+    {
+      "id": "Z",
+      "name": "REBEL EMBERS",
+      "galaxy": "milky"
+    },
+    {
+      "id": "AA",
+      "name": "OUTER RIM CARAVANS",
+      "galaxy": "milky"
+    },
+    {
+      "id": "AB",
+      "name": "DAWN KNIGHTFLEET",
+      "galaxy": "origin"
+    }
+  ]
+}

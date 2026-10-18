@@ -1,0 +1,1199 @@
+{
+  "at": "2026-10-17T23:45:13.215Z",
+  "scope": "Offline analysis of existing captures and read-only reference review. No new runtime measurement or product source change.",
+  "profiles": [
+    {
+      "file": "qa/browser-before.json",
+      "sha256": "35739306ed841991bd36f94d5733d4e421dc43a4e467baf58ae1c7ee0abcb8cc",
+      "config": {
+        "width": 1280,
+        "height": 720,
+        "quality": "high",
+        "scale": 1,
+        "level": 22,
+        "count": 120,
+        "seed": 91471,
+        "warmupSeconds": 30,
+        "captureSeconds": 60,
+        "normalCampaign": false,
+        "invulnerable": true,
+        "enemiesHeldAlive": true
+      },
+      "frames": 2791,
+      "fps": 46.49729279466889,
+      "frame": {
+        "mean": 21.50662844858474,
+        "p95": 34.1,
+        "p99": 45.9,
+        "max": 84.30000001192093
+      },
+      "cpu": {
+        "mean": 17.841992117755517,
+        "p95": 29,
+        "p99": 38.6,
+        "max": 57.80000001192093
+      },
+      "over50": 15,
+      "over100": 0,
+      "phases": [
+        [
+          "render",
+          {
+            "mean": 5.1895378000075905,
+            "p95": 7.9,
+            "p99": 13.4,
+            "max": 29.69999998807907
+          }
+        ],
+        [
+          "batch",
+          {
+            "mean": 4.452633464690905,
+            "p95": 6.6,
+            "p99": 8.9,
+            "max": 19.5
+          }
+        ],
+        [
+          "visuals",
+          {
+            "mean": 4.393873164492327,
+            "p95": 7.1,
+            "p99": 10.2,
+            "max": 26.200000047683716
+          }
+        ],
+        [
+          "simulation",
+          {
+            "mean": 1.252239340866223,
+            "p95": 3.4,
+            "p99": 6.2,
+            "max": 17.299999952316284
+          }
+        ],
+        [
+          "feedbackAudio",
+          {
+            "mean": 0.5490863489361486,
+            "p95": 1.2,
+            "p99": 2.3,
+            "max": 7.199999988079071
+          }
+        ],
+        [
+          "launchCamera",
+          {
+            "mean": 0.5310641349493838,
+            "p95": 0.2,
+            "p99": 12.6,
+            "max": 23.900000035762787
+          }
+        ],
+        [
+          "hud",
+          {
+            "mean": 0.278502329174911,
+            "p95": 1.3,
+            "p99": 2,
+            "max": 8.699999988079071
+          }
+        ],
+        [
+          "hudSnapshot",
+          {
+            "mean": 0.12189179466685614,
+            "p95": 0.5,
+            "p99": 0.7,
+            "max": 4.5
+          }
+        ],
+        [
+          "camera",
+          {
+            "mean": 0.0310999634487148,
+            "p95": 0.2,
+            "p99": 0.2,
+            "max": 2.100000023841858
+          }
+        ]
+      ],
+      "launches": {
+        "renders": 130,
+        "cpu": {
+          "mean": 11.266153846337245,
+          "p95": 16,
+          "p99": 23.6,
+          "max": 23.900000035762787
+        }
+      },
+      "recordedStalls": [],
+      "errors": [],
+      "savePreserved": true
+    },
+    {
+      "file": "qa/browser-before-reverse.json",
+      "sha256": "04c69903bfbef1896ca2a3f93dc5cfdead12541a0074c3cccb25dde7ca91bb29",
+      "config": {
+        "width": 1280,
+        "height": 720,
+        "quality": "high",
+        "scale": 1,
+        "level": 22,
+        "count": 120,
+        "seed": 91471,
+        "warmupSeconds": 30,
+        "captureSeconds": 60,
+        "normalCampaign": false,
+        "invulnerable": true,
+        "enemiesHeldAlive": true
+      },
+      "frames": 2556,
+      "fps": 42.57863971576797,
+      "frame": {
+        "mean": 23.48595461657443,
+        "p95": 38.9,
+        "p99": 53.4,
+        "max": 92.80000001192093
+      },
+      "cpu": {
+        "mean": 18.58626760572708,
+        "p95": 30.7,
+        "p99": 44.9,
+        "max": 68
+      },
+      "over50": 35,
+      "over100": 0,
+      "phases": [
+        [
+          "render",
+          {
+            "mean": 5.398787167477122,
+            "p95": 8.7,
+            "p99": 17.9,
+            "max": 34.09999996423721
+          }
+        ],
+        [
+          "batch",
+          {
+            "mean": 4.634272300977849,
+            "p95": 6.9,
+            "p99": 11.3,
+            "max": 46.80000001192093
+          }
+        ],
+        [
+          "visuals",
+          {
+            "mean": 4.480946792310019,
+            "p95": 7.2,
+            "p99": 11.5,
+            "max": 30.599999964237213
+          }
+        ],
+        [
+          "simulation",
+          {
+            "mean": 1.2870500774963733,
+            "p95": 3.5,
+            "p99": 6.1,
+            "max": 26.5
+          }
+        ],
+        [
+          "launchCamera",
+          {
+            "mean": 0.5844287950667977,
+            "p95": 8.1,
+            "p99": 12.6,
+            "max": 19.69999998807907
+          }
+        ],
+        [
+          "feedbackAudio",
+          {
+            "mean": 0.5776212828493268,
+            "p95": 1.3,
+            "p99": 2.5,
+            "max": 24.5
+          }
+        ],
+        [
+          "hud",
+          {
+            "mean": 0.3223787167215944,
+            "p95": 1.4,
+            "p99": 2.4,
+            "max": 9.300000011920929
+          }
+        ],
+        [
+          "hudSnapshot",
+          {
+            "mean": 0.13286385000778103,
+            "p95": 0.5,
+            "p99": 0.9,
+            "max": 12.100000023841858
+          }
+        ],
+        [
+          "camera",
+          {
+            "mean": 0.03196400632507551,
+            "p95": 0.2,
+            "p99": 0.2,
+            "max": 2.5
+          }
+        ]
+      ],
+      "launches": {
+        "renders": 132,
+        "cpu": {
+          "mean": 11.196212122837702,
+          "p95": 15.9,
+          "p99": 19.1,
+          "max": 19.69999998807907
+        }
+      },
+      "recordedStalls": [],
+      "errors": [],
+      "savePreserved": true
+    },
+    {
+      "file": "qa/browser-final.json",
+      "sha256": "c8fd0a6323f0b5e9f7498ebb20a1cc658ba9f74e6c7dde6a7ecbec0379232f4b",
+      "config": {
+        "width": 1280,
+        "height": 720,
+        "quality": "high",
+        "scale": 1,
+        "level": 22,
+        "count": 120,
+        "seed": 91471,
+        "warmupSeconds": 30,
+        "captureSeconds": 60,
+        "normalCampaign": false,
+        "invulnerable": true,
+        "enemiesHeldAlive": true
+      },
+      "frames": 2341,
+      "fps": 38.9974928993245,
+      "frame": {
+        "mean": 25.642674070909866,
+        "p95": 42,
+        "p99": 57.7,
+        "max": 184.30000001192093
+      },
+      "cpu": {
+        "mean": 19.748568988085708,
+        "p95": 32.1,
+        "p99": 42.1,
+        "max": 68.60000002384186
+      },
+      "over50": 52,
+      "over100": 3,
+      "phases": [
+        [
+          "render",
+          {
+            "mean": 5.800555317562801,
+            "p95": 10.4,
+            "p99": 17.6,
+            "max": 39.10000002384186
+          }
+        ],
+        [
+          "batch",
+          {
+            "mean": 4.868731310661915,
+            "p95": 7.7,
+            "p99": 12.6,
+            "max": 23.599999964237213
+          }
+        ],
+        [
+          "visuals",
+          {
+            "mean": 4.690602306548676,
+            "p95": 8.1,
+            "p99": 12.1,
+            "max": 22.100000023841858
+          }
+        ],
+        [
+          "simulation",
+          {
+            "mean": 1.4813327640358682,
+            "p95": 3.9,
+            "p99": 8.1,
+            "max": 19.899999976158142
+          }
+        ],
+        [
+          "launchCamera",
+          {
+            "mean": 0.6304570697964078,
+            "p95": 9.1,
+            "p99": 13.1,
+            "max": 23.30000001192093
+          }
+        ],
+        [
+          "feedbackAudio",
+          {
+            "mean": 0.57736010306516,
+            "p95": 1.3,
+            "p99": 2.7,
+            "max": 9.5
+          }
+        ],
+        [
+          "hud",
+          {
+            "mean": 0.37197778745371785,
+            "p95": 1.6,
+            "p99": 2.9,
+            "max": 15.100000023841858
+          }
+        ],
+        [
+          "hudSnapshot",
+          {
+            "mean": 0.18175993175498445,
+            "p95": 0.6,
+            "p99": 1.3,
+            "max": 16.900000035762787
+          }
+        ],
+        [
+          "camera",
+          {
+            "mean": 0.031183254942838984,
+            "p95": 0.2,
+            "p99": 0.3,
+            "max": 3.899999976158142
+          }
+        ]
+      ],
+      "launches": {
+        "renders": 129,
+        "cpu": {
+          "mean": 11.330232557862304,
+          "p95": 15.6,
+          "p99": 21.7,
+          "max": 23.30000001192093
+        }
+      },
+      "recordedStalls": [
+        {
+          "frame": 102.69999998807907,
+          "cpu": 23.100000023841858,
+          "startedAt": 77275.5,
+          "finishedAt": 77298.69999998808,
+          "launchRendered": false,
+          "launchCamera": 0,
+          "phase": "playing"
+        },
+        {
+          "frame": 156.10000002384186,
+          "cpu": 32.09999996423721,
+          "startedAt": 80347.10000002384,
+          "finishedAt": 80379.19999998808,
+          "launchRendered": false,
+          "launchCamera": 0,
+          "phase": "playing"
+        },
+        {
+          "frame": 184.30000001192093,
+          "cpu": 42.60000002384186,
+          "startedAt": 86723,
+          "finishedAt": 86765.60000002384,
+          "launchRendered": false,
+          "launchCamera": 0,
+          "phase": "playing"
+        }
+      ],
+      "errors": [],
+      "savePreserved": true
+    }
+  ],
+  "priorReviews": [
+    {
+      "file": "C:\\Users\\nicev\\Documents\\Codex\\2026-10-10\\new-chat-2\\outputs\\void-ark-transfer\\qa\\OVERNIGHT_OPTIMIZATION_20261017_UNIT39.txt",
+      "sha256": "f5961f1a311893c47dbafc73878fd8913baf38d25db9b7e6773692e74cb712c5",
+      "title": "Unit39 healthbar predicate memo NOT ADOPTED: absolute gain below .1ms gate"
+    },
+    {
+      "file": "C:\\Users\\nicev\\Documents\\Codex\\2026-10-10\\new-chat-2\\outputs\\void-ark-transfer\\qa\\OVERNIGHT_OPTIMIZATION_20261017_UNIT40.txt",
+      "sha256": "8f67fe8a223db1cd72c840d9d84203ba692ecd1dea486f37fd3a707418037159",
+      "title": "VOID ARK Unit40 — WORK 전용 PIP 단계 계측 분석"
+    },
+    {
+      "file": "C:\\Users\\nicev\\Documents\\Codex\\2026-10-10\\new-chat-2\\outputs\\void-ark-transfer\\qa\\OVERNIGHT_OPTIMIZATION_20261017_UNIT41.txt",
+      "sha256": "ae4994e9ce0c2e6f8c5c1d95f38fe9986fa824ebb5b0f9d9fd7ea0d001b56998",
+      "title": "Unit41 homogeneous EngineFlameBatch packing NOT ADOPTED"
+    },
+    {
+      "file": "C:\\Users\\nicev\\Documents\\Codex\\2026-10-10\\new-chat-2\\outputs\\void-ark-transfer\\qa\\OVERNIGHT_OPTIMIZATION_20261017_UNIT42.txt",
+      "sha256": "cf45c0695dccfb855efd7009778b936b7e81562e72a02a8ad02c976255ad1ad9",
+      "title": "Unit42 owner-only final render-index deferral NOT IMPLEMENTED"
+    },
+    {
+      "file": "C:\\Users\\nicev\\Documents\\Codex\\2026-10-10\\new-chat-2\\outputs\\void-ark-transfer\\qa\\OVERNIGHT_OPTIMIZATION_20261017_UNIT43.txt",
+      "sha256": "5acde4a190ae4b7e7e1096f3bb8523ede98bd9cdf3a1bbb5680a375b29439c6b",
+      "title": "Unit43 active combat HUD CSS audit — no product candidate"
+    },
+    {
+      "file": "C:\\Users\\nicev\\Documents\\Codex\\2026-10-10\\new-chat-2\\outputs\\void-ark-transfer\\qa\\OVERNIGHT_OPTIMIZATION_20261017_UNIT44.txt",
+      "sha256": "8bbbbbd3eafe739afc4df9a9d6a25a89fc3760906493dad852b54ad58ad6f463",
+      "title": "Unit44 identity quaternion localcompose kernel — below gate, no world candidate"
+    },
+    {
+      "file": "C:\\Users\\nicev\\Documents\\Codex\\2026-10-10\\new-chat-2\\outputs\\void-ark-transfer\\qa\\OVERNIGHT_OPTIMIZATION_20261017_UNIT45.txt",
+      "sha256": "55bffcd241f5ee5db088523441e96e34c44f160ef6f4b5c3942be1dbfb285f67",
+      "title": "UNIT45 — Native LOD cadence diagnostic; no production change"
+    },
+    {
+      "file": "C:\\Users\\nicev\\Documents\\Codex\\2026-10-10\\new-chat-2\\outputs\\void-ark-transfer\\qa\\OVERNIGHT_OPTIMIZATION_20261017_UNIT46.txt",
+      "sha256": "1f0263a11a9e5a3b66b7d65b274b65800aa0e87605bf0aa6c8f2dd5ab42e769e",
+      "title": "UNIT46 — Scoped native LOD update cost gate: FALSE"
+    },
+    {
+      "file": "C:\\Users\\nicev\\Documents\\Codex\\2026-10-10\\new-chat-2\\outputs\\void-ark-transfer\\qa\\OVERNIGHT_OPTIMIZATION_20261017_UNIT47.txt",
+      "sha256": "c2b86f896eaa227f078e9980b7e2428923627a23ab2905b2a374818d6b62a8d1",
+      "title": "Unit47 affine multiply feasibility — read-only, not implemented"
+    },
+    {
+      "file": "C:\\Users\\nicev\\Documents\\Codex\\2026-10-10\\new-chat-2\\outputs\\void-ark-transfer\\qa\\OVERNIGHT_OPTIMIZATION_20261017_UNIT48.txt",
+      "sha256": "7cc7bc665f8cff87c8af813c6b5f8bbf100fc9f7f59b52ec28178351c74a931f",
+      "title": "UNIT48 — Unchanged production native reference; separate host context"
+    },
+    {
+      "file": "C:\\Users\\nicev\\Documents\\Codex\\2026-10-10\\new-chat-2\\outputs\\void-ark-transfer\\qa\\OVERNIGHT_OPTIMIZATION_20261017_UNIT49.txt",
+      "sha256": "32c81a4968b3e07bad6c201a028e4f47d631246bf4d6ea6fb922f6b2531df50a",
+      "title": "Unit49 projectile model reuse feasibility — read-only, no candidate"
+    },
+    {
+      "file": "C:\\Users\\nicev\\Documents\\Codex\\2026-10-10\\new-chat-2\\outputs\\void-ark-transfer\\qa\\OVERNIGHT_OPTIMIZATION_20261017_UNIT50.txt",
+      "sha256": "24a09969d9126efb5a1fb74422970fce0480ee41e0cc435f3fa0bdbb2ae717df",
+      "title": "UNIT50 — Native frame history with optional heap counter; diagnostic only"
+    },
+    {
+      "file": "C:\\Users\\nicev\\Documents\\Codex\\2026-10-10\\new-chat-2\\outputs\\void-ark-transfer\\qa\\OVERNIGHT_OPTIMIZATION_20261017_UNIT51.txt",
+      "sha256": "1a28cf97748f99857a8d5f1790f465682a8e21ae6263e6ceaad4afd35c8087a8",
+      "title": "Unit51 collision allocation audit — readonly/no candidate"
+    },
+    {
+      "file": "C:\\Users\\nicev\\Documents\\Codex\\2026-10-10\\new-chat-2\\outputs\\void-ark-transfer\\qa\\OVERNIGHT_OPTIMIZATION_20261017_UNIT52.txt",
+      "sha256": "23d880444b6cca4be195be10a9ea3f12668b9d2d395b35ff34aafc6a0a0947f2",
+      "title": "Unit52 frustum-based world deferral architecture audit — readonly/no product implementation"
+    },
+    {
+      "file": "C:\\Users\\nicev\\Documents\\Codex\\2026-10-10\\new-chat-2\\outputs\\void-ark-transfer\\qa\\OVERNIGHT_OPTIMIZATION_20261017_UNIT53.txt",
+      "sha256": "ea48eea0acf2e606a3bdb7e25d5f269eb33734d4f0e446a6359b0c083f067e60",
+      "title": "Unit53 existing conservative offscreen-branch census — zero eligible/no CPU candidate"
+    },
+    {
+      "file": "C:\\Users\\nicev\\Documents\\Codex\\2026-10-10\\new-chat-2\\outputs\\void-ark-transfer\\qa\\OVERNIGHT_OPTIMIZATION_20261017_UNIT54.txt",
+      "sha256": "910875fd399a4b0b8d1950c45767108f28cc5e5cef9be040d252d9cbabe8e2f6",
+      "title": "UNIT54 — Seven GL API boundary tail diagnostic; no production change"
+    },
+    {
+      "file": "C:\\Users\\nicev\\Documents\\Codex\\2026-10-10\\new-chat-2\\outputs\\void-ark-transfer\\qa\\OVERNIGHT_OPTIMIZATION_20261017_UNIT55.txt",
+      "sha256": "77ec11a2a08cf1cc2d86156895b99ec852862b4e5f0ebf07a07973e2cca4e04b",
+      "title": "UNIT55 — Five-minute unchanged-production native reference"
+    },
+    {
+      "file": "C:\\Users\\nicev\\Documents\\Codex\\2026-10-10\\new-chat-2\\outputs\\void-ark-transfer\\qa\\OVERNIGHT_OPTIMIZATION_20261017_UNIT56.txt",
+      "sha256": "2d19d81c399d2f2130dd5a4e3326c5446835ece68b4e25348f595cb4d10c2979",
+      "title": "UNIT56 — 1920x1080 unchanged-production native reference"
+    },
+    {
+      "file": "C:\\Users\\nicev\\Documents\\Codex\\2026-10-10\\new-chat-2\\outputs\\void-ark-transfer\\qa\\OVERNIGHT_OPTIMIZATION_20261017_UNIT58.txt",
+      "sha256": "f886c19689d141ceb84ade40f524771b0508b6776586ae144ed142e2b8ad567f",
+      "title": "VOID ARK Unit58 — 기존 정상 UI 수명주기 최종 검수"
+    },
+    {
+      "file": "C:\\Users\\nicev\\Documents\\Codex\\2026-10-10\\new-chat-2\\outputs\\void-ark-transfer\\qa\\OVERNIGHT_OPTIMIZATION_20261017_UNIT59.txt",
+      "sha256": "0a78135d3caa009524cbd0ac97f2df3ba1b844b4e7561b741d46347ed3e5299b",
+      "title": "UNIT59 —72-enemy five-minute unchanged-production native reference"
+    },
+    {
+      "file": "C:\\Users\\nicev\\Documents\\Codex\\2026-10-10\\new-chat-2\\outputs\\void-ark-transfer\\qa\\OVERNIGHT_OPTIMIZATION_20261017_UNIT60.txt",
+      "sha256": "b140c24249016678a844c09558b82c01317160aac89e3ad7e3ba67a7521912b5",
+      "title": "UNIT60 —Clean72-enemy90sec unchanged-production reference"
+    }
+  ],
+  "sources": [
+    {
+      "name": "andromeda-boss.js",
+      "sha256": "b741d2181be4a44be0d8c5dc504d5cf17dd2203971020c0a85818708449556da"
+    },
+    {
+      "name": "andromeda-campaign.js",
+      "sha256": "75fc3780e5b7abdf98a1cfd8e5918cd2c64e5346c9f0be4560647cb147c54df2"
+    },
+    {
+      "name": "andromeda-route-rendering.js",
+      "sha256": "07adc5f3d4d0e28c7613fb486723cc5d9e5fd01de8f6beafed5d57f56d9d1b27"
+    },
+    {
+      "name": "animated-vfx.js",
+      "sha256": "10d6dcc98f78d79fbb9648fb125b9c840de6f4442e1bf432f2775fc3bf8d4cf4"
+    },
+    {
+      "name": "asset-batch-events.js",
+      "sha256": "4397a39153043bd555800ac6751922c2ef44f463ad28c1a7e48a95fc7166009f"
+    },
+    {
+      "name": "asset-environment.js",
+      "sha256": "e53defc6311883944a7efa1db8ab19db9b17d195c0d3a9f29d2a3c92f3b507f6"
+    },
+    {
+      "name": "asset-hangar.js",
+      "sha256": "94228cafb5900a0b5f2881ef99687a6d21577bb710f1bf9e2e25541b0a1bf8b0"
+    },
+    {
+      "name": "asset-instance-batch.js",
+      "sha256": "6471fe9dfc6dfccc772eb0e985c858a687e774c96278cd616746f28b5111c864"
+    },
+    {
+      "name": "asset-library.js",
+      "sha256": "5344f1fa45deec05fb2e41da9d2442e45898bfe2548e76e2fa6caff73d8466ce"
+    },
+    {
+      "name": "asset-orientation.js",
+      "sha256": "0764226e6c4b71fe0b0d44e3021718c61e3e2bb0d4363ba504f17aa9654ccd81"
+    },
+    {
+      "name": "asset-pool.js",
+      "sha256": "99dc319d5eb55b2e7bce88ed3f4dc2800d47acb7f67bf3db10bdc187157e91dc"
+    },
+    {
+      "name": "atlas-effect-batch.js",
+      "sha256": "9e805b0d6f569a1100aff1894daab330dc8f98143c5ae7ac594afb6884acca14"
+    },
+    {
+      "name": "audio-mix.js",
+      "sha256": "6c7938cc1cd3185285d532772e17807fd95871dcd8dd686beccd7944db072b3a"
+    },
+    {
+      "name": "audio.js",
+      "sha256": "3f71549ff9152ebe559a56208c7e765f066c70a3d38a9af663bacbb749439d7a"
+    },
+    {
+      "name": "baked-nebula.js",
+      "sha256": "ce3846b12c572e0ec5cdd9965ee4fa15dd8cda134f3a48db16aa9b903fb11a4e"
+    },
+    {
+      "name": "base-maintenance.js",
+      "sha256": "93c1ade18906d13860c9b0db42ad5c5bf92b7b7fc53572b9603a17226aca2878"
+    },
+    {
+      "name": "base-preparation.js",
+      "sha256": "774630e7de21d96b935e67b0af90632375225ab1cf75a406fba3e9abbb66a8c9"
+    },
+    {
+      "name": "base-tech.js",
+      "sha256": "94b0d5a5b117c25b985703c9a2066ceaf9938929877ed04ed163143eebe19820"
+    },
+    {
+      "name": "base.js",
+      "sha256": "c0cbd001966f21871eb06018b37a74f3c62a252c36902e6267cb26f30045723c"
+    },
+    {
+      "name": "battle-radar-display.js",
+      "sha256": "ead5ef60239c65da582523afb80705896cbde076a28a5490d5421cfd36c27655"
+    },
+    {
+      "name": "beam-field.js",
+      "sha256": "2edca70bc7f7aa1f9805333ca2fb163ce19a4da5b32ed4f3d0da97d08664d0a4"
+    },
+    {
+      "name": "boss-destruction-shot.js",
+      "sha256": "e349f59135cc150bf2bb3f65a5a560206bfaa1aebf4134d7f822c5a7d5e00056"
+    },
+    {
+      "name": "boss-investments.js",
+      "sha256": "f9db02de4cdfe55e100388be83292f5118df8ac1411cef39e3f5800f4d2cf3f5"
+    },
+    {
+      "name": "camera-subview.js",
+      "sha256": "3e063eb63cc97e9576f1a6140288ff9a8e397b80419bd752638f72920ef8c79e"
+    },
+    {
+      "name": "campaign-analysis.js",
+      "sha256": "7bfff8ea93d6ac62efda64f4c67bbf1ebfbf843d2479493c6f127f99cdee65ea"
+    },
+    {
+      "name": "campaign-commanders.js",
+      "sha256": "e6682eaa58ac703c7df2e749abfc4e74803d839efce19ccadaca8c08dbef1832"
+    },
+    {
+      "name": "campaign-debrief.js",
+      "sha256": "ef518f0949ed59e349366b0907b26086a1b9f386c045a854ce643dc6084dec39"
+    },
+    {
+      "name": "campaign-economy.js",
+      "sha256": "b1d9088e8e7bb9a40aee8a246c561b3e36f02a622ef2013e10ab3614d91f94ac"
+    },
+    {
+      "name": "campaign-growth.js",
+      "sha256": "4906e5eead84f4f0f86a0bc59fa9f82507703ac032c7461e0bcbd02f0e06b428"
+    },
+    {
+      "name": "carrier-priority.js",
+      "sha256": "497ef86d7ef386776b723a48e499e5e8b2fa36801523a8425916a96d39eda49a"
+    },
+    {
+      "name": "civilization-captains.js",
+      "sha256": "7b613cd750ca5fb470c9eb741bcf97d43f6bf37a1fcb2b6f331b1734f3184d76"
+    },
+    {
+      "name": "civilizations.js",
+      "sha256": "d9d02469ebacf07d9f31ba8c04679c3b614c221661fdb63590ba5f78258ee565"
+    },
+    {
+      "name": "combat-feedback.js",
+      "sha256": "71762cd75e5830befb40d7a6690b341e7389bf7b6ef26555728076819ceb3542"
+    },
+    {
+      "name": "combat-preview.css",
+      "sha256": "aa60771e54f67fa24904d70b9a13f951fcf06f5b2cc322700e7ff24149cb958e"
+    },
+    {
+      "name": "combat-preview.js",
+      "sha256": "1b1b1a2b34f9bbb759e956fcaaad3469f171089818fec4f4e10347d7066e2b2b"
+    },
+    {
+      "name": "combat-relations.js",
+      "sha256": "44c3f7a0183bed51c61dfc06cdd74e9cfd78d8ff239a449c9a7cbcb0b2ac45ff"
+    },
+    {
+      "name": "combat-resolution.js",
+      "sha256": "c22cfce66b0985d0d70802782c3dc6a44cddf481d160ef645a66dfeb0ed36ff8"
+    },
+    {
+      "name": "commanders.js",
+      "sha256": "d2893aeb05832642bd1745ccccd62cc1c49395ab56f9c12d9f48c8e4cee11f33"
+    },
+    {
+      "name": "compilation-lease.js",
+      "sha256": "2da429e68122895eb9861976eb8b4dd6e827fb9ef201411f9370b9bc9693e326"
+    },
+    {
+      "name": "cosmic-material.js",
+      "sha256": "e38854432b808e3d6595c1bd17a455a5d0752f4d0424f538dde906072a826ffe"
+    },
+    {
+      "name": "cosmic-visuals.js",
+      "sha256": "57186e5ba1eb6d2903fd135c08a3c64153780c70edacd528a1a767b7e0213540"
+    },
+    {
+      "name": "cosmic.js",
+      "sha256": "048abbefd32b607c20d363a52cca372fbb65c1c25b89cac6a1f215517207ae1c"
+    },
+    {
+      "name": "damage-label-layout.js",
+      "sha256": "34cda39799c4b4ecd898da21de36cabe96e5ce37ecc23fa47487ef3449429143"
+    },
+    {
+      "name": "defense-recall.js",
+      "sha256": "d3906e2a36770dedf7cb0b37b9239dd5f916c9eaa4e3da707a2cb901c77b11ea"
+    },
+    {
+      "name": "defense-visuals.js",
+      "sha256": "e60368dbe4bdc02dbbc7cf2c7cff366a3a13e1f4210b963b66425cc19ba5a6e4"
+    },
+    {
+      "name": "defenses.js",
+      "sha256": "e88578cf00028b608e72128bd14c2ce2838a6031dcaf794d28aa3e8eb5ecab41"
+    },
+    {
+      "name": "distance-candidates.js",
+      "sha256": "dc4512ef55d026339518f01f86b485a9529c05a4c745b528d19a46dd8520bb0e"
+    },
+    {
+      "name": "dogfight.js",
+      "sha256": "58658828f715104f49c379951f6af8de59ab0399e2281cbdece09607f1861f6e"
+    },
+    {
+      "name": "economy.js",
+      "sha256": "5c50bfaa80687cf64b6fa8de4be35b0b3c68b531f6d1a7f4ad45f8c9381fae03"
+    },
+    {
+      "name": "effect-batch-oracle.js",
+      "sha256": "41ba4970831c8a13e5d04285d3b4e1a3f7341fcc9aa7e9f1809eca3b070b0bb5"
+    },
+    {
+      "name": "effect-cost-oracle.js",
+      "sha256": "fe20a768b3fe3c65a87ce18b7547d3424e2a70b1083a97fe180b60f636ffa0bf"
+    },
+    {
+      "name": "effects.js",
+      "sha256": "6af9ffe8e4abca597c180c38e7252e3f41c941a70c9412eae7182d297ff11d7d"
+    },
+    {
+      "name": "encounters.js",
+      "sha256": "3f1bc350bbbb6eebb55d55f493c777308ed5ad2336fdf12dd4c6365325d83423"
+    },
+    {
+      "name": "ending-playback.js",
+      "sha256": "4c12198a3d70bdc089eac81eda5988f13f6492eb1bb91356378fbad394005108"
+    },
+    {
+      "name": "enemy-captains.js",
+      "sha256": "ce36bb521c704260d4132a24f2e7d0c0aea072886a2bdb8a834aad1a3598f3bb"
+    },
+    {
+      "name": "enemy-formation.js",
+      "sha256": "79b5e21f5c0cd6b774de9279a147d03933a731e9b2bec06b496a79ef4541b170"
+    },
+    {
+      "name": "enemy-motion.js",
+      "sha256": "231eff7f64ecae956de4e66a0df528874264b6983bf7774a439df130a0605f95"
+    },
+    {
+      "name": "enemy-reinforcements.js",
+      "sha256": "794df5490af6e7ca797fb8b78a3e5f7aee447c0b2f6a1fda99a20589875a0507"
+    },
+    {
+      "name": "energy-shield.js",
+      "sha256": "7a47a5825bc6871bcef67b717042586cf910eb694227ae803e1e1f04df24aded"
+    },
+    {
+      "name": "engine-flame-batch.js",
+      "sha256": "16b4637666dbe54865ce09905d65398579b7a85de0b58303b648cf08df873b25"
+    },
+    {
+      "name": "engine-material.js",
+      "sha256": "eae80838d77845f7ec0f2cea1c1119fe9fa405e29bf6720637e8e255db0eb86d"
+    },
+    {
+      "name": "equipment-layout.js",
+      "sha256": "3b0741efd1c49a972f0fe8f82b7f3aa63bba3e048f300f78aabff5399e90ed90"
+    },
+    {
+      "name": "evasion-input.js",
+      "sha256": "3a76b36b7d2c08fd6505c60ee5b89e2a7e31aa0d9307ef7732eb5b71fcbe8207"
+    },
+    {
+      "name": "faction-identity.js",
+      "sha256": "4f1541ffe3eeab71dcc99f23077c9e1e94c98a6e72aa39149294c181196cb676"
+    },
+    {
+      "name": "faction-marker-batch.js",
+      "sha256": "0972740a30d73167467e753376aa68ad3528234ecea0a97acf7026abfb63818b"
+    },
+    {
+      "name": "faction-marker-oracle.js",
+      "sha256": "263aa0dc562aeaf6c26c692aed9c1f5b5bbd26dcab59405aafe426d1a2375726"
+    },
+    {
+      "name": "faction-marker-texture.js",
+      "sha256": "4f4eb7e9a37359de9e9411d0bab2a7a82b82e31a50da5e298e10abc35bb3abfb"
+    },
+    {
+      "name": "fleet-refit.js",
+      "sha256": "b5451c7eb8101cf141477ca738abe08cc285493b22cdf96c10225a4e7e108519"
+    },
+    {
+      "name": "fleet-upgrades.js",
+      "sha256": "8cb24802ca2b70d49466f79252d2dd14ebdab0748905b1047769d77ee9deae41"
+    },
+    {
+      "name": "fleet.js",
+      "sha256": "3ebf2e13d5e6a487673b7964cc2d2c8a2c94f36e151738d40b3b3bde4f66163d"
+    },
+    {
+      "name": "followup-loadouts.js",
+      "sha256": "335acad301c0fc27a5bbb699d2aa9cbfe7a3d4756ae98961b3deac76f6129ab5"
+    },
+    {
+      "name": "frame-profiler.js",
+      "sha256": "2fe2d26fab220e92a175cb36726fc8cf7a489f72d7ea511876c01615bcf85a56"
+    },
+    {
+      "name": "frame-scheduler.js",
+      "sha256": "13e36ff86dd61ce341d5be05efff0e31f014ed850f8f94cce532b45da2cd95f3"
+    },
+    {
+      "name": "galaxies.js",
+      "sha256": "c2dac32432a74bd41c80a9e4be4d32e5fc78924f5a0c37c130663d119ad40d2b"
+    },
+    {
+      "name": "galaxy-visuals.js",
+      "sha256": "6449eaa5cde288bb9d1b67c9afea11e082cf16fabec18920875816692bee1cdb"
+    },
+    {
+      "name": "galaxy.js",
+      "sha256": "1cc5c39a616d831989ad432560a0098640d9ee9d507ee8a39f49b6ec0dab277a"
+    },
+    {
+      "name": "gpu-variant-oracle.js",
+      "sha256": "7611ea2cccabacb68671baa640852b0e712b7e0c47338e922e4ec7a1508ecdf1"
+    },
+    {
+      "name": "growth-preparation.js",
+      "sha256": "893879e0e818eac8400c018fca0f0e244291ee5e8776a2012fdf3ef8dba86a77"
+    },
+    {
+      "name": "healthbar-batch-oracle.js",
+      "sha256": "c8313978d9d95c5819c39bf541ed00d65e26a0c1410e21cc4dedc9df68bdd795"
+    },
+    {
+      "name": "healthbar-batch.js",
+      "sha256": "85cfe99cc6e317e034738e11b6b19963208bde08dd2895bbb3089c448258c3d0"
+    },
+    {
+      "name": "hidden-world-matrices.js",
+      "sha256": "6c5ee0f9c2c24523fc5ea9da9e147ddd9abef95dd6121ef67a62aebfa4307b99"
+    },
+    {
+      "name": "hit-presentation.js",
+      "sha256": "4372b9260c66d8971398b7bf9186d79f3057b74d83168da6e4a333b5d7f6dadc"
+    },
+    {
+      "name": "hostile-shader-warmup.js",
+      "sha256": "cda20d91de05a5a7afa8fa622d2ae0aa42ce266a0107ef5e3dd324b000e11115"
+    },
+    {
+      "name": "jupiter-preparation.js",
+      "sha256": "f781fe631032dd0a7f9605cf57e11f107753a6e190076163173679b8ac6a237a"
+    },
+    {
+      "name": "jupiter-record.js",
+      "sha256": "3441d44e59068059e30688d508918675509dcc7d6ca465a8888ced6dfaed0faf"
+    },
+    {
+      "name": "late-growth.js",
+      "sha256": "0cf7bffe354590117125ae1df7e085a7a9bc4c5929d24b7b4b91a0802423eaf0"
+    },
+    {
+      "name": "main.js",
+      "sha256": "dbc842a79680139d85721832cfb6c9bc9d7ec6d038d2dd1157ae79a1fcc03ffd"
+    },
+    {
+      "name": "mineral-preview.js",
+      "sha256": "134abdec097433c9181a08a029bf344bcae36b8c8e8685323b31c2316e8a9dc8"
+    },
+    {
+      "name": "missile-launch-camera.js",
+      "sha256": "3d18d3a0c44a82597c1209bf48b67f948388d33a38079aca613781a7aa83b95a"
+    },
+    {
+      "name": "model-lod.js",
+      "sha256": "190dd5d0beb28a495c1508300afce5927524d569651eb710d26ac2ce78b3bb17"
+    },
+    {
+      "name": "models.js",
+      "sha256": "8c7ffd713ff473b118623eec5fda9e0bdb003ada816334f8d8fcfaa5a7e70bc3"
+    },
+    {
+      "name": "navigation.js",
+      "sha256": "53b6745d7a179f272f5e3f9edca8e2aa5021de2c78e1df7d85674ed2f3b58ffe"
+    },
+    {
+      "name": "online-client.js",
+      "sha256": "a03bf6640e3b4b93b4424d42c54a440e3ac877eda6654485cded5cc67d878901"
+    },
+    {
+      "name": "orbit-view.js",
+      "sha256": "afc423f992ec9437b0a97027056ea7a22d0b3a547bcaed3dbb8c3bba37c7432d"
+    },
+    {
+      "name": "planet-boss-core.js",
+      "sha256": "ac8b6ed636c86dae830d9316926feec33e776465c070c08e329aecbff06b62d8"
+    },
+    {
+      "name": "planet-boss-engines.js",
+      "sha256": "86fc72aaf4a930fbef52dd4a35957c4af86f3deeb5e08e8cfee7f2f8159db780"
+    },
+    {
+      "name": "planet-boss-weapons.js",
+      "sha256": "ba90cce377d9021598389e8662d6a01a04c8901f0454bc54fcb9a1bf6354c967"
+    },
+    {
+      "name": "planet-ending.js",
+      "sha256": "86a080dba69638d9ae57494a44c29718e2a6eec7c89f1d61795cc399fc4580f3"
+    },
+    {
+      "name": "planet-enemies.js",
+      "sha256": "489d31f1a6339a15cfc06d66a0fb0feb92032bfaffc7209d0f8d422e0c93927c"
+    },
+    {
+      "name": "planet-enemy-readiness.js",
+      "sha256": "ee5f3aca8e4189775aead6b729ab77c48ecdc032e4bb816a60c6a9213ce2c2f3"
+    },
+    {
+      "name": "planet-enemy-signatures.js",
+      "sha256": "e04a624a2e24862e6d1dfc1fb712d22a6e2a5dea65b81dc09b7b9c0d130f1d6b"
+    },
+    {
+      "name": "planet-equipment-lod.js",
+      "sha256": "8ab9a507ce497cc022bf169cb424cf709528d4a9cee49ab02a8b2807363f85c3"
+    },
+    {
+      "name": "planet-gallery-state.js",
+      "sha256": "9735e76160bd16161eb06d64fb8c9ba10fe4f9b05c0d5e659372ca3deb03c830"
+    },
+    {
+      "name": "planet-hull-core.js",
+      "sha256": "12b29b0d3af894417b7cb75f1eb1e3fdd1febc37c8ab489a4e716a5ed84e9da0"
+    },
+    {
+      "name": "planet-hull-engines.js",
+      "sha256": "1a4d1765d33fdd78d4e83a1ec406fd0eca38a9768cd7b4df04e8f9782c8f1ff7"
+    },
+    {
+      "name": "planet-hull-weapons.js",
+      "sha256": "67415e7f80dc2b875615007f1da437bcb7bc4f90dfb78c909152de3d55a520a4"
+    },
+    {
+      "name": "planet-surfaces.js",
+      "sha256": "4acc6e908c8ebaa04208dafe8b901916b7595e1e1b938f3b9a15ea8527a4c3e0"
+    },
+    {
+      "name": "political-battles.js",
+      "sha256": "ff7521581c4968813a8420fd1db125ad9bc29bb59f6e839d8964b0192e737be9"
+    },
+    {
+      "name": "presentation-stamp.js",
+      "sha256": "87dc4a2cf5bc5a23d389f76757441b0d3b2f337b0282abb604ac629b7ba5ccff"
+    },
+    {
+      "name": "preview-renderer.js",
+      "sha256": "e3983afb63cbd500bf370bfe405c3f8d290d6027903c116761a6c14b29681642"
+    },
+    {
+      "name": "preview-textures.js",
+      "sha256": "7bc68980202ddd69b1cdabb41d6ad75de356f70688a2bd465e940e5f564b840f"
+    },
+    {
+      "name": "projectile-visuals.js",
+      "sha256": "f0857bc7b381e5bd3bbb2407d50af384a0ceaf9e0f5a6c5d7a8d9d181ba67782"
+    },
+    {
+      "name": "qa-render-context.js",
+      "sha256": "c82a09399844f6a7cc8c2227308f87c27d5fd337f25e2a298d237dfdc9057fad"
+    },
+    {
+      "name": "received-impact.js",
+      "sha256": "04f521a0e48eef4cc9ece3311acd09e4c4733b79b7ba0be24477957b015aea0a"
+    },
+    {
+      "name": "render-scene-index.js",
+      "sha256": "a8bff8f78eb3a4b3b43aeb9c6dcc917cbf5a2a918fd3b22eab86f1c4566fb608"
+    },
+    {
+      "name": "render-sizing.js",
+      "sha256": "2d6f521791a9f0c2b8f4a290082314a5d9afd95599cdacca1ce2756e4d033941"
+    },
+    {
+      "name": "render-submission-report.js",
+      "sha256": "b079acc31fe3a0414a840ff4e96b4590b6ae9ef37545af5092545f24cd594eaa"
+    },
+    {
+      "name": "resume-combat.js",
+      "sha256": "9d61dade5d431910d3793a987a6eacf5ff2000a5a80b60f79643fee93e2fdc1e"
+    },
+    {
+      "name": "sectors.js",
+      "sha256": "365671632d90244f826b90fa632d7b0f12ee0e1dfecefd405043432ebd0ad2a5"
+    },
+    {
+      "name": "segmented-asset.js",
+      "sha256": "adb32632ef84fa7be50720c103e4cdbece9f0329e75f9fda36cd3cb02e86d515"
+    },
+    {
+      "name": "segmented-geometry.js",
+      "sha256": "163eadd1e8537a6b8944951a5011a18822e16f17793d375883d8e39132492a63"
+    },
+    {
+      "name": "shield-balance.js",
+      "sha256": "4d27bc67f4887e179128e39c8647c0a6539114029f1b4764b0b0c885c779b385"
+    },
+    {
+      "name": "ship-detail-lod.js",
+      "sha256": "4c76610cb8b56562829f4fc2a503f3ef6ec0ca7408adcb7aaa7729e3bc619521"
+    },
+    {
+      "name": "ship-growth.js",
+      "sha256": "945a242157c01d92a690554233b3fbb4edefa8c56bf67d8781526d6cb44ec55b"
+    },
+    {
+      "name": "ship-preview.js",
+      "sha256": "90c469498abd8767785b053a9e7257e67ac5bbf3f5c691ecaaea49c59cd55fdc"
+    },
+    {
+      "name": "ships.js",
+      "sha256": "484facd44ff3ecd4db0ac0e5e331b521fad87d51f46c7f51a17a52293fa8a3fe"
+    },
+    {
+      "name": "shot-collision-grid.js",
+      "sha256": "23407d78d94bf08d3df32da8ce63a24e4d6c0d6d296cece88d8d8caebd02f66d"
+    },
+    {
+      "name": "sim.js",
+      "sha256": "d8ea27ff02565a00576b6f4e467d5a6ae27be7148bb837b45596529286f0105d"
+    },
+    {
+      "name": "simple-effect-batch.js",
+      "sha256": "12437105596e64a4e1b433b08a9c0073e737f576bfc7a8541b1e4d12a0256e52"
+    },
+    {
+      "name": "skill-art.js",
+      "sha256": "7659c02c1e2ea58f064335814e59104d947b73e97507d8b60c60bd78dd7843f3"
+    },
+    {
+      "name": "skill-links.js",
+      "sha256": "fd86048e29d8701fe02e702459d702a4c6afd9b6d8e932a0419e022576308aa6"
+    },
+    {
+      "name": "skill-tree.js",
+      "sha256": "515803306c31474ad15722997bd3b047be80f4f0231dc18b6b840bb9a70f9c6d"
+    },
+    {
+      "name": "solar-base-visuals.js",
+      "sha256": "39a01a45162d033e88b0dbe038aead778bbb0b72225a66f3bbc6c438f2a4fd32"
+    },
+    {
+      "name": "solar-boss.js",
+      "sha256": "c70e3adfedf3cc1910a2f53df3662a8a67d78f2f634c710305354d4a245dcce0"
+    },
+    {
+      "name": "solar-campaign.js",
+      "sha256": "7f2b924cfa5b67a2290f2e7de222c39dc1e01d774e308c633ad1736f0b10ac3e"
+    },
+    {
+      "name": "solar-command-map.js",
+      "sha256": "dd5a276a42ba94bf0cf1a6bcf97509b90c00c306107ff94ff1f19fbcdf16fe3b"
+    },
+    {
+      "name": "solar-purchase.js",
+      "sha256": "524d28d1ea03ab60b7cb6a5b7567b623e22330a16ee7b909b98d88e4dc71d451"
+    },
+    {
+      "name": "solar-visuals.js",
+      "sha256": "1dcfc545541b6d36e7a84fc23b53153e1d86fafce2d5d24d99d360c2c88ffff6"
+    },
+    {
+      "name": "sortie-advice.js",
+      "sha256": "cf30954737e2bbbb692cfc7a81c56fc577d2c20312addd54bd02d8f994b2f974"
+    },
+    {
+      "name": "sortie-gate.js",
+      "sha256": "93dc0b89d3e8d7ed56c9fbfc28580611c7d9a0d0679e0dc4d2ab912108ea88e2"
+    },
+    {
+      "name": "sortie-record.js",
+      "sha256": "17b06e20d1e380c1b5e4f5c2c1a8de049be828a9c730e49f99c4aa84f5688684"
+    },
+    {
+      "name": "sortie-warmup.js",
+      "sha256": "2b0ecac6ed976cef737d3b57fdf0c289965bd0ac1cdb806774e9cd90deb4a2f3"
+    },
+    {
+      "name": "space-bases.js",
+      "sha256": "1e46fc1071a95150d3134001484fa6b47ecab808dd00aef0837859118f05305e"
+    },
+    {
+      "name": "space-reflections.js",
+      "sha256": "e67941de96daab0612a7e0d0208f5ff763696089891481d9cb05d1a70821932b"
+    },
+    {
+      "name": "stable-output.js",
+      "sha256": "ba01d3e43f304b6de300eb4df25fadbd3fce9bd9ee0e5e2dcc03f5da568fd277"
+    },
+    {
+      "name": "starter-loadouts.js",
+      "sha256": "f96b469aa3ba20bd6907ca103c656941a2f89a03972cc397616f1c8bb39167cb"
+    },
+    {
+      "name": "static-detail-batch.js",
+      "sha256": "a62d8a3be8ae23c2432fe703f5a55dced012a5315c5dad6605473ff6ae17110f"
+    },
+    {
+      "name": "static-geometry-cache.js",
+      "sha256": "ed6edd6bf66e273f685af8c8d672d0af31c84ac25de0f69e515cba869f5b9c24"
+    },
+    {
+      "name": "static-model-matrices.js",
+      "sha256": "ae68e61afe516c1ba2441176cc3a7b9be3021324634a446897dc8eadb29bd049"
+    },
+    {
+      "name": "style.css",
+      "sha256": "7700fe5fe5fa6232c6ab7a42a610f346c8d75e40689c3958310c5755d96d61b3"
+    },
+    {
+      "name": "tactical-map.js",
+      "sha256": "cb8be0415bcf4c112c18678382450418662d84a073cb5bdcdc5da867d800dc17"
+    },
+    {
+      "name": "tactical-scope.js",
+      "sha256": "3a221772f33dc72c86fa142c38b6957e1300a795936f0d4faaa3347366cbc2eb"
+    },
+    {
+      "name": "territory-war.js",
+      "sha256": "84b6fd6f4e8ec2431e685ab7a49c9859d3df7b09c9a5d57998caf28560b447aa"
+    },
+    {
+      "name": "thruster-trails.js",
+      "sha256": "091449777df80d842227032e6ed08a8f5baec9df3c637c68c3d49f89f5d37cee"
+    },
+    {
+      "name": "thumbnail-cache.js",
+      "sha256": "27620353ef65effce6f6fd9a0893d257ad727f81ec9f740ef218b15223c01d4d"
+    },
+    {
+      "name": "titan.js",
+      "sha256": "b978e167cb401bec0fa7c9016b16bd0d32242a570b8e86b50ab4a51c025d6184"
+    },
+    {
+      "name": "transient-combat-materials.js",
+      "sha256": "626ba2b107230f4537819667ba858adffb56994f7290a298a30447df91802f00"
+    },
+    {
+      "name": "transient-shader-warmup.js",
+      "sha256": "d16174f8cddf009f48ad4f25370020e221fc08443f0ec3c441bc2e6a9a961d54"
+    },
+    {
+      "name": "ui.js",
+      "sha256": "eb2149c31f479b7fcbd9a13ea2c3ab4c71c7e2709f188ed61ece7289cb7281a6"
+    },
+    {
+      "name": "universe.js",
+      "sha256": "29fc7ff59ea433a7d99d1bebd017a025c308d39f290ae7587960dab6bea68224"
+    },
+    {
+      "name": "upgrade-confirm.js",
+      "sha256": "4e28e17d5588f788e9b94e3a0232beb55ff1a4f7fa31005a47c1f5dd3fa03e34"
+    },
+    {
+      "name": "upgrade-tuning.js",
+      "sha256": "c17897795dbee85a58d2cdd7a8c8fe19fa8b818105910ddc4beb5758303d44b8"
+    },
+    {
+      "name": "vessel-assets.js",
+      "sha256": "434d576c8079c5dc17258a61de0e51c7e00c3833ec5ab4fc174721c225dd057d"
+    }
+  ],
+  "findings": [
+    "Main render and visual/batch work exceed camera/HUD mean costs in all three existing captures. Nested phases must not be summed.",
+    "All three recorded >100ms raw gaps in browser-final have launchRendered=false. Current callback CPU 23.1/32.1/42.6ms does not identify the cause of the preceding gap.",
+    "FrameProfiler finishedAt is not callback return. Current raw gap and current CPU describe different intervals; subtracting them would not establish missing time.",
+    "Previous original Unit38/40/50/54 instrumented inner frame/GL/heap and left the full callback-return boundary unresolved. Do not repeat those probes as a new optimization.",
+    "Current candidate performed worse than both latest-source baseline observations. Keep all raw evidence; no new overall improvement claim."
+  ],
+  "next": {
+    "title": "Lightweight outer frame callback boundary diagnostic",
+    "action": "Read current frame-scheduler and profiler bookkeeping; create WORK-only bounded callback-start/return history including previous callbacks, clock scheduling origin and profiler-end boundary, with separate phase history. Check harness overhead and exception/stop behavior before a controlled capture. Do not change game scheduling or product defaults merely to collect data.",
+    "decision": "Select an implementation only after attributable cost and preservation checks; avoid another no-change reference capture or the already rejected Unit42 index-deferral microchange."
+  },
+  "limits": [
+    "Existing captures are separate non-isolated browser rAF runs, not native Steam presentation measurements.",
+    "No GC/GPU/driver/host root cause established.",
+    "No source, Windows package, user storage, server, browser tab, original or release automation changed during this analysis."
+  ]
+}

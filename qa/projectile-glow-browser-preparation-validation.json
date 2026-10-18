@@ -1,0 +1,99 @@
+{
+  "at": "2026-10-18T00:21:28.466Z",
+  "adopted": false,
+  "productChanged": false,
+  "productSourceCount": 163,
+  "productSourceChanges": [],
+  "verifiedEntry": "game-De5_jikA.js",
+  "priorProductTests": 612,
+  "workBuild": {
+    "entry": "game-C6llIJjW.js",
+    "seconds": 70,
+    "log": "qa/projectile-glow-build.txt",
+    "warning": "engine chunk >500kB; outDir outside WORK project not emptied",
+    "sourceSha256": "ab7cb511f0033f6016e9ea9822066095d7c5a26fc87415c4ce18ca5a9c445315",
+    "oracleSha256": "5a67e5c735b78da5b9739cc161aaeecbd84d1f64a1055a9e1de3d827e6380868"
+  },
+  "workImplementation": {
+    "pixelOracle": "Per-root shader clones vs shared shader, same actual roots/opaque materials/GLB/geometry. Primary framebuffer and actual CameraSubview 2D readback. Awaited preparation, paused-only guard, synchronous draws, renderer-state comparison, restored material bindings/clones/subview-owned resources. Not executed in browser yet.",
+    "harness": "qaNoSave=1/qaFresh=1/qaStorageAudit=1. Matched 30s warmup/90s capture on own4275/4276, pixel mode stops before readback. Prepared only; no samples acquired."
+  },
+  "factoryCPU": {
+    "source": "qa/projectile-glow-factory-cpu.json",
+    "summary": [
+      {
+        "rate": 12,
+        "meanTotalMs": {
+          "before": 47.84564999999995,
+          "after": 64.5229125
+        },
+        "peak": 13,
+        "creates": 120,
+        "materialCreates": {
+          "before": 240,
+          "after": 12
+        },
+        "fasterPairs": 3,
+        "worseMaxPairs": 4,
+        "allRootsDisposed": true
+      },
+      {
+        "rate": 60,
+        "meanTotalMs": {
+          "before": 378.05756249999996,
+          "after": 225.5760749999999
+        },
+        "peak": 61,
+        "creates": 600,
+        "materialCreates": {
+          "before": 1200,
+          "after": 12
+        },
+        "fasterPairs": 6,
+        "worseMaxPairs": 3,
+        "allRootsDisposed": true
+      },
+      {
+        "rate": 240,
+        "meanTotalMs": {
+          "before": 864.8542249999998,
+          "after": 550.6394374999998
+        },
+        "peak": 244,
+        "creates": 2400,
+        "materialCreates": {
+          "before": 4800,
+          "after": 12
+        },
+        "fasterPairs": 5,
+        "worseMaxPairs": 2,
+        "allRootsDisposed": true
+      }
+    ],
+    "scope": "Actual native/candidate ProjectileVisuals.create/update(active=false)/root disposal. Explicit memory shots and empty asset adapter; Node window undefined disables GLB mounts. No Simulation, storage, browser, GPU, wake tick, real frame scheduling or Steam FPS. Eight alternating-order pairs; host/GC jitter retained, not attributed.",
+    "interpretation": "Mixed actual create/update/remove CPU results: sparse12 rate mean worsens47.85→64.52ms/600 logical frames;60/240 rates improve means378.06→225.58 and864.85→550.64. Faster pairs3/8,6/8,5/8; candidate max worse4/8,3/8,2/8. Large native and candidate stalls retained. No GC, GPU or Steam FPS attribution and no adoption from Node timings."
+  },
+  "browser": {
+    "newTabsAttached": 0,
+    "creationAttempts": 3,
+    "failure": "Browser webview attach timeout on hidden/visible/new-tab documented API; existing tabs listing remains available. No repeated input into user tabs.",
+    "openInCodex": "Pending fallback request terminated after no result; current tab list still1–5 only. Do not claim it opened or completed.",
+    "pixelReadbackExecuted": false,
+    "fullBattlePairsExecuted": 0
+  },
+  "cleanup": {
+    "ownServerPID": 24952,
+    "server": "stopped after command-line verification",
+    "userTabs": "1–5 preserved; Steam5 marked handoff",
+    "browserVisibility": "restored false",
+    "viewport": "not changed",
+    "user4200Or4290": "not accessed",
+    "productWindows": "unchanged"
+  },
+  "next": "Retry a single own QA tab when browser UI connection is available; run pixel/GLB/PIP/lifetime then ABBA full battle capture with all tail metrics. Do not adopt before those pass. Avoid rebuilding unchanged WORK or repeating completed 8 checks/old renderer diagnostics.",
+  "editorialCorrection": {
+    "at": "2026-10-18T00:21:59.574Z",
+    "initial": "Templated prose incorrectly described all mean CPU cases as improved before inspecting the computed summary. Raw CPU values and summary were correct and unchanged.",
+    "corrected": "Mixed actual create/update/remove CPU results: sparse12 rate mean worsens47.85→64.52ms/600 logical frames;60/240 rates improve means378.06→225.58 and864.85→550.64. Faster pairs3/8,6/8,5/8; candidate max worse4/8,3/8,2/8. Large native and candidate stalls retained. No GC, GPU or Steam FPS attribution and no adoption from Node timings."
+  }
+}

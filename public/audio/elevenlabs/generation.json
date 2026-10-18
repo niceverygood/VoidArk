@@ -1,0 +1,247 @@
+{
+  "provider": "ElevenLabs",
+  "model": "eleven_text_to_sound_v2",
+  "format": "mp3_44100_128",
+  "assets": [
+    {
+      "id": "engine",
+      "duration": 8,
+      "loop": true,
+      "prompt": "Seamless continuous spaceship fusion engine idle and cruise loop. Deep smooth powerful turbine hum, warm sub bass reactor resonance, restrained airy mechanical texture. Stable volume, no acceleration, no music, no speech, no beeps. Studio quality, full frequency detail, clean isolated game asset.",
+      "bytes": 129193,
+      "cost": "80"
+    },
+    {
+      "id": "engineBoost",
+      "duration": 6,
+      "loop": true,
+      "prompt": "Seamless sustained spaceship afterburner loop, immense smooth thrust roar, deep turbine bass, layered hot plasma air rush. Stable high power, no starting or stopping, no music or speech. Studio quality, full frequency detail, clean isolated game asset.",
+      "bytes": 97010,
+      "cost": "60"
+    },
+    {
+      "id": "cannon",
+      "duration": 0.7,
+      "loop": false,
+      "prompt": "Single heavy futuristic railgun shot. Immediate sharp metallic electromagnetic crack, powerful tight bass punch, very short mechanical recoil tail. Dry close perspective, isolated shot, no music. Studio quality, full frequency detail, clean isolated game asset.",
+      "bytes": 12164,
+      "cost": "7"
+    },
+    {
+      "id": "missile",
+      "duration": 1.4,
+      "loop": false,
+      "prompt": "Single heavy spaceship guided missile launch. Immediate solid launch tube clunk and ignition thump followed by fierce realistic rocket exhaust whoosh rapidly flying away. Cinematic modern military science fiction, no electronic arcade bleeps, no music. Studio quality, full frequency detail, clean isolated game asset.",
+      "bytes": 23031,
+      "cost": "14"
+    },
+    {
+      "id": "explosion",
+      "duration": 2.2,
+      "loop": false,
+      "prompt": "One violent spaceship missile detonation: immediate deep concussive blast, crushing metal rupture, fiery broadband roar, scattered debris tail. Modern cinematic space combat game sound, no music. Studio quality, full frequency detail, clean isolated game asset.",
+      "bytes": 36406,
+      "cost": "22"
+    },
+    {
+      "id": "hit",
+      "duration": 0.65,
+      "loop": false,
+      "prompt": "Single projectile strikes armored spaceship hull. Sharp dense metal impact crack, low heavy thud, short ringing debris. Dry immediate isolated impact, no music. Studio quality, full frequency detail, clean isolated game asset.",
+      "bytes": 11328,
+      "cost": "6"
+    },
+    {
+      "id": "damage",
+      "duration": 1,
+      "loop": false,
+      "prompt": "Spaceship hull taking a severe hit from inside cockpit: massive metallic slam, structural groan, debris rattle, deep shock. No speech or alarms or music. Studio quality, full frequency detail, clean isolated game asset.",
+      "bytes": 17180,
+      "cost": "10"
+    },
+    {
+      "id": "shield",
+      "duration": 1,
+      "loop": false,
+      "prompt": "Spaceship energy shield absorbs a hit. Powerful low pressure thump with crystalline energy ripple and short electrical sizzle. Sophisticated modern science fiction, not retro bleeps. Studio quality, full frequency detail, clean isolated game asset.",
+      "bytes": 17180,
+      "cost": "10"
+    },
+    {
+      "id": "laser",
+      "duration": 1.2,
+      "loop": false,
+      "prompt": "Single high energy spaceship beam cannon firing, immediate dense plasma snap followed by blazing resonant laser burn and deep electrical discharge tail. Powerful cinematic sci fi weapon, no music. Studio quality, full frequency detail, clean isolated game asset.",
+      "bytes": 20106,
+      "cost": "12"
+    },
+    {
+      "id": "chain",
+      "duration": 1.2,
+      "loop": false,
+      "prompt": "Violent chained electrical arc weapon discharge, four rapid branching lightning cracks, sizzling high voltage, deep charged energy punch. Modern cinematic sci fi game, no music. Studio quality, full frequency detail, clean isolated game asset.",
+      "bytes": 20106,
+      "cost": "12"
+    },
+    {
+      "id": "boost",
+      "duration": 1.5,
+      "loop": false,
+      "prompt": "Spaceship thrusters ignite into afterburner: immediate deep ignition punch, rising powerful smooth turbine whoosh then short exhaust decay. Modern space combat, no music. Studio quality, full frequency detail, clean isolated game asset.",
+      "bytes": 24703,
+      "cost": "15"
+    },
+    {
+      "id": "pulse",
+      "duration": 2,
+      "loop": false,
+      "prompt": "Electromagnetic pulse skill: instant powerful sub bass pressure wave, expanding magnetic shock, crackling ionized air and shimmering decay. Isolated cinematic sci fi ability, no music. Studio quality, full frequency detail, clean isolated game asset.",
+      "bytes": 33062,
+      "cost": "20"
+    },
+    {
+      "id": "barrage",
+      "duration": 2.5,
+      "loop": false,
+      "prompt": "Spaceship missile barrage ability: synchronized mechanical launch rack slam, several rapid heavy rocket ignitions and layered missiles roaring away. One compact salvo, no explosions, no speech, no music. Studio quality, full frequency detail, clean isolated game asset.",
+      "bytes": 40586,
+      "cost": "25"
+    },
+    {
+      "id": "overcharge",
+      "duration": 2.5,
+      "loop": false,
+      "prompt": "Spaceship reactor overcharge ability: powerful rising magnetic reactor resonance, dense electric charge building into satisfying bass surge and energized hum tail. No music or speech. Studio quality, full frequency detail, clean isolated game asset.",
+      "bytes": 40586,
+      "cost": "25"
+    },
+    {
+      "id": "nova",
+      "duration": 2.7,
+      "loop": false,
+      "prompt": "Plasma nova ultimate ability: huge immediate fiery energy detonation, immense bass shockwave with expanding hot plasma roar and bright burning particles fading. No music. Studio quality, full frequency detail, clean isolated game asset.",
+      "bytes": 43929,
+      "cost": "27"
+    },
+    {
+      "id": "stasis",
+      "duration": 2.4,
+      "loop": false,
+      "prompt": "Time stasis ability, deep gravity implosion, smooth descending space distortion, suspended crystalline shimmering field with eerie resonant tail. Sophisticated cinema sci fi sound, no music. Studio quality, full frequency detail, clean isolated game asset.",
+      "bytes": 39332,
+      "cost": "24"
+    },
+    {
+      "id": "repair",
+      "duration": 2.4,
+      "loop": false,
+      "prompt": "Spaceship nanite repair ability: intricate precision servos, flowing warm energy sweep, tiny molecular assembly clicks resolving into smooth reassuring reactor resonance. No musical notes or speech. Studio quality, full frequency detail, clean isolated game asset.",
+      "bytes": 39332,
+      "cost": "24"
+    },
+    {
+      "id": "lance",
+      "duration": 2,
+      "loop": false,
+      "prompt": "Massive orbital energy lance ability firing once: dense charging snap followed immediately by huge piercing sustained plasma beam, thunderous low impact and resonant energy tail. No music. Studio quality, full frequency detail, clean isolated game asset.",
+      "bytes": 33062,
+      "cost": "20"
+    },
+    {
+      "id": "countermeasure",
+      "duration": 1.8,
+      "loop": false,
+      "prompt": "Spaceship missile countermeasure ability: rapid mechanical flare ejector bursts, hot flares whooshing outward with ionized crackles and deep defensive pulse. No speech or music. Studio quality, full frequency detail, clean isolated game asset.",
+      "bytes": 29301,
+      "cost": "18"
+    },
+    {
+      "id": "sentry",
+      "duration": 2,
+      "loop": false,
+      "prompt": "Spaceship deploys escort fighters: heavy hydraulic hangar opens, mechanical launch clamps release, compact layered fighter engine flyby whooshes. No speech or music. Studio quality, full frequency detail, clean isolated game asset.",
+      "bytes": 33062,
+      "cost": "20"
+    },
+    {
+      "id": "alert",
+      "duration": 1.3,
+      "loop": false,
+      "prompt": "Modern spaceship cockpit missile lock warning. Two urgent clean restrained resonant alarm pulses, serious military interface, clear midrange tone with low warning body. No voice, no music, not retro arcade. Studio quality, full frequency detail, clean isolated game asset.",
+      "bytes": 21359,
+      "cost": "13"
+    },
+    {
+      "id": "warp",
+      "duration": 3,
+      "loop": false,
+      "prompt": "Spaceship hyperspace jump: deep gravitational charge, thunderous spatial tear, rushing warp tunnel then powerful arrival shockwave. No voice or music. Studio quality, full frequency detail, clean isolated game asset.",
+      "bytes": 48945,
+      "cost": "30"
+    },
+    {
+      "id": "dock",
+      "duration": 2,
+      "loop": false,
+      "prompt": "Spaceship docking at orbital station: heavy magnetic mooring clamps locking, pneumatic pressure release, massive mechanical settling thud. No speech or music. Studio quality, full frequency detail, clean isolated game asset.",
+      "bytes": 33062,
+      "cost": "20"
+    },
+    {
+      "id": "departure",
+      "duration": 2,
+      "loop": false,
+      "prompt": "Spaceship launch from orbital hangar: heavy docking locks release, propulsion ignites and smooth powerful engine rush accelerates away. No speech or music. Studio quality, full frequency detail, clean isolated game asset.",
+      "bytes": 33062,
+      "cost": "20"
+    },
+    {
+      "id": "upgrade",
+      "duration": 1.8,
+      "loop": false,
+      "prompt": "Futuristic spaceship upgrade completed: precision mechanical deployment and armor plates locking, satisfying bright energy activation sweep with deep resonant finish. No music or voice. Studio quality, full frequency detail, clean isolated game asset.",
+      "bytes": 29301,
+      "cost": "18"
+    },
+    {
+      "id": "boss",
+      "duration": 3,
+      "loop": false,
+      "prompt": "Colossal enemy dreadnought emerges: massive deep intimidating mechanical bass roar, heavy reactor rumble and huge spatial pressure shock. Cinematic threatening sound effect, no music or voice. Studio quality, full frequency detail, clean isolated game asset.",
+      "bytes": 48945,
+      "cost": "30"
+    },
+    {
+      "id": "victory",
+      "duration": 2.8,
+      "loop": false,
+      "prompt": "Epic spaceship battle victory reward: powerful satisfying resonant energy bloom, glittering metallic reward flourish and warm grand resolution. A single cinematic sound effect, no song or voice. Studio quality, full frequency detail, clean isolated game asset.",
+      "bytes": 45183,
+      "cost": "28"
+    },
+    {
+      "id": "defeat",
+      "duration": 2.6,
+      "loop": false,
+      "prompt": "Spaceship reactor shutdown after defeat: deep broken metallic groan, failing turbine descending, electrical power dying into silence. No voice or music. Studio quality, full frequency detail, clean isolated game asset.",
+      "bytes": 41839,
+      "cost": "26"
+    },
+    {
+      "id": "pickup",
+      "duration": 0.6,
+      "loop": false,
+      "prompt": "High tech mineral pickup confirmation: short clean glassy magnetic collection snap with tiny warm energy shimmer. Sophisticated subtle modern game interface, no arcade beep or music. Studio quality, full frequency detail, clean isolated game asset.",
+      "bytes": 10493,
+      "cost": "6"
+    },
+    {
+      "id": "click",
+      "duration": 0.5,
+      "loop": false,
+      "prompt": "Single premium science fiction cockpit interface click: crisp tactile mechanical tick with subtle smooth glass resonance, very short, no musical beep. Studio quality, full frequency detail, clean isolated game asset.",
+      "bytes": 8821,
+      "cost": "5"
+    }
+  ]
+}

@@ -1,0 +1,1377 @@
+{
+  "at": "2026-10-18T00:28:00.211Z",
+  "scope": "Session06: new read-only reference Unit61 full callback/scheduler/scoped QA-timer trace analysis. Separate source version, instrumented300s and all enemy health bars visible; not this candidate capture or optimization comparison.",
+  "source": {
+    "path": "C:/Users/nicev/Documents/Codex/2026-10-10/new-chat-2/outputs/void-ark-transfer/qa/hitch-unit61-trace-300.json",
+    "bytes": 31376736,
+    "sha256": "8fa113b1a1acc1c800061dead643a100881df55861250171c1a95cedd932486d",
+    "startUTC": "2026-10-18T00:15:45.669Z",
+    "endUTC": "2026-10-18T00:20:45.720Z",
+    "entry": "http://127.0.0.1:4291/assets/game-BCebCOjU.js",
+    "config": {
+      "outerViewport": [
+        1320,
+        880
+      ],
+      "hoistedWorldDefault": true,
+      "collectors": "light-traced-timer-bodies",
+      "width": 1280,
+      "height": 720,
+      "quality": "high",
+      "presentation": "normal",
+      "renderScale": 1,
+      "adaptive": false,
+      "healthbarMode": "batch",
+      "allEnemyBarsVisible": true,
+      "seed": 91471,
+      "level": 22,
+      "ship": "bastion",
+      "fleetRank": 5,
+      "warmupSeconds": 30,
+      "captureSeconds": 300,
+      "probeOnly": false,
+      "invulnerable": true,
+      "enemiesHeldAlive": true,
+      "normalCampaignRun": false
+    }
+  },
+  "profile": {
+    "frames": 11167,
+    "fps": 37.21921440693305,
+    "frame": {
+      "mean": 26.86784275096693,
+      "p95": 46.4,
+      "p99": 67.1,
+      "max": 364.2000000476837
+    },
+    "over50": 387,
+    "over100": 25
+  },
+  "validation": {
+    "badRows": 0,
+    "brokenPrevLink": 0,
+    "schedulerJoinMissing": 0,
+    "negativeDelivery": 0,
+    "spacingDecompositionAbsoluteError": {
+      "count": 11166,
+      "mean": 0,
+      "p95": 0,
+      "p99": 0,
+      "max": 0
+    },
+    "rawVsCallbackSpacingAbsoluteError": {
+      "count": 11166,
+      "mean": 0.009349812087076649,
+      "p95": 0.09999996423721313,
+      "p99": 0.10000002384185791,
+      "max": 5
+    },
+    "counts": {
+      "frames": 11167,
+      "schedulers": 13950,
+      "others": 3393
+    },
+    "dropped": {
+      "frame": 0,
+      "scheduler": 0,
+      "other": 0
+    },
+    "qaTraceErrors": 0,
+    "traceTimerErrors": 0,
+    "errors": []
+  },
+  "phaseMetrics": {
+    "simulation": {
+      "count": 11167,
+      "mean": 1.493731530434103,
+      "p95": 4.099999964237213,
+      "p99": 9.899999976158142,
+      "max": 73.30000001192093
+    },
+    "camera": {
+      "count": 11167,
+      "mean": 0.02907674432900382,
+      "p95": 0.10000002384185791,
+      "p99": 0.19999998807907104,
+      "max": 10.5
+    },
+    "visuals": {
+      "count": 11167,
+      "mean": 4.940780872003537,
+      "p95": 9,
+      "p99": 15.5,
+      "max": 55.19999998807907
+    },
+    "feedbackAudio": {
+      "count": 11167,
+      "mean": 0.6137906328047829,
+      "p95": 1.300000011920929,
+      "p99": 3.300000011920929,
+      "max": 21.899999976158142
+    },
+    "batch": {
+      "count": 11167,
+      "mean": 5.243709143352261,
+      "p95": 8.599999964237213,
+      "p99": 13.100000023841858,
+      "max": 68.80000001192093
+    },
+    "engineFlames": {
+      "count": 11167,
+      "mean": 1.695432972025186,
+      "p95": 3,
+      "p99": 5.800000011920929,
+      "max": 41.90000003576279
+    },
+    "preparation": {
+      "count": 11167,
+      "mean": 0.002453658102960758,
+      "p95": 0,
+      "p99": 0.10000002384185791,
+      "max": 3.100000023841858
+    },
+    "render": {
+      "count": 11167,
+      "mean": 5.9332049784402425,
+      "p95": 10.599999964237213,
+      "p99": 19.599999964237213,
+      "max": 83.69999998807907
+    },
+    "launchCamera": {
+      "count": 11167,
+      "mean": 0.6471209815571811,
+      "p95": 0.19999998807907104,
+      "p99": 14.699999988079071,
+      "max": 63.10000002384186
+    },
+    "hudSnapshot": {
+      "count": 11167,
+      "mean": 0.15842213685226236,
+      "p95": 0.40000003576278687,
+      "p99": 1,
+      "max": 39.40000003576279
+    },
+    "hud": {
+      "count": 11167,
+      "mean": 0.38674666419968223,
+      "p95": 1.5,
+      "p99": 3.300000011920929,
+      "max": 12.100000023841858
+    }
+  },
+  "summary": {
+    "rawOver100": 25,
+    "previousCallbackDominant": 21,
+    "deliveryGapDominant": 4,
+    "previousLargestPhaseCounts": {
+      "simulation": 3,
+      "camera": 0,
+      "visuals": 6,
+      "feedbackAudio": 0,
+      "batch": 4,
+      "engineFlames": 0,
+      "preparation": 0,
+      "render": 6,
+      "launchCamera": 5,
+      "hudSnapshot": 1,
+      "hud": 0
+    },
+    "maxRaw": {
+      "index": 8034,
+      "rawMs": 364.2000000476837,
+      "spacingMs": 364.2000000476837,
+      "previousCallbackMs": 213,
+      "deliveryGapMs": 151.20000004768372,
+      "previousCPUMs": 213,
+      "previousOutsideProfileCPUWindowMs": 0,
+      "previousLargestPhases": [
+        {
+          "phase": "launchCamera",
+          "ms": 63.10000002384186
+        },
+        {
+          "phase": "render",
+          "ms": 49
+        },
+        {
+          "phase": "visuals",
+          "ms": 39.60000002384186
+        }
+      ],
+      "currentCPUMs": 37.299999952316284,
+      "previousLaunchRendered": 1,
+      "currentLaunchRendered": 1,
+      "schedulerSpanUnionInGapMs": 0.10000002384185791,
+      "otherSpanUnionInGapMs": 0,
+      "knownSpanUnionInGapMs": 0.10000002384185791,
+      "uncoveredGapMs": 151.10000002384186,
+      "otherCallbacks": [],
+      "schedulerCallbacks": [
+        {
+          "sourceCode": 0,
+          "durationMs": 0.10000002384185791,
+          "accepted": null,
+          "overlapMs": 0.10000002384185791
+        }
+      ]
+    },
+    "maxCallback": [
+      {
+        "index": 8033,
+        "durationMs": 213,
+        "cpuMs": 213,
+        "phases": {
+          "simulation": 15.5,
+          "camera": 0,
+          "visuals": 39.60000002384186,
+          "feedbackAudio": 6.899999976158142,
+          "batch": 22.30000001192093,
+          "engineFlames": 13.900000035762787,
+          "preparation": 0.09999996423721313,
+          "render": 49,
+          "launchCamera": 63.10000002384186,
+          "hudSnapshot": 0.30000001192092896,
+          "hud": 2.299999952316284
+        }
+      },
+      {
+        "index": 2891,
+        "durationMs": 144.30000001192093,
+        "cpuMs": 144.30000001192093,
+        "phases": {
+          "simulation": 5.5,
+          "camera": 0.5,
+          "visuals": 55.19999998807907,
+          "feedbackAudio": 0.5,
+          "batch": 14.5,
+          "engineFlames": 41.90000003576279,
+          "preparation": 0,
+          "render": 22.599999964237213,
+          "launchCamera": 0,
+          "hudSnapshot": 0.699999988079071,
+          "hud": 2.900000035762787
+        }
+      },
+      {
+        "index": 6913,
+        "durationMs": 133.60000002384186,
+        "cpuMs": 133.60000002384186,
+        "phases": {
+          "simulation": 15.800000011920929,
+          "camera": 0,
+          "visuals": 36.80000001192093,
+          "feedbackAudio": 0.3999999761581421,
+          "batch": 65.60000002384186,
+          "engineFlames": 1.5,
+          "preparation": 0,
+          "render": 7.099999964237213,
+          "launchCamera": 0,
+          "hudSnapshot": 0.5,
+          "hud": 5.800000011920929
+        }
+      }
+    ],
+    "over100WithOtherTimerOverlap": 2,
+    "knownGapCoverage": {
+      "count": 25,
+      "mean": 0.35200000286102295,
+      "p95": 0.30000001192092896,
+      "p99": 7.099999964237213,
+      "max": 7.099999964237213
+    },
+    "uncoveredGap": {
+      "count": 25,
+      "mean": 43.903999993801115,
+      "p95": 147.80000001192093,
+      "p99": 151.10000002384186,
+      "max": 151.10000002384186
+    }
+  },
+  "stalls": [
+    {
+      "index": 815,
+      "rawMs": 107.19999998807907,
+      "spacingMs": 107.19999998807907,
+      "previousCallbackMs": 105,
+      "deliveryGapMs": 2.199999988079071,
+      "previousCPUMs": 104.89999997615814,
+      "previousOutsideProfileCPUWindowMs": 0.10000002384185791,
+      "previousLargestPhases": [
+        {
+          "phase": "render",
+          "ms": 83.69999998807907
+        },
+        {
+          "phase": "simulation",
+          "ms": 8.399999976158142
+        },
+        {
+          "phase": "visuals",
+          "ms": 5.600000023841858
+        }
+      ],
+      "currentCPUMs": 20.69999998807907,
+      "previousLaunchRendered": 0,
+      "currentLaunchRendered": 0,
+      "schedulerSpanUnionInGapMs": 0,
+      "otherSpanUnionInGapMs": 0,
+      "knownSpanUnionInGapMs": 0,
+      "uncoveredGapMs": 2.199999988079071,
+      "otherCallbacks": [],
+      "schedulerCallbacks": []
+    },
+    {
+      "index": 1304,
+      "rawMs": 102.90000003576279,
+      "spacingMs": 102.90000003576279,
+      "previousCallbackMs": 81.80000001192093,
+      "deliveryGapMs": 21.100000023841858,
+      "previousCPUMs": 81.80000001192093,
+      "previousOutsideProfileCPUWindowMs": 0,
+      "previousLargestPhases": [
+        {
+          "phase": "launchCamera",
+          "ms": 44.59999996423721
+        },
+        {
+          "phase": "visuals",
+          "ms": 9.599999964237213
+        },
+        {
+          "phase": "batch",
+          "ms": 9.300000011920929
+        }
+      ],
+      "currentCPUMs": 56.09999996423721,
+      "previousLaunchRendered": 1,
+      "currentLaunchRendered": 1,
+      "schedulerSpanUnionInGapMs": 0.10000002384185791,
+      "otherSpanUnionInGapMs": 0,
+      "knownSpanUnionInGapMs": 0.10000002384185791,
+      "uncoveredGapMs": 21,
+      "otherCallbacks": [],
+      "schedulerCallbacks": [
+        {
+          "sourceCode": 0,
+          "durationMs": 0.10000002384185791,
+          "accepted": null,
+          "overlapMs": 0.10000002384185791
+        }
+      ]
+    },
+    {
+      "index": 2847,
+      "rawMs": 102.60000002384186,
+      "spacingMs": 102.69999998807907,
+      "previousCallbackMs": 99.30000001192093,
+      "deliveryGapMs": 3.399999976158142,
+      "previousCPUMs": 99.30000001192093,
+      "previousOutsideProfileCPUWindowMs": 0,
+      "previousLargestPhases": [
+        {
+          "phase": "render",
+          "ms": 55.90000003576279
+        },
+        {
+          "phase": "visuals",
+          "ms": 18.19999998807907
+        },
+        {
+          "phase": "batch",
+          "ms": 12.199999988079071
+        }
+      ],
+      "currentCPUMs": 42.80000001192093,
+      "previousLaunchRendered": 0,
+      "currentLaunchRendered": 0,
+      "schedulerSpanUnionInGapMs": 0.19999998807907104,
+      "otherSpanUnionInGapMs": 0,
+      "knownSpanUnionInGapMs": 0.19999998807907104,
+      "uncoveredGapMs": 3.199999988079071,
+      "otherCallbacks": [],
+      "schedulerCallbacks": [
+        {
+          "sourceCode": 0,
+          "durationMs": 0.10000002384185791,
+          "accepted": null,
+          "overlapMs": 0.10000002384185791
+        },
+        {
+          "sourceCode": 1,
+          "durationMs": 42.89999997615814,
+          "accepted": 1,
+          "overlapMs": 0.09999996423721313
+        }
+      ]
+    },
+    {
+      "index": 2892,
+      "rawMs": 199.5,
+      "spacingMs": 199.5,
+      "previousCallbackMs": 144.30000001192093,
+      "deliveryGapMs": 55.19999998807907,
+      "previousCPUMs": 144.30000001192093,
+      "previousOutsideProfileCPUWindowMs": 0,
+      "previousLargestPhases": [
+        {
+          "phase": "visuals",
+          "ms": 55.19999998807907
+        },
+        {
+          "phase": "engineFlames",
+          "ms": 41.90000003576279
+        },
+        {
+          "phase": "render",
+          "ms": 22.599999964237213
+        }
+      ],
+      "currentCPUMs": 51.80000001192093,
+      "previousLaunchRendered": 0,
+      "currentLaunchRendered": 0,
+      "schedulerSpanUnionInGapMs": 0,
+      "otherSpanUnionInGapMs": 0,
+      "knownSpanUnionInGapMs": 0,
+      "uncoveredGapMs": 55.19999998807907,
+      "otherCallbacks": [],
+      "schedulerCallbacks": []
+    },
+    {
+      "index": 2929,
+      "rawMs": 105.39999997615814,
+      "spacingMs": 105.39999997615814,
+      "previousCallbackMs": 46,
+      "deliveryGapMs": 59.39999997615814,
+      "previousCPUMs": 46,
+      "previousOutsideProfileCPUWindowMs": 0,
+      "previousLargestPhases": [
+        {
+          "phase": "render",
+          "ms": 28.19999998807907
+        },
+        {
+          "phase": "batch",
+          "ms": 5
+        },
+        {
+          "phase": "visuals",
+          "ms": 4.5
+        }
+      ],
+      "currentCPUMs": 20.700000047683716,
+      "previousLaunchRendered": 0,
+      "currentLaunchRendered": 0,
+      "schedulerSpanUnionInGapMs": 0.10000002384185791,
+      "otherSpanUnionInGapMs": 0,
+      "knownSpanUnionInGapMs": 0.10000002384185791,
+      "uncoveredGapMs": 59.299999952316284,
+      "otherCallbacks": [
+        {
+          "sourceCode": 0,
+          "durationMs": 0,
+          "overlapMs": 0
+        }
+      ],
+      "schedulerCallbacks": [
+        {
+          "sourceCode": 0,
+          "durationMs": 46.10000002384186,
+          "accepted": 1,
+          "overlapMs": 0.10000002384185791
+        }
+      ]
+    },
+    {
+      "index": 3219,
+      "rawMs": 133.80000001192093,
+      "spacingMs": 133.80000001192093,
+      "previousCallbackMs": 124.30000001192093,
+      "deliveryGapMs": 9.5,
+      "previousCPUMs": 124.30000001192093,
+      "previousOutsideProfileCPUWindowMs": 0,
+      "previousLargestPhases": [
+        {
+          "phase": "simulation",
+          "ms": 73.30000001192093
+        },
+        {
+          "phase": "render",
+          "ms": 21.899999976158142
+        },
+        {
+          "phase": "visuals",
+          "ms": 15.600000023841858
+        }
+      ],
+      "currentCPUMs": 24.80000001192093,
+      "previousLaunchRendered": 0,
+      "currentLaunchRendered": 0,
+      "schedulerSpanUnionInGapMs": 0.20000004768371582,
+      "otherSpanUnionInGapMs": 0,
+      "knownSpanUnionInGapMs": 0.20000004768371582,
+      "uncoveredGapMs": 9.299999952316284,
+      "otherCallbacks": [],
+      "schedulerCallbacks": [
+        {
+          "sourceCode": 0,
+          "durationMs": 0.10000002384185791,
+          "accepted": null,
+          "overlapMs": 0.10000002384185791
+        },
+        {
+          "sourceCode": 1,
+          "durationMs": 24.900000035762787,
+          "accepted": 1,
+          "overlapMs": 0.10000002384185791
+        }
+      ]
+    },
+    {
+      "index": 3481,
+      "rawMs": 103.5,
+      "spacingMs": 103.5,
+      "previousCallbackMs": 88.5,
+      "deliveryGapMs": 15,
+      "previousCPUMs": 88.5,
+      "previousOutsideProfileCPUWindowMs": 0,
+      "previousLargestPhases": [
+        {
+          "phase": "visuals",
+          "ms": 35.10000002384186
+        },
+        {
+          "phase": "batch",
+          "ms": 25.5
+        },
+        {
+          "phase": "render",
+          "ms": 16.30000001192093
+        }
+      ],
+      "currentCPUMs": 32.80000001192093,
+      "previousLaunchRendered": 0,
+      "currentLaunchRendered": 0,
+      "schedulerSpanUnionInGapMs": 0,
+      "otherSpanUnionInGapMs": 0,
+      "knownSpanUnionInGapMs": 0,
+      "uncoveredGapMs": 15,
+      "otherCallbacks": [],
+      "schedulerCallbacks": [
+        {
+          "sourceCode": 1,
+          "durationMs": 0,
+          "accepted": null,
+          "overlapMs": 0
+        }
+      ]
+    },
+    {
+      "index": 4264,
+      "rawMs": 134.80000001192093,
+      "spacingMs": 134.80000001192093,
+      "previousCallbackMs": 105.70000004768372,
+      "deliveryGapMs": 29.099999964237213,
+      "previousCPUMs": 105.70000004768372,
+      "previousOutsideProfileCPUWindowMs": 0,
+      "previousLargestPhases": [
+        {
+          "phase": "simulation",
+          "ms": 53
+        },
+        {
+          "phase": "render",
+          "ms": 26.399999976158142
+        },
+        {
+          "phase": "visuals",
+          "ms": 14.800000011920929
+        }
+      ],
+      "currentCPUMs": 38.19999998807907,
+      "previousLaunchRendered": 0,
+      "currentLaunchRendered": 0,
+      "schedulerSpanUnionInGapMs": 0,
+      "otherSpanUnionInGapMs": 0,
+      "knownSpanUnionInGapMs": 0,
+      "uncoveredGapMs": 29.099999964237213,
+      "otherCallbacks": [],
+      "schedulerCallbacks": []
+    },
+    {
+      "index": 5608,
+      "rawMs": 100.5,
+      "spacingMs": 100.5,
+      "previousCallbackMs": 57.10000002384186,
+      "deliveryGapMs": 43.39999997615814,
+      "previousCPUMs": 57.10000002384186,
+      "previousOutsideProfileCPUWindowMs": 0,
+      "previousLargestPhases": [
+        {
+          "phase": "launchCamera",
+          "ms": 23.5
+        },
+        {
+          "phase": "batch",
+          "ms": 12.899999976158142
+        },
+        {
+          "phase": "render",
+          "ms": 10.5
+        }
+      ],
+      "currentCPUMs": 50.5,
+      "previousLaunchRendered": 1,
+      "currentLaunchRendered": 1,
+      "schedulerSpanUnionInGapMs": 0.30000001192092896,
+      "otherSpanUnionInGapMs": 0,
+      "knownSpanUnionInGapMs": 0.30000001192092896,
+      "uncoveredGapMs": 43.09999996423721,
+      "otherCallbacks": [
+        {
+          "sourceCode": 0,
+          "durationMs": 0,
+          "overlapMs": 0
+        }
+      ],
+      "schedulerCallbacks": [
+        {
+          "sourceCode": 0,
+          "durationMs": 57.19999998807907,
+          "accepted": 1,
+          "overlapMs": 0.09999996423721313
+        },
+        {
+          "sourceCode": 0,
+          "durationMs": 0,
+          "accepted": null,
+          "overlapMs": 0
+        },
+        {
+          "sourceCode": 0,
+          "durationMs": 0.10000002384185791,
+          "accepted": null,
+          "overlapMs": 0.10000002384185791
+        },
+        {
+          "sourceCode": 1,
+          "durationMs": 50.60000002384186,
+          "accepted": 1,
+          "overlapMs": 0.10000002384185791
+        }
+      ]
+    },
+    {
+      "index": 5685,
+      "rawMs": 129,
+      "spacingMs": 129,
+      "previousCallbackMs": 98.79999995231628,
+      "deliveryGapMs": 30.200000047683716,
+      "previousCPUMs": 98.79999995231628,
+      "previousOutsideProfileCPUWindowMs": 0,
+      "previousLargestPhases": [
+        {
+          "phase": "batch",
+          "ms": 68.80000001192093
+        },
+        {
+          "phase": "render",
+          "ms": 13.399999976158142
+        },
+        {
+          "phase": "hud",
+          "ms": 8.399999976158142
+        }
+      ],
+      "currentCPUMs": 25.399999976158142,
+      "previousLaunchRendered": 0,
+      "currentLaunchRendered": 0,
+      "schedulerSpanUnionInGapMs": 0.20000004768371582,
+      "otherSpanUnionInGapMs": 0,
+      "knownSpanUnionInGapMs": 0.20000004768371582,
+      "uncoveredGapMs": 30,
+      "otherCallbacks": [
+        {
+          "sourceCode": 0,
+          "durationMs": 0,
+          "overlapMs": 0
+        }
+      ],
+      "schedulerCallbacks": [
+        {
+          "sourceCode": 1,
+          "durationMs": 0.10000002384185791,
+          "accepted": null,
+          "overlapMs": 0.10000002384185791
+        },
+        {
+          "sourceCode": 0,
+          "durationMs": 0,
+          "accepted": null,
+          "overlapMs": 0
+        },
+        {
+          "sourceCode": 1,
+          "durationMs": 25.5,
+          "accepted": 1,
+          "overlapMs": 0.10000002384185791
+        }
+      ]
+    },
+    {
+      "index": 5770,
+      "rawMs": 101.89999997615814,
+      "spacingMs": 101.89999997615814,
+      "previousCallbackMs": 85.39999997615814,
+      "deliveryGapMs": 16.5,
+      "previousCPUMs": 85.39999997615814,
+      "previousOutsideProfileCPUWindowMs": 0,
+      "previousLargestPhases": [
+        {
+          "phase": "visuals",
+          "ms": 47.200000047683716
+        },
+        {
+          "phase": "engineFlames",
+          "ms": 12.100000023841858
+        },
+        {
+          "phase": "hud",
+          "ms": 9.5
+        }
+      ],
+      "currentCPUMs": 19.19999998807907,
+      "previousLaunchRendered": 0,
+      "currentLaunchRendered": 0,
+      "schedulerSpanUnionInGapMs": 0,
+      "otherSpanUnionInGapMs": 0,
+      "knownSpanUnionInGapMs": 0,
+      "uncoveredGapMs": 16.5,
+      "otherCallbacks": [],
+      "schedulerCallbacks": []
+    },
+    {
+      "index": 6460,
+      "rawMs": 113,
+      "spacingMs": 113,
+      "previousCallbackMs": 92.30000001192093,
+      "deliveryGapMs": 20.69999998807907,
+      "previousCPUMs": 92.20000004768372,
+      "previousOutsideProfileCPUWindowMs": 0.09999996423721313,
+      "previousLargestPhases": [
+        {
+          "phase": "visuals",
+          "ms": 35.19999998807907
+        },
+        {
+          "phase": "render",
+          "ms": 27.899999976158142
+        },
+        {
+          "phase": "batch",
+          "ms": 12.400000035762787
+        }
+      ],
+      "currentCPUMs": 35.39999997615814,
+      "previousLaunchRendered": 0,
+      "currentLaunchRendered": 0,
+      "schedulerSpanUnionInGapMs": 6.899999976158142,
+      "otherSpanUnionInGapMs": 0.19999998807907104,
+      "knownSpanUnionInGapMs": 7.099999964237213,
+      "uncoveredGapMs": 13.600000023841858,
+      "otherCallbacks": [
+        {
+          "sourceCode": 0,
+          "durationMs": 0,
+          "overlapMs": 0
+        },
+        {
+          "sourceCode": 3,
+          "durationMs": 0.19999998807907104,
+          "overlapMs": 0.19999998807907104
+        }
+      ],
+      "schedulerCallbacks": [
+        {
+          "sourceCode": 0,
+          "durationMs": 0,
+          "accepted": null,
+          "overlapMs": 0
+        },
+        {
+          "sourceCode": 1,
+          "durationMs": 44.69999998807907,
+          "accepted": 1,
+          "overlapMs": 6.899999976158142
+        }
+      ]
+    },
+    {
+      "index": 6914,
+      "rawMs": 187.89999997615814,
+      "spacingMs": 187.89999997615814,
+      "previousCallbackMs": 133.60000002384186,
+      "deliveryGapMs": 54.299999952316284,
+      "previousCPUMs": 133.60000002384186,
+      "previousOutsideProfileCPUWindowMs": 0,
+      "previousLargestPhases": [
+        {
+          "phase": "batch",
+          "ms": 65.60000002384186
+        },
+        {
+          "phase": "visuals",
+          "ms": 36.80000001192093
+        },
+        {
+          "phase": "simulation",
+          "ms": 15.800000011920929
+        }
+      ],
+      "currentCPUMs": 35,
+      "previousLaunchRendered": 0,
+      "currentLaunchRendered": 0,
+      "schedulerSpanUnionInGapMs": 0,
+      "otherSpanUnionInGapMs": 0,
+      "knownSpanUnionInGapMs": 0,
+      "uncoveredGapMs": 54.299999952316284,
+      "otherCallbacks": [
+        {
+          "sourceCode": 0,
+          "durationMs": 0,
+          "overlapMs": 0
+        }
+      ],
+      "schedulerCallbacks": [
+        {
+          "sourceCode": 0,
+          "durationMs": 0,
+          "accepted": null,
+          "overlapMs": 0
+        },
+        {
+          "sourceCode": 0,
+          "durationMs": 0,
+          "accepted": null,
+          "overlapMs": 0
+        }
+      ]
+    },
+    {
+      "index": 8031,
+      "rawMs": 130.30000001192093,
+      "spacingMs": 130.30000001192093,
+      "previousCallbackMs": 116.30000001192093,
+      "deliveryGapMs": 14,
+      "previousCPUMs": 116.30000001192093,
+      "previousOutsideProfileCPUWindowMs": 0,
+      "previousLargestPhases": [
+        {
+          "phase": "launchCamera",
+          "ms": 41
+        },
+        {
+          "phase": "render",
+          "ms": 39.5
+        },
+        {
+          "phase": "batch",
+          "ms": 10.200000047683716
+        }
+      ],
+      "currentCPUMs": 103,
+      "previousLaunchRendered": 1,
+      "currentLaunchRendered": 1,
+      "schedulerSpanUnionInGapMs": 0,
+      "otherSpanUnionInGapMs": 0,
+      "knownSpanUnionInGapMs": 0,
+      "uncoveredGapMs": 14,
+      "otherCallbacks": [],
+      "schedulerCallbacks": [
+        {
+          "sourceCode": 0,
+          "durationMs": 0,
+          "accepted": null,
+          "overlapMs": 0
+        }
+      ]
+    },
+    {
+      "index": 8032,
+      "rawMs": 141.10000002384186,
+      "spacingMs": 141.10000002384186,
+      "previousCallbackMs": 103,
+      "deliveryGapMs": 38.10000002384186,
+      "previousCPUMs": 103,
+      "previousOutsideProfileCPUWindowMs": 0,
+      "previousLargestPhases": [
+        {
+          "phase": "launchCamera",
+          "ms": 43
+        },
+        {
+          "phase": "render",
+          "ms": 28.30000001192093
+        },
+        {
+          "phase": "visuals",
+          "ms": 13
+        }
+      ],
+      "currentCPUMs": 63.30000001192093,
+      "previousLaunchRendered": 1,
+      "currentLaunchRendered": 1,
+      "schedulerSpanUnionInGapMs": 0,
+      "otherSpanUnionInGapMs": 0,
+      "knownSpanUnionInGapMs": 0,
+      "uncoveredGapMs": 38.10000002384186,
+      "otherCallbacks": [
+        {
+          "sourceCode": 0,
+          "durationMs": 0,
+          "overlapMs": 0
+        }
+      ],
+      "schedulerCallbacks": [
+        {
+          "sourceCode": 0,
+          "durationMs": 0,
+          "accepted": null,
+          "overlapMs": 0
+        }
+      ]
+    },
+    {
+      "index": 8034,
+      "rawMs": 364.2000000476837,
+      "spacingMs": 364.2000000476837,
+      "previousCallbackMs": 213,
+      "deliveryGapMs": 151.20000004768372,
+      "previousCPUMs": 213,
+      "previousOutsideProfileCPUWindowMs": 0,
+      "previousLargestPhases": [
+        {
+          "phase": "launchCamera",
+          "ms": 63.10000002384186
+        },
+        {
+          "phase": "render",
+          "ms": 49
+        },
+        {
+          "phase": "visuals",
+          "ms": 39.60000002384186
+        }
+      ],
+      "currentCPUMs": 37.299999952316284,
+      "previousLaunchRendered": 1,
+      "currentLaunchRendered": 1,
+      "schedulerSpanUnionInGapMs": 0.10000002384185791,
+      "otherSpanUnionInGapMs": 0,
+      "knownSpanUnionInGapMs": 0.10000002384185791,
+      "uncoveredGapMs": 151.10000002384186,
+      "otherCallbacks": [],
+      "schedulerCallbacks": [
+        {
+          "sourceCode": 0,
+          "durationMs": 0.10000002384185791,
+          "accepted": null,
+          "overlapMs": 0.10000002384185791
+        }
+      ]
+    },
+    {
+      "index": 8185,
+      "rawMs": 123,
+      "spacingMs": 123,
+      "previousCallbackMs": 72,
+      "deliveryGapMs": 51,
+      "previousCPUMs": 72,
+      "previousOutsideProfileCPUWindowMs": 0,
+      "previousLargestPhases": [
+        {
+          "phase": "visuals",
+          "ms": 35.10000002384186
+        },
+        {
+          "phase": "render",
+          "ms": 19.5
+        },
+        {
+          "phase": "batch",
+          "ms": 10.199999988079071
+        }
+      ],
+      "currentCPUMs": 25.80000001192093,
+      "previousLaunchRendered": 0,
+      "currentLaunchRendered": 0,
+      "schedulerSpanUnionInGapMs": 0,
+      "otherSpanUnionInGapMs": 0,
+      "knownSpanUnionInGapMs": 0,
+      "uncoveredGapMs": 51,
+      "otherCallbacks": [
+        {
+          "sourceCode": 0,
+          "durationMs": 0,
+          "overlapMs": 0
+        }
+      ],
+      "schedulerCallbacks": []
+    },
+    {
+      "index": 8197,
+      "rawMs": 159.39999997615814,
+      "spacingMs": 159.39999997615814,
+      "previousCallbackMs": 102.30000001192093,
+      "deliveryGapMs": 57.09999996423721,
+      "previousCPUMs": 102.19999998807907,
+      "previousOutsideProfileCPUWindowMs": 0.10000002384185791,
+      "previousLargestPhases": [
+        {
+          "phase": "hudSnapshot",
+          "ms": 39.40000003576279
+        },
+        {
+          "phase": "render",
+          "ms": 32.19999998807907
+        },
+        {
+          "phase": "visuals",
+          "ms": 13.600000023841858
+        }
+      ],
+      "currentCPUMs": 47,
+      "previousLaunchRendered": 0,
+      "currentLaunchRendered": 0,
+      "schedulerSpanUnionInGapMs": 0.09999996423721313,
+      "otherSpanUnionInGapMs": 0,
+      "knownSpanUnionInGapMs": 0.09999996423721313,
+      "uncoveredGapMs": 57,
+      "otherCallbacks": [
+        {
+          "sourceCode": 0,
+          "durationMs": 0,
+          "overlapMs": 0
+        }
+      ],
+      "schedulerCallbacks": [
+        {
+          "sourceCode": 0,
+          "durationMs": 0,
+          "accepted": null,
+          "overlapMs": 0
+        },
+        {
+          "sourceCode": 1,
+          "durationMs": 47.09999996423721,
+          "accepted": 1,
+          "overlapMs": 0.09999996423721313
+        }
+      ]
+    },
+    {
+      "index": 8246,
+      "rawMs": 105.59999996423721,
+      "spacingMs": 105.59999996423721,
+      "previousCallbackMs": 83.19999998807907,
+      "deliveryGapMs": 22.399999976158142,
+      "previousCPUMs": 83.19999998807907,
+      "previousOutsideProfileCPUWindowMs": 0,
+      "previousLargestPhases": [
+        {
+          "phase": "render",
+          "ms": 30.30000001192093
+        },
+        {
+          "phase": "simulation",
+          "ms": 26.19999998807907
+        },
+        {
+          "phase": "visuals",
+          "ms": 8.899999976158142
+        }
+      ],
+      "currentCPUMs": 16.900000035762787,
+      "previousLaunchRendered": 0,
+      "currentLaunchRendered": 0,
+      "schedulerSpanUnionInGapMs": 0.10000002384185791,
+      "otherSpanUnionInGapMs": 0,
+      "knownSpanUnionInGapMs": 0.10000002384185791,
+      "uncoveredGapMs": 22.299999952316284,
+      "otherCallbacks": [
+        {
+          "sourceCode": 0,
+          "durationMs": 0,
+          "overlapMs": 0
+        }
+      ],
+      "schedulerCallbacks": [
+        {
+          "sourceCode": 0,
+          "durationMs": 0.10000002384185791,
+          "accepted": null,
+          "overlapMs": 0.10000002384185791
+        }
+      ]
+    },
+    {
+      "index": 8787,
+      "rawMs": 104.89999997615814,
+      "spacingMs": 104.89999997615814,
+      "previousCallbackMs": 29,
+      "deliveryGapMs": 75.89999997615814,
+      "previousCPUMs": 29,
+      "previousOutsideProfileCPUWindowMs": 0,
+      "previousLargestPhases": [
+        {
+          "phase": "render",
+          "ms": 9.600000023841858
+        },
+        {
+          "phase": "batch",
+          "ms": 6.299999952316284
+        },
+        {
+          "phase": "feedbackAudio",
+          "ms": 5.5
+        }
+      ],
+      "currentCPUMs": 46,
+      "previousLaunchRendered": 0,
+      "currentLaunchRendered": 1,
+      "schedulerSpanUnionInGapMs": 0.09999996423721313,
+      "otherSpanUnionInGapMs": 0,
+      "knownSpanUnionInGapMs": 0.09999996423721313,
+      "uncoveredGapMs": 75.80000001192093,
+      "otherCallbacks": [],
+      "schedulerCallbacks": [
+        {
+          "sourceCode": 0,
+          "durationMs": 0.09999996423721313,
+          "accepted": null,
+          "overlapMs": 0.09999996423721313
+        }
+      ]
+    },
+    {
+      "index": 9602,
+      "rawMs": 144.9000000357628,
+      "spacingMs": 144.9000000357628,
+      "previousCallbackMs": 109.69999998807907,
+      "deliveryGapMs": 35.200000047683716,
+      "previousCPUMs": 109.69999998807907,
+      "previousOutsideProfileCPUWindowMs": 0,
+      "previousLargestPhases": [
+        {
+          "phase": "simulation",
+          "ms": 44.5
+        },
+        {
+          "phase": "launchCamera",
+          "ms": 22.600000023841858
+        },
+        {
+          "phase": "render",
+          "ms": 13
+        }
+      ],
+      "currentCPUMs": 40,
+      "previousLaunchRendered": 1,
+      "currentLaunchRendered": 0,
+      "schedulerSpanUnionInGapMs": 0,
+      "otherSpanUnionInGapMs": 0.09999996423721313,
+      "knownSpanUnionInGapMs": 0.09999996423721313,
+      "uncoveredGapMs": 35.1000000834465,
+      "otherCallbacks": [
+        {
+          "sourceCode": 3,
+          "durationMs": 0.09999996423721313,
+          "overlapMs": 0.09999996423721313
+        },
+        {
+          "sourceCode": 0,
+          "durationMs": 0,
+          "overlapMs": 0
+        }
+      ],
+      "schedulerCallbacks": [
+        {
+          "sourceCode": 0,
+          "durationMs": 0,
+          "accepted": null,
+          "overlapMs": 0
+        },
+        {
+          "sourceCode": 0,
+          "durationMs": 0,
+          "accepted": null,
+          "overlapMs": 0
+        }
+      ]
+    },
+    {
+      "index": 10386,
+      "rawMs": 144.39999997615814,
+      "spacingMs": 144.39999997615814,
+      "previousCallbackMs": 113.30000001192093,
+      "deliveryGapMs": 31.099999964237213,
+      "previousCPUMs": 113.30000001192093,
+      "previousOutsideProfileCPUWindowMs": 0,
+      "previousLargestPhases": [
+        {
+          "phase": "batch",
+          "ms": 40.69999998807907
+        },
+        {
+          "phase": "render",
+          "ms": 35.5
+        },
+        {
+          "phase": "visuals",
+          "ms": 24.80000001192093
+        }
+      ],
+      "currentCPUMs": 25.100000023841858,
+      "previousLaunchRendered": 0,
+      "currentLaunchRendered": 0,
+      "schedulerSpanUnionInGapMs": 0,
+      "otherSpanUnionInGapMs": 0,
+      "knownSpanUnionInGapMs": 0,
+      "uncoveredGapMs": 31.099999964237213,
+      "otherCallbacks": [],
+      "schedulerCallbacks": []
+    },
+    {
+      "index": 10394,
+      "rawMs": 168.5,
+      "spacingMs": 168.5,
+      "previousCallbackMs": 20.69999998807907,
+      "deliveryGapMs": 147.80000001192093,
+      "previousCPUMs": 20.69999998807907,
+      "previousOutsideProfileCPUWindowMs": 0,
+      "previousLargestPhases": [
+        {
+          "phase": "visuals",
+          "ms": 8.100000023841858
+        },
+        {
+          "phase": "render",
+          "ms": 6.199999988079071
+        },
+        {
+          "phase": "batch",
+          "ms": 3.800000011920929
+        }
+      ],
+      "currentCPUMs": 22.30000001192093,
+      "previousLaunchRendered": 0,
+      "currentLaunchRendered": 0,
+      "schedulerSpanUnionInGapMs": 0,
+      "otherSpanUnionInGapMs": 0,
+      "knownSpanUnionInGapMs": 0,
+      "uncoveredGapMs": 147.80000001192093,
+      "otherCallbacks": [],
+      "schedulerCallbacks": []
+    },
+    {
+      "index": 10396,
+      "rawMs": 102,
+      "spacingMs": 102,
+      "previousCallbackMs": 81,
+      "deliveryGapMs": 21,
+      "previousCPUMs": 81,
+      "previousOutsideProfileCPUWindowMs": 0,
+      "previousLargestPhases": [
+        {
+          "phase": "render",
+          "ms": 55.80000001192093
+        },
+        {
+          "phase": "simulation",
+          "ms": 11.100000023841858
+        },
+        {
+          "phase": "visuals",
+          "ms": 6.299999952316284
+        }
+      ],
+      "currentCPUMs": 27.600000023841858,
+      "previousLaunchRendered": 0,
+      "currentLaunchRendered": 0,
+      "schedulerSpanUnionInGapMs": 0,
+      "otherSpanUnionInGapMs": 0,
+      "knownSpanUnionInGapMs": 0,
+      "uncoveredGapMs": 21,
+      "otherCallbacks": [],
+      "schedulerCallbacks": [
+        {
+          "sourceCode": 0,
+          "durationMs": 0,
+          "accepted": null,
+          "overlapMs": 0
+        }
+      ]
+    },
+    {
+      "index": 10543,
+      "rawMs": 127,
+      "spacingMs": 127,
+      "previousCallbackMs": 25.399999976158142,
+      "deliveryGapMs": 101.60000002384186,
+      "previousCPUMs": 25.399999976158142,
+      "previousOutsideProfileCPUWindowMs": 0,
+      "previousLargestPhases": [
+        {
+          "phase": "batch",
+          "ms": 9.300000011920929
+        },
+        {
+          "phase": "render",
+          "ms": 7.899999976158142
+        },
+        {
+          "phase": "visuals",
+          "ms": 4.199999988079071
+        }
+      ],
+      "currentCPUMs": 21.19999998807907,
+      "previousLaunchRendered": 0,
+      "currentLaunchRendered": 0,
+      "schedulerSpanUnionInGapMs": 0.10000002384185791,
+      "otherSpanUnionInGapMs": 0,
+      "knownSpanUnionInGapMs": 0.10000002384185791,
+      "uncoveredGapMs": 101.5,
+      "otherCallbacks": [
+        {
+          "sourceCode": 0,
+          "durationMs": 0,
+          "overlapMs": 0
+        }
+      ],
+      "schedulerCallbacks": [
+        {
+          "sourceCode": 1,
+          "durationMs": 0,
+          "accepted": null,
+          "overlapMs": 0
+        },
+        {
+          "sourceCode": 0,
+          "durationMs": 21.399999976158142,
+          "accepted": 1,
+          "overlapMs": 0.10000002384185791
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "Inclusive scheduler spans contain render callbacks: union is used for overlapping intervals; no parent+child addition.",
+    "Delivery gap includes untraced browser/host work and trace tails, not confirmed idle, GC or driver cause.",
+    "Mean/p95 values of one phase are not added to other phase percentiles.",
+    "Reference capture overlaps this chat WORK build log mtime 2026-10-18T00:17:08.228Z within 2026-10-18T00:15:45.669Z..2026-10-18T00:20:45.720Z. File timestamp proves temporal overlap, not CPU occupancy or causality. Keep raw tails; do not label host isolated.",
+    "No new browser/performance capture, user storage access, Simulation execution, source adoption, native FPS or Steam change.",
+    "Original Unit28 quaternion-output reduction and Unit18 burst scratch were already rejected for tiny absolute ROI; read and skipped, not repeated."
+  ],
+  "browser": {
+    "retry": "Single own about:blank create again failed webview attach; no server started or user-tab navigation."
+  }
+}

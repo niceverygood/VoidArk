@@ -1,0 +1,248 @@
+{
+  "provider": "ElevenLabs",
+  "model": "eleven_text_to_sound_v2",
+  "format": "mp3_44100_128",
+  "revision": "physical-v2",
+  "assets": [
+    {
+      "id": "engine",
+      "duration": 10,
+      "loop": true,
+      "prompt": "Steady low turbine hum heard inside a spacecraft cockpit. Smooth heavy rotating machinery with soft ventilated air and subdued reactor bass. Constant pitch and loudness, continuous loop, no revving, no pulsation, no melody, no beeps. Isolated modern game sound effect. Natural physical texture, clean restrained production. No music, no voice, no chiptune, no synthetic arcade bleeps.",
+      "bytes": 160958,
+      "cost": "100"
+    },
+    {
+      "id": "engineBoost",
+      "duration": 8,
+      "loop": true,
+      "prompt": "Continuous sustained jet thruster roar heard inside an insulated spacecraft cockpit. Smooth dense low mechanical rumble and broad rushing exhaust. Steady power, seamless loop, no ignition, no rhythm, no rising synth tones. Isolated modern game sound effect. Natural physical texture, clean restrained production. No music, no voice, no chiptune, no synthetic arcade bleeps.",
+      "bytes": 129193,
+      "cost": "80"
+    },
+    {
+      "id": "cannon",
+      "duration": 0.65,
+      "loop": false,
+      "prompt": "One heavy electromagnetic ship cannon fires: immediate dry bass punch, sharp metal crack and compact recoil clunk. Very brief decay. Single physical weapon shot, not a laser, no ringing musical pitch. Isolated modern game sound effect. Natural physical texture, clean restrained production. No music, no voice, no chiptune, no synthetic arcade bleeps.",
+      "bytes": 11328,
+      "cost": "6"
+    },
+    {
+      "id": "missile",
+      "duration": 1.3,
+      "loop": false,
+      "prompt": "One missile launches from a ship launcher: immediate heavy pneumatic thud and metal latch snap, followed by a short powerful rocket exhaust rush rapidly receding. Dry close mechanical attack. One launch only, no explosion, no whistle or laser zap. Isolated modern game sound effect. Natural physical texture, clean restrained production. No music, no voice, no chiptune, no synthetic arcade bleeps.",
+      "bytes": 21359,
+      "cost": "13"
+    },
+    {
+      "id": "explosion",
+      "duration": 2.2,
+      "loop": false,
+      "prompt": "One large missile destroys a steel spacecraft: abrupt deep blast with a sharp cracking attack, tearing metal and short debris rumble fading away. No build up, no second explosion. Isolated modern game sound effect. Natural physical texture, clean restrained production. No music, no voice, no chiptune, no synthetic arcade bleeps.",
+      "bytes": 36406,
+      "cost": "22"
+    },
+    {
+      "id": "hit",
+      "duration": 0.6,
+      "loop": false,
+      "prompt": "One bullet strikes a thick steel hull. Dense sharp metallic smack with a short low body thud and tiny debris rattle. Close dry single impact, no laser sound. Isolated modern game sound effect. Natural physical texture, clean restrained production. No music, no voice, no chiptune, no synthetic arcade bleeps.",
+      "bytes": 10493,
+      "cost": "6"
+    },
+    {
+      "id": "damage",
+      "duration": 0.9,
+      "loop": false,
+      "prompt": "An external shell slams against a ship heard inside the cockpit. One heavy muffled structural impact, brief metal creak and small rattling panels. Immediate attack, no alarm. Isolated modern game sound effect. Natural physical texture, clean restrained production. No music, no voice, no chiptune, no synthetic arcade bleeps.",
+      "bytes": 15090,
+      "cost": "9"
+    },
+    {
+      "id": "shield",
+      "duration": 0.8,
+      "loop": false,
+      "prompt": "One shell strikes a spacecraft energy barrier: heavy soft low pressure thump and a brief fine electric sizzling ripple. Dry close hit, no laser whistle, no musical ringing. Isolated modern game sound effect. Natural physical texture, clean restrained production. No music, no voice, no chiptune, no synthetic arcade bleeps.",
+      "bytes": 13836,
+      "cost": "8"
+    },
+    {
+      "id": "laser",
+      "duration": 1.1,
+      "loop": false,
+      "prompt": "Ship beam weapon fires once. Immediate dense electrical crack and low pressure punch, then a short controlled hot broadband plasma hiss fading. No rising pitch, no musical tones. Isolated modern game sound effect. Natural physical texture, clean restrained production. No music, no voice, no chiptune, no synthetic arcade bleeps.",
+      "bytes": 18434,
+      "cost": "11"
+    },
+    {
+      "id": "chain",
+      "duration": 1.2,
+      "loop": false,
+      "prompt": "Violent chained electrical arc weapon discharge, four rapid branching lightning cracks, sizzling high voltage, deep charged energy punch. Modern cinematic sci fi game, no music. Isolated modern game sound effect. Natural physical texture, clean restrained production. No music, no voice, no chiptune, no synthetic arcade bleeps.",
+      "bytes": 20106,
+      "cost": "12"
+    },
+    {
+      "id": "boost",
+      "duration": 1.5,
+      "loop": false,
+      "prompt": "Spaceship thrusters ignite into afterburner: immediate deep ignition punch, rising powerful smooth turbine whoosh then short exhaust decay. Modern space combat, no music. Isolated modern game sound effect. Natural physical texture, clean restrained production. No music, no voice, no chiptune, no synthetic arcade bleeps.",
+      "bytes": 24703,
+      "cost": "15"
+    },
+    {
+      "id": "pulse",
+      "duration": 2,
+      "loop": false,
+      "prompt": "Electromagnetic pulse skill: instant powerful sub bass pressure wave, expanding magnetic shock, crackling ionized air and shimmering decay. Isolated cinematic sci fi ability, no music. Isolated modern game sound effect. Natural physical texture, clean restrained production. No music, no voice, no chiptune, no synthetic arcade bleeps.",
+      "bytes": 33062,
+      "cost": "20"
+    },
+    {
+      "id": "barrage",
+      "duration": 2.5,
+      "loop": false,
+      "prompt": "Spaceship missile barrage ability: synchronized mechanical launch rack slam, several rapid heavy rocket ignitions and layered missiles roaring away. One compact salvo, no explosions, no speech, no music. Isolated modern game sound effect. Natural physical texture, clean restrained production. No music, no voice, no chiptune, no synthetic arcade bleeps.",
+      "bytes": 40586,
+      "cost": "25"
+    },
+    {
+      "id": "overcharge",
+      "duration": 2.5,
+      "loop": false,
+      "prompt": "Spaceship reactor overcharge ability: powerful rising magnetic reactor resonance, dense electric charge building into satisfying bass surge and energized hum tail. No music or speech. Isolated modern game sound effect. Natural physical texture, clean restrained production. No music, no voice, no chiptune, no synthetic arcade bleeps.",
+      "bytes": 40586,
+      "cost": "25"
+    },
+    {
+      "id": "nova",
+      "duration": 2.7,
+      "loop": false,
+      "prompt": "Plasma nova ultimate ability: huge immediate fiery energy detonation, immense bass shockwave with expanding hot plasma roar and bright burning particles fading. No music. Isolated modern game sound effect. Natural physical texture, clean restrained production. No music, no voice, no chiptune, no synthetic arcade bleeps.",
+      "bytes": 43929,
+      "cost": "27"
+    },
+    {
+      "id": "stasis",
+      "duration": 2.4,
+      "loop": false,
+      "prompt": "Time stasis ability, deep gravity implosion, smooth descending space distortion, suspended crystalline shimmering field with eerie resonant tail. Sophisticated cinema sci fi sound, no music. Isolated modern game sound effect. Natural physical texture, clean restrained production. No music, no voice, no chiptune, no synthetic arcade bleeps.",
+      "bytes": 39332,
+      "cost": "24"
+    },
+    {
+      "id": "repair",
+      "duration": 2.4,
+      "loop": false,
+      "prompt": "Spaceship nanite repair ability: intricate precision servos, flowing warm energy sweep, tiny molecular assembly clicks resolving into smooth reassuring reactor resonance. No musical notes or speech. Isolated modern game sound effect. Natural physical texture, clean restrained production. No music, no voice, no chiptune, no synthetic arcade bleeps.",
+      "bytes": 39332,
+      "cost": "24"
+    },
+    {
+      "id": "lance",
+      "duration": 2,
+      "loop": false,
+      "prompt": "Massive orbital energy lance ability firing once: dense charging snap followed immediately by huge piercing sustained plasma beam, thunderous low impact and resonant energy tail. No music. Isolated modern game sound effect. Natural physical texture, clean restrained production. No music, no voice, no chiptune, no synthetic arcade bleeps.",
+      "bytes": 33062,
+      "cost": "20"
+    },
+    {
+      "id": "countermeasure",
+      "duration": 1.8,
+      "loop": false,
+      "prompt": "Spaceship missile countermeasure ability: rapid mechanical flare ejector bursts, hot flares whooshing outward with ionized crackles and deep defensive pulse. No speech or music. Isolated modern game sound effect. Natural physical texture, clean restrained production. No music, no voice, no chiptune, no synthetic arcade bleeps.",
+      "bytes": 29301,
+      "cost": "18"
+    },
+    {
+      "id": "sentry",
+      "duration": 2,
+      "loop": false,
+      "prompt": "Spaceship deploys escort fighters: heavy hydraulic hangar opens, mechanical launch clamps release, compact layered fighter engine flyby whooshes. No speech or music. Isolated modern game sound effect. Natural physical texture, clean restrained production. No music, no voice, no chiptune, no synthetic arcade bleeps.",
+      "bytes": 33062,
+      "cost": "20"
+    },
+    {
+      "id": "alert",
+      "duration": 1.1,
+      "loop": false,
+      "prompt": "Restrained military cockpit warning: two short rounded urgent midrange buzzer pulses, clean unobtrusive, serious modern avionics. No speech, no high squeal. Isolated modern game sound effect. Natural physical texture, clean restrained production. No music, no voice, no chiptune, no synthetic arcade bleeps.",
+      "bytes": 18434,
+      "cost": "11"
+    },
+    {
+      "id": "warp",
+      "duration": 3,
+      "loop": false,
+      "prompt": "Spaceship hyperspace jump: deep gravitational charge, thunderous spatial tear, rushing warp tunnel then powerful arrival shockwave. No voice or music. Isolated modern game sound effect. Natural physical texture, clean restrained production. No music, no voice, no chiptune, no synthetic arcade bleeps.",
+      "bytes": 48945,
+      "cost": "30"
+    },
+    {
+      "id": "dock",
+      "duration": 2,
+      "loop": false,
+      "prompt": "Spaceship docking at orbital station: heavy magnetic mooring clamps locking, pneumatic pressure release, massive mechanical settling thud. No speech or music. Isolated modern game sound effect. Natural physical texture, clean restrained production. No music, no voice, no chiptune, no synthetic arcade bleeps.",
+      "bytes": 33062,
+      "cost": "20"
+    },
+    {
+      "id": "departure",
+      "duration": 2,
+      "loop": false,
+      "prompt": "Spaceship launch from orbital hangar: heavy docking locks release, propulsion ignites and smooth powerful engine rush accelerates away. No speech or music. Isolated modern game sound effect. Natural physical texture, clean restrained production. No music, no voice, no chiptune, no synthetic arcade bleeps.",
+      "bytes": 33062,
+      "cost": "20"
+    },
+    {
+      "id": "upgrade",
+      "duration": 1.8,
+      "loop": false,
+      "prompt": "Futuristic spaceship upgrade completed: precision mechanical deployment and armor plates locking, satisfying bright energy activation sweep with deep resonant finish. No music or voice. Isolated modern game sound effect. Natural physical texture, clean restrained production. No music, no voice, no chiptune, no synthetic arcade bleeps.",
+      "bytes": 29301,
+      "cost": "18"
+    },
+    {
+      "id": "boss",
+      "duration": 3,
+      "loop": false,
+      "prompt": "Colossal enemy dreadnought emerges: massive deep intimidating mechanical bass roar, heavy reactor rumble and huge spatial pressure shock. Cinematic threatening sound effect, no music or voice. Isolated modern game sound effect. Natural physical texture, clean restrained production. No music, no voice, no chiptune, no synthetic arcade bleeps.",
+      "bytes": 48945,
+      "cost": "30"
+    },
+    {
+      "id": "victory",
+      "duration": 2.8,
+      "loop": false,
+      "prompt": "Epic spaceship battle victory reward: powerful satisfying resonant energy bloom, glittering metallic reward flourish and warm grand resolution. A single cinematic sound effect, no song or voice. Isolated modern game sound effect. Natural physical texture, clean restrained production. No music, no voice, no chiptune, no synthetic arcade bleeps.",
+      "bytes": 45183,
+      "cost": "28"
+    },
+    {
+      "id": "defeat",
+      "duration": 2.6,
+      "loop": false,
+      "prompt": "Spaceship reactor shutdown after defeat: deep broken metallic groan, failing turbine descending, electrical power dying into silence. No voice or music. Isolated modern game sound effect. Natural physical texture, clean restrained production. No music, no voice, no chiptune, no synthetic arcade bleeps.",
+      "bytes": 41839,
+      "cost": "26"
+    },
+    {
+      "id": "pickup",
+      "duration": 0.6,
+      "loop": false,
+      "prompt": "High tech mineral pickup confirmation: short clean glassy magnetic collection snap with tiny warm energy shimmer. Sophisticated subtle modern game interface, no arcade beep or music. Isolated modern game sound effect. Natural physical texture, clean restrained production. No music, no voice, no chiptune, no synthetic arcade bleeps.",
+      "bytes": 10493,
+      "cost": "6"
+    },
+    {
+      "id": "click",
+      "duration": 0.5,
+      "loop": false,
+      "prompt": "Single premium science fiction cockpit interface click: crisp tactile mechanical tick with subtle smooth glass resonance, very short, no musical beep. Isolated modern game sound effect. Natural physical texture, clean restrained production. No music, no voice, no chiptune, no synthetic arcade bleeps.",
+      "bytes": 8821,
+      "cost": "5"
+    }
+  ]
+}

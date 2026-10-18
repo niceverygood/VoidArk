@@ -1,0 +1,30 @@
+vite v7.3.7 building client environment for production...
+transforming...
+✓ 186 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                                                    1.26 kB │ gzip:   0.62 kB
+dist/boss-ending-preview.html                                      1.36 kB │ gzip:   0.81 kB
+dist/combat-preview.html                                           1.53 kB │ gzip:   0.95 kB
+dist/planet-enemies-preview.html                                   4.24 kB │ gzip:   1.92 kB
+dist/assets/space-grotesk-vietnamese-wght-normal-D0rl6rjA.woff2    6.71 kB
+dist/assets/space-grotesk-latin-ext-wght-normal-D9tNdqV9.woff2    18.94 kB
+dist/assets/space-grotesk-latin-wght-normal-BhU9QXUp.woff2        22.29 kB
+dist/assets/combat-CtGCS-uW.css                                    1.90 kB │ gzip:   0.85 kB
+dist/assets/planet-ending-BDwNhB4E.css                           132.73 kB │ gzip:  28.49 kB
+dist/assets/ending-DcA4C_mf.js                                     1.70 kB │ gzip:   1.03 kB
+dist/assets/combat-DPZdhExD.js                                     4.91 kB │ gzip:   2.66 kB
+dist/assets/enemies-2Wzi88Rt.js                                    6.04 kB │ gzip:   2.85 kB
+dist/assets/animated-vfx-CBTk-CeU.js                               6.75 kB │ gzip:   2.44 kB
+dist/assets/planet-ending-D0kGynaJ.js                             15.93 kB │ gzip:   7.25 kB
+dist/assets/space-reflections-B6tY29tz.js                         28.43 kB │ gzip:  12.21 kB
+dist/assets/effects-D8LkVU8g.js                                   30.80 kB │ gzip:  10.37 kB
+dist/assets/models-D1E3QzIu.js                                   159.97 kB │ gzip:  60.13 kB
+dist/assets/game-De5_jikA.js                                     471.91 kB │ gzip: 165.31 kB
+dist/assets/engine-3d-X7NLGsIZ.js                                656.95 kB │ gzip: 168.53 kB
+
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 8.21s

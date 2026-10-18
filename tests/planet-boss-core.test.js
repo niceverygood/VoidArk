@@ -1,0 +1,7 @@
+import test from 'node:test';import assert from 'node:assert/strict';import * as THREE from 'three';import {anchorPlanetBossCore} from '../src/planet-boss-core.js';
+test('planet core follows surviving bow and cached local surface across boss ranks',()=>{
+ const geometry=new THREE.BoxGeometry(2,1,2),material=new THREE.MeshStandardMaterial();
+ const make=scale=>{const root=new THREE.Group(),frame=new THREE.Group(),parts=Array.from({length:7},()=>new THREE.Group()),core=new THREE.Object3D();root.add(frame);root.rotation.set(.2,.5,.1);frame.scale.setScalar(scale);for(const part of parts)frame.add(part);parts[6].position.z=-3;const hull=new THREE.Mesh(geometry,material);hull.name='meshy-boss-section';parts[6].add(hull);frame.add(core);root.userData={visualRoot:frame,parts,core,planetTheme:'uranus',planetAssetId:'test-core-uranus'};return root;};
+ const a=make(3.2);anchorPlanetBossCore(a);assert.equal(a.userData.core.parent,a.userData.parts[6]);assert.ok(Math.abs(a.userData.core.position.y-.58)<1e-6);for(const i of [4,1,3,5,2])a.userData.parts[i].visible=false;let visible=false;a.traverseVisible(o=>{if(o===a.userData.core)visible=true;});assert.equal(visible,true);
+ const b=make(4.5);b.userData.parts[6].updateWorldMatrix=()=>{throw Error('cache must skip geometry scan');};anchorPlanetBossCore(b);assert.deepEqual(b.userData.core.position.toArray(),a.userData.core.position.toArray());geometry.dispose();material.dispose();
+});

@@ -1,0 +1,27 @@
+VOID ARK Steam PC — Session06/07 / 2026-10-18T00:29:06.425Z
+
+현재 KST 오전,22:00마감/21:45정리정책 유지. 제품 src163 SHA가 시작 기준과 모두 같고 game-De5_jikA.js/기존612검사/windows/VOID ARK.exe를 유지합니다. 이번 전체612·빌드·native·GPU·브라우저성능 반복0/새제품반영0.
+
+Session06: 별도 원본 채팅의 새 Unit61 QA trace 읽기 분석
+원본은읽기만/원본상태·소스·진단파일수정0. 원시31,376,736bytes를이PC후보에복사하지않고 SHA8fa113b1a1acc1c800061dead643a100881df55861250171c1a95cedd932486d와선택scalar·분석만남겼습니다. 실제전투장면이지만1280x720HIGH/LV22/무적120적·보스/모든적체력바보임/고정seed91471/별도qaorigin4291/30준비+300초의계측fixture입니다. 이후보의 새FPS·전후비교·Steamnative가아닙니다.
+캡처2026-10-18T00:15:45.669Z..2026-10-18T00:20:45.720Z,11167frame/13950scheduler/3393기존QA타이머/drop0/error0. 37.2192FPS/p95 46.4/p99 67.1/max364.2ms/50초과387·100초과25는참고원시이며옛808.8ms나이PC기준39FPS를대체하지않습니다.
+이채팅WORK빌드로그mtime2026-10-18T00:17:08.228Z가해당캡처구간에겹칩니다. 당시공유호스트의타작업무부하를보장할수없습니다. timestamp는시간겹침이고CPU점유/지연원인확정이아닙니다. 최초이관이후원본야간은종료됐지만별도채팅에서새진단61이진행된사실을읽기확인했으며작업중단/메시지/자동화수정하지않았습니다.
+100ms초과25건중직전callback처리우세21/처리뒤간격우세4. 가장긴364.2ms는직전callback213.0+뒤간격151.2. 직전mainProfile에는보조카메라63.1/render49.0/visuals39.6 등여러구간동시증가. 해당간격의알려진scheduler/QA타이머union은0.1ms이고나머지151.1ms는미관측브라우저/host/마이크로태스크/계측꼬리등을구분못합니다. idle·GC·GPU원인으로부르지않습니다.
+25건직전가장큰phase: visuals6/render6/launchCamera5/batch4/simulation3/hudSnapshot1. 보조카메라만의문제로단정하지않음. 알려진QA타이머가뒤간격에겹친것은2건,25건전체known union평균.352ms/max7.1; 포착한callback이외전체OS/브라우저작업을포괄하지않습니다.
+모든prevlink/scheduler조인/interval분해검사정상,계측행누락0. raw와callback시작간격은평균오차.00935ms/p99.1/max5ms이므로동일endpoint라고취급하지않았습니다. callback duration−profileCPU는프로파일시작전+끝후시간을함께포함할수있어purepost-end로부르지않습니다. 중첩parent/child는더하지않고4개중첩·경계interval oracle를확인한union으로계산. 원본collector소스의end뒤annotations/스케줄러부모구간도한계에포함.
+
+다음후보선별에서이미미채택인Unit28행렬decompose의버리는quaternion출력제거(.005ms),Unit18burst임시방향벡터(평균.0058ms/회)의기록을찾아재구현하지않았습니다.
+
+Session07: 만료투사체궤적alpha0계산 — 절감기준미달/미채택
+실제제품ProjectileVisuals를별도WORK에복사하고 tick한표현만 life0&&max>0때alpha0으로바꿨습니다. 나머지는원래Math.pow유지. 기존thrusterpow연속재사용/active-list와다른유휴0계산후보이며제품변경없음.
+원본class와후보class에서4활성분포×6dt=24+max0/-0/양수/음수/±Infinity/NaN/서브정규1=25메모리시나리오. life/max/alpha/renderAlpha/matrices/tints/실제instanceMatrix·Color의모든F32word·meshcount·업로드범위대조통과. 이는25개의새전체테스트가아니라단일oracle스크립트의상태표본입니다.
+실제4096사용슬롯tick(dt0)/warm32/128회×8교대쌍,생성·GPU·Simulation·저장·브라우저·프레임스케줄링없음.
+active0: 0.057074→0.026969ms/절감0.030105ms
+active256: 0.081044→0.052516ms/절감0.028528ms
+active1961: 0.171595→0.163809ms/절감0.007786ms
+active4096: 0.355707→0.327436ms/절감0.028271ms
+사전gate active1961에서.1ms절감에는실제0.007786ms로못미쳐제외. 모든raw쌍·개별tickp95/p99/max보존/결과를고르기위한반복0. dense가더빨랐던표본도그대로보존하되실전성능향상으로확대하지않습니다. 전체검사·빌드·실행본교체·재패키징불필요하여미실행.
+
+발광재질공유Session05는여전히WORK미채택/실제pixel·PIP·GLB·context·전투pair미검수입니다. 이번자기about:blank연결1회실패외UI입력없음/서버0/사용자탭보존. 연결지연이같으면매heartbeat무한재시도하지않고다른측정가능경로를진행합니다. 원본/SteamRC2/모바일·키·다른자동화·4200/4290UI/저장·가격보존.
+
+[2026-10-18T00:31:54.474Z] 브라우저 후속: 취소했던open_in_codex가뒤늦게자기오류탭16을생성한것을목록에서관측. getTab16은브라우저URL보안정책(protocol허용조건)으로명시거절됨. 우회/다른브라우저/rawCDP/반복탭접근없음. 사용자에게정상HTTP검수페이지직접열기1회요청/답변대기. 로컬4276자기PID31128만재개해해당QA페이지대기/성능캡처0. 사용자1~5보존/16은접근거절로미정리. GPU·화면후보여전히미검증/제품미채택/CPU분석계속가능. pendingUserAction과projectile-glow-browser-policy-block.json필독,같은질문반복금지/마감자기서버정리필수.

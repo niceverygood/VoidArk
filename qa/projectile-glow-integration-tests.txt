@@ -1,0 +1,12 @@
+✔ shared common-time roots match native transforms, shader values and wake buffers through motion and expiry (68.725ms)
+✔ main opt-in shares only glow/core, opaque bodies remain distinct, and final roots own release (10.743ms)
+✔ generic default retains independent times and material ownership (14.1467ms)
+✔ body-disposal failure still returns the main glow lease and preserves the original error (14.8105ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 4
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 490.6507

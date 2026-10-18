@@ -1,0 +1,30 @@
+import test from 'node:test';import assert from 'node:assert/strict';import * as THREE from 'three';
+import {receivedImpact} from '../src/received-impact.js';
+import {CombatFeedback} from '../src/combat-feedback.js';import {Effects} from '../src/effects.js';import {Simulation,v} from '../src/sim.js';
+test('accepted small and large impacts have distinct bounded presentation; partial absorption and a real shield break retain identity',()=>{
+ for(const shield of [true,false]){const responses=[1,10,70].map(amount=>receivedImpact({amount,shielded:shield?amount:0}));for(const key of ['kick','opacity','volume','burst','scale'])assert.ok(responses[0][key]<responses[1][key]&&responses[1][key]<responses[2][key],key);for(const r of responses){assert.ok(r.kick<=.6&&r.energy<=.12&&r.opacity<=.42&&r.life<=.44&&r.burst<=82);assert.equal(r.hull,!shield);}}
+ const event={amount:30,shielded:5,shieldBreak:true,source:'solarBeam',origin:v(1,2,3)},before=structuredClone(event),r=receivedImpact(event);assert.equal(r.kind,'break');assert.equal(r.spill,true);assert.equal(r.sound,'damage');assert.deepEqual(event,before);
+ const blocked=receivedImpact({amount:30,shielded:30,shieldBreak:true});assert.equal(blocked.hull,false);assert.equal(blocked.sound,'shield');
+ for(const amount of [NaN,Infinity,-3,0]){const r=receivedImpact({amount,shielded:3});assert.equal(r.active,false);assert.equal(r.kick,0);assert.equal(r.volume,0);assert.equal(r.burst,0);}
+ const reduced=receivedImpact(event,true);assert.equal(reduced.kick,0);assert.equal(reduced.energy,0);assert.equal(reduced.flash,false);assert.equal(reduced.pulse,false);assert.ok(reduced.burst<=12&&reduced.life<=.2);assert.equal(reduced.sound,r.sound);
+});
+const node=()=>({style:{},dataset:{},classList:{toggle(){}}});
+function feedback(){const f=Object.create(CombatFeedback.prototype);Object.assign(f,{root:node(),vignette:node(),direction:node(),status:node(),confirm:node(),reduced:false,numbers:[],clock:0,kick:0,energy:0,damageLife:0,markerLife:0,statusLife:0,projected:new THREE.Vector3(),canvas:{width:100,height:100},ctx:{setTransform(){},clearRect(){}}});return f;}
+test('small repeat hits do not extend the large vignette, held dt0 preserves response, and clear/reentry has no stale intensity',()=>{
+ const saved=globalThis.devicePixelRatio;globalThis.devicePixelRatio=1;try{const f=feedback(),camera=new THREE.PerspectiveCamera();f.damage({amount:70,shielded:0},v(),camera);f.update(.2,camera,100,100,true);const life=f.damageLife,opacity=f.damageOpacity;f.damage({amount:1,shielded:1},v(),camera);assert.equal(f.damageLife,life);assert.equal(f.damageOpacity,opacity);f.update(0,camera,100,100,false);assert.equal(f.damageLife,life);assert.equal(f.root.hidden,true);f.update(.25,camera,100,100,true);assert.equal(f.damageLife,0);assert.equal(f.vignette.style.opacity,'0');f.clear();f.damage({amount:1,shielded:1},v(),camera);assert.ok(f.damageOpacity<opacity);assert.ok(f.kick<.1);f.clear();f.update(0,camera,100,100,false);assert.equal(f.vignette.style.opacity,'0');assert.equal(f.energy,0);}finally{globalThis.devicePixelRatio=saved;}
+});
+test('presentation consumes actual simulation events without changing accepted damage, RNG, pause, defeat or settlement',()=>{
+ const a=new Simulation({},71),b=new Simulation({},71);for(const s of [a,b]){s.start();s.drainEvents();s.player.shield=5;s.damagePlayer(12,'projectile',v(0,0,-4));}
+ const events=a.drainEvents(),damage=events.find(e=>e.type==='damage');assert.equal(receivedImpact(damage).kind,'break');assert.deepEqual(a.player,b.player);assert.deepEqual(events,b.drainEvents());assert.equal(a.random(),b.random());
+ a.setPaused(true);a.damagePlayer(50);assert.equal(a.drainEvents().some(e=>e.type==='damage'),false);a.setPaused(false);a.player.hit=0;a.damagePlayer(1e6,'contact');const lethal=a.drainEvents(),end=lethal.find(e=>e.type==='end');assert.ok(end);const bank=a.meta.bank;for(const e of lethal.filter(e=>e.type==='damage'))assert.ok(receivedImpact(e).kick<=.6);a.finish(false);assert.equal(a.meta.bank,bank);assert.equal(a.phase,'ended');
+});
+test('actual emitted sources reach feedback without weapon guesses, untrusted markup, or intensity changes',()=>{
+ const sources=['projectile','solarBeam','andromedaBeam','titanBeam','contact','gravity','meteor','storm','blackhole','<img src=x onerror=alert(1)>','toString'],camera=new THREE.PerspectiveCamera();
+ for(const source of sources){const sim=new Simulation({},71);sim.start();sim.drainEvents();sim.player.shield=5;sim.damagePlayer(12,source,v(0,0,-4));const event=sim.drainEvents().find(e=>e.type==='damage'),before=structuredClone(event),f=feedback();f.damage(event,v(),camera);const response=f.diagnostics().last;
+  assert.equal(response.source,sources.indexOf(source)<9?source:'unknown');assert.deepEqual(event,before);assert.equal(response.kind,'break');assert.ok(f.status.textContent.includes('선체 −'+Math.ceil(response.hullAmount)));assert.equal(f.status.textContent.includes('<'),false);assert.equal(f.status.textContent.includes('function'),false);
+  const {source:ignored,...intensity}=response,{source:unknown,...baseline}=receivedImpact({...event,source:undefined});assert.deepEqual(intensity,baseline);assert.equal(sim.phase,'playing');f.clear();assert.equal(f.diagnostics().last,null);
+ }
+});
+test('mixed received effects stay within existing pools, protect telegraphs and clear all owned effects before reuse',()=>{
+ const scene=new THREE.Scene(),fx=new Effects(scene),camera=new THREE.PerspectiveCamera();fx.warning(v(),v(2,2,2),.8);const warning=fx.items[0];for(let i=0;i<200;i++){const amount=i%2?1:70,shielded=i%3?amount:5;fx.received(v(),shielded,amount,4,receivedImpact({amount,shielded,shieldBreak:shielded<amount}));}assert.ok(fx.items.length<=fx.maxItems);assert.ok(fx.items.includes(warning));fx.update(3,3,camera,720);assert.equal(fx.items.length,0);assert.ok(fx.particles.every(p=>p.life<=0));fx.received(v(),0,70,4,receivedImpact({amount:70},true));fx.clear();fx.update(0,3,camera,720);assert.equal(fx.items.length,0);assert.ok(fx.atlas.slots.every(p=>p.life<=0));fx.received(v(),1,1);assert.ok(fx.items.length>0);fx.clear();
+});

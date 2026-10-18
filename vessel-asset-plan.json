@@ -1,0 +1,223 @@
+{
+  "version": 1,
+  "maxCredits": 720,
+  "estimatedCredits": 720,
+  "assets": [
+    {
+      "id": "vessel-ark",
+      "ship": "ark",
+      "name": "아크 선발대",
+      "role": "균형형 기본 함선. 모든 무장을 고르게 성장시킬 수 있습니다.",
+      "polycount": 6000,
+      "prompt": "One isolated fully modeled original science fiction spacecraft, clear distinctive silhouette, physically integrated aerospace construction. Split spear prow, balanced swept wings, twin recessed teal engines, modular dorsal cannon socket. Nose points along negative Z, top is positive Y. No stand, no backdrop geometry, no exhaust mesh, no separate ships. Optimized game ready hard surface model.",
+      "texture": "Premium realistic PBR game spaceship. Ivory ceramic armor over dark graphite titanium, restrained teal emissive engines, subtle violet energy details, muted warm amber equipment lights. Fine panel seams and metal roughness, no writing, no logos, no scenery."
+    },
+    {
+      "id": "vessel-swift",
+      "ship": "swift",
+      "name": "스위프트",
+      "role": "속도 +50%, 회피 소모15·대기5초. 가벼운 선체로 접근전을 피하세요.",
+      "polycount": 6000,
+      "prompt": "One isolated fully modeled original science fiction spacecraft, clear distinctive silhouette, physically integrated aerospace construction. Extremely slim dart hull, four oversized aft engines, narrow swept fins, lightweight armor and compact twin autocannons. Nose points along negative Z, top is positive Y. No stand, no backdrop geometry, no exhaust mesh, no separate ships. Optimized game ready hard surface model.",
+      "texture": "Premium realistic PBR game spaceship. Ivory ceramic armor over dark graphite titanium, restrained teal emissive engines, subtle violet energy details, muted warm amber equipment lights. Fine panel seams and metal roughness, no writing, no logos, no scenery."
+    },
+    {
+      "id": "vessel-raptor",
+      "ship": "raptor",
+      "name": "랩터",
+      "role": "유도탄 피해 +40%, 부스트 소모 -25%. 추격과 측면 기동에 특화.",
+      "polycount": 6000,
+      "prompt": "One isolated fully modeled original science fiction spacecraft, clear distinctive silhouette, physically integrated aerospace construction. Predatory hooked wings, paired missile launch bays in shoulders, reinforced tracking sensor nose, aggressive hunter silhouette. Nose points along negative Z, top is positive Y. No stand, no backdrop geometry, no exhaust mesh, no separate ships. Optimized game ready hard surface model.",
+      "texture": "Premium realistic PBR game spaceship. Ivory ceramic armor over dark graphite titanium, restrained teal emissive engines, subtle violet energy details, muted warm amber equipment lights. Fine panel seams and metal roughness, no writing, no logos, no scenery."
+    },
+    {
+      "id": "vessel-needle",
+      "ship": "needle",
+      "name": "니들",
+      "role": "레이저 +45%, 보스 피해 +15%. 얇고 빠른 관통 공격함.",
+      "polycount": 6000,
+      "prompt": "One isolated fully modeled original science fiction spacecraft, clear distinctive silhouette, physically integrated aerospace construction. Long needle nose with axial laser aperture, razor thin wings, slim capacitor spines, small high thrust engines. Nose points along negative Z, top is positive Y. No stand, no backdrop geometry, no exhaust mesh, no separate ships. Optimized game ready hard surface model.",
+      "texture": "Premium realistic PBR game spaceship. Ivory ceramic armor over dark graphite titanium, restrained teal emissive engines, subtle violet energy details, muted warm amber equipment lights. Fine panel seams and metal roughness, no writing, no logos, no scenery."
+    },
+    {
+      "id": "vessel-hammer",
+      "ship": "hammer",
+      "name": "해머",
+      "role": "기관포 +45%, 보스 피해 +20%. 강한 함체 대신 느린 기동.",
+      "polycount": 6000,
+      "prompt": "One isolated fully modeled original science fiction spacecraft, clear distinctive silhouette, physically integrated aerospace construction. Broad hammer shaped armored bow, two large integrated cannon barrels, thick layered armor, compact heavy rear engine block. Nose points along negative Z, top is positive Y. No stand, no backdrop geometry, no exhaust mesh, no separate ships. Optimized game ready hard surface model.",
+      "texture": "Premium realistic PBR game spaceship. Ivory ceramic armor over dark graphite titanium, restrained teal emissive engines, subtle violet energy details, muted warm amber equipment lights. Fine panel seams and metal roughness, no writing, no logos, no scenery."
+    },
+    {
+      "id": "vessel-basilisk",
+      "ship": "basilisk",
+      "name": "바실리스크",
+      "role": "미사일 +60%, 스킬 대기 -10%. 기지와 대형 표적을 포격.",
+      "polycount": 6000,
+      "prompt": "One isolated fully modeled original science fiction spacecraft, clear distinctive silhouette, physically integrated aerospace construction. Long siege hull with six sealed vertical missile launch cells, angular sensor mast and armored launch doors. Nose points along negative Z, top is positive Y. No stand, no backdrop geometry, no exhaust mesh, no separate ships. Optimized game ready hard surface model.",
+      "texture": "Premium realistic PBR game spaceship. Ivory ceramic armor over dark graphite titanium, restrained teal emissive engines, subtle violet energy details, muted warm amber equipment lights. Fine panel seams and metal roughness, no writing, no logos, no scenery."
+    },
+    {
+      "id": "vessel-lance",
+      "ship": "lance",
+      "name": "랜스",
+      "role": "레이저 +70%, 실드 재생 +1/초 (총량 상한 적용). 긴 포신의 관통 구축함.",
+      "polycount": 6000,
+      "prompt": "One isolated fully modeled original science fiction spacecraft, clear distinctive silhouette, physically integrated aerospace construction. Long spinal beam cannon forming the prow, segmented capacitor rails, narrow destroyer hull, paired aft stabilizers. Nose points along negative Z, top is positive Y. No stand, no backdrop geometry, no exhaust mesh, no separate ships. Optimized game ready hard surface model.",
+      "texture": "Premium realistic PBR game spaceship. Ivory ceramic armor over dark graphite titanium, restrained teal emissive engines, subtle violet energy details, muted warm amber equipment lights. Fine panel seams and metal roughness, no writing, no logos, no scenery."
+    },
+    {
+      "id": "vessel-dread",
+      "ship": "dread",
+      "name": "드레드노트",
+      "role": "기관포 +60%, 보스 +30%. 두꺼운 선체와 무거운 회피 소모35.",
+      "polycount": 6000,
+      "prompt": "One isolated fully modeled original science fiction spacecraft, clear distinctive silhouette, physically integrated aerospace construction. Massive rectangular armored dreadnought with stepped beveled plating, triple heavy forward cannon turrets, low bridge. Nose points along negative Z, top is positive Y. No stand, no backdrop geometry, no exhaust mesh, no separate ships. Optimized game ready hard surface model.",
+      "texture": "Premium realistic PBR game spaceship. Ivory ceramic armor over dark graphite titanium, restrained teal emissive engines, subtle violet energy details, muted warm amber equipment lights. Fine panel seams and metal roughness, no writing, no logos, no scenery."
+    },
+    {
+      "id": "vessel-nest",
+      "ship": "nest",
+      "name": "네스트",
+      "role": "호위기 피해 +30%, 추가 호위기1대. 함대 운용 입문 항모.",
+      "polycount": 10000,
+      "prompt": "One isolated fully modeled original science fiction spacecraft, clear distinctive silhouette, physically integrated aerospace construction. Compact carrier with one open fighter hangar recessed into each flank, broad protective wings, central command tower. Nose points along negative Z, top is positive Y. No stand, no backdrop geometry, no exhaust mesh, no separate ships. Optimized game ready hard surface model.",
+      "texture": "Premium realistic PBR game spaceship. Ivory ceramic armor over dark graphite titanium, restrained teal emissive engines, subtle violet energy details, muted warm amber equipment lights. Fine panel seams and metal roughness, no writing, no logos, no scenery."
+    },
+    {
+      "id": "vessel-hive",
+      "ship": "hive",
+      "name": "하이브",
+      "role": "추가 호위기3대. 많은 전투기로 분산 공격하지만 선체는 가벼움.",
+      "polycount": 10000,
+      "prompt": "One isolated fully modeled original science fiction spacecraft, clear distinctive silhouette, physically integrated aerospace construction. Hexagonal honeycomb carrier with numerous small drone launch apertures, three clustered hangar wings and thin central keel. Nose points along negative Z, top is positive Y. No stand, no backdrop geometry, no exhaust mesh, no separate ships. Optimized game ready hard surface model.",
+      "texture": "Premium realistic PBR game spaceship. Ivory ceramic armor over dark graphite titanium, restrained teal emissive engines, subtle violet energy details, muted warm amber equipment lights. Fine panel seams and metal roughness, no writing, no logos, no scenery."
+    },
+    {
+      "id": "vessel-seraph",
+      "ship": "seraph",
+      "name": "세라프",
+      "role": "호위기 +45%, 선체 재생 +1/초. 느리지만 안정적인 함대 지원.",
+      "polycount": 10000,
+      "prompt": "One isolated fully modeled original science fiction spacecraft, clear distinctive silhouette, physically integrated aerospace construction. Elegant broad wing medical support carrier, repair drone launch hangars, white ceramic cathedral fins, luminous teal repair channels. Nose points along negative Z, top is positive Y. No stand, no backdrop geometry, no exhaust mesh, no separate ships. Optimized game ready hard surface model.",
+      "texture": "Premium realistic PBR game spaceship. Ivory ceramic armor over dark graphite titanium, restrained teal emissive engines, subtle violet energy details, muted warm amber equipment lights. Fine panel seams and metal roughness, no writing, no logos, no scenery."
+    },
+    {
+      "id": "vessel-sovereign",
+      "ship": "sovereign",
+      "name": "소버린",
+      "role": "호위기 +70%, 추가2대. 중항모의 강력한 함대와 느린 기동.",
+      "polycount": 10000,
+      "prompt": "One isolated fully modeled original science fiction spacecraft, clear distinctive silhouette, physically integrated aerospace construction. Imperial command supercarrier with twin long flight decks, huge layered armored prow, elevated bridge and four heavy engine towers. Nose points along negative Z, top is positive Y. No stand, no backdrop geometry, no exhaust mesh, no separate ships. Optimized game ready hard surface model.",
+      "texture": "Premium realistic PBR game spaceship. Ivory ceramic armor over dark graphite titanium, restrained teal emissive engines, subtle violet energy details, muted warm amber equipment lights. Fine panel seams and metal roughness, no writing, no logos, no scenery."
+    },
+    {
+      "id": "vessel-aegis",
+      "ship": "aegis",
+      "name": "이지스",
+      "role": "실드130, 실드 재생 +2/초 (총량 상한 적용). 전선을 오래 유지하는 수호함.",
+      "polycount": 6000,
+      "prompt": "One isolated fully modeled original science fiction spacecraft, clear distinctive silhouette, physically integrated aerospace construction. Shield cruiser with prominent integrated curved shield projector panels around bow and broad armored shoulders. Nose points along negative Z, top is positive Y. No stand, no backdrop geometry, no exhaust mesh, no separate ships. Optimized game ready hard surface model.",
+      "texture": "Premium realistic PBR game spaceship. Ivory ceramic armor over dark graphite titanium, restrained teal emissive engines, subtle violet energy details, muted warm amber equipment lights. Fine panel seams and metal roughness, no writing, no logos, no scenery."
+    },
+    {
+      "id": "vessel-bastion",
+      "ship": "bastion",
+      "name": "바스티온",
+      "role": "선체260, 받는 피해 -20%. 가장 느린 장갑 요새함.",
+      "polycount": 6000,
+      "prompt": "One isolated fully modeled original science fiction spacecraft, clear distinctive silhouette, physically integrated aerospace construction. Dense squat flying fortress with stacked beveled armor plates, small recessed windows, enormous armored shoulders and protected engines. Nose points along negative Z, top is positive Y. No stand, no backdrop geometry, no exhaust mesh, no separate ships. Optimized game ready hard surface model.",
+      "texture": "Premium realistic PBR game spaceship. Ivory ceramic armor over dark graphite titanium, restrained teal emissive engines, subtle violet energy details, muted warm amber equipment lights. Fine panel seams and metal roughness, no writing, no logos, no scenery."
+    },
+    {
+      "id": "vessel-paladin",
+      "ship": "paladin",
+      "name": "팔라딘",
+      "role": "번개 +35%, 선체 재생 +1.5/초. 근거리 적을 정리하는 수호함.",
+      "polycount": 6000,
+      "prompt": "One isolated fully modeled original science fiction spacecraft, clear distinctive silhouette, physically integrated aerospace construction. Knight-like angular guardian cruiser, paired electric coil lance pylons along shoulders, reinforced prow and repair conduits. Nose points along negative Z, top is positive Y. No stand, no backdrop geometry, no exhaust mesh, no separate ships. Optimized game ready hard surface model.",
+      "texture": "Premium realistic PBR game spaceship. Ivory ceramic armor over dark graphite titanium, restrained teal emissive engines, subtle violet energy details, muted warm amber equipment lights. Fine panel seams and metal roughness, no writing, no logos, no scenery."
+    },
+    {
+      "id": "vessel-mirror",
+      "ship": "mirror",
+      "name": "미러",
+      "role": "실드180·재생 +3/초 (총량 상한 적용). 방어막이 무너지면 빠르게 이탈해야 함.",
+      "polycount": 6000,
+      "prompt": "One isolated fully modeled original science fiction spacecraft, clear distinctive silhouette, physically integrated aerospace construction. Faceted reflective shield cruiser, polished angled ceramic panels, large concentric shield emitter lens built into prow. Nose points along negative Z, top is positive Y. No stand, no backdrop geometry, no exhaust mesh, no separate ships. Optimized game ready hard surface model.",
+      "texture": "Premium realistic PBR game spaceship. Ivory ceramic armor over dark graphite titanium, restrained teal emissive engines, subtle violet energy details, muted warm amber equipment lights. Fine panel seams and metal roughness, no writing, no logos, no scenery."
+    },
+    {
+      "id": "vessel-oracle",
+      "ship": "oracle",
+      "name": "오라클",
+      "role": "번개 +55%, 스킬 대기 -20%. 스킬 순환과 연쇄 공격에 특화.",
+      "polycount": 6000,
+      "prompt": "One isolated fully modeled original science fiction spacecraft, clear distinctive silhouette, physically integrated aerospace construction. Science vessel with three elegant branching electrical conductor spines, large recessed central coil and sensor array. Nose points along negative Z, top is positive Y. No stand, no backdrop geometry, no exhaust mesh, no separate ships. Optimized game ready hard surface model.",
+      "texture": "Premium realistic PBR game spaceship. Ivory ceramic armor over dark graphite titanium, restrained teal emissive engines, subtle violet energy details, muted warm amber equipment lights. Fine panel seams and metal roughness, no writing, no logos, no scenery."
+    },
+    {
+      "id": "vessel-singularity",
+      "ship": "singularity",
+      "name": "싱귤래리티",
+      "role": "펄스 반경 +12m, 스킬 대기 -15%. 넓은 공간의 탄막을 정리.",
+      "polycount": 6000,
+      "prompt": "One isolated fully modeled original science fiction spacecraft, clear distinctive silhouette, physically integrated aerospace construction. Gravity control cruiser with a physical concentric gyroscope ring encircling its central reactor, split forward prongs. Nose points along negative Z, top is positive Y. No stand, no backdrop geometry, no exhaust mesh, no separate ships. Optimized game ready hard surface model.",
+      "texture": "Premium realistic PBR game spaceship. Ivory ceramic armor over dark graphite titanium, restrained teal emissive engines, subtle violet energy details, muted warm amber equipment lights. Fine panel seams and metal roughness, no writing, no logos, no scenery."
+    },
+    {
+      "id": "vessel-phoenix",
+      "ship": "phoenix",
+      "name": "피닉스",
+      "role": "선체 재생 +3/초, 스킬 대기 -10%. 피격 후 거리를 벌려 회복.",
+      "polycount": 6000,
+      "prompt": "One isolated fully modeled original science fiction spacecraft, clear distinctive silhouette, physically integrated aerospace construction. Reconstruction vessel with layered feather-like repair vanes, side missile pods and orange recessed regenerative reactor vents. Nose points along negative Z, top is positive Y. No stand, no backdrop geometry, no exhaust mesh, no separate ships. Optimized game ready hard surface model.",
+      "texture": "Premium realistic PBR game spaceship. Ivory ceramic armor over dark graphite titanium, restrained teal emissive engines, subtle violet energy details, muted warm amber equipment lights. Fine panel seams and metal roughness, no writing, no logos, no scenery."
+    },
+    {
+      "id": "vessel-chronos",
+      "ship": "chronos",
+      "name": "크로노스",
+      "role": "스킬 대기 -30%, 회피 대기4초. 연속 기동으로 낮은 선체를 보완.",
+      "polycount": 6000,
+      "prompt": "One isolated fully modeled original science fiction spacecraft, clear distinctive silhouette, physically integrated aerospace construction. Slim temporal control vessel with three nested clockwork-like reactor rings, small axial laser aperture and split fins. Nose points along negative Z, top is positive Y. No stand, no backdrop geometry, no exhaust mesh, no separate ships. Optimized game ready hard surface model.",
+      "texture": "Premium realistic PBR game spaceship. Ivory ceramic armor over dark graphite titanium, restrained teal emissive engines, subtle violet energy details, muted warm amber equipment lights. Fine panel seams and metal roughness, no writing, no logos, no scenery."
+    },
+    {
+      "id": "vessel-mule",
+      "ship": "mule",
+      "name": "뮬",
+      "role": "회수 반경 +12m, 격파 고철 +25%. 견고한 잔해 수집선.",
+      "polycount": 6000,
+      "prompt": "One isolated fully modeled original science fiction spacecraft, clear distinctive silhouette, physically integrated aerospace construction. Robust salvage tug with two large articulated salvage claws, thick cargo belly and industrial rear thrusters. Nose points along negative Z, top is positive Y. No stand, no backdrop geometry, no exhaust mesh, no separate ships. Optimized game ready hard surface model.",
+      "texture": "Premium realistic PBR game spaceship. Ivory ceramic armor over dark graphite titanium, restrained teal emissive engines, subtle violet energy details, muted warm amber equipment lights. Fine panel seams and metal roughness, no writing, no logos, no scenery."
+    },
+    {
+      "id": "vessel-prospector",
+      "ship": "prospector",
+      "name": "프로스펙터",
+      "role": "회수 반경 +8m, 고철 +15%. 빠르게 이동하는 탐사 채굴선.",
+      "polycount": 6000,
+      "prompt": "One isolated fully modeled original science fiction spacecraft, clear distinctive silhouette, physically integrated aerospace construction. Agile mining explorer with long integrated drilling laser in prow, twin mineral collection scoops and compact scanner dish. Nose points along negative Z, top is positive Y. No stand, no backdrop geometry, no exhaust mesh, no separate ships. Optimized game ready hard surface model.",
+      "texture": "Premium realistic PBR game spaceship. Ivory ceramic armor over dark graphite titanium, restrained teal emissive engines, subtle violet energy details, muted warm amber equipment lights. Fine panel seams and metal roughness, no writing, no logos, no scenery."
+    },
+    {
+      "id": "vessel-foundry",
+      "ship": "foundry",
+      "name": "파운드리",
+      "role": "고철 +35%, 추가 호위기1대. 느린 이동식 산업 항모.",
+      "polycount": 6000,
+      "prompt": "One isolated fully modeled original science fiction spacecraft, clear distinctive silhouette, physically integrated aerospace construction. Large mobile industrial carrier with integrated refinery chimney housings, sealed cargo blocks, two fighter hangar bays. Nose points along negative Z, top is positive Y. No stand, no backdrop geometry, no exhaust mesh, no separate ships. Optimized game ready hard surface model.",
+      "texture": "Premium realistic PBR game spaceship. Ivory ceramic armor over dark graphite titanium, restrained teal emissive engines, subtle violet energy details, muted warm amber equipment lights. Fine panel seams and metal roughness, no writing, no logos, no scenery."
+    },
+    {
+      "id": "vessel-wayfarer",
+      "ship": "wayfarer",
+      "name": "웨이페어러",
+      "role": "부스트 소모 -40%, 회수 반경 +6m. 장거리 항해와 잔해 수집에 특화.",
+      "polycount": 6000,
+      "prompt": "One isolated fully modeled original science fiction spacecraft, clear distinctive silhouette, physically integrated aerospace construction. Long range explorer with large protected fuel tanks flanking a slim crew hull, broad sensor wings and efficient twin engines. Nose points along negative Z, top is positive Y. No stand, no backdrop geometry, no exhaust mesh, no separate ships. Optimized game ready hard surface model.",
+      "texture": "Premium realistic PBR game spaceship. Ivory ceramic armor over dark graphite titanium, restrained teal emissive engines, subtle violet energy details, muted warm amber equipment lights. Fine panel seams and metal roughness, no writing, no logos, no scenery."
+    }
+  ]
+}

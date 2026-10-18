@@ -1,0 +1,12 @@
+✔ finite affine TRS/shear and arbitrary zero signs preserve every F64 word (145.1995ms)
+✔ nonidentity/negative-zero left and general projective right fall back to native arithmetic (1.0982ms)
+✔ NaN payload/Infinity/finite overflow/subnormal inputs preserve native words and references (1.8979ms)
+✔ destination aliases either input with all source elements read before writes (0.5838ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 4
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 584.4537

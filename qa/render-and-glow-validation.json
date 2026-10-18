@@ -1,0 +1,836 @@
+{
+  "at": "2026-10-18T00:12:03.421Z",
+  "scope": "WORK renderer diagnostic plus rejected index candidate and pending glow candidate",
+  "productChanged": false,
+  "sourceCount": 163,
+  "sourceChanges": [],
+  "renderer": {
+    "rawSha256": "e8cea1d9e5213f7d9bf4ec55073352bda801ba4f50511e8ad1f37230f0f620c8",
+    "frames": 2645,
+    "profileFrames": 2645,
+    "dropped": 0,
+    "overflow": 0,
+    "listWrappers": 5,
+    "managerChanged": false,
+    "failedRows": 0,
+    "metrics": {
+      "rawMs": {
+        "count": 2645,
+        "mean": 22.709413988671365,
+        "p95": 37.19999998807907,
+        "p99": 51,
+        "max": 113.19999998807907
+      },
+      "primaryIndexMs": {
+        "count": 2645,
+        "mean": 0.7713043477449616,
+        "p95": 1.4000000357627869,
+        "p99": 2.5,
+        "max": 11.399999976158142
+      },
+      "secondaryIndexMs": {
+        "count": 2645,
+        "mean": 0.04003780699407221,
+        "p95": 0,
+        "p99": 1,
+        "max": 2.199999988079071
+      },
+      "mainRenderMs": {
+        "count": 2645,
+        "mean": 3.9996597360798454,
+        "p95": 6.399999976158142,
+        "p99": 11.5,
+        "max": 52.80000001192093
+      },
+      "secondaryRenderMs": {
+        "count": 2645,
+        "mean": 0.13928166348451929,
+        "p95": 0,
+        "p99": 3.199999988079071,
+        "max": 6.099999964237213
+      },
+      "postRenderMs": {
+        "count": 2645,
+        "mean": 0.2057844989015835,
+        "p95": 0.3999999761581421,
+        "p99": 0.699999988079071,
+        "max": 3.600000023841858
+      },
+      "mainSortMs": {
+        "count": 2645,
+        "mean": 0.09550094476043615,
+        "p95": 0.19999998807907104,
+        "p99": 0.30000001192092896,
+        "max": 2.700000047683716
+      },
+      "secondarySortMs": {
+        "count": 2645,
+        "mean": 0.003100189053944694,
+        "p95": 0,
+        "p99": 0.10000002384185791,
+        "max": 0.5
+      },
+      "postSortMs": {
+        "count": 2645,
+        "mean": 0.004688090863435165,
+        "p95": 0,
+        "p99": 0.10000002384185791,
+        "max": 0.30000001192092896
+      },
+      "mainSortCount": {
+        "count": 2645,
+        "mean": 1,
+        "p95": 1,
+        "p99": 1,
+        "max": 1
+      },
+      "secondarySortCount": {
+        "count": 2645,
+        "mean": 0.04952741020793951,
+        "p95": 0,
+        "p99": 1,
+        "max": 1
+      },
+      "postSortCount": {
+        "count": 2645,
+        "mean": 14.04952741020794,
+        "p95": 14,
+        "p99": 15,
+        "max": 15
+      },
+      "mainOpaque": {
+        "count": 2645,
+        "mean": 147.88809073724008,
+        "p95": 189,
+        "p99": 225,
+        "max": 299
+      },
+      "mainTransparent": {
+        "count": 2645,
+        "mean": 197.23705103969755,
+        "p95": 249,
+        "p99": 272,
+        "max": 290
+      },
+      "mainTransmissive": {
+        "count": 2645,
+        "mean": 0,
+        "p95": 0,
+        "p99": 0,
+        "max": 0
+      },
+      "primaryIndexCount": {
+        "count": 2645,
+        "mean": 1.0495274102079395,
+        "p95": 1,
+        "p99": 2,
+        "max": 2
+      },
+      "secondaryIndexCount": {
+        "count": 2645,
+        "mean": 0.04952741020793951,
+        "p95": 0,
+        "p99": 1,
+        "max": 1
+      },
+      "mainBeforeSortMs": {
+        "count": 2645,
+        "mean": 1.0258979213034949,
+        "p95": 1.5999999642372131,
+        "p99": 2.899999976158142,
+        "max": 7.200000047683716
+      },
+      "secondaryBeforeSortMs": {
+        "count": 2645,
+        "mean": 0.023213610576997407,
+        "p95": 0,
+        "p99": 0.5,
+        "max": 1.199999988079071
+      },
+      "postBeforeSortMs": {
+        "count": 2645,
+        "mean": 0.05425330806093991,
+        "p95": 0.19999998807907104,
+        "p99": 0.30000001192092896,
+        "max": 1.600000023841858
+      },
+      "mainAfterSortMs": {
+        "count": 2645,
+        "mean": 2.878260870015914,
+        "p95": 4.799999952316284,
+        "p99": 10.099999964237213,
+        "max": 52
+      },
+      "secondaryAfterSortMs": {
+        "count": 2645,
+        "mean": 0.11296786385357718,
+        "p95": 0,
+        "p99": 2.699999988079071,
+        "max": 5.5
+      },
+      "postAfterSortMs": {
+        "count": 2645,
+        "mean": 0.14684309997720846,
+        "p95": 0.30000001192092896,
+        "p99": 0.5999999642372131,
+        "max": 3
+      },
+      "mainRenderCalls": {
+        "count": 2645,
+        "mean": 1,
+        "p95": 1,
+        "p99": 1,
+        "max": 1
+      },
+      "secondaryRenderCalls": {
+        "count": 2645,
+        "mean": 0.04952741020793951,
+        "p95": 0,
+        "p99": 1,
+        "max": 1
+      },
+      "postRenderCalls": {
+        "count": 2645,
+        "mean": 14.04952741020794,
+        "p95": 14,
+        "p99": 15,
+        "max": 15
+      }
+    },
+    "profile": {
+      "fps": 44.03460170741754,
+      "frame": {
+        "mean": 22.709413988671365,
+        "p95": 37.2,
+        "p99": 51.1,
+        "max": 113.19999998807907
+      },
+      "cpu": {
+        "mean": 17.97035916838619,
+        "p95": 29.1,
+        "p99": 37.4,
+        "max": 95.09999996423721
+      },
+      "over50": 28,
+      "over100": 1
+    },
+    "safeguards": {
+      "errors": [],
+      "savePreserved": true,
+      "audit": {
+        "valid": true,
+        "errors": [],
+        "eligible": 2876,
+        "registered": 5049,
+        "members": 2781,
+        "pending": 0,
+        "fullSceneScans": 1,
+        "auditScans": 1
+      },
+      "instanceMismatches": 0
+    },
+    "tests": {
+      "initial": "4/5; diagnostic test incorrectly invoked an externally replaced throwing sort after detach",
+      "final": "5/5; corrected test, nested renderer coverage strengthened; product unchanged"
+    },
+    "buildSeconds": 11.53,
+    "interpretation": "Main sort ~0.0955ms below declared .3ms target gate. Primary index ~.7713ms per captured frame includes primary restoration. After-sort ~2.878ms includes many JS/GL/host activities, not pure draw/driver time."
+  },
+  "indexTree": {
+    "adopted": false,
+    "reason": "All eight actual paused-scene pairs slower; failed saving gate .15ms",
+    "gateMs": 0.15,
+    "before": {
+      "count": 8,
+      "mean": 0.2529296875,
+      "p95": 0.34375,
+      "p99": 0.34375,
+      "max": 0.34375
+    },
+    "after": {
+      "count": 8,
+      "mean": 0.5822265625465661,
+      "p95": 0.6953125,
+      "p99": 0.6953125,
+      "max": 0.6953125
+    },
+    "oracleEqual": true,
+    "stats": {
+      "fallback": null,
+      "registeredNodes": 13908,
+      "registeredDrawables": 8242,
+      "active": 322,
+      "covered": 0,
+      "frontiers": 322,
+      "wrappers": 2,
+      "rebuilds": 1,
+      "reconciles": 0,
+      "appends": 9285,
+      "insertions": 2196,
+      "removals": 1810,
+      "tailRemovals": 6752
+    },
+    "existingChecksPassed": 13,
+    "buildSeconds": 6.84,
+    "scene": "20 seconds prepare + 1 second context only. Its FPS is not used as a performance result.",
+    "scope": "Paused real scene, eight alternating 64-call pairs; no GPU/full-frame or FPS comparison"
+  },
+  "glow": {
+    "adopted": false,
+    "status": "WORK integrated candidate pending browser/pixel/context/performance checks",
+    "helperTestsPassed": 4,
+    "integrationTestsPassed": 4,
+    "constructor": "shareGlowMaterials=false default; WORK main opts in true for a common per-frame time",
+    "files": [
+      "work/projectile-glow-project/src/projectile-visuals.js",
+      "work/projectile-glow-project/src/projectile-glow-pool.js",
+      "work/projectile-glow-project/src/main.js"
+    ],
+    "cpu": {
+      "at": "2026-10-18T00:08:56.897Z",
+      "scope": "Native transparent ShaderMaterial+clone construction and release vs WORK lease pool. No root creation, GPU/render/GC/FPS proof. Counts represent overlapping live leases; isolated sequential shots may not reuse.",
+      "rows": [
+        {
+          "count": 1,
+          "nativeCreateMs": 0.05499999999999616,
+          "sharedCreateMs": 0.06636249999999677,
+          "nativeTotalMs": 0.05901250000000502,
+          "sharedTotalMs": 0.09057500000000118,
+          "materialCreatesNative": 2,
+          "materialCreatesShared": 2,
+          "pairs": [
+            {
+              "before": {
+                "createMs": 0.10660000000001446,
+                "totalMs": 0.11480000000000246,
+                "materialCreates": 2
+              },
+              "after": {
+                "createMs": 0.10049999999998249,
+                "totalMs": 0.10589999999999122,
+                "entries": 0,
+                "refs": 0,
+                "created": 2,
+                "released": 2
+              }
+            },
+            {
+              "before": {
+                "createMs": 0.0595000000000141,
+                "totalMs": 0.06440000000000623,
+                "materialCreates": 2
+              },
+              "after": {
+                "createMs": 0.20950000000001978,
+                "totalMs": 0.22000000000002728,
+                "entries": 0,
+                "refs": 0,
+                "created": 2,
+                "released": 2
+              }
+            },
+            {
+              "before": {
+                "createMs": 0.039499999999975444,
+                "totalMs": 0.04269999999999641,
+                "materialCreates": 2
+              },
+              "after": {
+                "createMs": 0.04349999999999454,
+                "totalMs": 0.04720000000000368,
+                "entries": 0,
+                "refs": 0,
+                "created": 2,
+                "released": 2
+              }
+            },
+            {
+              "before": {
+                "createMs": 0.09239999999999782,
+                "totalMs": 0.09880000000001132,
+                "materialCreates": 2
+              },
+              "after": {
+                "createMs": 0.052199999999999136,
+                "totalMs": 0.05539999999999168,
+                "entries": 0,
+                "refs": 0,
+                "created": 2,
+                "released": 2
+              }
+            },
+            {
+              "before": {
+                "createMs": 0.06539999999998258,
+                "totalMs": 0.06940000000000168,
+                "materialCreates": 2
+              },
+              "after": {
+                "createMs": 0.026199999999988677,
+                "totalMs": 0.029799999999994498,
+                "entries": 0,
+                "refs": 0,
+                "created": 2,
+                "released": 2
+              }
+            },
+            {
+              "before": {
+                "createMs": 0.03959999999997876,
+                "totalMs": 0.04189999999999827,
+                "materialCreates": 2
+              },
+              "after": {
+                "createMs": 0.024699999999995725,
+                "totalMs": 0.18420000000000414,
+                "entries": 0,
+                "refs": 0,
+                "created": 2,
+                "released": 2
+              }
+            },
+            {
+              "before": {
+                "createMs": 0.02009999999998513,
+                "totalMs": 0.021399999999999864,
+                "materialCreates": 2
+              },
+              "after": {
+                "createMs": 0.03180000000000405,
+                "totalMs": 0.03630000000001132,
+                "entries": 0,
+                "refs": 0,
+                "created": 2,
+                "released": 2
+              }
+            },
+            {
+              "before": {
+                "createMs": 0.01690000000002101,
+                "totalMs": 0.01870000000002392,
+                "materialCreates": 2
+              },
+              "after": {
+                "createMs": 0.04249999999998977,
+                "totalMs": 0.04579999999998563,
+                "entries": 0,
+                "refs": 0,
+                "created": 2,
+                "released": 2
+              }
+            }
+          ]
+        },
+        {
+          "count": 24,
+          "nativeCreateMs": 0.4866125000000068,
+          "sharedCreateMs": 0.10427499999999412,
+          "nativeTotalMs": 0.4962125000000057,
+          "sharedTotalMs": 0.11686249999999987,
+          "materialCreatesNative": 48,
+          "materialCreatesShared": 12,
+          "pairs": [
+            {
+              "before": {
+                "createMs": 0.3440999999999974,
+                "totalMs": 0.35240000000001714,
+                "materialCreates": 48
+              },
+              "after": {
+                "createMs": 0.09360000000000923,
+                "totalMs": 0.10150000000001569,
+                "entries": 0,
+                "refs": 0,
+                "created": 12,
+                "released": 12
+              }
+            },
+            {
+              "before": {
+                "createMs": 0.6111000000000217,
+                "totalMs": 0.6217000000000041,
+                "materialCreates": 48
+              },
+              "after": {
+                "createMs": 0.1507999999999754,
+                "totalMs": 0.15869999999998186,
+                "entries": 0,
+                "refs": 0,
+                "created": 12,
+                "released": 12
+              }
+            },
+            {
+              "before": {
+                "createMs": 0.4502999999999986,
+                "totalMs": 0.4609000000000094,
+                "materialCreates": 48
+              },
+              "after": {
+                "createMs": 0.0922999999999945,
+                "totalMs": 0.09970000000001278,
+                "entries": 0,
+                "refs": 0,
+                "created": 12,
+                "released": 12
+              }
+            },
+            {
+              "before": {
+                "createMs": 1.197100000000006,
+                "totalMs": 1.2083000000000084,
+                "materialCreates": 48
+              },
+              "after": {
+                "createMs": 0.12579999999999814,
+                "totalMs": 0.13300000000000978,
+                "entries": 0,
+                "refs": 0,
+                "created": 12,
+                "released": 12
+              }
+            },
+            {
+              "before": {
+                "createMs": 0.27060000000000173,
+                "totalMs": 0.27789999999998827,
+                "materialCreates": 48
+              },
+              "after": {
+                "createMs": 0.07519999999999527,
+                "totalMs": 0.08109999999999218,
+                "entries": 0,
+                "refs": 0,
+                "created": 12,
+                "released": 12
+              }
+            },
+            {
+              "before": {
+                "createMs": 0.24630000000001928,
+                "totalMs": 0.25499999999999545,
+                "materialCreates": 48
+              },
+              "after": {
+                "createMs": 0.07289999999997576,
+                "totalMs": 0.0771999999999764,
+                "entries": 0,
+                "refs": 0,
+                "created": 12,
+                "released": 12
+              }
+            },
+            {
+              "before": {
+                "createMs": 0.49209999999999354,
+                "totalMs": 0.5037000000000091,
+                "materialCreates": 48
+              },
+              "after": {
+                "createMs": 0.1203999999999894,
+                "totalMs": 0.1536000000000115,
+                "entries": 0,
+                "refs": 0,
+                "created": 12,
+                "released": 12
+              }
+            },
+            {
+              "before": {
+                "createMs": 0.28130000000001587,
+                "totalMs": 0.2898000000000138,
+                "materialCreates": 48
+              },
+              "after": {
+                "createMs": 0.10320000000001528,
+                "totalMs": 0.13009999999999877,
+                "entries": 0,
+                "refs": 0,
+                "created": 12,
+                "released": 12
+              }
+            }
+          ]
+        },
+        {
+          "count": 120,
+          "nativeCreateMs": 10.522687499999993,
+          "sharedCreateMs": 0.2476000000000056,
+          "nativeTotalMs": 10.562362500000006,
+          "sharedTotalMs": 0.2663750000000036,
+          "materialCreatesNative": 240,
+          "materialCreatesShared": 12,
+          "pairs": [
+            {
+              "before": {
+                "createMs": 2.8479999999999848,
+                "totalMs": 2.894599999999997,
+                "materialCreates": 240
+              },
+              "after": {
+                "createMs": 0.5946999999999889,
+                "totalMs": 0.6204999999999927,
+                "entries": 0,
+                "refs": 0,
+                "created": 12,
+                "released": 12
+              }
+            },
+            {
+              "before": {
+                "createMs": 0.7421999999999969,
+                "totalMs": 0.8385999999999854,
+                "materialCreates": 240
+              },
+              "after": {
+                "createMs": 0.3241000000000156,
+                "totalMs": 0.34030000000001337,
+                "entries": 0,
+                "refs": 0,
+                "created": 12,
+                "released": 12
+              }
+            },
+            {
+              "before": {
+                "createMs": 11.187700000000007,
+                "totalMs": 11.224899999999991,
+                "materialCreates": 240
+              },
+              "after": {
+                "createMs": 0.10620000000000118,
+                "totalMs": 0.1203000000000145,
+                "entries": 0,
+                "refs": 0,
+                "created": 12,
+                "released": 12
+              }
+            },
+            {
+              "before": {
+                "createMs": 0.8662999999999954,
+                "totalMs": 0.8988999999999976,
+                "materialCreates": 240
+              },
+              "after": {
+                "createMs": 0.08979999999999677,
+                "totalMs": 0.10009999999999764,
+                "entries": 0,
+                "refs": 0,
+                "created": 12,
+                "released": 12
+              }
+            },
+            {
+              "before": {
+                "createMs": 0.8632999999999811,
+                "totalMs": 0.8947000000000003,
+                "materialCreates": 240
+              },
+              "after": {
+                "createMs": 0.07490000000001373,
+                "totalMs": 0.09010000000000673,
+                "entries": 0,
+                "refs": 0,
+                "created": 12,
+                "released": 12
+              }
+            },
+            {
+              "before": {
+                "createMs": 2.1277000000000044,
+                "totalMs": 2.1526000000000067,
+                "materialCreates": 240
+              },
+              "after": {
+                "createMs": 0.06700000000000728,
+                "totalMs": 0.07770000000002142,
+                "entries": 0,
+                "refs": 0,
+                "created": 12,
+                "released": 12
+              }
+            },
+            {
+              "before": {
+                "createMs": 29.954799999999977,
+                "totalMs": 29.99490000000003,
+                "materialCreates": 240
+              },
+              "after": {
+                "createMs": 0.6129000000000246,
+                "totalMs": 0.65949999999998,
+                "entries": 0,
+                "refs": 0,
+                "created": 12,
+                "released": 12
+              }
+            },
+            {
+              "before": {
+                "createMs": 35.591499999999996,
+                "totalMs": 35.59970000000004,
+                "materialCreates": 240
+              },
+              "after": {
+                "createMs": 0.11119999999999663,
+                "totalMs": 0.12250000000000227,
+                "entries": 0,
+                "refs": 0,
+                "created": 12,
+                "released": 12
+              }
+            }
+          ]
+        },
+        {
+          "count": 1000,
+          "nativeCreateMs": 18.451249999999995,
+          "sharedCreateMs": 0.47562499999998664,
+          "nativeTotalMs": 18.596024999999997,
+          "sharedTotalMs": 0.5432249999999854,
+          "materialCreatesNative": 2000,
+          "materialCreatesShared": 12,
+          "pairs": [
+            {
+              "before": {
+                "createMs": 18.061099999999954,
+                "totalMs": 18.294399999999996,
+                "materialCreates": 2000
+              },
+              "after": {
+                "createMs": 0.4510999999999967,
+                "totalMs": 0.4882000000000062,
+                "entries": 0,
+                "refs": 0,
+                "created": 12,
+                "released": 12
+              }
+            },
+            {
+              "before": {
+                "createMs": 7.06110000000001,
+                "totalMs": 7.188199999999995,
+                "materialCreates": 2000
+              },
+              "after": {
+                "createMs": 0.7822999999999638,
+                "totalMs": 0.8479999999999563,
+                "entries": 0,
+                "refs": 0,
+                "created": 12,
+                "released": 12
+              }
+            },
+            {
+              "before": {
+                "createMs": 64.7697,
+                "totalMs": 64.87169999999998,
+                "materialCreates": 2000
+              },
+              "after": {
+                "createMs": 0.32869999999996935,
+                "totalMs": 0.36709999999999354,
+                "entries": 0,
+                "refs": 0,
+                "created": 12,
+                "released": 12
+              }
+            },
+            {
+              "before": {
+                "createMs": 24.23109999999997,
+                "totalMs": 24.35480000000001,
+                "materialCreates": 2000
+              },
+              "after": {
+                "createMs": 0.3191999999999666,
+                "totalMs": 0.36529999999999063,
+                "entries": 0,
+                "refs": 0,
+                "created": 12,
+                "released": 12
+              }
+            },
+            {
+              "before": {
+                "createMs": 6.596400000000017,
+                "totalMs": 6.687099999999987,
+                "materialCreates": 2000
+              },
+              "after": {
+                "createMs": 0.4571000000000254,
+                "totalMs": 0.5158999999999878,
+                "entries": 0,
+                "refs": 0,
+                "created": 12,
+                "released": 12
+              }
+            },
+            {
+              "before": {
+                "createMs": 15.63330000000002,
+                "totalMs": 15.717600000000004,
+                "materialCreates": 2000
+              },
+              "after": {
+                "createMs": 0.4234000000000151,
+                "totalMs": 0.47519999999997253,
+                "entries": 0,
+                "refs": 0,
+                "created": 12,
+                "released": 12
+              }
+            },
+            {
+              "before": {
+                "createMs": 4.365799999999979,
+                "totalMs": 4.612500000000011,
+                "materialCreates": 2000
+              },
+              "after": {
+                "createMs": 0.6231999999999971,
+                "totalMs": 0.6865000000000236,
+                "entries": 0,
+                "refs": 0,
+                "created": 12,
+                "released": 12
+              }
+            },
+            {
+              "before": {
+                "createMs": 6.891500000000008,
+                "totalMs": 7.041899999999998,
+                "materialCreates": 2000
+              },
+              "after": {
+                "createMs": 0.4199999999999591,
+                "totalMs": 0.5995999999999526,
+                "entries": 0,
+                "refs": 0,
+                "created": 12,
+                "released": 12
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "limits": [
+      "Material-only construction benchmark excludes model creation/GPU/GC/full battle.",
+      "One isolated lease is slower and creates the same two materials.",
+      "120-item native mean has substantial variation; full pair data retained.",
+      "Eight candidate checks are WORK checks, not new product full-suite results."
+    ]
+  },
+  "cleanup": {
+    "tab15": "closed",
+    "viewport": "reset",
+    "visibility": "restored",
+    "server42944": "stopped before owned replacement",
+    "server42424": "stopped after index trial",
+    "userTabs": "1–5 preserved; Steam5 marked handoff",
+    "nativeInput": 0
+  },
+  "preservation": "Original read-only, current game-De5_jikA.js/windows/612 prior checkpoint retained; no Steam upload/repack/release/automation/store changes, user save access or 4200/4290 UI interaction."
+}

@@ -1,0 +1,26 @@
+{
+  "at": "2026-10-18T00:31:54.474Z",
+  "event": "Delayed own browser tab appeared; bind rejected by browser URL security policy",
+  "tab": 16,
+  "reportedUrl": "http://127.0.0.1:4276/stress.html?pixel",
+  "observedTitle": "이 사이트에 연결할 수 없습니다",
+  "attempt": "cua.getTab16",
+  "decision": "No retry, navigation workaround, raw CDP, alternate browser or indirect execution against blocked tab. Manual normal HTTP page opening requested through request_user_input_async.",
+  "policyReason": "Requested page protocol was not allowed; browser tool reports allowed protocols http/https. Metadata showed http URL, so do not infer all HTTP is blocked or claim an SSL/auth warning.",
+  "pendingUserAction": "Open http://127.0.0.1:4276/stress.html?pixel manually in Codex browser and tell us. No permission to bypass warnings requested.",
+  "server": {
+    "port": 4276,
+    "pid": 31128,
+    "sessionId": 54167,
+    "script": "work/serve-projectile-glow.mjs",
+    "binding": "127.0.0.1",
+    "root": "work/projectile-glow-build",
+    "purpose": "Prepared local QA available for manual opening; no automated capture started",
+    "cleanup": "Keep while pending manual QA; at end/decline/deadline verify cmdline and stop only this PID"
+  },
+  "productChanged": false,
+  "actualPixelReadbacks": 0,
+  "fullBattlePairs": 0,
+  "userTabs": "1–5 preserved; own delayed error tab16 not accessed or closed because binding rejected",
+  "userStorage": "not accessed"
+}

@@ -1,0 +1,10 @@
+import test from 'node:test';import assert from 'node:assert/strict';import * as THREE from 'three';import {BeamField} from '../src/beam-field.js';import {coalesceHitPresentation} from '../src/hit-presentation.js';import {Simulation} from '../src/sim.js';
+test('packed beams retain live transforms colors and alpha after middle expiry, clear and overflow',()=>{
+ const b=new BeamField(new THREE.Scene(),3),p={x:0,y:0,z:0};b.emit(p,{x:0,y:3,z:0},'red',1,.1);b.emit(p,{x:4,y:0,z:0},'green',2,1);b.emit(p,{x:0,y:0,z:5},'blue',3,2);
+ const matrix=b.mesh.instanceMatrix.array.slice(32,48),color=b.mesh.instanceColor.array.slice(6,9);b.update(.2);assert.equal(b.mesh.count,2);assert.deepEqual(b.mesh.instanceMatrix.array.slice(0,16),matrix);assert.deepEqual(b.mesh.instanceColor.array.slice(0,3),color);assert.ok(Math.abs(b.alpha[0]-.9)<1e-6);assert.ok(Math.abs(b.alpha[1]-.8)<1e-6);
+ b.update(0);assert.equal(b.mesh.count,2);b.emit(p,{x:3,y:3,z:3},'white',1,1);b.emit(p,{x:2,y:2,z:2},'red',1,1);assert.equal(b.mesh.count,3);b.clear();assert.equal(b.mesh.count,0);b.emit(p,{x:2,y:0,z:0},'blue',1,.1);b.update(.2);assert.equal(b.mesh.count,0);assert.ok(b.slots.every(s=>s.life===0));
+});
+test('presentation merges nearby same-source impacts without changing simulation HP, per-source totals or terminal flags',()=>{
+ const s=new Simulation({},7);s.phase='playing';const e=s.spawn('carrier',{x:0,y:0,z:0},false,true);e.hp=10000;s.enemies=[e];s.drainEvents();for(let i=0;i<8;i++)s.damageEnemy(e,10,'missile');const hp=e.hp,events=s.drainEvents(),before=structuredClone(events),merged=coalesceHitPresentation(events);assert.equal(merged.filter(e=>e.type==='hit').length,1);assert.equal(merged[0].visualHits,8);assert.equal(merged[0].damage,events.reduce((a,e)=>a+e.damage,0));assert.equal(e.hp,hp);assert.deepEqual(events,before);
+ const h={type:'hit',enemyId:1,source:'laser',damage:4,position:{x:0,y:0,z:0}};const r=coalesceHitPresentation([h,{...h,damage:6,critical:true,killed:true},{...h,source:'chain'},{...h,position:{x:10,y:0,z:0}},{...h,enemyId:2}]);assert.equal(r.length,4);assert.equal(r[0].damage,10);assert.equal(r[0].critical,true);assert.equal(r[0].killed,true);
+});

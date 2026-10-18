@@ -1,0 +1,12 @@
+import {EnergyShieldMaterial} from './energy-shield.js';
+import {mountAsset} from './asset-library.js';
+import * as THREE from 'three';import {DEFENSES} from './defenses.js';
+export function createDefenseModel(d){const root=new THREE.Group(),color=DEFENSES.find(x=>x.id===d.type).color;const body=new THREE.MeshStandardMaterial({color:0x253e48,metalness:.8,roughness:.4}),glow=new THREE.MeshBasicMaterial({color,toneMapped:false});
+ const add=(geometry,material,x=0,y=0,z=0)=>{const mesh=new THREE.Mesh(geometry,material);mesh.position.set(x,y,z);root.add(mesh);return mesh;};add(new THREE.CylinderGeometry(4,5,2,8),body);add(new THREE.TorusGeometry(4,.15,5,24),glow,0,1.2).rotation.x=Math.PI/2;
+ const turret=new THREE.Group();root.add(turret);root.userData.turret=turret;const head=new THREE.Mesh(new THREE.BoxGeometry(3,2,3),body);head.position.y=2.5;turret.add(head);
+ for(let i=0;i<3;i++){const barrel=new THREE.Mesh(new THREE.BoxGeometry(.5,.5,d.type==='rail'?6:3),body);barrel.position.set((i-1)*1.1,3,-3);turret.add(barrel);barrel.userData.tier=i+1;}
+ if(d.type==='aegis'){const shell=new THREE.Mesh(new THREE.SphereGeometry(30,20,12),new EnergyShieldMaterial({color,opacity:.22}));root.add(shell);root.userData.shell=shell;}
+ if(d.type==='repair'){const orb=add(new THREE.OctahedronGeometry(2),glow,0,6);root.userData.orb=orb;}
+ const geometries=new Set(),materials=new Set();root.traverse(o=>{if(o.geometry)geometries.add(o.geometry);if(o.material)materials.add(o.material);});root.userData.dispose=()=>{geometries.forEach(g=>g.dispose());materials.forEach(m=>m.dispose());};mountAsset(root,({rail:'rail-turret',interceptor:'interceptor-turret',aegis:'aegis-generator',repair:'repair-generator'})[d.type],{parent:turret,size:10,position:[0,2,0],hide:turret.children.filter(o=>o.isMesh)});return root;}
+export function animateDefense(root,d,time){root.position.set(d.position.x,d.position.y,d.position.z);const size=1+(d.level-1)*.2;root.scale.setScalar(size);root.userData.turret.rotation.y=d.heading;for(const child of root.userData.turret.children)if(child.userData.tier)child.visible=!child.userData.assetReplaced&&child.userData.tier<=d.level;if(root.userData.shell){root.userData.shell.scale.setScalar((40+d.level*10)/30/size);root.userData.shell.visible=d.hp>0;root.userData.shell.material.uniforms.time.value=time;}if(root.userData.orb)root.userData.orb.rotation.y=time;root.rotation.z=d.hp>0?0:.18;root.traverse(o=>{if(!o.userData.meshy&&o.material?.isMeshStandardMaterial)o.material.color.set(d.hp>0?0x253e48:0x251d20);});}
+

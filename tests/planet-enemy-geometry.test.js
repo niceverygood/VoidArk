@@ -1,0 +1,14 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {validateEnemyGeometry} from '../tools/validate-enemy-geometry.mjs';
+function fixture({badPosition=false,badIndex=false,badTransform=false,badNormal=false,badUV=false,badAttributeCount=false}={}){
+ const bin=Buffer.alloc(128);for(const [i,p] of [[0,[0,0,0]],[1,[2,0,0]],[2,[0,3,1]]])p.forEach((v,a)=>bin.writeFloatLE(badPosition&&i===1&&a===0?Infinity:v,i*16+a*4));[0,1,badIndex?3:2].forEach((v,i)=>bin.writeUInt16LE(v,48+i*2));
+ for(let i=0;i<3;i++){[0,1,0].forEach((v,c)=>bin.writeFloatLE(badNormal&&i===1&&c===1?Infinity:v,56+i*12+c*4));[i===1?1:0,i===2?1:0].forEach((v,c)=>bin.writeFloatLE(badUV&&i===2&&c===1?NaN:v,92+i*8+c*4));}
+ const doc={bufferViews:[{byteOffset:0,byteLength:48,byteStride:16},{byteOffset:48,byteLength:6},{byteOffset:56,byteLength:36},{byteOffset:92,byteLength:24}],accessors:[{bufferView:0,componentType:5126,type:'VEC3',count:3},{bufferView:1,componentType:5123,type:'SCALAR',count:3},{bufferView:2,componentType:5126,type:'VEC3',count:badAttributeCount?2:3},{bufferView:3,componentType:5126,type:'VEC2',count:3}],meshes:[{primitives:[{attributes:{POSITION:0,NORMAL:2,TEXCOORD_0:3},indices:1}]}],nodes:[{translation:badTransform?[0,null,0]:[0,0,0]}]};
+ const raw=Buffer.from(JSON.stringify(doc)),json=Buffer.concat([raw,Buffer.alloc((4-raw.length%4)%4,32)]),header=Buffer.alloc(12),jh=Buffer.alloc(8),bh=Buffer.alloc(8);header.write('glTF');header.writeUInt32LE(2,4);header.writeUInt32LE(28+json.length+bin.length,8);jh.writeUInt32LE(json.length);jh.writeUInt32LE(0x4e4f534a,4);bh.writeUInt32LE(bin.length);bh.writeUInt32LE(0x004e4942,4);return Buffer.concat([header,jh,json,bh,bin]);
+}
+test('planet geometry audit reads interleaved positions and actual index values',()=>{const result=validateEnemyGeometry(fixture());assert.equal(result.vertices,3);assert.equal(result.primitives,1);assert.deepEqual(result.localBounds.extent,[2,3,1]);});
+test('planet geometry audit rejects bad coordinates, indices and transforms',()=>{assert.throws(()=>validateEnemyGeometry(fixture({badPosition:true})),/Non-finite planetary position/);assert.throws(()=>validateEnemyGeometry(fixture({badIndex:true})),/outside vertex range/);assert.throws(()=>validateEnemyGeometry(fixture({badTransform:true})),/Non-finite planetary transform/);});
+
+ test('planet geometry audit rejects non-finite PBR attributes and mismatched counts',()=>{assert.throws(()=>validateEnemyGeometry(fixture({badNormal:true})),/Non-finite planetary NORMAL/);assert.throws(()=>validateEnemyGeometry(fixture({badUV:true})),/Non-finite planetary TEXCOORD_0/);assert.throws(()=>validateEnemyGeometry(fixture({badAttributeCount:true})),/vertex count mismatch/);assert.deepEqual(validateEnemyGeometry(fixture()).attributeVertices,{NORMAL:3,TEXCOORD_0:3});});
+

@@ -1,0 +1,14 @@
+import test from 'node:test';import assert from 'node:assert/strict';import * as THREE from 'three';
+import {createPreviewTexturePreparation} from '../src/preview-textures.js';import {resetTextureWarmup} from '../src/sortie-warmup.js';
+test('preview uploads yield, include late asset attachments, and reprepare changed versions/restored contexts',()=>{
+ const scene=new THREE.Scene(),textures=Array.from({length:5},()=>new THREE.Texture()),geometry=new THREE.BoxGeometry(),material=new THREE.MeshStandardMaterial({map:textures[0],normalMap:textures[1],roughnessMap:textures[2],metalnessMap:textures[3]}),mesh=new THREE.Mesh(geometry,material);scene.add(mesh);let time=0;const uploaded=[],renderer={initTexture(t){uploaded.push(t);time+=3;}},plan=createPreviewTexturePreparation(renderer,scene,{clock:()=>time});
+ assert.equal(plan.step().ready,false);assert.equal(uploaded.length,2);assert.equal(plan.step().ready,true);assert.equal(uploaded.length,4);assert.equal(plan.step().uploaded,0);
+ const late=new THREE.Mesh(geometry,new THREE.MeshBasicMaterial({map:textures[4]}));mesh.add(late);assert.equal(plan.step().uploaded,1);assert.equal(uploaded.at(-1),textures[4]);textures[0].needsUpdate=true;assert.equal(plan.step().uploaded,1);
+ resetTextureWarmup(renderer);assert.equal(plan.step().ready,false);assert.equal(uploaded.length,8);plan.dispose();geometry.dispose();material.dispose();late.material.dispose();
+});
+test('preview cancellation detaches watchers without disposing borrowed resources or uploading late models',()=>{
+ const scene=new THREE.Scene(),mesh=new THREE.Mesh(new THREE.BoxGeometry(),new THREE.MeshBasicMaterial({map:new THREE.Texture()}));scene.add(mesh);let calls=0,disposes=0;mesh.geometry.addEventListener('dispose',()=>disposes++);mesh.material.addEventListener('dispose',()=>disposes++);mesh.material.map.addEventListener('dispose',()=>disposes++);const plan=createPreviewTexturePreparation({initTexture(){calls++;}},scene);assert.ok(mesh.hasEventListener('childadded',mesh._listeners.childadded[0]));scene.remove(mesh);assert.equal(mesh._listeners.childadded.length,0);plan.dispose();scene.add(mesh);assert.equal(plan.step().closed,true);assert.equal(calls,0);assert.equal(disposes,0);mesh.geometry.dispose();mesh.material.dispose();mesh.material.map.dispose();
+});
+test('failed preview upload remains retryable and is never marked as ready',()=>{
+ const scene=new THREE.Scene(),texture=new THREE.Texture(),mesh=new THREE.Mesh(new THREE.BoxGeometry(),new THREE.MeshBasicMaterial({map:texture}));scene.add(mesh);let failing=true,calls=0;const plan=createPreviewTexturePreparation({initTexture(){calls++;if(failing)throw Error('controlled GPU failure');}},scene);assert.throws(()=>plan.step(),/controlled GPU/);failing=false;assert.equal(plan.step().ready,true);assert.equal(calls,2);plan.dispose();mesh.geometry.dispose();mesh.material.dispose();texture.dispose();
+});

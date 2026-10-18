@@ -1,0 +1,21 @@
+https://github.com/niceverygood/VoidArk 의 VOID ARK Steam PC 전투 최적화를 이어서 진행해줘.
+
+먼저 현재 Asia/Seoul 시각과 git status/branch/remote를 확인해. AGENTS.md, README.md, HANDOFF.md, PC최적화검수결과.txt, qa/GITHUB_HANDOFF_VALIDATION.json, qa/PC_OPTIMIZATION_20261018_STATE.json, qa/PC_OPTIMIZATION_20261018_PROGRESS.txt를 읽고 실제 소스를 확인해. 경로는 현재 checkout 루트를 기준으로 계산해. 과거 문서의 C:/Users/... 경로, PID, 탭 ID, 서버 주소는 원래 컴퓨터의 증거 출처이며 현재 값으로 재사용하면 안 돼. 같은 Codex 계정의 다른 컴퓨터라도 로컬 파일·서버·의존성은 이 저장소에서 따로 준비해야 해.
+
+사용자 목표는 Steam PC 전투 중 끊김 감소야. 난이도는 '초반은 쉽게, 후반은 도전적으로' 유지해. 사용자는 2026-10-18 오후 10시 KST까지 한 작업의 구현·검수가 끝나면 추천 다음 작업을 자율적으로 이어가도록 요청했어. 시작과 새 변경 전 시각을 확인하고 21:45부터 큰 구현·긴 측정을 새로 시작하지 마. 22:00 이후에는 신규 개발/성능 측정을 시작하지 말고 완료·미완료·실행 방법을 정리한 뒤 새 작업 기간에 대한 사용자 지시를 받아. 다른 컴퓨터의 자동화·채팅을 복제하거나 임의로 변경·메시지하지 마.
+
+검증된 기본 제품은 src 163개, game-De5_jikA.js, 기존 612검사 체크포인트야. 유휴 파편 행렬 한 구간의 절감은 약 0.01ms이며 전체 FPS 개선 보장이 아니야. 최신 baseline 46.50/42.58FPS보다 후보 39.00FPS가 낮았던 반대 증거도 보존해. 옛 Steam RC2와의 21.17→39.00 단일 버전 비교를 새 한 줄 변경의 인과효과나 native 성능으로 쓰지 마. Windows 실행본은 Git에 포함하지 않았으니 README 명령으로 새로 빌드해.
+
+다음 우선순위는 work/projectile-glow-project에 분리한 미채택 발광 재질 공유 후보의 전투 성능 검증이야. 일반 ProjectileVisuals 기본값은 private이고 WORK main만 공통 frame time을 전제로 opt-in해. helper 4개+실제 class 4개 검사, 실제 25GLB·3색의 같은 paused 장면에서 main 1280x720/PIP 320x180의 모든 픽셀 차이 0, 최종 lease entries/refs 0을 확인했어. CPU는 sparse 회귀와 dense 평균 이득·일부 tail 악화가 섞여 있어. 90초 전후 반복쌍, context 복구, native 검수는 아직 없어. 기본 src에 바로 복사하지 마.
+
+README대로 별도 WORK 빌드를 준비하고 같은 조건의 ABBA 등 반복쌍을 측정해. 평균뿐 아니라 p95/p99/max/50·100ms 초과와 실패 표본을 모두 보존해. 평균만 좋아지고 긴 프레임이 악화되면 채택하지 마. 성능 캡처 중에는 빌드·테스트·스크린샷·추가 계측·문서 쓰기를 멈춰. 다른 컴퓨터/채팅의 동시 캡처와 겹친 표본을 격리됐다고 주장하지 마. 브라우저 rAF·메모리/CPU 검사를 실제 Steam native·모니터 표시 FPS·모든 기기 무끊김으로 표현하지 마.
+
+이미 끝낸 callback/sort/tree/expired-alpha/identity-left 진단과 HANDOFF에 정리한 원본 Unit 2~60의 완료·미채택 작업은 반복하지 마. 원본 야간 채택 Unit 2·7·23은 이미 포함돼 있어. 새 후보는 실제 비용과 동작 보존 근거가 있을 때만 구현하고 효과가 없으면 기본 제품에 반영하지 않은 채 기록해.
+
+Node 22.20 이상/npm으로 npm ci → npm run build → npm run play를 실행해. 전체 검사가 필요하면 npm run test:serial을 사용하고 복사 지문은 node tools/verify-handoff.mjs로 확인해. 같은 파일로 성공한 검사를 불필요하게 반복하지 마. npm test/빌드 통과를 브라우저·음향·캠페인·FPS 검증으로 확대하지 마. 외부 API 비용이 생길 수 있는 에셋 생성 도구는 실행하지 마.
+
+사용자 저장은 읽기·복제·쓰기·복원·삭제하지 마. 별도 origin/profile의 qa=1&qaNoSave=1&qaFresh=1&qaStorageAudit=1 또는 명시 메모리 fixture만 사용해. 충돌·타격·파괴 순서, 실제 XYZ, 카메라·이펙트 의미, 정지·명시 재개, 가격·메타·보상·저장 스키마를 보존해. 기본 화질·장비·화면·이펙트를 임의로 없애서 수치를 만들지 마. native QA는 별도 profile만 사용하고 사용자 게임·서버를 강제 종료하지 마.
+
+원본·Steam frozen RC2·제출/출시 기록·모바일·Android 동결 후보·서명키·474/538 ZIP·다른 앱·자동화·사용자 서버를 보존해. 스토어 제출, 새 SKU, 가격 변경, 현금 판매/구매, 광고, SDK/계정 연결, 타인 연락은 이 작업 범위가 아니야. 하위 에이전트나 다른 채팅 메시지를 만들지 마. Git은 사용자 요청 범위의 관련 변경만 일반 commit/push하고 force-push나 다른 작업 덮기는 하지 마.
+
+작업마다 실제 변경·검사 범위·미완료·다음 추천을 qa와 인수인계 문서에 갱신해. 검증된 제품만 실행본에 반영하고, 이미 승인된 로컬 개발은 반복 확인 없이 계속 진행해.

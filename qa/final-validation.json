@@ -1,0 +1,224 @@
+{
+  "at": "2026-10-17T21:36:04.387Z",
+  "sourceCount": 163,
+  "changed": [
+    "effects.js"
+  ],
+  "unchangedCount": 162,
+  "boundedSingleReplacement": true,
+  "frozenRc2Sha256": "d3473d439d4dd2c06e38e605e076a4e2006a08c34c1dc10b110232a6c1e643e5",
+  "gameEntry": "game-De5_jikA.js",
+  "effectsEntry": "effects-D8LkVU8g.js",
+  "testCount": 612,
+  "webFiles": 603,
+  "webBytes": 178874419,
+  "copyVerified": true,
+  "steamUploaded": false,
+  "nativeScope": "Actual isolated-profile Electron launch and ark://game/ initial menu observed. Input/capture routing inconsistent; no native combat or Steam-overlay FPS claim.",
+  "measurements": {
+    "rc2": {
+      "fps": 21.169339739597863,
+      "frame": {
+        "mean": 47.238128930845726,
+        "p95": 80.3,
+        "p99": 108.243216,
+        "max": 205.30000001192093
+      },
+      "cpu": {
+        "mean": 41.11194968593758,
+        "p95": 69.3,
+        "p99": 98.5,
+        "max": 192.20000004768372
+      },
+      "over100": 21,
+      "savePreserved": true,
+      "errors": [],
+      "config": {
+        "width": 1280,
+        "height": 720,
+        "quality": "high",
+        "scale": 1,
+        "level": 22,
+        "count": 120,
+        "seed": 91471,
+        "warmupSeconds": 30,
+        "captureSeconds": 60,
+        "normalCampaign": false,
+        "invulnerable": true,
+        "enemiesHeldAlive": true
+      },
+      "valid": true,
+      "instanceMismatches": 0
+    },
+    "baseline": {
+      "fps": 46.49729279466889,
+      "frame": {
+        "mean": 21.50662844858474,
+        "p95": 34.1,
+        "p99": 45.9,
+        "max": 84.30000001192093
+      },
+      "cpu": {
+        "mean": 17.841992117755517,
+        "p95": 29,
+        "p99": 38.6,
+        "max": 57.80000001192093
+      },
+      "over100": 0,
+      "savePreserved": true,
+      "errors": [],
+      "config": {
+        "width": 1280,
+        "height": 720,
+        "quality": "high",
+        "scale": 1,
+        "level": 22,
+        "count": 120,
+        "seed": 91471,
+        "warmupSeconds": 30,
+        "captureSeconds": 60,
+        "normalCampaign": false,
+        "invulnerable": true,
+        "enemiesHeldAlive": true
+      },
+      "valid": true,
+      "instanceMismatches": 0
+    },
+    "baselineReverse": {
+      "fps": 42.57863971576797,
+      "frame": {
+        "mean": 23.48595461657443,
+        "p95": 38.9,
+        "p99": 53.4,
+        "max": 92.80000001192093
+      },
+      "cpu": {
+        "mean": 18.58626760572708,
+        "p95": 30.7,
+        "p99": 44.9,
+        "max": 68
+      },
+      "over100": 0,
+      "savePreserved": true,
+      "errors": [],
+      "config": {
+        "width": 1280,
+        "height": 720,
+        "quality": "high",
+        "scale": 1,
+        "level": 22,
+        "count": 120,
+        "seed": 91471,
+        "warmupSeconds": 30,
+        "captureSeconds": 60,
+        "normalCampaign": false,
+        "invulnerable": true,
+        "enemiesHeldAlive": true
+      },
+      "valid": true,
+      "instanceMismatches": 0
+    },
+    "calculationTrial": {
+      "fps": 40.97377678287524,
+      "frame": {
+        "mean": 24.405853658526894,
+        "p95": 40.7,
+        "p99": 58.7,
+        "max": 757.3999999761581
+      },
+      "cpu": {
+        "mean": 19.720691057143174,
+        "p95": 33.4,
+        "p99": 49.4,
+        "max": 99.59999996423721
+      },
+      "over100": 7,
+      "savePreserved": true,
+      "errors": [],
+      "config": {
+        "width": 1280,
+        "height": 720,
+        "quality": "high",
+        "scale": 1,
+        "level": 22,
+        "count": 120,
+        "seed": 91471,
+        "warmupSeconds": 30,
+        "captureSeconds": 60,
+        "normalCampaign": false,
+        "invulnerable": true,
+        "enemiesHeldAlive": true
+      },
+      "valid": true,
+      "instanceMismatches": 0
+    },
+    "existingLow": {
+      "fps": 45.18955293490572,
+      "frame": {
+        "mean": 22.129008477699962,
+        "p95": 37.2,
+        "p99": 47.2,
+        "max": 151.0999999642372
+      },
+      "cpu": {
+        "mean": 18.434242535375642,
+        "p95": 31.9,
+        "p99": 40.1,
+        "max": 117.30000001192093
+      },
+      "over100": 2,
+      "savePreserved": true,
+      "errors": [],
+      "config": {
+        "width": 1280,
+        "height": 720,
+        "quality": "low",
+        "scale": 1,
+        "level": 22,
+        "count": 120,
+        "seed": 91471,
+        "warmupSeconds": 30,
+        "captureSeconds": 60,
+        "normalCampaign": false,
+        "invulnerable": true,
+        "enemiesHeldAlive": true
+      },
+      "valid": true,
+      "instanceMismatches": 0
+    },
+    "final": {
+      "fps": 38.9974928993245,
+      "frame": {
+        "mean": 25.642674070909866,
+        "p95": 42,
+        "p99": 57.7,
+        "max": 184.30000001192093
+      },
+      "cpu": {
+        "mean": 19.748568988085708,
+        "p95": 32.1,
+        "p99": 42.1,
+        "max": 68.60000002384186
+      },
+      "over100": 3,
+      "savePreserved": true,
+      "errors": [],
+      "config": {
+        "width": 1280,
+        "height": 720,
+        "quality": "high",
+        "scale": 1,
+        "level": 22,
+        "count": 120,
+        "seed": 91471,
+        "warmupSeconds": 30,
+        "captureSeconds": 60,
+        "normalCampaign": false,
+        "invulnerable": true,
+        "enemiesHeldAlive": true
+      },
+      "valid": true,
+      "instanceMismatches": 0
+    }
+  }
+}

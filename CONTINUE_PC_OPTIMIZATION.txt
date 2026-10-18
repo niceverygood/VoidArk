@@ -1,0 +1,44 @@
+2026-10-18 사용자: Steam PC 전투를 더 최적화해 끊김을 줄여 달라는 수동 요청.
+이 폴더는 다른 채팅의 원본을 고정 복사한 별도 후보다. 원본/Steam frozen RC2/4290/출시 자동화를 수정하지 않는다.
+현재 game-De5_jikA.js,612tests, source163개 중 effects.js 한 구간 변경/162동일.
+PC최적화검수결과.txt와 qa/final-validation.json을 먼저 읽는다. 최신원본은 별도채팅이 작업 중이다.
+이번 전체 FPS 개선 확정은 SteamRC2 대비 단일 버전 브라우저 관측 범위뿐이다.
+최신개발판 대비 후보의39FPS가 오히려 낮았던 원시자료를 숨기거나 성공으로 바꾸지 않는다.
+새 파편 변경의 구조적 절감은 유휴 슬롯180행렬→0이며 작은 CPU 절감이다.
+입자 활성목록/무기계산/기본low preset은 최종 제품에서 제외했다. 같은 후보를 무조건 반복하지 않는다.
+Windows 후보는 windows/VOID ARK.exe, 실제 사용자 설치나 Steam 업로드를 수행하지 않았다.
+native 메뉴만 실제 확인했고 native 입력/스크린샷 라우팅 문제로 native 전투/FPS는 미검증이다.
+source/view lifetime·게임/가격/저장·정지/명시재개 정책을 보존한다. 다른 채팅 메시지/하위 에이전트는 만들지 않는다.
+
+[2026-10-17T23:45:13.215Z / 2026-10-18 KST]
+오늘22:00까지 Steam PC 최적화 재개. 21:45부터 최종 정리, 마감 이후 신규 구현/성능 측정 금지.
+현재 채팅 전용 heartbeat void-ark-steam-pc-10-18-10 ACTIVE 생성·view 확인. 기존 모바일/출시/다른 채팅 자동화 변경 없음.
+Session01: 기존3측정/원본39~60완료·미채택 기록을 읽기 분석하고 첫 진단 근거를 저장했다. 새 FPS 측정/제품 변경/전체검사 반복/실행본 교체는 없음.
+실측 기존 final frame>100ms3건 모두 launchRendered=false. frame raw와 current CPU의 구간이 달라 차이를 미귀속 비용이라고 계산하지 않는다. 원인 미확정.
+다음은 WORK에서 실제 callback 시작/반환 및 이전callback 경계를 저비용·고정RAM 기록하는 진단. 이전 Unit38/40/50/54 inner phase·GL·heap 행렬 반복 아님. overhead·예외/stop검수 뒤 필요 표본1회, 비용이 확인되면 구현/보존/성능 pair로 이동한다.
+현재 검증 실행본 game-De5_jikA.js/612tests/windows/VOID ARK.exe 유지. 무끊김·안정60FPS 달성으로 표시하지 않는다.
+세부 qa/PC_OPTIMIZATION_20261018_STATE.json 및 START_DIAGNOSIS.json.
+
+[2026-10-17T23:55:17.599Z] session02완료: WORK callback/FrameProfiler경계5검사·9.86s빌드·별도90s진단.4004callbacks/2705frames/drop0;긴raw24=직전처리우세18/대기우세6. profiler집계평균.0186ms는주병목근거없음.30.05FPS/max285.3ms는진단표본이며개선주장없음. src163SHA동일/제품·Windows612체크포인트유지. 탭14/4273PID13552종료·viewport/visibility복원. 다음renderer native sort/index 비용gate; 실제 원인은미확정. qa/PC_CALLBACK_BOUNDARY_RESULT.txt·callback-boundary-validation.json 참고.
+
+[2026-10-18T00:12:03.421Z] Session03 native렌더2645frame: sort.0955ms작아교체0/index.7713ms(복구포함).Session04 tree13검사·8쌍oracle동일이나0.253→0.582ms8쌍느림으로미채택. Session05투명발광재질lease WORK후보 helper4+실제class4통과/24·120·1000동시생성감소·단독lease퇴행보존. 실제pixel/GPU/전투pair미완료·제품미채택/src163SHA동일/Windows612체크포인트유지. 탭15/4274PID42944·42424정리·브라우저원복. 다음현재WORKglow후보픽셀·소유·전투pair. qa/PC_RENDER_AND_GLOW_RESULT.txt/readstate필수. 최신사용자SteamPC전투끊김집중재확인/22시마감유지.
+
+[2026-10-18T00:21:28.466Z] Session05 continued — WORK browser preparation and actual factory CPU
+Separate WORK build game-C6llIJjW.js completed in70s; engine500kB warning/outDir no-empty notice preserved. Product src163 SHA unchanged; prior612/game-De5_jikA.js/Windows executable retained. QA-only oracle prepared for same-root private-cloned shader vs shared primary framebuffer + actualCameraSubview, GLB-ready/visible roots/common-time/renderer state/last-root release; not yet browser executed. Matched own4275/4276 qaNoSave/qaFresh/qaStorageAudit 30s warmup+90s capture harness prepared.
+Browser tool could list existing user1–5 but three documented own-tab create paths timed out while attaching. No own tab reported after attempts; open_in_codex fallback stayed pending and was terminated. This is a tool connection failure, not a game/GPU failure. Own server24952 path-verified stopped, visibility false restored, viewport unchanged/Steamhandoff retained. Pixel/PIP/GLB/context/full battle captures0, no invented success.
+Actualclass Node create/update(active=false)/root disposal, empty asset adapter/windowundefined means noGLB/wake tick/GPU/Simulation/storage. 600 logicalframes at12/60/240births perlogicalsecond, life60frames,8alternatingpairs each.
+{"rate":12,"meanTotalMs":{"before":47.84564999999995,"after":64.5229125},"peak":13,"creates":120,"materialCreates":{"before":240,"after":12},"fasterPairs":3,"worseMaxPairs":4,"allRootsDisposed":true}
+{"rate":60,"meanTotalMs":{"before":378.05756249999996,"after":225.5760749999999},"peak":61,"creates":600,"materialCreates":{"before":1200,"after":12},"fasterPairs":6,"worseMaxPairs":3,"allRootsDisposed":true}
+{"rate":240,"meanTotalMs":{"before":864.8542249999998,"after":550.6394374999998},"peak":244,"creates":2400,"materialCreates":{"before":4800,"after":12},"fasterPairs":5,"worseMaxPairs":2,"allRootsDisposed":true}
+Lower mean at these memory fixtures does not guarantee fewer long frames: some candidate maxima are worse; all rawp95/p99/max retained. No GC or host cause attribution. All created root disposals complete/poolentries&refs0/created==released. Candidate remains unadopted.
+Next: single own-tab retry when attach works, actual paused primary/PIP pixel oracle then alternating battle pairs and resource lifetime. No unchanged large rebuild/test matrix repeat. If UI remains unavailable, retain this candidate and do an independent measured diagnostic; do not apply unvalidated shaders to the verified execution build. Deadline22:00KST/21:45finalization and all releases/original/user saves preserved.
+
+[2026-10-18T00:21:59.574Z] CPU 결과 문구 교정: 앞 문단의 모든 rate 평균개선 표현은 잘못된 템플릿 해석입니다. 12발/논리초는47.84565→64.52291ms/600논리프레임으로 평균 악화(3/8쌍만 빠름,4/8max악화).60발은378.05756→225.57607(6/8빠름,3/8max악화),240발은864.85422→550.63944(5/8빠름,2/8max악화). 모든raw/p95/p99/max·숫자summary 불변, 최초JSON별도보존. 개선일관성·tail보장없음/제품미채택 유지.
+
+[2026-10-18T00:29:06.425Z] Session06 새참고Unit61계측300s11167frame읽기분석완료: >100ms25중직전작업우세21/뒤간격4,최장364.2=213+151.2/knownunion.1; phase분산/GC·GPU원인미확정. 캡처중본채팅WORK빌드mtime겹침을명시하여호스트격리주장안함. Session07 실제ProjectileVisuals유휴alpha0 WORK25메모리oracle/8교대쌍,active1961절감0.007786ms<.1gate미채택. 제품163SHA동일/612·Windows유지/추가빌드·브라우저캡처0. 원본수정0/새자기탭연결1회실패/서버0. qa/PC_REFERENCE_TRACE_AND_ALPHA_RESULT.txt·reference-trace-and-expired-alpha-validation.json참고.
+
+[2026-10-18T00:31:54.474Z] 브라우저 후속: 취소했던open_in_codex가뒤늦게자기오류탭16을생성한것을목록에서관측. getTab16은브라우저URL보안정책(protocol허용조건)으로명시거절됨. 우회/다른브라우저/rawCDP/반복탭접근없음. 사용자에게정상HTTP검수페이지직접열기1회요청/답변대기. 로컬4276자기PID31128만재개해해당QA페이지대기/성능캡처0. 사용자1~5보존/16은접근거절로미정리. GPU·화면후보여전히미검증/제품미채택/CPU분석계속가능. pendingUserAction과projectile-glow-browser-policy-block.json필독,같은질문반복금지/마감자기서버정리필수.
+
+[2026-10-18T00:39:04.672Z] Session08 항등inverse곱셈WORK feasibility: unguarded2671행렬.208319→.037812ms/상한.170507이나Infinity반례존재. 정확양수identity/finiteaffine+0/zero정규화/nativefallback helper4검수통과. 보호비용포함2671평균.423011→.125049msgate수치상true지만native123.1123msoutlier영향·medianpair절감0.032021ms/5000평균퇴행·일부max악화로제품미채택. rawgate와모든p95/p99/max유지/임계값사후교체·숫자제외0. 원본Unit47readonly제안과다른실험/이제둘모두반복금지. src163SHA동일/612·Windows유지.
+
+[2026-10-18T00:42:55.689Z] Session05 WORK발광실제픽셀검수완료: 사용자정상HTTP직접열기후25root모두GLBready/3색/common time1/69materialbindings; primary1280x720/PIP320x180모든RGBA차이0,272calls/1454993triangles동일/renderer복원true. clear뒤entries0/refs0/created46=released46. auditvalid/pending0/instance638불일치0/errors[]/별도origin저장동일. 25root한고정장면·3색범위/전체6look·자세·context/기기/FPS검수아님. 전후90s성능pair0/제품미채택유지. 탭16닫음/viewportreset/수동표시true유지/4276PID31128경로확인종료/사용자1~5보존. 최신사용자GitHub niceverygood/VoidArk푸시+다른컴퓨터Codex인수인계프롬프트요청우선진행.

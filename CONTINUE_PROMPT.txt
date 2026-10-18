@@ -1,0 +1,1 @@
+최신 Steam PC 인수인계는 CODEX_HANDOFF_PROMPT.txt 입니다. 이 파일의 내용을 새 Codex 채팅에 전달하세요.

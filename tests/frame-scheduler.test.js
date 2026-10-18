@@ -1,0 +1,24 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {createFrameScheduler} from '../src/frame-scheduler.js';
+function fixture({quantum=0,...options}={}){let t=0,id=0,isVisible=true;const timers=new Map(),rafs=new Map(),renders=[];
+ const scheduler=createFrameScheduler(now=>renders.push(now),{now:()=>t,visible:()=>isVisible,requestFrame:fn=>{rafs.set(++id,fn);return id;},cancelFrame:id=>rafs.delete(id),setTimer:(fn,ms)=>{timers.set(++id,{fn,at:t+(quantum?Math.ceil(ms/quantum)*quantum:ms)});return id;},clearTimer:id=>timers.delete(id),...options});
+ function advance(to){let budget=10000;while(--budget){const entry=[...timers].sort((a,b)=>a[1].at-b[1].at)[0];if(!entry||entry[1].at>to)break;t=entry[1].at;timers.delete(entry[0]);entry[1].fn();}assert.ok(budget>0,'timer must not spin');t=to;}
+ function pulse(at){advance(at);const callbacks=[...rafs.values()];rafs.clear();for(const fn of callbacks)fn(at);}
+ return {scheduler,renders,timers,rafs,advance,pulse,visible:v=>isVisible=v};
+}
+test('normal rAF remains the sole frame source and start is idempotent',()=>{const f=fixture();f.scheduler.start();f.scheduler.start();for(let t=16;t<=1600;t+=16)f.pulse(t);assert.equal(f.renders.length,100);assert.equal(f.scheduler.diagnostics().timerFrames,0);assert.equal(f.rafs.size,1);f.scheduler.stop();assert.equal(f.timers.size,0);assert.equal(f.rafs.size,0);});
+test('visible one-second rAF stalls recover updates using a single paced timer',()=>{const f=fixture();f.scheduler.start();f.pulse(16);f.advance(1000);assert.ok(f.renders.length>45);assert.ok(f.renders.length<60);assert.equal(f.scheduler.diagnostics().fallbacks,1);assert.equal(f.rafs.size,1);assert.equal(f.timers.size,1);f.scheduler.stop();const count=f.renders.length;f.advance(3000);assert.equal(f.renders.length,count);});
+test('recovered rAF retires fallback without double rendering and can stall again',()=>{const f=fixture();f.scheduler.start();f.advance(1000);for(let t=1008;t<=1200;t+=16)f.pulse(t);assert.equal(f.scheduler.diagnostics().mode,'raf');assert.equal(f.scheduler.diagnostics().recoveries,1);for(let i=1;i<f.renders.length;i++)assert.ok(f.renders[i]-f.renders[i-1]>=7.5);f.advance(2000);assert.equal(f.scheduler.diagnostics().fallbacks,2);});
+test('hidden tab receives no fallback updates and visibility return resumes safely',()=>{const f=fixture();f.scheduler.start();f.visible(false);f.advance(4000);assert.equal(f.renders.length,0);f.visible(true);f.advance(4500);assert.ok(f.renders.length>10);f.visible(false);const count=f.renders.length;f.pulse(5000);f.advance(6000);assert.equal(f.renders.length,count);});
+
+test('slow rAF bursts do not retire the faster fallback',()=>{const f=fixture();f.scheduler.start();f.advance(1000);const before=f.renders.length;for(let t=1050;t<=2050;t+=50)f.pulse(t);assert.equal(f.scheduler.diagnostics().mode,'timer');assert.equal(f.scheduler.diagnostics().recoveries,0);assert.ok(f.renders.length-before>50);for(let t=2066;t<=2162;t+=16)f.pulse(t);assert.equal(f.scheduler.diagnostics().mode,'raf');assert.equal(f.scheduler.diagnostics().recoveries,1);});
+test('continuous slow callbacks trigger fallback without a watchdog-sized gap',()=>{const f=fixture();f.scheduler.start();f.pulse(16);for(let t=66;t<=1016;t+=50)f.pulse(t);assert.equal(f.scheduler.diagnostics().fallbacks,1);assert.equal(f.scheduler.diagnostics().mode,'timer');assert.ok(f.renders.length>45);assert.equal(f.rafs.size,1);assert.equal(f.timers.size,1);for(let t=1032;t<=1112;t+=16)f.pulse(t);assert.equal(f.scheduler.diagnostics().mode,'raf');assert.equal(f.scheduler.diagnostics().recoveries,1);});
+test('isolated slow callbacks and a steady 30Hz display keep native pacing',()=>{const f=fixture();f.scheduler.start();f.pulse(16);f.pulse(96);for(let t=112;t<=512;t+=16)f.pulse(t);for(let t=546;t<=1520;t+=34)f.pulse(t);assert.equal(f.scheduler.diagnostics().mode,'raf');assert.equal(f.scheduler.diagnostics().fallbacks,0);assert.equal(f.scheduler.diagnostics().timerFrames,0);});
+test('stop inside a callback cancels the next rAF and watchdog',()=>{let id=0,timer=null,raf=null,s;const cancel=[];s=createFrameScheduler(()=>s.stop(),{now:()=>16,visible:()=>true,requestFrame:fn=>{raf=fn;return ++id;},cancelFrame:id=>cancel.push(id),setTimer:fn=>{timer=fn;return ++id;},clearTimer:id=>cancel.push(id)});s.start();raf();assert.equal(s.diagnostics().running,false);assert.equal(cancel.length,2);});
+
+test('short polling avoids two coarse timer quanta while keeping rendering bounded',()=>{
+ const slow=fixture({quantum:15.625,pollMs:1000/60}),fast=fixture({quantum:15.625,pollMs:4});
+ slow.scheduler.start();fast.scheduler.start();slow.advance(1000);fast.advance(1000);
+ assert.ok(fast.renders.length>slow.renders.length*1.7);assert.ok(fast.renders.length<60);
+ for(let i=1;i<fast.renders.length;i++)assert.ok(fast.renders[i]-fast.renders[i-1]>=15);
+ assert.equal(fast.timers.size,1);assert.equal(fast.rafs.size,1);
+});

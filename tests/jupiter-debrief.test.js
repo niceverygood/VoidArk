@@ -1,0 +1,29 @@
+import test from 'node:test';import assert from 'node:assert/strict';
+import {Simulation} from '../src/sim.js';import {updateSolarCampaign} from '../src/solar-campaign.js';
+import {expeditionTarget,prepareExpedition} from '../src/campaign-debrief.js';
+import {debriefPreparation,recordMarkup} from '../src/campaign-analysis.js';import {followupQuotes} from '../src/followup-loadouts.js';
+const setup=()=>{const s=new Simulation({bank:100,spaceBase:{initialized:true},campaign:{cleared:3},campaignShip:{gear:{cannon:2,missile:1,chain:1}}},41);assert.ok(s.startCampaign(3));return s;};
+const members=s=>{const l=s.enemies.find(e=>e.fleetRole==='flagship');l.position={x:0,y:0,z:-40};let support=s.enemies.find(e=>e.leaderId===l.id&&e.fleetRole==='support')||s.spawnEnemyOfficer(l,'support',8);let guard=s.enemies.find(e=>e.leaderId===l.id&&e.fleetRole==='guard')||s.spawnEnemyOfficer(l,'guard',9);support.position={x:0,y:0,z:-50};guard.position={x:10,y:0,z:-40};return {l,support,guard};};
+test('Jupiter recorder observes real healing, protected hits and kill order without changing combat or RNG',()=>{
+ const a=setup(),b=setup();b.battleRecorder=null;const ea=members(a),eb=members(b);
+ for(const [s,e] of [[a,ea],[b,eb]]){s.damageEnemy(e.l,20,'unknown');s.updateEnemyFleetShip(e.support,1);s.player.shield=0;s.damagePlayer(13,'unknown');s.time=20;for(const officer of s.enemies.filter(x=>x.leaderId===e.l.id&&['support','guard'].includes(x.fleetRole)))s.damageEnemy(officer,1e6,'unknown');s.damageEnemy(e.l,1e6,'unknown');s.damageEnemy(e.l,1e6,'unknown');}
+ assert.deepEqual(a.enemies,b.enemies);assert.deepEqual(a.player,b.player);assert.deepEqual(a.meta,b.meta);assert.deepEqual(a.drainEvents(),b.drainEvents());assert.equal(a.random(),b.random());
+ const r=a.battleRecorder.summary();assert.equal(r.protectedHits,1);assert.equal(r.healed,3);assert.equal(r.hullLoss,13);assert.equal(r.killed.carrier,1);assert.equal(r.cleanCarriers,1);assert.equal(r.firstCarrierSeconds,20);
+});
+test('victory result quotes real Saturn costs and carries the record into preparation without repeat rewards',()=>{
+ const s=setup(),{l}=members(s);s.time=11;s.damageEnemy(l,1e6,'unknown');s.player.hp=30;s.player.shield=0;s.scrap=15;s.campaign.phase='landing';s.campaign.landing={...s.player.position};updateSolarCampaign(s,.01);
+ assert.equal(s.result.campaign.reward,500);assert.equal(s.result.battleRecord.killed.carrier,1);const target=expeditionTarget(s.meta,s.result);assert.equal(target.stage.name,'토성');const saved=JSON.stringify(s.meta),p=debriefPreparation(s.result,s.meta,target);assert.equal(JSON.stringify(s.meta),saved);assert.equal(p.quotes.length,3);assert.match(p.quotes[0].reason,/5개 요새/);assert.equal(p.quotes[0].level,1);
+ const record=structuredClone(s.result.battleRecord);assert.ok(prepareExpedition(s,target));assert.equal(s.preparationReport.result.battleRecord.killed.carrier,record.killed.carrier);assert.equal(s.preparedCampaignTarget.index,4);assert.equal(s.baseServices().repair,p.repair);assert.equal(s.baseServices().shield,p.shield);assert.equal(s.meta.bank,p.money);assert.equal(s.battleRecorder,null);
+ const q=followupQuotes(s,4)[0],before=s.meta.bank;assert.ok(s.serviceBase('missile',true));assert.equal(s.meta.bank,before-q.cost);assert.equal(s.meta.campaignShip.gear.missile,2);assert.ok(s.startCampaign(4));assert.equal(s.preparationReport,undefined);assert.equal(s.battleRecorder,null);
+});
+test('failure uses 25 percent tow-in repair budget, same target retry and unknown historical records remain unknown',()=>{
+ const s=setup();s.player.shield=0;s.damagePlayer(1e9,'unknown');const result=structuredClone(s.result),target=expeditionTarget(s.meta,result);assert.equal(target.index,3);assert.equal(target.retry,true);assert.equal(result.campaign.reward,undefined);const p=debriefPreparation(result,s.meta,target);assert.ok(prepareExpedition(s,target));assert.equal(s.player.hp,s.player.maxHp*.25);assert.equal(p.repair,s.baseServices().repair);assert.equal(p.reserve,s.baseServices().repair+s.baseServices().shield);assert.equal(s.preparedCampaignTarget.index,3);assert.ok(s.startCampaign(3));assert.equal(s.battleRecorder.summary().killed.carrier,0);
+ const old={campaign:{index:3},victory:false};assert.match(recordMarkup(old),/상세 공략 기록 없음/);assert.doesNotMatch(recordMarkup(old),/combat-record-metrics/);
+});
+test('replay rewards stay single, remote frontier quotes use actual armor and insufficient repair budgets are explicit',()=>{
+ const s=new Simulation({bank:1,spaceBase:{initialized:true},campaign:{cleared:8},campaignShip:{gear:{missile:5}}},41);s.startCampaign(3);s.campaign.phase='landing';s.campaign.landing={...s.player.position};updateSolarCampaign(s,.01);assert.equal(s.result.campaign.reward,0);const target=expeditionTarget(s.meta,s.result);assert.equal(target.chapter,'andromeda');const p=debriefPreparation(s.result,s.meta,target);assert.equal(p.quotes.length,3);assert.equal(p.quotes[0].max,true);assert.match(p.quotes[0].reason,/에너지 보스/);assert.equal(p.quotes[0].level,5);
+ const low=setup();low.meta.bank=0;low.player.shield=0;low.damagePlayer(1e9,'unknown');const quote=debriefPreparation(low.result,low.meta,expeditionTarget(low.meta,low.result));assert.equal(quote.money,12);assert.equal(quote.deficit,quote.reserve-12);assert.equal(quote.quotes[0].repairSafe,false);
+});
+test('officers killed after their carrier remain actual recorded kills without receiving cleared-escort achievement',()=>{
+ const s=setup(),{l,support}=members(s);s.damageEnemy(l,1e6,'unknown');assert.equal(s.battleRecorder.summary().cleanCarriers,0);const before=s.battleRecorder.summary().killed.support;s.damageEnemy(support,1e6,'unknown');assert.equal(s.battleRecorder.summary().killed.support,before+1);s.finish(false);const frozen=structuredClone(s.result.battleRecord);s.battleRecorder.heal(2);assert.deepEqual(s.result.battleRecord,frozen);const bank=s.meta.bank;s.finish(false);assert.equal(s.meta.bank,bank);
+});

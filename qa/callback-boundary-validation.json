@@ -1,0 +1,176 @@
+{
+  "at": "2026-10-17T23:55:17.599Z",
+  "scope": "WORK diagnostic only",
+  "productChanged": false,
+  "sourceCount": 163,
+  "sourceChanges": [],
+  "tests": {
+    "scoped": 5,
+    "passed": 5,
+    "failed": 0,
+    "command": "node --test work/callback-boundary-probe.test.mjs",
+    "note": "Executed once in this turn. Product 612 full test result remains the earlier checkpoint; no new full suite run."
+  },
+  "build": {
+    "entry": "game-k0ePIe14.js",
+    "seconds": 9.86,
+    "warning": "engine chunk >500kB",
+    "productBuild": "game-De5_jikA.js unchanged"
+  },
+  "trace": {
+    "count": 4004,
+    "retained": 4004,
+    "dropped": 0,
+    "bytes": 1048576,
+    "wrappers": 2,
+    "frames": 2705,
+    "profilerFrames": 2705,
+    "zeroProfileFrames": 0,
+    "callbackOnlyRows": 1299,
+    "failedRows": 0,
+    "profileStallJoins": 36,
+    "unmatchedJoins": 0
+  },
+  "measurements": {
+    "fps": 30.049078309774618,
+    "frame": {
+      "mean": 33.278890942711925,
+      "p95": 65.1,
+      "p99": 98.2,
+      "max": 285.30000001192093
+    },
+    "cpu": {
+      "mean": 21.822181146246226,
+      "p95": 38.6,
+      "p99": 82.1,
+      "max": 184.10000002384186
+    },
+    "over50": 326,
+    "over100": 24,
+    "profilerBookkeeping": {
+      "count": 2705,
+      "mean": 0.01859519417757468,
+      "p95": 0.10000002384185791,
+      "p99": 0.10000002384185791,
+      "max": 4.199999988079071
+    },
+    "afterProfilerUntilFrameNearReturn": {
+      "count": 2705,
+      "mean": 0.0008133086391385514,
+      "p95": 0,
+      "p99": 0,
+      "max": 0.10000002384185791
+    },
+    "outerCallbackTail": {
+      "count": 2705,
+      "mean": 0.0014787430243218894,
+      "p95": 0,
+      "p99": 0.09999996423721313,
+      "max": 0.10000002384185791
+    },
+    "fullFrameWork": {
+      "count": 2705,
+      "mean": 21.846950092597723,
+      "p95": 38.5,
+      "p99": 82.19999998807907,
+      "max": 184.19999998807907
+    },
+    "betweenRenderFrames": {
+      "count": 2704,
+      "mean": 11.434837277934573,
+      "p95": 36.40000003576279,
+      "p99": 58.80000001192093,
+      "max": 273.5
+    },
+    "rawInputDifferenceMax": 7.105427357601002e-15,
+    "partitionResidualMax": 0
+  },
+  "safeguards": {
+    "savePreserved": true,
+    "errors": [],
+    "audit": {
+      "valid": true,
+      "errors": [],
+      "eligible": 2900,
+      "registered": 5073,
+      "members": 2805,
+      "pending": 0,
+      "fullSceneScans": 1,
+      "auditScans": 1
+    },
+    "instanceMismatches": 0
+  },
+  "overhead": {
+    "at": "2026-10-17T23:48:47.748Z",
+    "gateMs": 0.1,
+    "passes": true,
+    "beforeMs": 0.004785348958333362,
+    "afterMs": 0.005708933333333334,
+    "overheadMs": 0.0009235843749999716,
+    "pairs": [
+      {
+        "before": 0.009629591666666708,
+        "after": 0.022951324999999998,
+        "overhead": 0.01332173333333329
+      },
+      {
+        "before": 0.007294350000000047,
+        "after": 0.0018877416666666705,
+        "overhead": -0.005406608333333376
+      },
+      {
+        "before": 0.010803958333333336,
+        "after": 0.0026361999999999926,
+        "overhead": -0.008167758333333342
+      },
+      {
+        "before": 0.0024176583333333688,
+        "after": 0.0019250750000000304,
+        "overhead": -0.0004925833333333384
+      },
+      {
+        "before": 0.0013863750000000436,
+        "after": 0.0027145583333333433,
+        "overhead": 0.0013281833333332997
+      },
+      {
+        "before": 0.004331408333333305,
+        "after": 0.005650574999999966,
+        "overhead": 0.0013191666666666612
+      },
+      {
+        "before": 0.001379633333333383,
+        "after": 0.006093033333333324,
+        "overhead": 0.0047133999999999406
+      },
+      {
+        "before": 0.0010398166666667143,
+        "after": 0.0018129583333333509,
+        "overhead": 0.0007731416666666366
+      }
+    ],
+    "scope": "Node actual FrameProfiler.start/mark/end with capture enabled; no browser/GPU/FPS claim. Includes wrapper storage and six clock reads; export excluded.",
+    "changedWorkSource": [
+      "main.js",
+      "callback-boundary-probe.js"
+    ],
+    "mainBeforeSha256": "dbc842a79680139d85721832cfb6c9bc9d7ec6d038d2dd1157ae79a1fcc03ffd",
+    "mainAfterSha256": "17391c780bc7f6b4857312888fef4e5b4267cffdf3032b67853e6e731ef4c735"
+  },
+  "cleanup": {
+    "tab": "14 closed",
+    "viewport": "reset",
+    "visibility": "restored to previous value",
+    "server": {
+      "pid": 13552,
+      "port": 4273,
+      "processStopped": true
+    },
+    "userTabs": "1–5 preserved; Steam5 handoff marked"
+  },
+  "next": {
+    "title": "Main renderer index/sort boundary cost gate",
+    "action": "Use the pinned Three.js 0.180.0 renderer.renderLists.get and the returned list.sort boundary in WORK only; stable wrappers must forward receiver, arguments, result, exceptions and native comparator unchanged. Attribute main-camera/PIP/postprocess render calls separately, and measure RenderSceneIndex.prepare independently. Keep projectObject/draw/GL remainder explicitly unclassified. Gate overhead and real main-sort/index cost before selecting any candidate.",
+    "decision": "Do not remove sorting or lower quality. No repeated Unit42 owner-only index deferral or Unit54 seven-GL matrix. If native sort/index is small, move to a larger proven cost rather than inventing a micro optimization."
+  }
+}

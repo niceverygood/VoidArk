@@ -1,0 +1,12 @@
+✔ glow/core shader, tint, strength and blend state match the native pair exactly (19.4365ms)
+✔ same-type live leases share, other colors stay separate, last release disposes once (4.9981ms)
+✔ color-management epochs retain old live colors and new leases match new native colors (1.1973ms)
+✔ both final resources are attempted even when first dispose throws; new acquire is fresh (3.5652ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 4
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 788.4119

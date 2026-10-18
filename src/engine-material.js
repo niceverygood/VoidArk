@@ -1,0 +1,4 @@
+import * as THREE from 'three';
+export const ENGINE_VERTEX='varying vec2 vUv;void main(){vUv=uv;gl_Position=projectionMatrix*modelViewMatrix*vec4(position,1.);}';
+export const ENGINE_FRAGMENT='varying vec2 vUv;uniform vec3 tint;uniform float time;uniform float opacity;void main(){float axial=smoothstep(0.,.12,vUv.y)*pow(vUv.y,.4);float turbulence=.66+.22*sin(vUv.y*48.-time*45.+sin(vUv.x*40.+time*8.))+.12*sin(vUv.y*109.-time*73.);float diamond=pow(max(0.,cos(vUv.y*25.-time*5.)),6.)*.22;vec3 c=mix(tint,vec3(.85,1.,1.),pow(vUv.y,6.));gl_FragColor=vec4(c*(1.+diamond+turbulence*.3),axial*opacity*turbulence);}';
+export function engineMaterial(color){return new THREE.ShaderMaterial({uniforms:{tint:{value:new THREE.Color(color)},time:{value:0},opacity:{value:.6}},vertexShader:ENGINE_VERTEX,fragmentShader:ENGINE_FRAGMENT,transparent:true,depthWrite:false,blending:THREE.AdditiveBlending,toneMapped:false});}

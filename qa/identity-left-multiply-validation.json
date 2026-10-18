@@ -1,0 +1,83 @@
+{
+  "at": "2026-10-18T00:39:04.672Z",
+  "productChanged": false,
+  "sourceCount": 163,
+  "sourceChanges": [],
+  "session": "08",
+  "type": "Guarded identity-left numeric kernel feasibility; not adopted",
+  "helperChecksPassed": 4,
+  "ceiling": [
+    {
+      "matrices": 333,
+      "fixtureMismatches": 0,
+      "nativeMeanMs": 0.022293359374998323,
+      "unguardedCopyMeanMs": 0.005899218750003543,
+      "optimisticSavingMs": 0.01639414062499478
+    },
+    {
+      "matrices": 2671,
+      "fixtureMismatches": 0,
+      "nativeMeanMs": 0.20831874999999944,
+      "unguardedCopyMeanMs": 0.03781152343749916,
+      "optimisticSavingMs": 0.17050722656250028
+    },
+    {
+      "matrices": 5000,
+      "fixtureMismatches": 0,
+      "nativeMeanMs": 0.42312324218750197,
+      "unguardedCopyMeanMs": 0.15829355468750217,
+      "optimisticSavingMs": 0.2648296874999998
+    }
+  ],
+  "guardedRows": [
+    {
+      "n": 333,
+      "nativeMeanMs": 0.020700195312500336,
+      "guardedMeanMs": 0.015449804687500457,
+      "meanSaving": 0.005250390624999879,
+      "medianPairSaving": 0.003143750000001555,
+      "fasterPairs": 5,
+      "worseMaxPairs": 3,
+      "maxNative": 1.0911000000000115,
+      "maxCandidate": 0.24179999999998358
+    },
+    {
+      "n": 2671,
+      "nativeMeanMs": 0.42301093750000074,
+      "guardedMeanMs": 0.12504902343750102,
+      "meanSaving": 0.2979619140624997,
+      "medianPairSaving": 0.03202109375000051,
+      "fasterPairs": 6,
+      "worseMaxPairs": 2,
+      "maxNative": 123.1123,
+      "maxCandidate": 4.868400000000008
+    },
+    {
+      "n": 5000,
+      "nativeMeanMs": 0.4689634765625007,
+      "guardedMeanMs": 0.47369531250000074,
+      "meanSaving": -0.00473183593750004,
+      "medianPairSaving": 0.03476406249999986,
+      "fasterPairs": 5,
+      "worseMaxPairs": 5,
+      "maxNative": 8.352399999999989,
+      "maxCandidate": 12.83280000000002
+    }
+  ],
+  "predeclaredMeanGatePassed": true,
+  "adopted": false,
+  "reason": "Native123.1123ms outlier dominates2671 mean saving; median paired saving is much smaller and5000 mean regresses. Mixed tails and densities do not justify integration/adoption. Gate remains recorded true; no post-hoc threshold replacement.",
+  "scope": "WORK guarded exact numeric identity-left kernel; all guard costs and positiveIdentity once per pass included. Explicit memory TRS fixtures; no AssetInstanceBatch, scene/world/pixel/GPU/browser/FPS or Simulation/storage. Native arithmetic fallback, per-frame unchanged-left caller contract.",
+  "files": [
+    "work/identity-left-multiply.mjs",
+    "work/identity-left-multiply.test.mjs",
+    "qa/identity-left-multiply-tests.txt",
+    "qa/identity-left-multiply-cpu.json"
+  ],
+  "limits": [
+    "Finite numeric ordinary matrices only; caller checks unchanged left once per pass. Not getter/Proxy parity.",
+    "F64/NaN payload/signedzero/reflection/shear/general/nonfinite/subnormal/alias source immutability4checks passed; no game integration/physics/store/GL/render proof.",
+    "No product helper, whole612 rerun/build/Windows replacement or FPS capture.",
+    "Unit47 prior proposed removing4bottom outputs only; this tests a distinct whole identity-left product shortcut, now also rejected."
+  ]
+}

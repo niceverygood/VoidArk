@@ -1,0 +1,53 @@
+{
+  "at": "2026-10-18T00:29:06.425Z",
+  "productChanged": false,
+  "sourceCount": 163,
+  "sourceChanges": [],
+  "referenceAnalysis": "qa/reference-hitch-trace-analysis.json",
+  "referenceSourceSHA256": "8fa113b1a1acc1c800061dead643a100881df55861250171c1a95cedd932486d",
+  "referenceRawCopied": false,
+  "referenceSourceChanged": false,
+  "alpha": {
+    "adopted": false,
+    "reason": "Failed predeclared .1ms absolute full4096 tick saving at1961 active slots",
+    "gates": {
+      "minimumSavingAt1961Ms": 0.1,
+      "maximumDenseMeanRegressionMs": 0.05
+    },
+    "scenarios": 25,
+    "rows": [
+      {
+        "active": 0,
+        "used": 4096,
+        "beforeMeanMs": 0.05707441406250169,
+        "afterMeanMs": 0.026969042968759016,
+        "savingMs": 0.030105371093742672
+      },
+      {
+        "active": 256,
+        "used": 4096,
+        "beforeMeanMs": 0.08104384765624983,
+        "afterMeanMs": 0.05251601562499619,
+        "savingMs": 0.02852783203125364
+      },
+      {
+        "active": 1961,
+        "used": 4096,
+        "beforeMeanMs": 0.1715947265624962,
+        "afterMeanMs": 0.16380888671873794,
+        "savingMs": 0.0077858398437582466
+      },
+      {
+        "active": 4096,
+        "used": 4096,
+        "beforeMeanMs": 0.3557069335937566,
+        "afterMeanMs": 0.3274358398437607,
+        "savingMs": 0.028271093749995924
+      }
+    ],
+    "raw": "qa/projectile-expired-alpha-cpu.json",
+    "candidate": "work/projectile-expired-alpha.mjs"
+  },
+  "browser": "Single own new about:blank retry still failed attach. No own server/capture or user tab navigation. Existing verified executable retained.",
+  "next": "Keep glow sharing pending actual browser pixel/PIP/GLB/lifetime and alternating battle pair. If connection remains unavailable, do not keep retrying in every heartbeat: prepare/analyze a different measured path while preserving the verified executable. Do not repeat discarded quaternion/burst/expired-alpha candidates."
+}

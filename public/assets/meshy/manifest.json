@@ -1,0 +1,1989 @@
+{
+  "version": 1,
+  "assets": {
+    "nation-a-scout": {
+      "url": "/assets/meshy/nation-a-scout.glb",
+      "thumbnail": "/assets/meshy/nation-a-scout.png",
+      "taskId": "01a12710-72b0-732c-8dc9-d88dbfd09250",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-a-carrier": {
+      "url": "/assets/meshy/nation-a-carrier.glb",
+      "thumbnail": "/assets/meshy/nation-a-carrier.png",
+      "taskId": "01a12710-72a1-74d4-98e2-5baa4554e6b7",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-y-carrier": {
+      "url": "/assets/meshy/nation-y-carrier.glb",
+      "thumbnail": "/assets/meshy/nation-y-carrier.png",
+      "taskId": "01a12710-737e-70e5-ad79-7b38179dd52e",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "arkelium-ore": {
+      "url": "/assets/meshy/arkelium-ore.glb",
+      "thumbnail": "/assets/meshy/arkelium-ore.png",
+      "taskId": "01a12715-63bb-700e-b32c-91a311fcef6a",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-a-cruiser": {
+      "url": "/assets/meshy/nation-a-cruiser.glb",
+      "thumbnail": "/assets/meshy/nation-a-cruiser.png",
+      "taskId": "01a12716-039d-705c-b6b0-bc0ac176fa52",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "rail-turret": {
+      "url": "/assets/meshy/rail-turret.glb",
+      "thumbnail": "/assets/meshy/rail-turret.png",
+      "taskId": "01a12715-b43f-75cc-ac01-c53b6b00a338",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "star-gate": {
+      "url": "/assets/meshy/star-gate.glb",
+      "thumbnail": "/assets/meshy/star-gate.png",
+      "taskId": "01a12715-b43b-75df-a1f2-7f66fe09de0d",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "module-laser": {
+      "url": "/assets/meshy/module-laser.glb",
+      "thumbnail": "/assets/meshy/module-laser.png",
+      "taskId": "01a12716-5375-733d-8df8-fdee1d831e20",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "interceptor-turret": {
+      "url": "/assets/meshy/interceptor-turret.glb",
+      "thumbnail": "/assets/meshy/interceptor-turret.png",
+      "taskId": "01a12716-a2bb-70b0-9219-3c6991c3f76e",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "module-cannon": {
+      "url": "/assets/meshy/module-cannon.glb",
+      "thumbnail": "/assets/meshy/module-cannon.png",
+      "taskId": "01a12716-f240-7651-ad41-54868534a45d",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "orbital-dock": {
+      "url": "/assets/meshy/orbital-dock.glb",
+      "thumbnail": "/assets/meshy/orbital-dock.png",
+      "taskId": "01a12717-42c8-74ba-82a1-f7f1f73b858d",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "module-missile": {
+      "url": "/assets/meshy/module-missile.glb",
+      "thumbnail": "/assets/meshy/module-missile.png",
+      "taskId": "01a1271a-b41b-72fa-9011-57e3ccaaf991",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "module-engine": {
+      "url": "/assets/meshy/module-engine.glb",
+      "thumbnail": "/assets/meshy/module-engine.png",
+      "taskId": "01a1271b-5513-774b-9450-30590bab28a5",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "module-hangar": {
+      "url": "/assets/meshy/module-hangar.glb",
+      "thumbnail": "/assets/meshy/module-hangar.png",
+      "taskId": "01a1271b-5484-700d-8e5f-abecefbb817b",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "module-reactor": {
+      "url": "/assets/meshy/module-reactor.glb",
+      "thumbnail": "/assets/meshy/module-reactor.png",
+      "taskId": "01a1271c-440f-7381-837a-001dd110d24a",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "module-shield": {
+      "url": "/assets/meshy/module-shield.glb",
+      "thumbnail": "/assets/meshy/module-shield.png",
+      "taskId": "01a1271c-4326-7640-82c0-185aea4d42e5",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "module-drone": {
+      "url": "/assets/meshy/module-drone.glb",
+      "thumbnail": "/assets/meshy/module-drone.png",
+      "taskId": "01a1271d-334b-70b2-a0c9-f466019a50e1",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "module-sensor": {
+      "url": "/assets/meshy/module-sensor.glb",
+      "thumbnail": "/assets/meshy/module-sensor.png",
+      "taskId": "01a1271d-8323-70ed-b08f-1a77348b0e61",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "module-armor": {
+      "url": "/assets/meshy/module-armor.glb",
+      "thumbnail": "/assets/meshy/module-armor.png",
+      "taskId": "01a1271d-d286-7210-95f5-4bee8c174507",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-a-fortress": {
+      "url": "/assets/meshy/nation-a-fortress.glb",
+      "thumbnail": "/assets/meshy/nation-a-fortress.png",
+      "taskId": "01a1271f-66fc-7001-bc0c-e6f677800ec5",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "module-salvage": {
+      "url": "/assets/meshy/module-salvage.glb",
+      "thumbnail": "/assets/meshy/module-salvage.png",
+      "taskId": "01a1271f-b7b2-71df-b76e-4373cc47bf89",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-b-scout": {
+      "url": "/assets/meshy/nation-b-scout.glb",
+      "thumbnail": "/assets/meshy/nation-b-scout.png",
+      "taskId": "01a12720-08bf-7299-aa25-c8c33377ed9a",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-b-cruiser": {
+      "url": "/assets/meshy/nation-b-cruiser.glb",
+      "thumbnail": "/assets/meshy/nation-b-cruiser.png",
+      "taskId": "01a12720-5888-7510-96f4-858ce5bf95a7",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "module-gravity": {
+      "url": "/assets/meshy/module-gravity.glb",
+      "thumbnail": "/assets/meshy/module-gravity.png",
+      "taskId": "01a1271f-b7e1-70b1-a3c0-c9d82a1736a7",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-b-carrier": {
+      "url": "/assets/meshy/nation-b-carrier.glb",
+      "thumbnail": "/assets/meshy/nation-b-carrier.png",
+      "taskId": "01a12720-a8f2-754d-9a02-09192f9bb43d",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-b-fortress": {
+      "url": "/assets/meshy/nation-b-fortress.glb",
+      "thumbnail": "/assets/meshy/nation-b-fortress.png",
+      "taskId": "01a12722-3a3c-7681-a86f-b5767a793f3f",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-c-scout": {
+      "url": "/assets/meshy/nation-c-scout.glb",
+      "thumbnail": "/assets/meshy/nation-c-scout.png",
+      "taskId": "01a12722-dcd1-732d-8bcb-cf5728133e9e",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-c-cruiser": {
+      "url": "/assets/meshy/nation-c-cruiser.glb",
+      "thumbnail": "/assets/meshy/nation-c-cruiser.png",
+      "taskId": "01a12723-7a1c-74aa-a214-4b78b4f69784",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-d-scout": {
+      "url": "/assets/meshy/nation-d-scout.glb",
+      "thumbnail": "/assets/meshy/nation-d-scout.png",
+      "taskId": "01a12724-b906-7291-8c04-4b58d6b9f5f3",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-c-carrier": {
+      "url": "/assets/meshy/nation-c-carrier.glb",
+      "thumbnail": "/assets/meshy/nation-c-carrier.png",
+      "taskId": "01a12724-6bef-7223-a71b-dbe856b5d7f0",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-c-fortress": {
+      "url": "/assets/meshy/nation-c-fortress.glb",
+      "thumbnail": "/assets/meshy/nation-c-fortress.png",
+      "taskId": "01a12724-ba34-722c-a5a2-aec1dcd00286",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-d-carrier": {
+      "url": "/assets/meshy/nation-d-carrier.glb",
+      "thumbnail": "/assets/meshy/nation-d-carrier.png",
+      "taskId": "01a12724-bba9-7519-82c7-2484570df246",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-d-cruiser": {
+      "url": "/assets/meshy/nation-d-cruiser.glb",
+      "thumbnail": "/assets/meshy/nation-d-cruiser.png",
+      "taskId": "01a12724-6b23-723b-b41b-e0b39648b48f",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-d-fortress": {
+      "url": "/assets/meshy/nation-d-fortress.glb",
+      "thumbnail": "/assets/meshy/nation-d-fortress.png",
+      "taskId": "01a12725-fb6c-7505-b818-069e153eb608",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-e-scout": {
+      "url": "/assets/meshy/nation-e-scout.glb",
+      "thumbnail": "/assets/meshy/nation-e-scout.png",
+      "taskId": "01a12726-5596-77b1-871a-e5dcad952094",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-e-cruiser": {
+      "url": "/assets/meshy/nation-e-cruiser.glb",
+      "thumbnail": "/assets/meshy/nation-e-cruiser.png",
+      "taskId": "01a12726-f094-772b-943a-2f6523026d14",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-e-fortress": {
+      "url": "/assets/meshy/nation-e-fortress.glb",
+      "thumbnail": "/assets/meshy/nation-e-fortress.png",
+      "taskId": "01a12727-8e6e-729a-858e-dfd98ac93432",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-f-cruiser": {
+      "url": "/assets/meshy/nation-f-cruiser.glb",
+      "thumbnail": "/assets/meshy/nation-f-cruiser.png",
+      "taskId": "01a12727-8ebb-77ea-a300-6a6e58641c81",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-f-scout": {
+      "url": "/assets/meshy/nation-f-scout.glb",
+      "thumbnail": "/assets/meshy/nation-f-scout.png",
+      "taskId": "01a12727-df78-73a7-affd-129e9ea09c31",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-e-carrier": {
+      "url": "/assets/meshy/nation-e-carrier.glb",
+      "thumbnail": "/assets/meshy/nation-e-carrier.png",
+      "taskId": "01a12727-df25-732b-b60e-0a1bab23ab48",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-f-carrier": {
+      "url": "/assets/meshy/nation-f-carrier.glb",
+      "thumbnail": "/assets/meshy/nation-f-carrier.png",
+      "taskId": "01a12727-e457-77d2-880d-1212f880ed42",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-f-fortress": {
+      "url": "/assets/meshy/nation-f-fortress.glb",
+      "thumbnail": "/assets/meshy/nation-f-fortress.png",
+      "taskId": "01a12729-6e0c-737b-a440-899ac8237278",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-g-scout": {
+      "url": "/assets/meshy/nation-g-scout.glb",
+      "thumbnail": "/assets/meshy/nation-g-scout.png",
+      "taskId": "01a12729-ca7b-7603-ac94-6cd7d818b6fa",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-g-cruiser": {
+      "url": "/assets/meshy/nation-g-cruiser.glb",
+      "thumbnail": "/assets/meshy/nation-g-cruiser.png",
+      "taskId": "01a1272a-b262-7143-bec8-50eef9aae17b",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-g-carrier": {
+      "url": "/assets/meshy/nation-g-carrier.glb",
+      "thumbnail": "/assets/meshy/nation-g-carrier.png",
+      "taskId": "01a1272b-024b-736a-a41b-aecc712bfc72",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-g-fortress": {
+      "url": "/assets/meshy/nation-g-fortress.glb",
+      "thumbnail": "/assets/meshy/nation-g-fortress.png",
+      "taskId": "01a1272b-06d2-70f0-ab00-0dec29215d5f",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-h-cruiser": {
+      "url": "/assets/meshy/nation-h-cruiser.glb",
+      "thumbnail": "/assets/meshy/nation-h-cruiser.png",
+      "taskId": "01a1272b-0385-7228-bc8a-90e553b9ec99",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-h-scout": {
+      "url": "/assets/meshy/nation-h-scout.glb",
+      "thumbnail": "/assets/meshy/nation-h-scout.png",
+      "taskId": "01a1272b-04d1-7157-b1e4-e5ccf6dc1899",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-h-carrier": {
+      "url": "/assets/meshy/nation-h-carrier.glb",
+      "thumbnail": "/assets/meshy/nation-h-carrier.png",
+      "taskId": "01a1272b-044e-737b-9968-d782c5aee209",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-h-fortress": {
+      "url": "/assets/meshy/nation-h-fortress.glb",
+      "thumbnail": "/assets/meshy/nation-h-fortress.png",
+      "taskId": "01a1272c-e2f6-71dd-acad-5b1bb14e769c",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-i-scout": {
+      "url": "/assets/meshy/nation-i-scout.glb",
+      "thumbnail": "/assets/meshy/nation-i-scout.png",
+      "taskId": "01a1272d-8e4a-749f-b4e9-8d2e7f1644cd",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-i-carrier": {
+      "url": "/assets/meshy/nation-i-carrier.glb",
+      "thumbnail": "/assets/meshy/nation-i-carrier.png",
+      "taskId": "01a1272f-6763-7350-9581-54d66fc15983",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-i-fortress": {
+      "url": "/assets/meshy/nation-i-fortress.glb",
+      "thumbnail": "/assets/meshy/nation-i-fortress.png",
+      "taskId": "01a1272f-67e9-76f2-80c8-aa632a1461fd",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-j-scout": {
+      "url": "/assets/meshy/nation-j-scout.glb",
+      "thumbnail": "/assets/meshy/nation-j-scout.png",
+      "taskId": "01a1272f-6625-75bb-8e9b-fe430dc79294",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-j-carrier": {
+      "url": "/assets/meshy/nation-j-carrier.glb",
+      "thumbnail": "/assets/meshy/nation-j-carrier.png",
+      "taskId": "01a12730-0440-7123-84b5-fd5e67b1b1c8",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-i-cruiser": {
+      "url": "/assets/meshy/nation-i-cruiser.glb",
+      "thumbnail": "/assets/meshy/nation-i-cruiser.png",
+      "taskId": "01a1272f-b684-74ad-8f05-26457c6e4be9",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-j-cruiser": {
+      "url": "/assets/meshy/nation-j-cruiser.glb",
+      "thumbnail": "/assets/meshy/nation-j-cruiser.png",
+      "taskId": "01a12730-044a-753b-aa61-c1e9416082ba",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-j-fortress": {
+      "url": "/assets/meshy/nation-j-fortress.glb",
+      "thumbnail": "/assets/meshy/nation-j-fortress.png",
+      "taskId": "01a12731-443f-7556-a308-0574561baf50",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-k-scout": {
+      "url": "/assets/meshy/nation-k-scout.glb",
+      "thumbnail": "/assets/meshy/nation-k-scout.png",
+      "taskId": "01a12731-a1f1-72a3-8202-4c74f0352ed3",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-k-carrier": {
+      "url": "/assets/meshy/nation-k-carrier.glb",
+      "thumbnail": "/assets/meshy/nation-k-carrier.png",
+      "taskId": "01a12732-da52-76c6-98a3-cf4c5c48009a",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-l-scout": {
+      "url": "/assets/meshy/nation-l-scout.glb",
+      "thumbnail": "/assets/meshy/nation-l-scout.png",
+      "taskId": "01a12732-d96c-76e6-8c47-52886af2ab6d",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-k-cruiser": {
+      "url": "/assets/meshy/nation-k-cruiser.glb",
+      "thumbnail": "/assets/meshy/nation-k-cruiser.png",
+      "taskId": "01a12732-d8a4-7270-9f37-b438d67c317a",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-l-carrier": {
+      "url": "/assets/meshy/nation-l-carrier.glb",
+      "thumbnail": "/assets/meshy/nation-l-carrier.png",
+      "taskId": "01a12733-2b2d-743b-8234-e225b8c4a174",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-l-cruiser": {
+      "url": "/assets/meshy/nation-l-cruiser.glb",
+      "thumbnail": "/assets/meshy/nation-l-cruiser.png",
+      "taskId": "01a12732-dba9-7259-9b51-d7921a208408",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-k-fortress": {
+      "url": "/assets/meshy/nation-k-fortress.glb",
+      "thumbnail": "/assets/meshy/nation-k-fortress.png",
+      "taskId": "01a12733-2a5a-7154-9a70-0e537c6f7888",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-m-scout": {
+      "url": "/assets/meshy/nation-m-scout.glb",
+      "thumbnail": "/assets/meshy/nation-m-scout.png",
+      "taskId": "01a12735-183a-7363-a7a0-f7a08679f3aa",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-l-fortress": {
+      "url": "/assets/meshy/nation-l-fortress.glb",
+      "thumbnail": "/assets/meshy/nation-l-fortress.png",
+      "taskId": "01a12735-5869-73f2-b6eb-036d11a3e538",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-m-cruiser": {
+      "url": "/assets/meshy/nation-m-cruiser.glb",
+      "thumbnail": "/assets/meshy/nation-m-cruiser.png",
+      "taskId": "01a12736-00a5-71a6-8874-260fe4cdb182",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-m-carrier": {
+      "url": "/assets/meshy/nation-m-carrier.glb",
+      "thumbnail": "/assets/meshy/nation-m-carrier.png",
+      "taskId": "01a12736-55a0-7161-82f8-5518da33c3e9",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-n-cruiser": {
+      "url": "/assets/meshy/nation-n-cruiser.glb",
+      "thumbnail": "/assets/meshy/nation-n-cruiser.png",
+      "taskId": "01a12736-a381-7037-8f23-5c5f8bbd1923",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-n-carrier": {
+      "url": "/assets/meshy/nation-n-carrier.glb",
+      "thumbnail": "/assets/meshy/nation-n-carrier.png",
+      "taskId": "01a12736-ed68-72ab-974b-f6f1eb850df2",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-n-scout": {
+      "url": "/assets/meshy/nation-n-scout.glb",
+      "thumbnail": "/assets/meshy/nation-n-scout.png",
+      "taskId": "01a12736-e9a3-748e-863a-04e8451d82a0",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-m-fortress": {
+      "url": "/assets/meshy/nation-m-fortress.glb",
+      "thumbnail": "/assets/meshy/nation-m-fortress.png",
+      "taskId": "01a12736-ea60-70de-a6cc-93c9c010d9ad",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-o-scout": {
+      "url": "/assets/meshy/nation-o-scout.glb",
+      "thumbnail": "/assets/meshy/nation-o-scout.png",
+      "taskId": "01a12738-3302-73a7-8173-7898c41688da",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-n-fortress": {
+      "url": "/assets/meshy/nation-n-fortress.glb",
+      "thumbnail": "/assets/meshy/nation-n-fortress.png",
+      "taskId": "01a12738-3e6a-77c3-a6a6-0e24cc7a4a56",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-o-cruiser": {
+      "url": "/assets/meshy/nation-o-cruiser.glb",
+      "thumbnail": "/assets/meshy/nation-o-cruiser.png",
+      "taskId": "01a12738-d6cc-76c1-97ad-d41d48581a40",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-o-carrier": {
+      "url": "/assets/meshy/nation-o-carrier.glb",
+      "thumbnail": "/assets/meshy/nation-o-carrier.png",
+      "taskId": "01a12739-7a12-7498-b70c-8c02ba89f9db",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-p-cruiser": {
+      "url": "/assets/meshy/nation-p-cruiser.glb",
+      "thumbnail": "/assets/meshy/nation-p-cruiser.png",
+      "taskId": "01a1273a-11dc-7389-8735-f5a01698cba6",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-o-fortress": {
+      "url": "/assets/meshy/nation-o-fortress.glb",
+      "thumbnail": "/assets/meshy/nation-o-fortress.png",
+      "taskId": "01a12739-c7e5-740c-856c-c2e1a68654b9",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-p-carrier": {
+      "url": "/assets/meshy/nation-p-carrier.glb",
+      "thumbnail": "/assets/meshy/nation-p-carrier.png",
+      "taskId": "01a1273a-621e-734f-a7af-d2347c821585",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-p-scout": {
+      "url": "/assets/meshy/nation-p-scout.glb",
+      "thumbnail": "/assets/meshy/nation-p-scout.png",
+      "taskId": "01a1273a-120e-77e0-9357-e6e091e54414",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-p-fortress": {
+      "url": "/assets/meshy/nation-p-fortress.glb",
+      "thumbnail": "/assets/meshy/nation-p-fortress.png",
+      "taskId": "01a1273b-a857-76f6-9150-dc446d04e600",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-q-scout": {
+      "url": "/assets/meshy/nation-q-scout.glb",
+      "thumbnail": "/assets/meshy/nation-q-scout.png",
+      "taskId": "01a1273b-ac6a-7242-9184-3bce87862ec3",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-q-cruiser": {
+      "url": "/assets/meshy/nation-q-cruiser.glb",
+      "thumbnail": "/assets/meshy/nation-q-cruiser.png",
+      "taskId": "01a1273c-943a-714a-b37c-28dc30a12a8d",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-r-scout": {
+      "url": "/assets/meshy/nation-r-scout.glb",
+      "thumbnail": "/assets/meshy/nation-r-scout.png",
+      "taskId": "01a1273d-87f0-755b-afe6-2ccff5404769",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-q-carrier": {
+      "url": "/assets/meshy/nation-q-carrier.glb",
+      "thumbnail": "/assets/meshy/nation-q-carrier.png",
+      "taskId": "01a1273d-89de-7402-a2f2-04e863f87d74",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-r-cruiser": {
+      "url": "/assets/meshy/nation-r-cruiser.glb",
+      "thumbnail": "/assets/meshy/nation-r-cruiser.png",
+      "taskId": "01a1273d-d808-766e-9bfe-fc4c4e7c91a2",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-q-fortress": {
+      "url": "/assets/meshy/nation-q-fortress.glb",
+      "thumbnail": "/assets/meshy/nation-q-fortress.png",
+      "taskId": "01a1273d-d60b-7647-a892-4a12f38a5c68",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-r-carrier": {
+      "url": "/assets/meshy/nation-r-carrier.glb",
+      "thumbnail": "/assets/meshy/nation-r-carrier.png",
+      "taskId": "01a1273d-d758-770f-8839-00f2cc7f1328",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-r-fortress": {
+      "url": "/assets/meshy/nation-r-fortress.glb",
+      "thumbnail": "/assets/meshy/nation-r-fortress.png",
+      "taskId": "01a12740-578f-71f0-8353-e10071ffcfe1",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-s-scout": {
+      "url": "/assets/meshy/nation-s-scout.glb",
+      "thumbnail": "/assets/meshy/nation-s-scout.png",
+      "taskId": "01a12740-0b3a-7595-af1c-53df80f1e864",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-s-cruiser": {
+      "url": "/assets/meshy/nation-s-cruiser.glb",
+      "thumbnail": "/assets/meshy/nation-s-cruiser.png",
+      "taskId": "01a12740-f7d2-724c-bb78-ce44ad34dcdd",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-s-carrier": {
+      "url": "/assets/meshy/nation-s-carrier.glb",
+      "thumbnail": "/assets/meshy/nation-s-carrier.png",
+      "taskId": "01a12742-3b90-748c-8233-2c5bebf38f21",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-t-cruiser": {
+      "url": "/assets/meshy/nation-t-cruiser.glb",
+      "thumbnail": "/assets/meshy/nation-t-cruiser.png",
+      "taskId": "01a12742-38cc-769d-aff6-41b195e72bb6",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-t-scout": {
+      "url": "/assets/meshy/nation-t-scout.glb",
+      "thumbnail": "/assets/meshy/nation-t-scout.png",
+      "taskId": "01a12742-3bda-756a-8bca-47d6b9f45f98",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-s-fortress": {
+      "url": "/assets/meshy/nation-s-fortress.glb",
+      "thumbnail": "/assets/meshy/nation-s-fortress.png",
+      "taskId": "01a12742-d836-71d4-822e-d04499025007",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-t-carrier": {
+      "url": "/assets/meshy/nation-t-carrier.glb",
+      "thumbnail": "/assets/meshy/nation-t-carrier.png",
+      "taskId": "01a12742-db2f-770f-864e-9d0e50b2a220",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-u-scout": {
+      "url": "/assets/meshy/nation-u-scout.glb",
+      "thumbnail": "/assets/meshy/nation-u-scout.png",
+      "taskId": "01a12744-2333-7162-aba8-aebdc699dd2e",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-u-cruiser": {
+      "url": "/assets/meshy/nation-u-cruiser.glb",
+      "thumbnail": "/assets/meshy/nation-u-cruiser.png",
+      "taskId": "01a12744-69b3-7017-b0af-fc18d2d14e6d",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-t-fortress": {
+      "url": "/assets/meshy/nation-t-fortress.glb",
+      "thumbnail": "/assets/meshy/nation-t-fortress.png",
+      "taskId": "01a12744-6adc-70ee-99b7-b994ad4673fe",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-u-fortress": {
+      "url": "/assets/meshy/nation-u-fortress.glb",
+      "thumbnail": "/assets/meshy/nation-u-fortress.png",
+      "taskId": "01a12745-1118-7609-9a03-6ddfd4830346",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-u-carrier": {
+      "url": "/assets/meshy/nation-u-carrier.glb",
+      "thumbnail": "/assets/meshy/nation-u-carrier.png",
+      "taskId": "01a12745-5e66-72bc-8a14-1ee57de44dc8",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-v-cruiser": {
+      "url": "/assets/meshy/nation-v-cruiser.glb",
+      "thumbnail": "/assets/meshy/nation-v-cruiser.png",
+      "taskId": "01a12745-adc7-73b7-b498-84ea09722698",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-v-carrier": {
+      "url": "/assets/meshy/nation-v-carrier.glb",
+      "thumbnail": "/assets/meshy/nation-v-carrier.png",
+      "taskId": "01a12745-feb9-711b-95ef-9e9ead83d589",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-v-scout": {
+      "url": "/assets/meshy/nation-v-scout.glb",
+      "thumbnail": "/assets/meshy/nation-v-scout.png",
+      "taskId": "01a12745-6190-74e9-849b-fee082a51c1b",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-w-cruiser": {
+      "url": "/assets/meshy/nation-w-cruiser.glb",
+      "thumbnail": "/assets/meshy/nation-w-cruiser.png",
+      "taskId": "01a12747-43ff-731d-9b01-29ab91179c49",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-w-scout": {
+      "url": "/assets/meshy/nation-w-scout.glb",
+      "thumbnail": "/assets/meshy/nation-w-scout.png",
+      "taskId": "01a12746-f184-7449-aef9-c01a34fd15e0",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-v-fortress": {
+      "url": "/assets/meshy/nation-v-fortress.glb",
+      "thumbnail": "/assets/meshy/nation-v-fortress.png",
+      "taskId": "01a12747-48a3-700f-99eb-e4fb19553991",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-w-fortress": {
+      "url": "/assets/meshy/nation-w-fortress.glb",
+      "thumbnail": "/assets/meshy/nation-w-fortress.png",
+      "taskId": "01a12748-8260-72d4-8a58-850a6dcc8005",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-w-carrier": {
+      "url": "/assets/meshy/nation-w-carrier.glb",
+      "thumbnail": "/assets/meshy/nation-w-carrier.png",
+      "taskId": "01a12748-8324-730d-9d9a-cb0a247fdab6",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-x-carrier": {
+      "url": "/assets/meshy/nation-x-carrier.glb",
+      "thumbnail": "/assets/meshy/nation-x-carrier.png",
+      "taskId": "01a12748-d7ee-7199-b14c-424ddaa16e54",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-x-cruiser": {
+      "url": "/assets/meshy/nation-x-cruiser.glb",
+      "thumbnail": "/assets/meshy/nation-x-cruiser.png",
+      "taskId": "01a12748-e47b-7303-af89-2bab3fde8d05",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-x-scout": {
+      "url": "/assets/meshy/nation-x-scout.glb",
+      "thumbnail": "/assets/meshy/nation-x-scout.png",
+      "taskId": "01a12748-d4c6-7649-a27c-93f00dfe5bd0",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-x-fortress": {
+      "url": "/assets/meshy/nation-x-fortress.glb",
+      "thumbnail": "/assets/meshy/nation-x-fortress.png",
+      "taskId": "01a1274a-17bd-77c8-9123-988fdf913cc0",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-y-scout": {
+      "url": "/assets/meshy/nation-y-scout.glb",
+      "thumbnail": "/assets/meshy/nation-y-scout.png",
+      "taskId": "01a1274a-68ce-723d-aa47-7d2f8fd9fc33",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-y-cruiser": {
+      "url": "/assets/meshy/nation-y-cruiser.glb",
+      "thumbnail": "/assets/meshy/nation-y-cruiser.png",
+      "taskId": "01a1274a-be4d-75b4-9fe8-00e48b09b2ba",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-y-fortress": {
+      "url": "/assets/meshy/nation-y-fortress.glb",
+      "thumbnail": "/assets/meshy/nation-y-fortress.png",
+      "taskId": "01a1274b-58bc-7101-a337-6ef7b05f3336",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-z-scout": {
+      "url": "/assets/meshy/nation-z-scout.glb",
+      "thumbnail": "/assets/meshy/nation-z-scout.png",
+      "taskId": "01a1274b-5a01-7520-903e-4c646c9b7eb2",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-z-fortress": {
+      "url": "/assets/meshy/nation-z-fortress.glb",
+      "thumbnail": "/assets/meshy/nation-z-fortress.png",
+      "taskId": "01a1274b-b592-7138-a4a6-54cdff6795ca",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-z-cruiser": {
+      "url": "/assets/meshy/nation-z-cruiser.glb",
+      "thumbnail": "/assets/meshy/nation-z-cruiser.png",
+      "taskId": "01a1274b-b9e2-76e7-8e8d-3b2f26bbafdb",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-z-carrier": {
+      "url": "/assets/meshy/nation-z-carrier.glb",
+      "thumbnail": "/assets/meshy/nation-z-carrier.png",
+      "taskId": "01a1274b-bd8b-7256-b24a-28c4dcba08e7",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-aa-scout": {
+      "url": "/assets/meshy/nation-aa-scout.glb",
+      "thumbnail": "/assets/meshy/nation-aa-scout.png",
+      "taskId": "01a1274d-4173-754e-80c6-daf91a74adfb",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-aa-carrier": {
+      "url": "/assets/meshy/nation-aa-carrier.glb",
+      "thumbnail": "/assets/meshy/nation-aa-carrier.png",
+      "taskId": "01a1274e-31b7-768a-b121-a0bdd999ec61",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-aa-cruiser": {
+      "url": "/assets/meshy/nation-aa-cruiser.glb",
+      "thumbnail": "/assets/meshy/nation-aa-cruiser.png",
+      "taskId": "01a1274e-80ae-76ad-847f-323050026846",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-ab-cruiser": {
+      "url": "/assets/meshy/nation-ab-cruiser.glb",
+      "thumbnail": "/assets/meshy/nation-ab-cruiser.png",
+      "taskId": "01a1274e-d45e-76cd-ae0d-6ed87723a395",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-aa-fortress": {
+      "url": "/assets/meshy/nation-aa-fortress.glb",
+      "thumbnail": "/assets/meshy/nation-aa-fortress.png",
+      "taskId": "01a1274e-d08c-7226-98c0-cbee5ad266cb",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-ab-scout": {
+      "url": "/assets/meshy/nation-ab-scout.glb",
+      "thumbnail": "/assets/meshy/nation-ab-scout.png",
+      "taskId": "01a1274e-d090-72f0-bd6f-29c8be15745e",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-ab-carrier": {
+      "url": "/assets/meshy/nation-ab-carrier.glb",
+      "thumbnail": "/assets/meshy/nation-ab-carrier.png",
+      "taskId": "01a1274f-26bc-7373-8b6e-cc10c8e45fb6",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "nation-ab-fortress": {
+      "url": "/assets/meshy/nation-ab-fortress.glb",
+      "thumbnail": "/assets/meshy/nation-ab-fortress.png",
+      "taskId": "01a1274f-2cb6-7542-adfc-ce6de35e1e3c",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "aegis-generator": {
+      "url": "/assets/meshy/aegis-generator.glb",
+      "thumbnail": "/assets/meshy/aegis-generator.png",
+      "taskId": "01a12751-a240-711d-a15f-b503eb37d3e3",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "repair-generator": {
+      "url": "/assets/meshy/repair-generator.glb",
+      "thumbnail": "/assets/meshy/repair-generator.png",
+      "taskId": "01a12751-f3b0-7420-b5c0-2a708d13bd5f",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "facility-command": {
+      "url": "/assets/meshy/facility-command.glb",
+      "thumbnail": "/assets/meshy/facility-command.png",
+      "taskId": "01a12752-e4cd-749e-b8f4-a14a9efbe202",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "facility-drydock": {
+      "url": "/assets/meshy/facility-drydock.glb",
+      "thumbnail": "/assets/meshy/facility-drydock.png",
+      "taskId": "01a12753-34cb-76a8-8a82-2416f426c2dd",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "facility-shieldLab": {
+      "url": "/assets/meshy/facility-shieldLab.glb",
+      "thumbnail": "/assets/meshy/facility-shieldLab.png",
+      "taskId": "01a12753-8542-71b2-a798-a60dd52fc12f",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "facility-reactor": {
+      "url": "/assets/meshy/facility-reactor.glb",
+      "thumbnail": "/assets/meshy/facility-reactor.png",
+      "taskId": "01a12753-d62d-7795-b27a-f65acafaf74d",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "facility-recycler": {
+      "url": "/assets/meshy/facility-recycler.glb",
+      "thumbnail": "/assets/meshy/facility-recycler.png",
+      "taskId": "01a12754-25fe-74b6-abdf-47b1b099497e",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "facility-arsenal": {
+      "url": "/assets/meshy/facility-arsenal.glb",
+      "thumbnail": "/assets/meshy/facility-arsenal.png",
+      "taskId": "01a12754-c48d-70ce-85c7-edc60cff380b",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "facility-drive": {
+      "url": "/assets/meshy/facility-drive.glb",
+      "thumbnail": "/assets/meshy/facility-drive.png",
+      "taskId": "01a12756-07c7-75aa-9a5e-41f4c4d5282d",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "facility-hangar": {
+      "url": "/assets/meshy/facility-hangar.glb",
+      "thumbnail": "/assets/meshy/facility-hangar.png",
+      "taskId": "01a12756-080c-7303-b646-61e0b03e12c5",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "helionite-ore": {
+      "url": "/assets/meshy/helionite-ore.glb",
+      "thumbnail": "/assets/meshy/helionite-ore.png",
+      "taskId": "01a12756-5a28-7289-a39c-6b4bbdb333a3",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "asteroid-basalt": {
+      "url": "/assets/meshy/asteroid-basalt.glb",
+      "thumbnail": "/assets/meshy/asteroid-basalt.png",
+      "taskId": "01a12756-aca9-775e-bb0e-c407bd2d3f31",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "asteroid-ice": {
+      "url": "/assets/meshy/asteroid-ice.glb",
+      "thumbnail": "/assets/meshy/asteroid-ice.png",
+      "taskId": "01a12757-9b4f-7724-b726-3fa421b8a75d",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "asteroid-wreck": {
+      "url": "/assets/meshy/asteroid-wreck.glb",
+      "thumbnail": "/assets/meshy/asteroid-wreck.png",
+      "taskId": "01a12757-ec0e-71af-82b0-50d3cac19b99",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "asteroid-metal": {
+      "url": "/assets/meshy/asteroid-metal.glb",
+      "thumbnail": "/assets/meshy/asteroid-metal.png",
+      "taskId": "01a12757-ebf7-76b5-8461-6ac551cbfbe4",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "guided-missile": {
+      "url": "/assets/meshy/guided-missile.glb",
+      "thumbnail": "/assets/meshy/guided-missile.png",
+      "taskId": "01a12758-8d57-773d-b66e-07339dacdc54",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "wreck-fragment": {
+      "url": "/assets/meshy/wreck-fragment.glb",
+      "thumbnail": "/assets/meshy/wreck-fragment.png",
+      "taskId": "01a1275a-2044-7536-98eb-258ccbcf0204",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "planet-desert": {
+      "url": "/assets/meshy/planet-desert.glb",
+      "thumbnail": "/assets/meshy/planet-desert.png",
+      "taskId": "01a1275e-2bcf-7442-bf34-966cecc0b97c",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "planet-volcanic": {
+      "url": "/assets/meshy/planet-volcanic.glb",
+      "thumbnail": "/assets/meshy/planet-volcanic.png",
+      "taskId": "01a1275e-2b6e-741a-a346-d0de0f574c37",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "planet-ice": {
+      "url": "/assets/meshy/planet-ice.glb",
+      "thumbnail": "/assets/meshy/planet-ice.png",
+      "taskId": "01a1275e-7bf0-7545-8985-38dc31bd59e9",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "planet-ocean": {
+      "url": "/assets/meshy/planet-ocean.glb",
+      "thumbnail": "/assets/meshy/planet-ocean.png",
+      "taskId": "01a1275e-7b4a-7467-bb1d-7cc5896a355e",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "fx-ark-missile": {
+      "url": "/assets/meshy/fx-ark-missile.glb",
+      "thumbnail": "/assets/meshy/fx-ark-missile.png",
+      "taskId": "01a128c5-d466-71bc-841d-9f9bc2588b0a",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "fx-swarm-missile": {
+      "url": "/assets/meshy/fx-swarm-missile.glb",
+      "thumbnail": "/assets/meshy/fx-swarm-missile.png",
+      "taskId": "01a128c6-2514-7182-a698-6c1a0154cabf",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "fx-hostile-missile": {
+      "url": "/assets/meshy/fx-hostile-missile.glb",
+      "thumbnail": "/assets/meshy/fx-hostile-missile.png",
+      "taskId": "01a128c6-2482-7528-b7ec-466fceeb1d48",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "fx-siege-torpedo": {
+      "url": "/assets/meshy/fx-siege-torpedo.glb",
+      "thumbnail": "/assets/meshy/fx-siege-torpedo.png",
+      "taskId": "01a128c8-6298-709f-9ae6-8adf366c1896",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "fx-ion-bolt": {
+      "url": "/assets/meshy/fx-ion-bolt.glb",
+      "thumbnail": "/assets/meshy/fx-ion-bolt.png",
+      "taskId": "01a128c8-b39f-73d4-b11b-fb883985778e",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "fx-plasma-bolt": {
+      "url": "/assets/meshy/fx-plasma-bolt.glb",
+      "thumbnail": "/assets/meshy/fx-plasma-bolt.png",
+      "taskId": "01a128c9-539b-742d-8934-e7bfac4ac3fd",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "solar-venus": {
+      "url": "/assets/meshy/solar-venus.glb",
+      "thumbnail": "/assets/meshy/solar-venus.png",
+      "taskId": "01a128f7-3e16-741b-868d-e5001c8ff7b6",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "solar-earth": {
+      "url": "/assets/meshy/solar-earth.glb",
+      "thumbnail": "/assets/meshy/solar-earth.png",
+      "taskId": "01a128f7-8dc5-72fd-8a83-2ab02142282f",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "solar-mercury": {
+      "url": "/assets/meshy/solar-mercury.glb",
+      "thumbnail": "/assets/meshy/solar-mercury.png",
+      "taskId": "01a128f7-8d89-70b1-9f19-daf592e612b2",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "solar-mars": {
+      "url": "/assets/meshy/solar-mars.glb",
+      "thumbnail": "/assets/meshy/solar-mars.png",
+      "taskId": "01a128fa-1d2b-7560-93d4-937dcf9120fb",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "solar-saturn": {
+      "url": "/assets/meshy/solar-saturn.glb",
+      "thumbnail": "/assets/meshy/solar-saturn.png",
+      "taskId": "01a128fa-bc66-715a-ac92-236f7ec1744c",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "solar-earth-clean": {
+      "url": "/assets/meshy/solar-earth-clean.glb",
+      "thumbnail": "/assets/meshy/solar-earth-clean.png",
+      "taskId": "01a128fb-54ff-7270-8444-c9076bbec917",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "solar-jupiter": {
+      "url": "/assets/meshy/solar-jupiter.glb",
+      "thumbnail": "/assets/meshy/solar-jupiter.png",
+      "taskId": "01a128fb-0cc8-75e2-948c-f1189a6b1006",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "solar-uranus": {
+      "url": "/assets/meshy/solar-uranus.glb",
+      "thumbnail": "/assets/meshy/solar-uranus.png",
+      "taskId": "01a128fd-9517-7092-bcb3-8a353f7811e7",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "solar-neptune": {
+      "url": "/assets/meshy/solar-neptune.glb",
+      "thumbnail": "/assets/meshy/solar-neptune.png",
+      "taskId": "01a128fd-e8ab-70bc-9f28-6fe58f930d69",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "solar-pluto": {
+      "url": "/assets/meshy/solar-pluto.glb",
+      "thumbnail": "/assets/meshy/solar-pluto.png",
+      "taskId": "01a128ff-29e3-7434-8775-dac88d8e6ded",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "skill-pulse": {
+      "url": "/assets/meshy/skill-pulse.glb",
+      "thumbnail": "/assets/meshy/skill-pulse.png",
+      "taskId": "01a12907-12e3-77b9-8283-28a01403f7f5",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "skill-nova": {
+      "url": "/assets/meshy/skill-nova.glb",
+      "thumbnail": "/assets/meshy/skill-nova.png",
+      "taskId": "01a12907-62d7-7275-a2b3-51adc959f8ba",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "skill-overcharge": {
+      "url": "/assets/meshy/skill-overcharge.glb",
+      "thumbnail": "/assets/meshy/skill-overcharge.png",
+      "taskId": "01a12907-6377-7642-ab31-ff9a38c136c6",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "skill-repair": {
+      "url": "/assets/meshy/skill-repair.glb",
+      "thumbnail": "/assets/meshy/skill-repair.png",
+      "taskId": "01a1290a-3af0-7261-9808-b03920e24aa8",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "skill-stasis": {
+      "url": "/assets/meshy/skill-stasis.glb",
+      "thumbnail": "/assets/meshy/skill-stasis.png",
+      "taskId": "01a1290a-3bf3-71c8-93fa-3b6241020710",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "skill-countermeasure": {
+      "url": "/assets/meshy/skill-countermeasure.glb",
+      "thumbnail": "/assets/meshy/skill-countermeasure.png",
+      "taskId": "01a1290b-2b4c-7767-9b3e-c4d8e825c448",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "skill-sentry": {
+      "url": "/assets/meshy/skill-sentry.glb",
+      "thumbnail": "/assets/meshy/skill-sentry.png",
+      "taskId": "01a1290c-721a-71a8-a7a8-00250fd5225f",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "vessel-ark": {
+      "url": "/assets/meshy/vessel-ark.glb",
+      "thumbnail": "/assets/meshy/vessel-ark.png",
+      "taskId": "01a1296f-afc4-735c-8650-924666b56248",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "vessel-swift": {
+      "url": "/assets/meshy/vessel-swift.glb",
+      "thumbnail": "/assets/meshy/vessel-swift.png",
+      "taskId": "01a1296f-ff12-7747-a24c-95cb52dc4960",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "vessel-raptor": {
+      "url": "/assets/meshy/vessel-raptor.glb",
+      "thumbnail": "/assets/meshy/vessel-raptor.png",
+      "taskId": "01a1296f-fefa-754b-9dd7-6cc06067b610",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "vessel-needle": {
+      "url": "/assets/meshy/vessel-needle.glb",
+      "thumbnail": "/assets/meshy/vessel-needle.png",
+      "taskId": "01a12972-38fa-772f-93c9-a3cfa00680fc",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "vessel-basilisk": {
+      "url": "/assets/meshy/vessel-basilisk.glb",
+      "thumbnail": "/assets/meshy/vessel-basilisk.png",
+      "taskId": "01a12972-8987-739e-b004-b7eee92d312c",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "vessel-hammer": {
+      "url": "/assets/meshy/vessel-hammer.glb",
+      "thumbnail": "/assets/meshy/vessel-hammer.png",
+      "taskId": "01a12972-8974-71ab-8074-895b7987b3c4",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "vessel-lance": {
+      "url": "/assets/meshy/vessel-lance.glb",
+      "thumbnail": "/assets/meshy/vessel-lance.png",
+      "taskId": "01a12974-c130-74f5-a5f4-f704a0df4974",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "vessel-dread": {
+      "url": "/assets/meshy/vessel-dread.glb",
+      "thumbnail": "/assets/meshy/vessel-dread.png",
+      "taskId": "01a12975-6176-774d-b664-f3de51a851d9",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "vessel-nest": {
+      "url": "/assets/meshy/vessel-nest.glb",
+      "thumbnail": "/assets/meshy/vessel-nest.png",
+      "taskId": "01a12975-b1b0-77c7-8052-bbb9079eba2e",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "vessel-hive": {
+      "url": "/assets/meshy/vessel-hive.glb",
+      "thumbnail": "/assets/meshy/vessel-hive.png",
+      "taskId": "01a12977-e80b-753d-8001-0a09623ec6e2",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "vessel-seraph": {
+      "url": "/assets/meshy/vessel-seraph.glb",
+      "thumbnail": "/assets/meshy/vessel-seraph.png",
+      "taskId": "01a12979-27b6-71e2-9a32-28e5f5765bfb",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "vessel-sovereign": {
+      "url": "/assets/meshy/vessel-sovereign.glb",
+      "thumbnail": "/assets/meshy/vessel-sovereign.png",
+      "taskId": "01a12979-780d-76d5-97eb-fbf4824514ed",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "vessel-aegis": {
+      "url": "/assets/meshy/vessel-aegis.glb",
+      "thumbnail": "/assets/meshy/vessel-aegis.png",
+      "taskId": "01a1297b-b0cf-7078-a638-a94cb0c78036",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "vessel-paladin": {
+      "url": "/assets/meshy/vessel-paladin.glb",
+      "thumbnail": "/assets/meshy/vessel-paladin.png",
+      "taskId": "01a1297c-efad-7762-bc59-a580d0a9c4e9",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "vessel-bastion": {
+      "url": "/assets/meshy/vessel-bastion.glb",
+      "thumbnail": "/assets/meshy/vessel-bastion.png",
+      "taskId": "01a1297c-9eee-739a-88bf-ac5b616ac2cb",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "vessel-mirror": {
+      "url": "/assets/meshy/vessel-mirror.glb",
+      "thumbnail": "/assets/meshy/vessel-mirror.png",
+      "taskId": "01a1297e-d5b5-752b-8c0c-9f3ea0823486",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "vessel-oracle": {
+      "url": "/assets/meshy/vessel-oracle.glb",
+      "thumbnail": "/assets/meshy/vessel-oracle.png",
+      "taskId": "01a1297f-c64d-74a8-b88d-c628adb2eb2d",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "vessel-singularity": {
+      "url": "/assets/meshy/vessel-singularity.glb",
+      "thumbnail": "/assets/meshy/vessel-singularity.png",
+      "taskId": "01a1297f-c71e-76ed-ad16-a5cb9a988712",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "vessel-phoenix": {
+      "url": "/assets/meshy/vessel-phoenix.glb",
+      "thumbnail": "/assets/meshy/vessel-phoenix.png",
+      "taskId": "01a12981-5ca9-73a7-92ca-63862154adea",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "vessel-chronos": {
+      "url": "/assets/meshy/vessel-chronos.glb",
+      "thumbnail": "/assets/meshy/vessel-chronos.png",
+      "taskId": "01a12982-4d3b-7344-8f27-1010d07bcbe7",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "vessel-mule": {
+      "url": "/assets/meshy/vessel-mule.glb",
+      "thumbnail": "/assets/meshy/vessel-mule.png",
+      "taskId": "01a12982-9f78-729b-8d24-fe82124e1033",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "vessel-prospector": {
+      "url": "/assets/meshy/vessel-prospector.glb",
+      "thumbnail": "/assets/meshy/vessel-prospector.png",
+      "taskId": "01a12984-84e7-74e0-8100-12afd1ede6d9",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "vessel-foundry": {
+      "url": "/assets/meshy/vessel-foundry.glb",
+      "thumbnail": "/assets/meshy/vessel-foundry.png",
+      "taskId": "01a12985-c4df-747c-8a19-d5a64e475deb",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "vessel-wayfarer": {
+      "url": "/assets/meshy/vessel-wayfarer.glb",
+      "thumbnail": "/assets/meshy/vessel-wayfarer.png",
+      "taskId": "01a12986-64ad-7620-8e7e-dc5a6ae9fb6e",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "enemy-mercury-fortress": {
+      "url": "/assets/meshy/enemy-mercury-fortress.glb",
+      "thumbnail": "/assets/meshy/enemy-mercury-fortress.png",
+      "taskId": "01a13544-be99-75ab-9a32-84537db4524d",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "enemy-mercury-fighter": {
+      "url": "/assets/meshy/enemy-mercury-fighter.glb",
+      "thumbnail": "/assets/meshy/enemy-mercury-fighter.png",
+      "taskId": "01a13544-bf52-7742-87c4-9514aab82143",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "enemy-mercury-capital": {
+      "url": "/assets/meshy/enemy-mercury-capital.glb",
+      "thumbnail": "/assets/meshy/enemy-mercury-capital.png",
+      "taskId": "01a13544-d12b-7316-bccc-7a5dfc539af8",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "enemy-venus-capital": {
+      "url": "/assets/meshy/enemy-venus-capital.glb",
+      "thumbnail": "/assets/meshy/enemy-venus-capital.png",
+      "taskId": "01a13546-1383-7035-b71e-d39f513b3aa2",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "enemy-venus-fortress": {
+      "url": "/assets/meshy/enemy-venus-fortress.glb",
+      "thumbnail": "/assets/meshy/enemy-venus-fortress.png",
+      "taskId": "01a13546-130e-71ed-beff-47ddb0228527",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "enemy-venus-fighter": {
+      "url": "/assets/meshy/enemy-venus-fighter.glb",
+      "thumbnail": "/assets/meshy/enemy-venus-fighter.png",
+      "taskId": "01a13546-11dc-70d4-b4e9-c8f5ecf964c4",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "enemy-mars-fortress": {
+      "url": "/assets/meshy/enemy-mars-fortress.glb",
+      "thumbnail": "/assets/meshy/enemy-mars-fortress.png",
+      "taskId": "01a13547-f83d-71cc-be3a-37019b5210e0",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "enemy-mars-fighter": {
+      "url": "/assets/meshy/enemy-mars-fighter.glb",
+      "thumbnail": "/assets/meshy/enemy-mars-fighter.png",
+      "taskId": "01a13547-f91e-77e6-b78a-517508e1857e",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "enemy-mars-capital": {
+      "url": "/assets/meshy/enemy-mars-capital.glb",
+      "thumbnail": "/assets/meshy/enemy-mars-capital.png",
+      "taskId": "01a13548-4909-7009-a834-2908e8e7668b",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "enemy-jupiter-capital": {
+      "url": "/assets/meshy/enemy-jupiter-capital.glb",
+      "thumbnail": "/assets/meshy/enemy-jupiter-capital.png",
+      "taskId": "01a13548-f3c5-7443-a828-04894196327c",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "enemy-jupiter-fighter": {
+      "url": "/assets/meshy/enemy-jupiter-fighter.glb",
+      "thumbnail": "/assets/meshy/enemy-jupiter-fighter.png",
+      "taskId": "01a13548-f38f-74d9-a4f6-eae786bfc387",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "enemy-jupiter-fortress": {
+      "url": "/assets/meshy/enemy-jupiter-fortress.glb",
+      "thumbnail": "/assets/meshy/enemy-jupiter-fortress.png",
+      "taskId": "01a13549-8fb1-704e-84ca-06980fcbf79f",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "enemy-saturn-fighter": {
+      "url": "/assets/meshy/enemy-saturn-fighter.glb",
+      "thumbnail": "/assets/meshy/enemy-saturn-fighter.png",
+      "taskId": "01a1354a-cfee-70b0-95ef-a97847cf6525",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "enemy-saturn-capital": {
+      "url": "/assets/meshy/enemy-saturn-capital.glb",
+      "thumbnail": "/assets/meshy/enemy-saturn-capital.png",
+      "taskId": "01a1354a-d1a7-777f-b0d8-dccdc7a81528",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "enemy-uranus-fighter": {
+      "url": "/assets/meshy/enemy-uranus-fighter.glb",
+      "thumbnail": "/assets/meshy/enemy-uranus-fighter.png",
+      "taskId": "01a1354b-7d6b-752a-b774-e3b285b75758",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "enemy-saturn-fortress": {
+      "url": "/assets/meshy/enemy-saturn-fortress.glb",
+      "thumbnail": "/assets/meshy/enemy-saturn-fortress.png",
+      "taskId": "01a1354b-6fc7-737d-b81c-781703950cd1",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "enemy-uranus-capital": {
+      "url": "/assets/meshy/enemy-uranus-capital.glb",
+      "thumbnail": "/assets/meshy/enemy-uranus-capital.png",
+      "taskId": "01a1354b-ce48-7691-9dec-23243e304684",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "enemy-uranus-fortress": {
+      "url": "/assets/meshy/enemy-uranus-fortress.glb",
+      "thumbnail": "/assets/meshy/enemy-uranus-fortress.png",
+      "taskId": "01a1354c-6497-7042-b615-b05f149bb5d8",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "enemy-neptune-fighter": {
+      "url": "/assets/meshy/enemy-neptune-fighter.glb",
+      "thumbnail": "/assets/meshy/enemy-neptune-fighter.png",
+      "taskId": "01a1354d-f878-714d-933c-675011ec84ba",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "enemy-neptune-capital": {
+      "url": "/assets/meshy/enemy-neptune-capital.glb",
+      "thumbnail": "/assets/meshy/enemy-neptune-capital.png",
+      "taskId": "01a1354d-f987-70da-a8a6-e0b131dbc218",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "enemy-neptune-fortress": {
+      "url": "/assets/meshy/enemy-neptune-fortress.glb",
+      "thumbnail": "/assets/meshy/enemy-neptune-fortress.png",
+      "taskId": "01a1354e-5477-7256-848a-ef18e8526334",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "enemy-pluto-fighter": {
+      "url": "/assets/meshy/enemy-pluto-fighter.glb",
+      "thumbnail": "/assets/meshy/enemy-pluto-fighter.png",
+      "taskId": "01a1354e-945b-700a-b8be-58c0f8ccdd49",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "enemy-pluto-capital": {
+      "url": "/assets/meshy/enemy-pluto-capital.glb",
+      "thumbnail": "/assets/meshy/enemy-pluto-capital.png",
+      "taskId": "01a1354f-3db0-76ff-9705-872495f7494b",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "enemy-pluto-fortress": {
+      "url": "/assets/meshy/enemy-pluto-fortress.glb",
+      "thumbnail": "/assets/meshy/enemy-pluto-fortress.png",
+      "taskId": "01a13551-173f-768e-a326-51b6bad95ab6",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "enemy-iris-fighter": {
+      "url": "/assets/meshy/enemy-iris-fighter.glb",
+      "thumbnail": "/assets/meshy/enemy-iris-fighter.png",
+      "taskId": "01a13552-fc8f-75a9-840a-d5455450bcaf",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "enemy-iris-capital": {
+      "url": "/assets/meshy/enemy-iris-capital.glb",
+      "thumbnail": "/assets/meshy/enemy-iris-capital.png",
+      "taskId": "01a13552-fd31-7018-808c-6a27141126d1",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "enemy-nereid-capital": {
+      "url": "/assets/meshy/enemy-nereid-capital.glb",
+      "thumbnail": "/assets/meshy/enemy-nereid-capital.png",
+      "taskId": "01a13553-4cea-706c-8d20-7f3792d02ebd",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "enemy-iris-fortress": {
+      "url": "/assets/meshy/enemy-iris-fortress.glb",
+      "thumbnail": "/assets/meshy/enemy-iris-fortress.png",
+      "taskId": "01a13553-4d61-7089-8e57-674ff0cb141f",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "enemy-nereid-fighter": {
+      "url": "/assets/meshy/enemy-nereid-fighter.glb",
+      "thumbnail": "/assets/meshy/enemy-nereid-fighter.png",
+      "taskId": "01a13553-4d3d-72ae-afc4-193e2d604831",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "enemy-nereid-fortress": {
+      "url": "/assets/meshy/enemy-nereid-fortress.glb",
+      "thumbnail": "/assets/meshy/enemy-nereid-fortress.png",
+      "taskId": "01a13553-ecf0-7442-93f0-e80e0fb33b2b",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "enemy-prism-capital": {
+      "url": "/assets/meshy/enemy-prism-capital.glb",
+      "thumbnail": "/assets/meshy/enemy-prism-capital.png",
+      "taskId": "01a13556-4471-7636-ab4b-6d98c5a92acd",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "enemy-prism-fighter": {
+      "url": "/assets/meshy/enemy-prism-fighter.glb",
+      "thumbnail": "/assets/meshy/enemy-prism-fighter.png",
+      "taskId": "01a13556-92cd-76c2-a94a-74727aa92234",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "enemy-prism-fortress": {
+      "url": "/assets/meshy/enemy-prism-fortress.glb",
+      "thumbnail": "/assets/meshy/enemy-prism-fortress.png",
+      "taskId": "01a13557-3a55-72a4-8299-68a2af9b8ed4",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "enemy-cinder-fighter": {
+      "url": "/assets/meshy/enemy-cinder-fighter.glb",
+      "thumbnail": "/assets/meshy/enemy-cinder-fighter.png",
+      "taskId": "01a13557-86e6-775d-afcf-809bd09f3afe",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "enemy-cinder-capital": {
+      "url": "/assets/meshy/enemy-cinder-capital.glb",
+      "thumbnail": "/assets/meshy/enemy-cinder-capital.png",
+      "taskId": "01a13557-d367-7248-9da1-a3f8b622223f",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "enemy-ferrum-fighter": {
+      "url": "/assets/meshy/enemy-ferrum-fighter.glb",
+      "thumbnail": "/assets/meshy/enemy-ferrum-fighter.png",
+      "taskId": "01a13557-d813-70a7-b0f4-d4d7c1f118b4",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "enemy-cinder-fortress": {
+      "url": "/assets/meshy/enemy-cinder-fortress.glb",
+      "thumbnail": "/assets/meshy/enemy-cinder-fortress.png",
+      "taskId": "01a13558-7241-71b6-a12d-ffb2cc1f39ca",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "enemy-ferrum-capital": {
+      "url": "/assets/meshy/enemy-ferrum-capital.glb",
+      "thumbnail": "/assets/meshy/enemy-ferrum-capital.png",
+      "taskId": "01a13558-c3f2-703b-88f2-8109533525fc",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "enemy-ferrum-fortress": {
+      "url": "/assets/meshy/enemy-ferrum-fortress.glb",
+      "thumbnail": "/assets/meshy/enemy-ferrum-fortress.png",
+      "taskId": "01a1355b-e517-767f-aa94-b17e15471b9a",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "enemy-vulcan-fighter": {
+      "url": "/assets/meshy/enemy-vulcan-fighter.glb",
+      "thumbnail": "/assets/meshy/enemy-vulcan-fighter.png",
+      "taskId": "01a1355c-30d0-710d-99ce-84100fc79b88",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "enemy-vulcan-capital": {
+      "url": "/assets/meshy/enemy-vulcan-capital.glb",
+      "thumbnail": "/assets/meshy/enemy-vulcan-capital.png",
+      "taskId": "01a1355c-d250-746b-ba82-2e4a1265a358",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "enemy-vesper-fighter": {
+      "url": "/assets/meshy/enemy-vesper-fighter.glb",
+      "thumbnail": "/assets/meshy/enemy-vesper-fighter.png",
+      "taskId": "01a1355c-d1f2-70f2-ae26-20a3e798df08",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "enemy-vulcan-fortress": {
+      "url": "/assets/meshy/enemy-vulcan-fortress.glb",
+      "thumbnail": "/assets/meshy/enemy-vulcan-fortress.png",
+      "taskId": "01a1355c-d34e-722d-9bff-656a21af7c77",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "enemy-vesper-capital": {
+      "url": "/assets/meshy/enemy-vesper-capital.glb",
+      "thumbnail": "/assets/meshy/enemy-vesper-capital.png",
+      "taskId": "01a1355c-dbeb-7536-8435-f148b04541fc",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "enemy-vesper-fortress": {
+      "url": "/assets/meshy/enemy-vesper-fortress.glb",
+      "thumbnail": "/assets/meshy/enemy-vesper-fortress.png",
+      "taskId": "01a1355d-22b4-77e3-adef-a60a524ac489",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "enemy-auris-fighter": {
+      "url": "/assets/meshy/enemy-auris-fighter.glb",
+      "thumbnail": "/assets/meshy/enemy-auris-fighter.png",
+      "taskId": "01a1355d-73c4-72c7-8a6a-b58b0dfa5f5b",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "enemy-auris-capital": {
+      "url": "/assets/meshy/enemy-auris-capital.glb",
+      "thumbnail": "/assets/meshy/enemy-auris-capital.png",
+      "taskId": "01a1355f-5a67-74cd-8316-abc5bcdbdfee",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "enemy-auris-fortress": {
+      "url": "/assets/meshy/enemy-auris-fortress.glb",
+      "thumbnail": "/assets/meshy/enemy-auris-fortress.png",
+      "taskId": "01a1355f-fb50-757b-b91f-a0f0524292b9",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "enemy-aetherion-capital": {
+      "url": "/assets/meshy/enemy-aetherion-capital.glb",
+      "thumbnail": "/assets/meshy/enemy-aetherion-capital.png",
+      "taskId": "01a13560-9ad0-7406-bd2f-4699fa75def5",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "enemy-aetherion-fortress": {
+      "url": "/assets/meshy/enemy-aetherion-fortress.glb",
+      "thumbnail": "/assets/meshy/enemy-aetherion-fortress.png",
+      "taskId": "01a13560-9ad5-7163-b86c-f22c1a7778c3",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    },
+    "enemy-aetherion-fighter": {
+      "url": "/assets/meshy/enemy-aetherion-fighter.glb",
+      "thumbnail": "/assets/meshy/enemy-aetherion-fighter.png",
+      "taskId": "01a13560-9a85-72f9-9202-47ed06e3506d",
+      "provider": "Meshy",
+      "model": "meshy-6",
+      "status": "ready"
+    }
+  }
+}

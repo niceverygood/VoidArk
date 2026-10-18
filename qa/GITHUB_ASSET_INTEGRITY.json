@@ -1,0 +1,1497 @@
+{
+  "at": "2026-10-18T00:58:12.892Z",
+  "basis": "Every model in the shipped public manifest; no generation plan or API call required",
+  "models": 248,
+  "bytes": 139975432,
+  "maxTriangles": 10284,
+  "entries": [
+    {
+      "id": "nation-a-scout",
+      "bytes": 428636,
+      "triangles": 2159,
+      "textures": 4
+    },
+    {
+      "id": "nation-a-carrier",
+      "bytes": 665264,
+      "triangles": 6027,
+      "textures": 4
+    },
+    {
+      "id": "nation-y-carrier",
+      "bytes": 587088,
+      "triangles": 5981,
+      "textures": 4
+    },
+    {
+      "id": "arkelium-ore",
+      "bytes": 383192,
+      "triangles": 3141,
+      "textures": 4
+    },
+    {
+      "id": "nation-a-cruiser",
+      "bytes": 557956,
+      "triangles": 3998,
+      "textures": 4
+    },
+    {
+      "id": "rail-turret",
+      "bytes": 456548,
+      "triangles": 2948,
+      "textures": 4
+    },
+    {
+      "id": "star-gate",
+      "bytes": 405764,
+      "triangles": 3100,
+      "textures": 4
+    },
+    {
+      "id": "module-laser",
+      "bytes": 358472,
+      "triangles": 1781,
+      "textures": 4
+    },
+    {
+      "id": "interceptor-turret",
+      "bytes": 360252,
+      "triangles": 3024,
+      "textures": 4
+    },
+    {
+      "id": "module-cannon",
+      "bytes": 393128,
+      "triangles": 1792,
+      "textures": 4
+    },
+    {
+      "id": "orbital-dock",
+      "bytes": 506264,
+      "triangles": 2514,
+      "textures": 4
+    },
+    {
+      "id": "module-missile",
+      "bytes": 348424,
+      "triangles": 1816,
+      "textures": 4
+    },
+    {
+      "id": "module-engine",
+      "bytes": 317228,
+      "triangles": 1700,
+      "textures": 4
+    },
+    {
+      "id": "module-hangar",
+      "bytes": 352248,
+      "triangles": 1680,
+      "textures": 4
+    },
+    {
+      "id": "module-reactor",
+      "bytes": 418800,
+      "triangles": 1746,
+      "textures": 4
+    },
+    {
+      "id": "module-shield",
+      "bytes": 491868,
+      "triangles": 1832,
+      "textures": 4
+    },
+    {
+      "id": "module-drone",
+      "bytes": 360268,
+      "triangles": 1864,
+      "textures": 4
+    },
+    {
+      "id": "module-sensor",
+      "bytes": 325968,
+      "triangles": 1697,
+      "textures": 4
+    },
+    {
+      "id": "module-armor",
+      "bytes": 355412,
+      "triangles": 1750,
+      "textures": 4
+    },
+    {
+      "id": "nation-a-fortress",
+      "bytes": 681132,
+      "triangles": 4727,
+      "textures": 4
+    },
+    {
+      "id": "module-salvage",
+      "bytes": 422592,
+      "triangles": 1810,
+      "textures": 4
+    },
+    {
+      "id": "nation-b-scout",
+      "bytes": 287864,
+      "triangles": 2207,
+      "textures": 4
+    },
+    {
+      "id": "nation-b-cruiser",
+      "bytes": 439268,
+      "triangles": 4058,
+      "textures": 4
+    },
+    {
+      "id": "module-gravity",
+      "bytes": 378784,
+      "triangles": 1775,
+      "textures": 4
+    },
+    {
+      "id": "nation-b-carrier",
+      "bytes": 573560,
+      "triangles": 5946,
+      "textures": 4
+    },
+    {
+      "id": "nation-b-fortress",
+      "bytes": 544412,
+      "triangles": 5090,
+      "textures": 4
+    },
+    {
+      "id": "nation-c-scout",
+      "bytes": 362628,
+      "triangles": 2219,
+      "textures": 4
+    },
+    {
+      "id": "nation-c-cruiser",
+      "bytes": 501236,
+      "triangles": 4032,
+      "textures": 4
+    },
+    {
+      "id": "nation-d-scout",
+      "bytes": 480144,
+      "triangles": 2163,
+      "textures": 4
+    },
+    {
+      "id": "nation-c-carrier",
+      "bytes": 607804,
+      "triangles": 5986,
+      "textures": 4
+    },
+    {
+      "id": "nation-c-fortress",
+      "bytes": 575160,
+      "triangles": 5123,
+      "textures": 4
+    },
+    {
+      "id": "nation-d-carrier",
+      "bytes": 741340,
+      "triangles": 5932,
+      "textures": 4
+    },
+    {
+      "id": "nation-d-cruiser",
+      "bytes": 520204,
+      "triangles": 3848,
+      "textures": 4
+    },
+    {
+      "id": "nation-d-fortress",
+      "bytes": 729484,
+      "triangles": 5058,
+      "textures": 4
+    },
+    {
+      "id": "nation-e-scout",
+      "bytes": 430920,
+      "triangles": 2232,
+      "textures": 4
+    },
+    {
+      "id": "nation-e-cruiser",
+      "bytes": 575636,
+      "triangles": 4065,
+      "textures": 4
+    },
+    {
+      "id": "nation-e-fortress",
+      "bytes": 636236,
+      "triangles": 5127,
+      "textures": 4
+    },
+    {
+      "id": "nation-f-cruiser",
+      "bytes": 460076,
+      "triangles": 3780,
+      "textures": 4
+    },
+    {
+      "id": "nation-f-scout",
+      "bytes": 367540,
+      "triangles": 2151,
+      "textures": 4
+    },
+    {
+      "id": "nation-e-carrier",
+      "bytes": 720972,
+      "triangles": 5927,
+      "textures": 4
+    },
+    {
+      "id": "nation-f-carrier",
+      "bytes": 730068,
+      "triangles": 6061,
+      "textures": 4
+    },
+    {
+      "id": "nation-f-fortress",
+      "bytes": 703060,
+      "triangles": 5117,
+      "textures": 4
+    },
+    {
+      "id": "nation-g-scout",
+      "bytes": 332508,
+      "triangles": 2248,
+      "textures": 4
+    },
+    {
+      "id": "nation-g-cruiser",
+      "bytes": 506856,
+      "triangles": 4064,
+      "textures": 4
+    },
+    {
+      "id": "nation-g-carrier",
+      "bytes": 590788,
+      "triangles": 6065,
+      "textures": 4
+    },
+    {
+      "id": "nation-g-fortress",
+      "bytes": 569912,
+      "triangles": 5080,
+      "textures": 4
+    },
+    {
+      "id": "nation-h-cruiser",
+      "bytes": 523284,
+      "triangles": 4060,
+      "textures": 4
+    },
+    {
+      "id": "nation-h-scout",
+      "bytes": 383716,
+      "triangles": 2240,
+      "textures": 4
+    },
+    {
+      "id": "nation-h-carrier",
+      "bytes": 581456,
+      "triangles": 5814,
+      "textures": 4
+    },
+    {
+      "id": "nation-h-fortress",
+      "bytes": 613192,
+      "triangles": 5089,
+      "textures": 4
+    },
+    {
+      "id": "nation-i-scout",
+      "bytes": 338960,
+      "triangles": 2138,
+      "textures": 4
+    },
+    {
+      "id": "nation-i-carrier",
+      "bytes": 535012,
+      "triangles": 5819,
+      "textures": 4
+    },
+    {
+      "id": "nation-i-fortress",
+      "bytes": 539804,
+      "triangles": 4981,
+      "textures": 4
+    },
+    {
+      "id": "nation-j-scout",
+      "bytes": 260372,
+      "triangles": 2183,
+      "textures": 4
+    },
+    {
+      "id": "nation-j-carrier",
+      "bytes": 546868,
+      "triangles": 5967,
+      "textures": 4
+    },
+    {
+      "id": "nation-i-cruiser",
+      "bytes": 400184,
+      "triangles": 3894,
+      "textures": 4
+    },
+    {
+      "id": "nation-j-cruiser",
+      "bytes": 471352,
+      "triangles": 4064,
+      "textures": 4
+    },
+    {
+      "id": "nation-j-fortress",
+      "bytes": 484164,
+      "triangles": 5068,
+      "textures": 4
+    },
+    {
+      "id": "nation-k-scout",
+      "bytes": 445596,
+      "triangles": 2146,
+      "textures": 4
+    },
+    {
+      "id": "nation-k-carrier",
+      "bytes": 711532,
+      "triangles": 5775,
+      "textures": 4
+    },
+    {
+      "id": "nation-l-scout",
+      "bytes": 317772,
+      "triangles": 2231,
+      "textures": 4
+    },
+    {
+      "id": "nation-k-cruiser",
+      "bytes": 545820,
+      "triangles": 3999,
+      "textures": 4
+    },
+    {
+      "id": "nation-l-carrier",
+      "bytes": 584784,
+      "triangles": 5511,
+      "textures": 4
+    },
+    {
+      "id": "nation-l-cruiser",
+      "bytes": 546576,
+      "triangles": 4015,
+      "textures": 4
+    },
+    {
+      "id": "nation-k-fortress",
+      "bytes": 742312,
+      "triangles": 4931,
+      "textures": 4
+    },
+    {
+      "id": "nation-m-scout",
+      "bytes": 396328,
+      "triangles": 2087,
+      "textures": 4
+    },
+    {
+      "id": "nation-l-fortress",
+      "bytes": 620140,
+      "triangles": 5152,
+      "textures": 4
+    },
+    {
+      "id": "nation-m-cruiser",
+      "bytes": 519712,
+      "triangles": 3773,
+      "textures": 4
+    },
+    {
+      "id": "nation-m-carrier",
+      "bytes": 724820,
+      "triangles": 5316,
+      "textures": 4
+    },
+    {
+      "id": "nation-n-cruiser",
+      "bytes": 455468,
+      "triangles": 4022,
+      "textures": 4
+    },
+    {
+      "id": "nation-n-carrier",
+      "bytes": 526320,
+      "triangles": 6062,
+      "textures": 4
+    },
+    {
+      "id": "nation-n-scout",
+      "bytes": 496936,
+      "triangles": 2209,
+      "textures": 4
+    },
+    {
+      "id": "nation-m-fortress",
+      "bytes": 651052,
+      "triangles": 4733,
+      "textures": 4
+    },
+    {
+      "id": "nation-o-scout",
+      "bytes": 415612,
+      "triangles": 2133,
+      "textures": 4
+    },
+    {
+      "id": "nation-n-fortress",
+      "bytes": 635940,
+      "triangles": 5093,
+      "textures": 4
+    },
+    {
+      "id": "nation-o-cruiser",
+      "bytes": 569092,
+      "triangles": 4048,
+      "textures": 4
+    },
+    {
+      "id": "nation-o-carrier",
+      "bytes": 605204,
+      "triangles": 5886,
+      "textures": 4
+    },
+    {
+      "id": "nation-p-cruiser",
+      "bytes": 459552,
+      "triangles": 3978,
+      "textures": 4
+    },
+    {
+      "id": "nation-o-fortress",
+      "bytes": 641604,
+      "triangles": 5147,
+      "textures": 4
+    },
+    {
+      "id": "nation-p-carrier",
+      "bytes": 598632,
+      "triangles": 6073,
+      "textures": 4
+    },
+    {
+      "id": "nation-p-scout",
+      "bytes": 322360,
+      "triangles": 2255,
+      "textures": 4
+    },
+    {
+      "id": "nation-p-fortress",
+      "bytes": 574768,
+      "triangles": 5087,
+      "textures": 4
+    },
+    {
+      "id": "nation-q-scout",
+      "bytes": 234572,
+      "triangles": 2126,
+      "textures": 4
+    },
+    {
+      "id": "nation-q-cruiser",
+      "bytes": 494564,
+      "triangles": 3950,
+      "textures": 4
+    },
+    {
+      "id": "nation-r-scout",
+      "bytes": 320004,
+      "triangles": 2215,
+      "textures": 4
+    },
+    {
+      "id": "nation-q-carrier",
+      "bytes": 601912,
+      "triangles": 5885,
+      "textures": 4
+    },
+    {
+      "id": "nation-r-cruiser",
+      "bytes": 451740,
+      "triangles": 3918,
+      "textures": 4
+    },
+    {
+      "id": "nation-q-fortress",
+      "bytes": 498956,
+      "triangles": 5172,
+      "textures": 4
+    },
+    {
+      "id": "nation-r-carrier",
+      "bytes": 637680,
+      "triangles": 6021,
+      "textures": 4
+    },
+    {
+      "id": "nation-r-fortress",
+      "bytes": 515752,
+      "triangles": 4942,
+      "textures": 4
+    },
+    {
+      "id": "nation-s-scout",
+      "bytes": 370104,
+      "triangles": 2201,
+      "textures": 4
+    },
+    {
+      "id": "nation-s-cruiser",
+      "bytes": 534268,
+      "triangles": 4100,
+      "textures": 4
+    },
+    {
+      "id": "nation-s-carrier",
+      "bytes": 724936,
+      "triangles": 5812,
+      "textures": 4
+    },
+    {
+      "id": "nation-t-cruiser",
+      "bytes": 352060,
+      "triangles": 3952,
+      "textures": 4
+    },
+    {
+      "id": "nation-t-scout",
+      "bytes": 316412,
+      "triangles": 2232,
+      "textures": 4
+    },
+    {
+      "id": "nation-s-fortress",
+      "bytes": 489504,
+      "triangles": 5108,
+      "textures": 4
+    },
+    {
+      "id": "nation-t-carrier",
+      "bytes": 543580,
+      "triangles": 5877,
+      "textures": 4
+    },
+    {
+      "id": "nation-u-scout",
+      "bytes": 392952,
+      "triangles": 2186,
+      "textures": 4
+    },
+    {
+      "id": "nation-u-cruiser",
+      "bytes": 503608,
+      "triangles": 4050,
+      "textures": 4
+    },
+    {
+      "id": "nation-t-fortress",
+      "bytes": 494352,
+      "triangles": 4998,
+      "textures": 4
+    },
+    {
+      "id": "nation-u-fortress",
+      "bytes": 624228,
+      "triangles": 4979,
+      "textures": 4
+    },
+    {
+      "id": "nation-u-carrier",
+      "bytes": 681800,
+      "triangles": 5788,
+      "textures": 4
+    },
+    {
+      "id": "nation-v-cruiser",
+      "bytes": 548036,
+      "triangles": 4088,
+      "textures": 4
+    },
+    {
+      "id": "nation-v-carrier",
+      "bytes": 643836,
+      "triangles": 6081,
+      "textures": 4
+    },
+    {
+      "id": "nation-v-scout",
+      "bytes": 392532,
+      "triangles": 2264,
+      "textures": 4
+    },
+    {
+      "id": "nation-w-cruiser",
+      "bytes": 475020,
+      "triangles": 3594,
+      "textures": 4
+    },
+    {
+      "id": "nation-w-scout",
+      "bytes": 389680,
+      "triangles": 2131,
+      "textures": 4
+    },
+    {
+      "id": "nation-v-fortress",
+      "bytes": 675852,
+      "triangles": 4909,
+      "textures": 4
+    },
+    {
+      "id": "nation-w-fortress",
+      "bytes": 631356,
+      "triangles": 4828,
+      "textures": 4
+    },
+    {
+      "id": "nation-w-carrier",
+      "bytes": 599244,
+      "triangles": 5898,
+      "textures": 4
+    },
+    {
+      "id": "nation-x-carrier",
+      "bytes": 571468,
+      "triangles": 6091,
+      "textures": 4
+    },
+    {
+      "id": "nation-x-cruiser",
+      "bytes": 468432,
+      "triangles": 4062,
+      "textures": 4
+    },
+    {
+      "id": "nation-x-scout",
+      "bytes": 366348,
+      "triangles": 2115,
+      "textures": 4
+    },
+    {
+      "id": "nation-x-fortress",
+      "bytes": 670476,
+      "triangles": 5117,
+      "textures": 4
+    },
+    {
+      "id": "nation-y-scout",
+      "bytes": 368572,
+      "triangles": 2186,
+      "textures": 4
+    },
+    {
+      "id": "nation-y-cruiser",
+      "bytes": 438748,
+      "triangles": 4012,
+      "textures": 4
+    },
+    {
+      "id": "nation-y-fortress",
+      "bytes": 514180,
+      "triangles": 5031,
+      "textures": 4
+    },
+    {
+      "id": "nation-z-scout",
+      "bytes": 336516,
+      "triangles": 2073,
+      "textures": 4
+    },
+    {
+      "id": "nation-z-fortress",
+      "bytes": 641396,
+      "triangles": 5048,
+      "textures": 4
+    },
+    {
+      "id": "nation-z-cruiser",
+      "bytes": 546220,
+      "triangles": 3997,
+      "textures": 4
+    },
+    {
+      "id": "nation-z-carrier",
+      "bytes": 662808,
+      "triangles": 5897,
+      "textures": 4
+    },
+    {
+      "id": "nation-aa-scout",
+      "bytes": 273712,
+      "triangles": 2246,
+      "textures": 4
+    },
+    {
+      "id": "nation-aa-carrier",
+      "bytes": 631484,
+      "triangles": 5869,
+      "textures": 4
+    },
+    {
+      "id": "nation-aa-cruiser",
+      "bytes": 406424,
+      "triangles": 4060,
+      "textures": 4
+    },
+    {
+      "id": "nation-ab-cruiser",
+      "bytes": 542316,
+      "triangles": 3954,
+      "textures": 4
+    },
+    {
+      "id": "nation-aa-fortress",
+      "bytes": 513964,
+      "triangles": 4943,
+      "textures": 4
+    },
+    {
+      "id": "nation-ab-scout",
+      "bytes": 419320,
+      "triangles": 2213,
+      "textures": 4
+    },
+    {
+      "id": "nation-ab-carrier",
+      "bytes": 709388,
+      "triangles": 5660,
+      "textures": 4
+    },
+    {
+      "id": "nation-ab-fortress",
+      "bytes": 634416,
+      "triangles": 5039,
+      "textures": 4
+    },
+    {
+      "id": "aegis-generator",
+      "bytes": 586384,
+      "triangles": 2982,
+      "textures": 4
+    },
+    {
+      "id": "repair-generator",
+      "bytes": 487088,
+      "triangles": 2967,
+      "textures": 4
+    },
+    {
+      "id": "facility-command",
+      "bytes": 503336,
+      "triangles": 2924,
+      "textures": 4
+    },
+    {
+      "id": "facility-drydock",
+      "bytes": 434380,
+      "triangles": 2335,
+      "textures": 4
+    },
+    {
+      "id": "facility-shieldLab",
+      "bytes": 473616,
+      "triangles": 2992,
+      "textures": 4
+    },
+    {
+      "id": "facility-reactor",
+      "bytes": 509088,
+      "triangles": 3033,
+      "textures": 4
+    },
+    {
+      "id": "facility-recycler",
+      "bytes": 404156,
+      "triangles": 2814,
+      "textures": 4
+    },
+    {
+      "id": "facility-arsenal",
+      "bytes": 471804,
+      "triangles": 2680,
+      "textures": 4
+    },
+    {
+      "id": "facility-drive",
+      "bytes": 435220,
+      "triangles": 2437,
+      "textures": 4
+    },
+    {
+      "id": "facility-hangar",
+      "bytes": 499908,
+      "triangles": 2718,
+      "textures": 4
+    },
+    {
+      "id": "helionite-ore",
+      "bytes": 420192,
+      "triangles": 3107,
+      "textures": 4
+    },
+    {
+      "id": "asteroid-basalt",
+      "bytes": 252792,
+      "triangles": 3105,
+      "textures": 4
+    },
+    {
+      "id": "asteroid-ice",
+      "bytes": 482712,
+      "triangles": 3098,
+      "textures": 4
+    },
+    {
+      "id": "asteroid-wreck",
+      "bytes": 524076,
+      "triangles": 2292,
+      "textures": 4
+    },
+    {
+      "id": "asteroid-metal",
+      "bytes": 303144,
+      "triangles": 3121,
+      "textures": 4
+    },
+    {
+      "id": "guided-missile",
+      "bytes": 432656,
+      "triangles": 2967,
+      "textures": 4
+    },
+    {
+      "id": "wreck-fragment",
+      "bytes": 398576,
+      "triangles": 3111,
+      "textures": 4
+    },
+    {
+      "id": "planet-desert",
+      "bytes": 227888,
+      "triangles": 3145,
+      "textures": 4
+    },
+    {
+      "id": "planet-volcanic",
+      "bytes": 334000,
+      "triangles": 3096,
+      "textures": 4
+    },
+    {
+      "id": "planet-ice",
+      "bytes": 434836,
+      "triangles": 3117,
+      "textures": 4
+    },
+    {
+      "id": "planet-ocean",
+      "bytes": 311420,
+      "triangles": 3103,
+      "textures": 4
+    },
+    {
+      "id": "fx-ark-missile",
+      "bytes": 311744,
+      "triangles": 1042,
+      "textures": 4
+    },
+    {
+      "id": "fx-swarm-missile",
+      "bytes": 349308,
+      "triangles": 1734,
+      "textures": 4
+    },
+    {
+      "id": "fx-hostile-missile",
+      "bytes": 293868,
+      "triangles": 1652,
+      "textures": 4
+    },
+    {
+      "id": "fx-siege-torpedo",
+      "bytes": 274392,
+      "triangles": 1810,
+      "textures": 4
+    },
+    {
+      "id": "fx-ion-bolt",
+      "bytes": 378384,
+      "triangles": 1799,
+      "textures": 4
+    },
+    {
+      "id": "fx-plasma-bolt",
+      "bytes": 332500,
+      "triangles": 1097,
+      "textures": 4
+    },
+    {
+      "id": "solar-venus",
+      "bytes": 501832,
+      "triangles": 5106,
+      "textures": 4
+    },
+    {
+      "id": "solar-earth",
+      "bytes": 653712,
+      "triangles": 6222,
+      "textures": 4
+    },
+    {
+      "id": "solar-mercury",
+      "bytes": 336100,
+      "triangles": 6278,
+      "textures": 4
+    },
+    {
+      "id": "solar-mars",
+      "bytes": 341800,
+      "triangles": 6288,
+      "textures": 4
+    },
+    {
+      "id": "solar-saturn",
+      "bytes": 473784,
+      "triangles": 4918,
+      "textures": 4
+    },
+    {
+      "id": "solar-earth-clean",
+      "bytes": 580592,
+      "triangles": 6222,
+      "textures": 4
+    },
+    {
+      "id": "solar-jupiter",
+      "bytes": 389636,
+      "triangles": 5641,
+      "textures": 4
+    },
+    {
+      "id": "solar-uranus",
+      "bytes": 355684,
+      "triangles": 6288,
+      "textures": 4
+    },
+    {
+      "id": "solar-neptune",
+      "bytes": 317572,
+      "triangles": 6274,
+      "textures": 4
+    },
+    {
+      "id": "solar-pluto",
+      "bytes": 318124,
+      "triangles": 5949,
+      "textures": 4
+    },
+    {
+      "id": "skill-pulse",
+      "bytes": 680852,
+      "triangles": 5002,
+      "textures": 4
+    },
+    {
+      "id": "skill-nova",
+      "bytes": 580660,
+      "triangles": 5094,
+      "textures": 4
+    },
+    {
+      "id": "skill-overcharge",
+      "bytes": 741776,
+      "triangles": 5090,
+      "textures": 4
+    },
+    {
+      "id": "skill-repair",
+      "bytes": 829852,
+      "triangles": 5029,
+      "textures": 4
+    },
+    {
+      "id": "skill-stasis",
+      "bytes": 560708,
+      "triangles": 4994,
+      "textures": 4
+    },
+    {
+      "id": "skill-countermeasure",
+      "bytes": 604240,
+      "triangles": 5021,
+      "textures": 4
+    },
+    {
+      "id": "skill-sentry",
+      "bytes": 609412,
+      "triangles": 5058,
+      "textures": 4
+    },
+    {
+      "id": "vessel-ark",
+      "bytes": 596188,
+      "triangles": 5949,
+      "textures": 4
+    },
+    {
+      "id": "vessel-swift",
+      "bytes": 617080,
+      "triangles": 6049,
+      "textures": 4
+    },
+    {
+      "id": "vessel-raptor",
+      "bytes": 694540,
+      "triangles": 5928,
+      "textures": 4
+    },
+    {
+      "id": "vessel-needle",
+      "bytes": 698044,
+      "triangles": 6059,
+      "textures": 4
+    },
+    {
+      "id": "vessel-basilisk",
+      "bytes": 665960,
+      "triangles": 5794,
+      "textures": 4
+    },
+    {
+      "id": "vessel-hammer",
+      "bytes": 621772,
+      "triangles": 5801,
+      "textures": 4
+    },
+    {
+      "id": "vessel-lance",
+      "bytes": 729060,
+      "triangles": 5853,
+      "textures": 4
+    },
+    {
+      "id": "vessel-dread",
+      "bytes": 700396,
+      "triangles": 5880,
+      "textures": 4
+    },
+    {
+      "id": "vessel-nest",
+      "bytes": 921388,
+      "triangles": 9744,
+      "textures": 4
+    },
+    {
+      "id": "vessel-hive",
+      "bytes": 931120,
+      "triangles": 10030,
+      "textures": 4
+    },
+    {
+      "id": "vessel-seraph",
+      "bytes": 929816,
+      "triangles": 9804,
+      "textures": 4
+    },
+    {
+      "id": "vessel-sovereign",
+      "bytes": 993212,
+      "triangles": 9855,
+      "textures": 4
+    },
+    {
+      "id": "vessel-aegis",
+      "bytes": 665140,
+      "triangles": 6019,
+      "textures": 4
+    },
+    {
+      "id": "vessel-paladin",
+      "bytes": 627480,
+      "triangles": 5881,
+      "textures": 4
+    },
+    {
+      "id": "vessel-bastion",
+      "bytes": 745172,
+      "triangles": 5705,
+      "textures": 4
+    },
+    {
+      "id": "vessel-mirror",
+      "bytes": 604476,
+      "triangles": 5907,
+      "textures": 4
+    },
+    {
+      "id": "vessel-oracle",
+      "bytes": 627624,
+      "triangles": 6018,
+      "textures": 4
+    },
+    {
+      "id": "vessel-singularity",
+      "bytes": 683320,
+      "triangles": 6078,
+      "textures": 4
+    },
+    {
+      "id": "vessel-phoenix",
+      "bytes": 659656,
+      "triangles": 5984,
+      "textures": 4
+    },
+    {
+      "id": "vessel-chronos",
+      "bytes": 627960,
+      "triangles": 5945,
+      "textures": 4
+    },
+    {
+      "id": "vessel-mule",
+      "bytes": 717072,
+      "triangles": 5895,
+      "textures": 4
+    },
+    {
+      "id": "vessel-prospector",
+      "bytes": 662332,
+      "triangles": 6041,
+      "textures": 4
+    },
+    {
+      "id": "vessel-foundry",
+      "bytes": 684420,
+      "triangles": 5868,
+      "textures": 4
+    },
+    {
+      "id": "vessel-wayfarer",
+      "bytes": 680360,
+      "triangles": 6116,
+      "textures": 4
+    },
+    {
+      "id": "enemy-mercury-fortress",
+      "bytes": 762124,
+      "triangles": 10140,
+      "textures": 4
+    },
+    {
+      "id": "enemy-mercury-fighter",
+      "bytes": 556312,
+      "triangles": 6019,
+      "textures": 4
+    },
+    {
+      "id": "enemy-mercury-capital",
+      "bytes": 825320,
+      "triangles": 10188,
+      "textures": 4
+    },
+    {
+      "id": "enemy-venus-capital",
+      "bytes": 796840,
+      "triangles": 9727,
+      "textures": 4
+    },
+    {
+      "id": "enemy-venus-fortress",
+      "bytes": 772544,
+      "triangles": 10284,
+      "textures": 4
+    },
+    {
+      "id": "enemy-venus-fighter",
+      "bytes": 636852,
+      "triangles": 6071,
+      "textures": 4
+    },
+    {
+      "id": "enemy-mars-fortress",
+      "bytes": 874336,
+      "triangles": 10221,
+      "textures": 4
+    },
+    {
+      "id": "enemy-mars-fighter",
+      "bytes": 573904,
+      "triangles": 6095,
+      "textures": 4
+    },
+    {
+      "id": "enemy-mars-capital",
+      "bytes": 957844,
+      "triangles": 10113,
+      "textures": 4
+    },
+    {
+      "id": "enemy-jupiter-capital",
+      "bytes": 802212,
+      "triangles": 10065,
+      "textures": 4
+    },
+    {
+      "id": "enemy-jupiter-fighter",
+      "bytes": 612972,
+      "triangles": 6039,
+      "textures": 4
+    },
+    {
+      "id": "enemy-jupiter-fortress",
+      "bytes": 813724,
+      "triangles": 9952,
+      "textures": 4
+    },
+    {
+      "id": "enemy-saturn-fighter",
+      "bytes": 571348,
+      "triangles": 6130,
+      "textures": 4
+    },
+    {
+      "id": "enemy-saturn-capital",
+      "bytes": 906240,
+      "triangles": 9975,
+      "textures": 4
+    },
+    {
+      "id": "enemy-uranus-fighter",
+      "bytes": 560412,
+      "triangles": 6012,
+      "textures": 4
+    },
+    {
+      "id": "enemy-saturn-fortress",
+      "bytes": 837384,
+      "triangles": 10077,
+      "textures": 4
+    },
+    {
+      "id": "enemy-uranus-capital",
+      "bytes": 808508,
+      "triangles": 9917,
+      "textures": 4
+    },
+    {
+      "id": "enemy-uranus-fortress",
+      "bytes": 873076,
+      "triangles": 10235,
+      "textures": 4
+    },
+    {
+      "id": "enemy-neptune-fighter",
+      "bytes": 540276,
+      "triangles": 5774,
+      "textures": 4
+    },
+    {
+      "id": "enemy-neptune-capital",
+      "bytes": 852532,
+      "triangles": 10071,
+      "textures": 4
+    },
+    {
+      "id": "enemy-neptune-fortress",
+      "bytes": 762512,
+      "triangles": 10194,
+      "textures": 4
+    },
+    {
+      "id": "enemy-pluto-fighter",
+      "bytes": 509916,
+      "triangles": 5707,
+      "textures": 4
+    },
+    {
+      "id": "enemy-pluto-capital",
+      "bytes": 810112,
+      "triangles": 9976,
+      "textures": 4
+    },
+    {
+      "id": "enemy-pluto-fortress",
+      "bytes": 779980,
+      "triangles": 10188,
+      "textures": 4
+    },
+    {
+      "id": "enemy-iris-fighter",
+      "bytes": 555808,
+      "triangles": 5956,
+      "textures": 4
+    },
+    {
+      "id": "enemy-iris-capital",
+      "bytes": 769000,
+      "triangles": 9935,
+      "textures": 4
+    },
+    {
+      "id": "enemy-nereid-capital",
+      "bytes": 789936,
+      "triangles": 10068,
+      "textures": 4
+    },
+    {
+      "id": "enemy-iris-fortress",
+      "bytes": 749804,
+      "triangles": 9957,
+      "textures": 4
+    },
+    {
+      "id": "enemy-nereid-fighter",
+      "bytes": 485024,
+      "triangles": 6141,
+      "textures": 4
+    },
+    {
+      "id": "enemy-nereid-fortress",
+      "bytes": 909004,
+      "triangles": 10261,
+      "textures": 4
+    },
+    {
+      "id": "enemy-prism-capital",
+      "bytes": 951688,
+      "triangles": 10168,
+      "textures": 4
+    },
+    {
+      "id": "enemy-prism-fighter",
+      "bytes": 596008,
+      "triangles": 5935,
+      "textures": 4
+    },
+    {
+      "id": "enemy-prism-fortress",
+      "bytes": 900956,
+      "triangles": 10233,
+      "textures": 4
+    },
+    {
+      "id": "enemy-cinder-fighter",
+      "bytes": 593408,
+      "triangles": 6178,
+      "textures": 4
+    },
+    {
+      "id": "enemy-cinder-capital",
+      "bytes": 760888,
+      "triangles": 9893,
+      "textures": 4
+    },
+    {
+      "id": "enemy-ferrum-fighter",
+      "bytes": 577508,
+      "triangles": 5723,
+      "textures": 4
+    },
+    {
+      "id": "enemy-cinder-fortress",
+      "bytes": 861468,
+      "triangles": 10008,
+      "textures": 4
+    },
+    {
+      "id": "enemy-ferrum-capital",
+      "bytes": 888744,
+      "triangles": 9857,
+      "textures": 4
+    },
+    {
+      "id": "enemy-ferrum-fortress",
+      "bytes": 899764,
+      "triangles": 9898,
+      "textures": 4
+    },
+    {
+      "id": "enemy-vulcan-fighter",
+      "bytes": 600428,
+      "triangles": 6043,
+      "textures": 4
+    },
+    {
+      "id": "enemy-vulcan-capital",
+      "bytes": 906992,
+      "triangles": 9875,
+      "textures": 4
+    },
+    {
+      "id": "enemy-vesper-fighter",
+      "bytes": 433288,
+      "triangles": 5858,
+      "textures": 4
+    },
+    {
+      "id": "enemy-vulcan-fortress",
+      "bytes": 827300,
+      "triangles": 9989,
+      "textures": 4
+    },
+    {
+      "id": "enemy-vesper-capital",
+      "bytes": 834072,
+      "triangles": 10231,
+      "textures": 4
+    },
+    {
+      "id": "enemy-vesper-fortress",
+      "bytes": 746100,
+      "triangles": 9985,
+      "textures": 4
+    },
+    {
+      "id": "enemy-auris-fighter",
+      "bytes": 535536,
+      "triangles": 6083,
+      "textures": 4
+    },
+    {
+      "id": "enemy-auris-capital",
+      "bytes": 792120,
+      "triangles": 10059,
+      "textures": 4
+    },
+    {
+      "id": "enemy-auris-fortress",
+      "bytes": 806252,
+      "triangles": 10115,
+      "textures": 4
+    },
+    {
+      "id": "enemy-aetherion-capital",
+      "bytes": 866976,
+      "triangles": 10175,
+      "textures": 4
+    },
+    {
+      "id": "enemy-aetherion-fortress",
+      "bytes": 942128,
+      "triangles": 10094,
+      "textures": 4
+    },
+    {
+      "id": "enemy-aetherion-fighter",
+      "bytes": 586572,
+      "triangles": 6136,
+      "textures": 4
+    }
+  ]
+}

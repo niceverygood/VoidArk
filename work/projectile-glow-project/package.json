@@ -1,0 +1,26 @@
+{
+  "name": "void-ark",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 4190",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 4191",
+    "test": "node --test tests/*.test.js",
+    "play": "node serve.mjs",
+    "online": "node online-server.mjs",
+    "assets:verify": "node tools/validate-assets.mjs",
+    "assets:generate": "node tools/meshy-generate.mjs",
+    "assets:vessels": "node tools/meshy-vessel-generate.mjs",
+    "assets:validate-vessels": "node tools/validate-vessel-assets.mjs"
+  },
+  "dependencies": {
+    "@fontsource-variable/space-grotesk": "5.3.0",
+    "three": "0.180.0",
+    "ws": "^8.21.0"
+  },
+  "devDependencies": {
+    "vite": "^7.3.7"
+  }
+}

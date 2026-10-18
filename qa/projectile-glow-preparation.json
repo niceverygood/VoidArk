@@ -1,0 +1,12 @@
+{
+  "at": "2026-10-18T00:10:31.862Z",
+  "productChanged": false,
+  "workEdits": [
+    "projectile-visuals.js",
+    "main.js",
+    "projectile-glow-pool.js"
+  ],
+  "nativeProjectileSha256": "f0857bc7b381e5bd3bbb2407d50af384a0ceaf9e0f5a6c5d7a8d9d181ba67782",
+  "candidateProjectileSha256": "8a82936181fec6b8a67e2f2a67f956cd04efd51728091bc88229b246187b1467",
+  "contract": "Generic default stays private. Main explicitly opts into common-frame-time transparent glow sharing. No opaque material/Object3D/geometry/physics/wake changes. No product adoption before actual render/pixel/resource/performance checks."
+}

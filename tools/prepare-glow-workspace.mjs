@@ -1,0 +1,4 @@
+import fs from 'node:fs/promises';import path from 'node:path';import {fileURLToPath} from 'node:url';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..'),project=path.join(root,'work/projectile-glow-project');
+for(const name of ['node_modules','public']){const target=path.join(root,name),link=path.join(project,name);if(!(await fs.stat(target)).isDirectory())throw Error('Missing '+name+'; run npm ci first');try{const current=await fs.lstat(link);if(!current.isSymbolicLink()||await fs.realpath(link)!==await fs.realpath(target))throw Error('Existing path is not the expected workspace link: '+name);}catch(e){if(e.code!=='ENOENT')throw e;await fs.symlink(process.platform==='win32'?target:path.relative(project,target),link,process.platform==='win32'?'junction':'dir');}}
+console.log('WORK glow links prepared inside this checkout; product source unchanged');

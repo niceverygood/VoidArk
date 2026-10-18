@@ -1,0 +1,16 @@
+import {cleanSpaceBase,SOLAR_FOUNDATION_COST,SOLAR_CAPITALS,solarFacilityCost,FLEET_BUILD_COST} from './space-bases.js';
+import {FLEET_TIERS} from './fleet.js';
+import {preparationBudget} from './campaign-economy.js';
+export function jupiterPlan(sim){
+ const b=cleanSpaceBase(sim.meta.spaceBase),money=sim.scrap+sim.meta.bank,{reserve}=preparationBudget(sim);
+ const foundation=b.sunBuilt?0:SOLAR_FOUNDATION_COST,command=b.facilities.command?0:solarFacilityCost(sim.meta,'command'),yard=b.facilities.shipyard?0:solarFacilityCost(sim.meta,'shipyard');
+ const capital=SOLAR_CAPITALS[0],hull=b.owned.includes(capital.id)?0:capital.cost,facilities=foundation+command+yard;
+ const tier=FLEET_TIERS[Math.min(sim.meta.fleetRank||0,FLEET_TIERS.length-1)],next=FLEET_TIERS.find(t=>t.level>tier.level);
+ return {money,reserve,free:Math.max(0,money-reserve),foundation,command,yard,hull,capital:capital.name,capitalTotal:facilities+hull,fleetTotal:facilities+FLEET_BUILD_COST.frigate,frigate:FLEET_BUILD_COST.frigate,tier,next,cleared:sim.meta.campaign?.cleared||0};
+}
+export function jupiterPreparationMarkup(sim,state){
+ if(!sim.campaignDock||state.chapter!=='solar'||state.index!==3)return '';
+ const p=jupiterPlan(sim),gap=n=>Math.max(0,n-p.free);
+ return `<section class="expedition-target jupiter-preparation"><span class="eyebrow">화성 이후 · 성장 전환</span><h3>목성 원정 · 정비 지원 종료</h3><p>화성 첫 점령으로 수리 최대 8 · 실드 최대 4 지원이 끝났습니다. 이제 손상량과 시설 할인에 따라 비용이 계산됩니다. 패배 보급 12만으로 완전 정비가 보장되지 않습니다.</p><p>목성 공략: 수복함은 65m 안 전단을 초당 3~5 회복합니다. 주황 우선 표식으로 접근해 제거한 뒤, 항모 22m 안에서 피해를 25% 줄이는 방패 호위를 끊고 항모를 공격하세요. 자동 조준은 가까운 적을 선택하므로 표적에 접근해야 합니다.</p><div class="target-objectives"><span>현재 수리 ${sim.baseServices().repair}</span><span>실드 충전 ${sim.baseServices().shield}</span><span>정비 확보 후 강화 예산 ${p.free}</span></div><p>추진·선단 정비는 별도입니다. 아래 강화 버튼은 정비 예산을 자동 보관하지 않으므로 잔액을 확인하세요.</p><button class="secondary-button" data-base-section="repair">먼저 수리 · 충전 확인</button><div class="loadout-grid"><article class="loadout-card"><h4>현재 함선 → 레벨 호위 전대</h4><p>현재 지휘 단계: ${p.tier.name} · ${p.tier.count}척. ${p.next?`다음 전투 LV.${p.next.level}에서 ${p.next.name} ${p.next.count}척 해금.`:'최대 지휘 단계 · 10척.'}</p><p>레벨 호위 해금은 자원 구매 없이 전투 성장으로 이루어집니다. 지휘 단계는 다음 출격에도 유지됩니다.</p><small>추가 함선은 추종·사격·요격과 3D 모델 비용을 늘립니다. 실제 밀도별 성능은 별도 검증이 필요합니다.</small></article><article class="loadout-card"><h4>태양 항모 · ${p.capital}</h4><p>태양계 ${p.cleared}/8 점령. 남은 ${Math.max(0,8-p.cleared)}개 행성 점령 후 태양 기지에서 제작합니다. 최초 목성 진입 단계에서는 아직 잠겨 있습니다.</p><p>남은 건설비: 태양 기지 ${p.foundation} + 사령부 1단계 ${p.command} + 조선소 1단계 ${p.yard} + 기함 ${p.hull} = ${p.capitalTotal} 아르켈륨</p><strong>현재 정비 확보 후 예산 기준 ${gap(p.capitalTotal)} 추가 필요</strong><small>이미 건설·보유한 항목은 0으로 계산합니다. 무장 강화와 향후 정비비는 별도입니다.</small></article><article class="loadout-card"><h4>함종 선택 · 영구 원정 선단</h4><p>태양 기지 + 사령부 1단계(한도 4척) + 조선소 1단계. 첫 호위함 건조 ${p.frigate} · 시설부터 준비하면 총 ${p.fleetTotal} 아르켈륨.</p><strong>현재 정비 확보 후 예산 기준 ${gap(p.fleetTotal)} 추가 필요</strong><p>기함 제작은 선단 건조의 필수 조건이 아닙니다. 레벨 호위로 정원이 찼다면 사령부 증축이 먼저 필요합니다.</p><small>함선별 무장·장갑·엔진·특수 개조 비용은 별도입니다.</small></article></div><p>기함과 호위함 1척을 함께 새로 마련하는 남은 예산은 ${p.capitalTotal+p.frigate} 아르켈륨입니다. 시설 비용은 한 번만 포함합니다. 현재 정비 확보 후 ${gap(p.capitalTotal+p.frigate)} 추가 필요.</p><p>목성 → 토성 → 천왕성 → 해왕성 → 명왕성 → 태양 기지·기함/선단 → 안드로메다. 태양 기지 제작은 선택 사항이고 태양계 통일 후 안드로메다 출격은 무료입니다.</p></section>`;
+}
+

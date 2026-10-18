@@ -1,0 +1,43 @@
+{
+  "revision": "feedback-v3",
+  "assets": [
+    {
+      "id": "missile",
+      "duration": 1.25,
+      "peak": 0.7771,
+      "sources": [
+        "missile.mp3",
+        "physical-v2/missile.mp3"
+      ],
+      "filter": "[0:a]volume=0.5[a];[1:a]volume=0.5[b];[a][b]amix=inputs=2:normalize=0,highpass=f=30,atrim=duration=1.25,afade=t=out:st=1:d=0.25,alimiter=limit=0.85:level=false,volume=0.65[out]"
+    },
+    {
+      "id": "hit",
+      "duration": 0.45,
+      "peak": 0.7405,
+      "sources": [
+        "hit.mp3",
+        "physical-v2/explosion.mp3"
+      ],
+      "filter": "[0:a]volume=0.9[a];[1:a]lowpass=f=2200,volume=0.12[b];[a][b]amix=inputs=2:normalize=0,atrim=duration=0.45,afade=t=out:st=0.30:d=0.15,alimiter=limit=0.85:level=false,volume=0.65[out]"
+    },
+    {
+      "id": "explosion",
+      "duration": 2.2,
+      "peak": 0.7715,
+      "sources": [
+        "physical-v2/explosion.mp3"
+      ],
+      "filter": "[0:a]highpass=f=28,bass=g=7:f=90:w=0.7,atrim=duration=2.2,afade=t=out:st=1.85:d=0.35,alimiter=limit=0.85:level=false,volume=0.65[out]"
+    },
+    {
+      "id": "barrage",
+      "duration": 3.0,
+      "peak": 0.753,
+      "sources": [
+        "barrage.mp3"
+      ],
+      "filter": "[0:a]atrim=start=0.06,asetpts=PTS-STARTPTS,atempo=0.806667,highpass=f=28,lowpass=f=4800,treble=g=-4:f=3000,bass=g=8:f=100:w=0.7,apad,atrim=duration=3,afade=t=in:st=0:d=0.12,afade=t=out:st=2.6:d=0.4,alimiter=limit=0.85:level=false,volume=0.65[out]"
+    }
+  ]
+}

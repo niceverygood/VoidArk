@@ -1,0 +1,28 @@
+{
+  "revision": "hostile-v6-low-rocket-double-warning",
+  "method": "Edits of existing ElevenLabs recordings; no new generation",
+  "assets": [
+    {
+      "id": "enemyMissile",
+      "duration": 0.7,
+      "peak": 0.827151894569397,
+      "rms": 0.191973831576784,
+      "sources": [
+        "feedback-v5\\missile.mp3",
+        "physical-v2\\cannon.mp3"
+      ],
+      "filter": "[0:a]atrim=duration=0.52,asetpts=PTS-STARTPTS,asetrate=40000,aresample=48000,highpass=f=50,lowpass=f=1000,bass=g=3:f=130,afade=t=in:d=0.015,afade=t=out:st=0.27:d=0.35,volume=0.9[rocket];[1:a]atrim=duration=0.12,asetpts=PTS-STARTPTS,lowpass=f=500,afade=t=in:d=0.006,afade=t=out:st=0.03:d=0.09,volume=0.13[latch];[rocket][latch]amix=inputs=2:normalize=0,apad,atrim=duration=0.7,alimiter=limit=0.72:level=false[out]"
+    },
+    {
+      "id": "alert",
+      "duration": 0.62,
+      "peak": 0.5788952112197876,
+      "rms": 0.07659463246024946,
+      "sources": [
+        "physical-v2\\cannon.mp3",
+        "physical-v2\\click.mp3"
+      ],
+      "filter": "[0:a]atrim=duration=0.14,asetpts=PTS-STARTPTS,highpass=f=100,lowpass=f=900,afade=t=in:d=0.01,afade=t=out:st=0.05:d=0.09,volume=0.6[a];[1:a]atrim=duration=0.11,asetpts=PTS-STARTPTS,lowpass=f=1300,afade=t=out:st=0.03:d=0.08,volume=0.23[b];[a][b]amix=inputs=2:normalize=0,asplit=2[p][q];[q]adelay=220|220,volume=0.85[q2];[p][q2]amix=inputs=2:normalize=0,apad,atrim=duration=0.62,alimiter=limit=0.68:level=false[out]"
+    }
+  ]
+}

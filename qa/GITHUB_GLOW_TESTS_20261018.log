@@ -1,0 +1,16 @@
+✔ shared common-time roots match native transforms, shader values and wake buffers through motion and expiry (84.6478ms)
+✔ main opt-in shares only glow/core, opaque bodies remain distinct, and final roots own release (17.7786ms)
+✔ generic default retains independent times and material ownership (12.3917ms)
+✔ body-disposal failure still returns the main glow lease and preserves the original error (15.3984ms)
+✔ glow/core shader, tint, strength and blend state match the native pair exactly (3.7923ms)
+✔ same-type live leases share, other colors stay separate, last release disposes once (2.1717ms)
+✔ color-management epochs retain old live colors and new leases match new native colors (0.6856ms)
+✔ both final resources are attempted even when first dispose throws; new acquire is fresh (0.8727ms)
+ℹ tests 8
+ℹ suites 0
+ℹ pass 8
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1019.6578

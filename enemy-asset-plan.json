@@ -1,0 +1,467 @@
+{
+  "version": 1,
+  "maxCredits": 1530,
+  "estimatedCredits": 1530,
+  "quality": "meshy-6 preview/refine, PBR, 2K original; optimized game textures",
+  "assets": [
+    {
+      "id": "enemy-mercury-fighter",
+      "planet": "mercury",
+      "role": "fighter",
+      "name": "태양풍 방열 가오리",
+      "polycount": 6000,
+      "prompt": "One isolated premium original science fiction enemy spacecraft, physically integrated hard surface aerospace construction. A manta ray silhouette, broad paired heat radiator fins with five segmented vanes on each side, refractory ceramic shielded narrow central spine, solar wind collectors, recessed engines. Compact interceptor warship, clear forward prow and rear engine outlets, two integrated forward cannons, sturdy small forms optimized for many simultaneous enemies. Nose along negative Z, top positive Y. No base, no ground, no stand, no scenery, no detached ships, no exhaust flames. Real game ready 3D model with mechanical depth, armored panel seams, strong readable silhouette.",
+      "texture": "Premium realistic PBR science fiction military model. Planetary armor color #635d59 over dark graphite titanium structure. Restrained emissive accents #ffb34d. Detailed ceramic and metal paneling, machined seams, normal mapped vents, subtle edge wear, variable roughness, realistic metallic finish, dark recessed cavities. No text, no insignia, no logos, no cartoon style, no baked shadows or scenery."
+    },
+    {
+      "id": "enemy-mercury-capital",
+      "planet": "mercury",
+      "role": "capital",
+      "name": "태양풍 방열 가오리",
+      "polycount": 10000,
+      "prompt": "One isolated premium original science fiction enemy spacecraft, physically integrated hard surface aerospace construction. A manta ray silhouette, broad paired heat radiator fins with five segmented vanes on each side, refractory ceramic shielded narrow central spine, solar wind collectors, recessed engines. Large imposing command carrier and boss battleship, elaborate multi deck bridge, four integrated weapon towers, armored hangar mouths, heavy stepped broad hull. Preserve the planetary silhouette at capital scale. Nose along negative Z, top positive Y. No base, no ground, no stand, no scenery, no detached ships, no exhaust flames. Real game ready 3D model with mechanical depth, armored panel seams, strong readable silhouette.",
+      "texture": "Premium realistic PBR science fiction military model. Planetary armor color #635d59 over dark graphite titanium structure. Restrained emissive accents #ffb34d. Detailed ceramic and metal paneling, machined seams, normal mapped vents, subtle edge wear, variable roughness, realistic metallic finish, dark recessed cavities. No text, no insignia, no logos, no cartoon style, no baked shadows or scenery."
+    },
+    {
+      "id": "enemy-mercury-fortress",
+      "planet": "mercury",
+      "role": "fortress",
+      "name": "태양풍 방열 가오리",
+      "polycount": 10000,
+      "prompt": "One isolated premium original science fiction enemy orbital fortress, physically integrated hard surface aerospace construction. A manta ray silhouette, broad paired heat radiator fins with five segmented vanes on each side, refractory ceramic shielded narrow central spine, solar wind collectors, recessed engines. Stationary orbital defense fortress, monumental central structure, four defensive tower bastions, docking struts and recessed gun emplacements, no landing base or terrain. Preserve the planetary silhouette as a military space station. Nose along negative Z, top positive Y. No base, no ground, no stand, no scenery, no detached ships, no exhaust flames. Real game ready 3D model with mechanical depth, armored panel seams, strong readable silhouette.",
+      "texture": "Premium realistic PBR science fiction military model. Planetary armor color #635d59 over dark graphite titanium structure. Restrained emissive accents #ffb34d. Detailed ceramic and metal paneling, machined seams, normal mapped vents, subtle edge wear, variable roughness, realistic metallic finish, dark recessed cavities. No text, no insignia, no logos, no cartoon style, no baked shadows or scenery."
+    },
+    {
+      "id": "enemy-venus-fighter",
+      "planet": "venus",
+      "role": "fighter",
+      "name": "황산 안개 잠수정",
+      "polycount": 6000,
+      "prompt": "One isolated premium original science fiction enemy spacecraft, physically integrated hard surface aerospace construction. An armored deep pressure submarine spacecraft, bulbous reinforced pressure hull, three structural hoops, sealed paired propulsion pods, acid resistant armor, vent filtration grilles. Compact interceptor warship, clear forward prow and rear engine outlets, two integrated forward cannons, sturdy small forms optimized for many simultaneous enemies. Nose along negative Z, top positive Y. No base, no ground, no stand, no scenery, no detached ships, no exhaust flames. Real game ready 3D model with mechanical depth, armored panel seams, strong readable silhouette.",
+      "texture": "Premium realistic PBR science fiction military model. Planetary armor color #9b8237 over dark graphite titanium structure. Restrained emissive accents #dfff61. Detailed ceramic and metal paneling, machined seams, normal mapped vents, subtle edge wear, variable roughness, realistic metallic finish, dark recessed cavities. No text, no insignia, no logos, no cartoon style, no baked shadows or scenery."
+    },
+    {
+      "id": "enemy-venus-capital",
+      "planet": "venus",
+      "role": "capital",
+      "name": "황산 안개 잠수정",
+      "polycount": 10000,
+      "prompt": "One isolated premium original science fiction enemy spacecraft, physically integrated hard surface aerospace construction. An armored deep pressure submarine spacecraft, bulbous reinforced pressure hull, three structural hoops, sealed paired propulsion pods, acid resistant armor, vent filtration grilles. Large imposing command carrier and boss battleship, elaborate multi deck bridge, four integrated weapon towers, armored hangar mouths, heavy stepped broad hull. Preserve the planetary silhouette at capital scale. Nose along negative Z, top positive Y. No base, no ground, no stand, no scenery, no detached ships, no exhaust flames. Real game ready 3D model with mechanical depth, armored panel seams, strong readable silhouette.",
+      "texture": "Premium realistic PBR science fiction military model. Planetary armor color #9b8237 over dark graphite titanium structure. Restrained emissive accents #dfff61. Detailed ceramic and metal paneling, machined seams, normal mapped vents, subtle edge wear, variable roughness, realistic metallic finish, dark recessed cavities. No text, no insignia, no logos, no cartoon style, no baked shadows or scenery."
+    },
+    {
+      "id": "enemy-venus-fortress",
+      "planet": "venus",
+      "role": "fortress",
+      "name": "황산 안개 잠수정",
+      "polycount": 10000,
+      "prompt": "One isolated premium original science fiction enemy orbital fortress, physically integrated hard surface aerospace construction. An armored deep pressure submarine spacecraft, bulbous reinforced pressure hull, three structural hoops, sealed paired propulsion pods, acid resistant armor, vent filtration grilles. Stationary orbital defense fortress, monumental central structure, four defensive tower bastions, docking struts and recessed gun emplacements, no landing base or terrain. Preserve the planetary silhouette as a military space station. Nose along negative Z, top positive Y. No base, no ground, no stand, no scenery, no detached ships, no exhaust flames. Real game ready 3D model with mechanical depth, armored panel seams, strong readable silhouette.",
+      "texture": "Premium realistic PBR science fiction military model. Planetary armor color #9b8237 over dark graphite titanium structure. Restrained emissive accents #dfff61. Detailed ceramic and metal paneling, machined seams, normal mapped vents, subtle edge wear, variable roughness, realistic metallic finish, dark recessed cavities. No text, no insignia, no logos, no cartoon style, no baked shadows or scenery."
+    },
+    {
+      "id": "enemy-mars-fighter",
+      "planet": "mars",
+      "role": "fighter",
+      "name": "적철 전갈 전차",
+      "polycount": 6000,
+      "prompt": "One isolated premium original science fiction enemy spacecraft, physically integrated hard surface aerospace construction. A mechanized scorpion spacecraft, rust red armored central carapace, three pairs of angular stabilizer legs, two forward pincer cannon nacelles, raised rear stinger sensor tower. Compact interceptor warship, clear forward prow and rear engine outlets, two integrated forward cannons, sturdy small forms optimized for many simultaneous enemies. Nose along negative Z, top positive Y. No base, no ground, no stand, no scenery, no detached ships, no exhaust flames. Real game ready 3D model with mechanical depth, armored panel seams, strong readable silhouette.",
+      "texture": "Premium realistic PBR science fiction military model. Planetary armor color #a3442d over dark graphite titanium structure. Restrained emissive accents #ff6534. Detailed ceramic and metal paneling, machined seams, normal mapped vents, subtle edge wear, variable roughness, realistic metallic finish, dark recessed cavities. No text, no insignia, no logos, no cartoon style, no baked shadows or scenery."
+    },
+    {
+      "id": "enemy-mars-capital",
+      "planet": "mars",
+      "role": "capital",
+      "name": "적철 전갈 전차",
+      "polycount": 10000,
+      "prompt": "One isolated premium original science fiction enemy spacecraft, physically integrated hard surface aerospace construction. A mechanized scorpion spacecraft, rust red armored central carapace, three pairs of angular stabilizer legs, two forward pincer cannon nacelles, raised rear stinger sensor tower. Large imposing command carrier and boss battleship, elaborate multi deck bridge, four integrated weapon towers, armored hangar mouths, heavy stepped broad hull. Preserve the planetary silhouette at capital scale. Nose along negative Z, top positive Y. No base, no ground, no stand, no scenery, no detached ships, no exhaust flames. Real game ready 3D model with mechanical depth, armored panel seams, strong readable silhouette.",
+      "texture": "Premium realistic PBR science fiction military model. Planetary armor color #a3442d over dark graphite titanium structure. Restrained emissive accents #ff6534. Detailed ceramic and metal paneling, machined seams, normal mapped vents, subtle edge wear, variable roughness, realistic metallic finish, dark recessed cavities. No text, no insignia, no logos, no cartoon style, no baked shadows or scenery."
+    },
+    {
+      "id": "enemy-mars-fortress",
+      "planet": "mars",
+      "role": "fortress",
+      "name": "적철 전갈 전차",
+      "polycount": 10000,
+      "prompt": "One isolated premium original science fiction enemy orbital fortress, physically integrated hard surface aerospace construction. A mechanized scorpion spacecraft, rust red armored central carapace, three pairs of angular stabilizer legs, two forward pincer cannon nacelles, raised rear stinger sensor tower. Stationary orbital defense fortress, monumental central structure, four defensive tower bastions, docking struts and recessed gun emplacements, no landing base or terrain. Preserve the planetary silhouette as a military space station. Nose along negative Z, top positive Y. No base, no ground, no stand, no scenery, no detached ships, no exhaust flames. Real game ready 3D model with mechanical depth, armored panel seams, strong readable silhouette.",
+      "texture": "Premium realistic PBR science fiction military model. Planetary armor color #a3442d over dark graphite titanium structure. Restrained emissive accents #ff6534. Detailed ceramic and metal paneling, machined seams, normal mapped vents, subtle edge wear, variable roughness, realistic metallic finish, dark recessed cavities. No text, no insignia, no logos, no cartoon style, no baked shadows or scenery."
+    },
+    {
+      "id": "enemy-jupiter-fighter",
+      "planet": "jupiter",
+      "role": "fighter",
+      "name": "대적점 폭풍 거인",
+      "polycount": 6000,
+      "prompt": "One isolated premium original science fiction enemy spacecraft, physically integrated hard surface aerospace construction. A massive storm harvester spacecraft, layered elliptical belt shaped hull, concentric stacked storm vanes, one asymmetric red eye sensor on the dorsal surface, two broad propulsion nacelles. Compact interceptor warship, clear forward prow and rear engine outlets, two integrated forward cannons, sturdy small forms optimized for many simultaneous enemies. Nose along negative Z, top positive Y. No base, no ground, no stand, no scenery, no detached ships, no exhaust flames. Real game ready 3D model with mechanical depth, armored panel seams, strong readable silhouette.",
+      "texture": "Premium realistic PBR science fiction military model. Planetary armor color #b88c64 over dark graphite titanium structure. Restrained emissive accents #ffcc9b. Detailed ceramic and metal paneling, machined seams, normal mapped vents, subtle edge wear, variable roughness, realistic metallic finish, dark recessed cavities. No text, no insignia, no logos, no cartoon style, no baked shadows or scenery."
+    },
+    {
+      "id": "enemy-jupiter-capital",
+      "planet": "jupiter",
+      "role": "capital",
+      "name": "대적점 폭풍 거인",
+      "polycount": 10000,
+      "prompt": "One isolated premium original science fiction enemy spacecraft, physically integrated hard surface aerospace construction. A massive storm harvester spacecraft, layered elliptical belt shaped hull, concentric stacked storm vanes, one asymmetric red eye sensor on the dorsal surface, two broad propulsion nacelles. Large imposing command carrier and boss battleship, elaborate multi deck bridge, four integrated weapon towers, armored hangar mouths, heavy stepped broad hull. Preserve the planetary silhouette at capital scale. Nose along negative Z, top positive Y. No base, no ground, no stand, no scenery, no detached ships, no exhaust flames. Real game ready 3D model with mechanical depth, armored panel seams, strong readable silhouette.",
+      "texture": "Premium realistic PBR science fiction military model. Planetary armor color #b88c64 over dark graphite titanium structure. Restrained emissive accents #ffcc9b. Detailed ceramic and metal paneling, machined seams, normal mapped vents, subtle edge wear, variable roughness, realistic metallic finish, dark recessed cavities. No text, no insignia, no logos, no cartoon style, no baked shadows or scenery."
+    },
+    {
+      "id": "enemy-jupiter-fortress",
+      "planet": "jupiter",
+      "role": "fortress",
+      "name": "대적점 폭풍 거인",
+      "polycount": 10000,
+      "prompt": "One isolated premium original science fiction enemy orbital fortress, physically integrated hard surface aerospace construction. A massive storm harvester spacecraft, layered elliptical belt shaped hull, concentric stacked storm vanes, one asymmetric red eye sensor on the dorsal surface, two broad propulsion nacelles. Stationary orbital defense fortress, monumental central structure, four defensive tower bastions, docking struts and recessed gun emplacements, no landing base or terrain. Preserve the planetary silhouette as a military space station. Nose along negative Z, top positive Y. No base, no ground, no stand, no scenery, no detached ships, no exhaust flames. Real game ready 3D model with mechanical depth, armored panel seams, strong readable silhouette.",
+      "texture": "Premium realistic PBR science fiction military model. Planetary armor color #b88c64 over dark graphite titanium structure. Restrained emissive accents #ffcc9b. Detailed ceramic and metal paneling, machined seams, normal mapped vents, subtle edge wear, variable roughness, realistic metallic finish, dark recessed cavities. No text, no insignia, no logos, no cartoon style, no baked shadows or scenery."
+    },
+    {
+      "id": "enemy-saturn-fighter",
+      "planet": "saturn",
+      "role": "fighter",
+      "name": "고리 궤도 수호자",
+      "polycount": 6000,
+      "prompt": "One isolated premium original science fiction enemy spacecraft, physically integrated hard surface aerospace construction. A central narrow armored spacecraft surrounded by an intact broad horizontal orbital ring, visible radial mechanical supports, segmented ring weapon emplacements, central engine nacelles. Compact interceptor warship, clear forward prow and rear engine outlets, two integrated forward cannons, sturdy small forms optimized for many simultaneous enemies. Nose along negative Z, top positive Y. No base, no ground, no stand, no scenery, no detached ships, no exhaust flames. Real game ready 3D model with mechanical depth, armored panel seams, strong readable silhouette.",
+      "texture": "Premium realistic PBR science fiction military model. Planetary armor color #b4a16b over dark graphite titanium structure. Restrained emissive accents #ffe2a2. Detailed ceramic and metal paneling, machined seams, normal mapped vents, subtle edge wear, variable roughness, realistic metallic finish, dark recessed cavities. No text, no insignia, no logos, no cartoon style, no baked shadows or scenery."
+    },
+    {
+      "id": "enemy-saturn-capital",
+      "planet": "saturn",
+      "role": "capital",
+      "name": "고리 궤도 수호자",
+      "polycount": 10000,
+      "prompt": "One isolated premium original science fiction enemy spacecraft, physically integrated hard surface aerospace construction. A central narrow armored spacecraft surrounded by an intact broad horizontal orbital ring, visible radial mechanical supports, segmented ring weapon emplacements, central engine nacelles. Large imposing command carrier and boss battleship, elaborate multi deck bridge, four integrated weapon towers, armored hangar mouths, heavy stepped broad hull. Preserve the planetary silhouette at capital scale. Nose along negative Z, top positive Y. No base, no ground, no stand, no scenery, no detached ships, no exhaust flames. Real game ready 3D model with mechanical depth, armored panel seams, strong readable silhouette.",
+      "texture": "Premium realistic PBR science fiction military model. Planetary armor color #b4a16b over dark graphite titanium structure. Restrained emissive accents #ffe2a2. Detailed ceramic and metal paneling, machined seams, normal mapped vents, subtle edge wear, variable roughness, realistic metallic finish, dark recessed cavities. No text, no insignia, no logos, no cartoon style, no baked shadows or scenery."
+    },
+    {
+      "id": "enemy-saturn-fortress",
+      "planet": "saturn",
+      "role": "fortress",
+      "name": "고리 궤도 수호자",
+      "polycount": 10000,
+      "prompt": "One isolated premium original science fiction enemy orbital fortress, physically integrated hard surface aerospace construction. A central narrow armored spacecraft surrounded by an intact broad horizontal orbital ring, visible radial mechanical supports, segmented ring weapon emplacements, central engine nacelles. Stationary orbital defense fortress, monumental central structure, four defensive tower bastions, docking struts and recessed gun emplacements, no landing base or terrain. Preserve the planetary silhouette as a military space station. Nose along negative Z, top positive Y. No base, no ground, no stand, no scenery, no detached ships, no exhaust flames. Real game ready 3D model with mechanical depth, armored panel seams, strong readable silhouette.",
+      "texture": "Premium realistic PBR science fiction military model. Planetary armor color #b4a16b over dark graphite titanium structure. Restrained emissive accents #ffe2a2. Detailed ceramic and metal paneling, machined seams, normal mapped vents, subtle edge wear, variable roughness, realistic metallic finish, dark recessed cavities. No text, no insignia, no logos, no cartoon style, no baked shadows or scenery."
+    },
+    {
+      "id": "enemy-uranus-fighter",
+      "planet": "uranus",
+      "role": "fighter",
+      "name": "빙결 횡축 감시자",
+      "polycount": 6000,
+      "prompt": "One isolated premium original science fiction enemy spacecraft, physically integrated hard surface aerospace construction. An ice giant spacecraft with a tall vertically tilted orbital hoop around the compact elongated hull, perpendicular gyroscopic structure, frozen cyan ceramic armor, slim outriggers. Compact interceptor warship, clear forward prow and rear engine outlets, two integrated forward cannons, sturdy small forms optimized for many simultaneous enemies. Nose along negative Z, top positive Y. No base, no ground, no stand, no scenery, no detached ships, no exhaust flames. Real game ready 3D model with mechanical depth, armored panel seams, strong readable silhouette.",
+      "texture": "Premium realistic PBR science fiction military model. Planetary armor color #488f9e over dark graphite titanium structure. Restrained emissive accents #9effee. Detailed ceramic and metal paneling, machined seams, normal mapped vents, subtle edge wear, variable roughness, realistic metallic finish, dark recessed cavities. No text, no insignia, no logos, no cartoon style, no baked shadows or scenery."
+    },
+    {
+      "id": "enemy-uranus-capital",
+      "planet": "uranus",
+      "role": "capital",
+      "name": "빙결 횡축 감시자",
+      "polycount": 10000,
+      "prompt": "One isolated premium original science fiction enemy spacecraft, physically integrated hard surface aerospace construction. An ice giant spacecraft with a tall vertically tilted orbital hoop around the compact elongated hull, perpendicular gyroscopic structure, frozen cyan ceramic armor, slim outriggers. Large imposing command carrier and boss battleship, elaborate multi deck bridge, four integrated weapon towers, armored hangar mouths, heavy stepped broad hull. Preserve the planetary silhouette at capital scale. Nose along negative Z, top positive Y. No base, no ground, no stand, no scenery, no detached ships, no exhaust flames. Real game ready 3D model with mechanical depth, armored panel seams, strong readable silhouette.",
+      "texture": "Premium realistic PBR science fiction military model. Planetary armor color #488f9e over dark graphite titanium structure. Restrained emissive accents #9effee. Detailed ceramic and metal paneling, machined seams, normal mapped vents, subtle edge wear, variable roughness, realistic metallic finish, dark recessed cavities. No text, no insignia, no logos, no cartoon style, no baked shadows or scenery."
+    },
+    {
+      "id": "enemy-uranus-fortress",
+      "planet": "uranus",
+      "role": "fortress",
+      "name": "빙결 횡축 감시자",
+      "polycount": 10000,
+      "prompt": "One isolated premium original science fiction enemy orbital fortress, physically integrated hard surface aerospace construction. An ice giant spacecraft with a tall vertically tilted orbital hoop around the compact elongated hull, perpendicular gyroscopic structure, frozen cyan ceramic armor, slim outriggers. Stationary orbital defense fortress, monumental central structure, four defensive tower bastions, docking struts and recessed gun emplacements, no landing base or terrain. Preserve the planetary silhouette as a military space station. Nose along negative Z, top positive Y. No base, no ground, no stand, no scenery, no detached ships, no exhaust flames. Real game ready 3D model with mechanical depth, armored panel seams, strong readable silhouette.",
+      "texture": "Premium realistic PBR science fiction military model. Planetary armor color #488f9e over dark graphite titanium structure. Restrained emissive accents #9effee. Detailed ceramic and metal paneling, machined seams, normal mapped vents, subtle edge wear, variable roughness, realistic metallic finish, dark recessed cavities. No text, no insignia, no logos, no cartoon style, no baked shadows or scenery."
+    },
+    {
+      "id": "enemy-neptune-fighter",
+      "planet": "neptune",
+      "role": "fighter",
+      "name": "심해 삼지창 사냥꾼",
+      "polycount": 6000,
+      "prompt": "One isolated premium original science fiction enemy spacecraft, physically integrated hard surface aerospace construction. A dark blue trident shaped hunter spacecraft, three distinct long forward spears with integrated cannon apertures, aerodynamic turbine pods, backward swept connecting bridge. Compact interceptor warship, clear forward prow and rear engine outlets, two integrated forward cannons, sturdy small forms optimized for many simultaneous enemies. Nose along negative Z, top positive Y. No base, no ground, no stand, no scenery, no detached ships, no exhaust flames. Real game ready 3D model with mechanical depth, armored panel seams, strong readable silhouette.",
+      "texture": "Premium realistic PBR science fiction military model. Planetary armor color #244f99 over dark graphite titanium structure. Restrained emissive accents #628aff. Detailed ceramic and metal paneling, machined seams, normal mapped vents, subtle edge wear, variable roughness, realistic metallic finish, dark recessed cavities. No text, no insignia, no logos, no cartoon style, no baked shadows or scenery."
+    },
+    {
+      "id": "enemy-neptune-capital",
+      "planet": "neptune",
+      "role": "capital",
+      "name": "심해 삼지창 사냥꾼",
+      "polycount": 10000,
+      "prompt": "One isolated premium original science fiction enemy spacecraft, physically integrated hard surface aerospace construction. A dark blue trident shaped hunter spacecraft, three distinct long forward spears with integrated cannon apertures, aerodynamic turbine pods, backward swept connecting bridge. Large imposing command carrier and boss battleship, elaborate multi deck bridge, four integrated weapon towers, armored hangar mouths, heavy stepped broad hull. Preserve the planetary silhouette at capital scale. Nose along negative Z, top positive Y. No base, no ground, no stand, no scenery, no detached ships, no exhaust flames. Real game ready 3D model with mechanical depth, armored panel seams, strong readable silhouette.",
+      "texture": "Premium realistic PBR science fiction military model. Planetary armor color #244f99 over dark graphite titanium structure. Restrained emissive accents #628aff. Detailed ceramic and metal paneling, machined seams, normal mapped vents, subtle edge wear, variable roughness, realistic metallic finish, dark recessed cavities. No text, no insignia, no logos, no cartoon style, no baked shadows or scenery."
+    },
+    {
+      "id": "enemy-neptune-fortress",
+      "planet": "neptune",
+      "role": "fortress",
+      "name": "심해 삼지창 사냥꾼",
+      "polycount": 10000,
+      "prompt": "One isolated premium original science fiction enemy orbital fortress, physically integrated hard surface aerospace construction. A dark blue trident shaped hunter spacecraft, three distinct long forward spears with integrated cannon apertures, aerodynamic turbine pods, backward swept connecting bridge. Stationary orbital defense fortress, monumental central structure, four defensive tower bastions, docking struts and recessed gun emplacements, no landing base or terrain. Preserve the planetary silhouette as a military space station. Nose along negative Z, top positive Y. No base, no ground, no stand, no scenery, no detached ships, no exhaust flames. Real game ready 3D model with mechanical depth, armored panel seams, strong readable silhouette.",
+      "texture": "Premium realistic PBR science fiction military model. Planetary armor color #244f99 over dark graphite titanium structure. Restrained emissive accents #628aff. Detailed ceramic and metal paneling, machined seams, normal mapped vents, subtle edge wear, variable roughness, realistic metallic finish, dark recessed cavities. No text, no insignia, no logos, no cartoon style, no baked shadows or scenery."
+    },
+    {
+      "id": "enemy-pluto-fighter",
+      "planet": "pluto",
+      "role": "fighter",
+      "name": "빙암 관문 망령",
+      "polycount": 6000,
+      "prompt": "One isolated premium original science fiction enemy spacecraft, physically integrated hard surface aerospace construction. A cold dark outpost spacecraft made of five elongated angular ice and stone armored shards joined around a central forward spear, silvery frost paneling, deep violet reactor. Compact interceptor warship, clear forward prow and rear engine outlets, two integrated forward cannons, sturdy small forms optimized for many simultaneous enemies. Nose along negative Z, top positive Y. No base, no ground, no stand, no scenery, no detached ships, no exhaust flames. Real game ready 3D model with mechanical depth, armored panel seams, strong readable silhouette.",
+      "texture": "Premium realistic PBR science fiction military model. Planetary armor color #665869 over dark graphite titanium structure. Restrained emissive accents #d9c3ff. Detailed ceramic and metal paneling, machined seams, normal mapped vents, subtle edge wear, variable roughness, realistic metallic finish, dark recessed cavities. No text, no insignia, no logos, no cartoon style, no baked shadows or scenery."
+    },
+    {
+      "id": "enemy-pluto-capital",
+      "planet": "pluto",
+      "role": "capital",
+      "name": "빙암 관문 망령",
+      "polycount": 10000,
+      "prompt": "One isolated premium original science fiction enemy spacecraft, physically integrated hard surface aerospace construction. A cold dark outpost spacecraft made of five elongated angular ice and stone armored shards joined around a central forward spear, silvery frost paneling, deep violet reactor. Large imposing command carrier and boss battleship, elaborate multi deck bridge, four integrated weapon towers, armored hangar mouths, heavy stepped broad hull. Preserve the planetary silhouette at capital scale. Nose along negative Z, top positive Y. No base, no ground, no stand, no scenery, no detached ships, no exhaust flames. Real game ready 3D model with mechanical depth, armored panel seams, strong readable silhouette.",
+      "texture": "Premium realistic PBR science fiction military model. Planetary armor color #665869 over dark graphite titanium structure. Restrained emissive accents #d9c3ff. Detailed ceramic and metal paneling, machined seams, normal mapped vents, subtle edge wear, variable roughness, realistic metallic finish, dark recessed cavities. No text, no insignia, no logos, no cartoon style, no baked shadows or scenery."
+    },
+    {
+      "id": "enemy-pluto-fortress",
+      "planet": "pluto",
+      "role": "fortress",
+      "name": "빙암 관문 망령",
+      "polycount": 10000,
+      "prompt": "One isolated premium original science fiction enemy orbital fortress, physically integrated hard surface aerospace construction. A cold dark outpost spacecraft made of five elongated angular ice and stone armored shards joined around a central forward spear, silvery frost paneling, deep violet reactor. Stationary orbital defense fortress, monumental central structure, four defensive tower bastions, docking struts and recessed gun emplacements, no landing base or terrain. Preserve the planetary silhouette as a military space station. Nose along negative Z, top positive Y. No base, no ground, no stand, no scenery, no detached ships, no exhaust flames. Real game ready 3D model with mechanical depth, armored panel seams, strong readable silhouette.",
+      "texture": "Premium realistic PBR science fiction military model. Planetary armor color #665869 over dark graphite titanium structure. Restrained emissive accents #d9c3ff. Detailed ceramic and metal paneling, machined seams, normal mapped vents, subtle edge wear, variable roughness, realistic metallic finish, dark recessed cavities. No text, no insignia, no logos, no cartoon style, no baked shadows or scenery."
+    },
+    {
+      "id": "enemy-iris-fighter",
+      "planet": "iris",
+      "role": "fighter",
+      "name": "빙하 날개 파수꾼",
+      "polycount": 6000,
+      "prompt": "One isolated premium original science fiction enemy spacecraft, physically integrated hard surface aerospace construction. A glacial wing spacecraft, central narrow spear fuselage, three pairs of stepped crystalline ice blade wings with mechanical root joints, pale cyan reinforced optical core. Compact interceptor warship, clear forward prow and rear engine outlets, two integrated forward cannons, sturdy small forms optimized for many simultaneous enemies. Nose along negative Z, top positive Y. No base, no ground, no stand, no scenery, no detached ships, no exhaust flames. Real game ready 3D model with mechanical depth, armored panel seams, strong readable silhouette.",
+      "texture": "Premium realistic PBR science fiction military model. Planetary armor color #4e9eaf over dark graphite titanium structure. Restrained emissive accents #c0ffff. Detailed ceramic and metal paneling, machined seams, normal mapped vents, subtle edge wear, variable roughness, realistic metallic finish, dark recessed cavities. No text, no insignia, no logos, no cartoon style, no baked shadows or scenery."
+    },
+    {
+      "id": "enemy-iris-capital",
+      "planet": "iris",
+      "role": "capital",
+      "name": "빙하 날개 파수꾼",
+      "polycount": 10000,
+      "prompt": "One isolated premium original science fiction enemy spacecraft, physically integrated hard surface aerospace construction. A glacial wing spacecraft, central narrow spear fuselage, three pairs of stepped crystalline ice blade wings with mechanical root joints, pale cyan reinforced optical core. Large imposing command carrier and boss battleship, elaborate multi deck bridge, four integrated weapon towers, armored hangar mouths, heavy stepped broad hull. Preserve the planetary silhouette at capital scale. Nose along negative Z, top positive Y. No base, no ground, no stand, no scenery, no detached ships, no exhaust flames. Real game ready 3D model with mechanical depth, armored panel seams, strong readable silhouette.",
+      "texture": "Premium realistic PBR science fiction military model. Planetary armor color #4e9eaf over dark graphite titanium structure. Restrained emissive accents #c0ffff. Detailed ceramic and metal paneling, machined seams, normal mapped vents, subtle edge wear, variable roughness, realistic metallic finish, dark recessed cavities. No text, no insignia, no logos, no cartoon style, no baked shadows or scenery."
+    },
+    {
+      "id": "enemy-iris-fortress",
+      "planet": "iris",
+      "role": "fortress",
+      "name": "빙하 날개 파수꾼",
+      "polycount": 10000,
+      "prompt": "One isolated premium original science fiction enemy orbital fortress, physically integrated hard surface aerospace construction. A glacial wing spacecraft, central narrow spear fuselage, three pairs of stepped crystalline ice blade wings with mechanical root joints, pale cyan reinforced optical core. Stationary orbital defense fortress, monumental central structure, four defensive tower bastions, docking struts and recessed gun emplacements, no landing base or terrain. Preserve the planetary silhouette as a military space station. Nose along negative Z, top positive Y. No base, no ground, no stand, no scenery, no detached ships, no exhaust flames. Real game ready 3D model with mechanical depth, armored panel seams, strong readable silhouette.",
+      "texture": "Premium realistic PBR science fiction military model. Planetary armor color #4e9eaf over dark graphite titanium structure. Restrained emissive accents #c0ffff. Detailed ceramic and metal paneling, machined seams, normal mapped vents, subtle edge wear, variable roughness, realistic metallic finish, dark recessed cavities. No text, no insignia, no logos, no cartoon style, no baked shadows or scenery."
+    },
+    {
+      "id": "enemy-nereid-fighter",
+      "planet": "nereid",
+      "role": "fighter",
+      "name": "심해 해파리 수복자",
+      "polycount": 6000,
+      "prompt": "One isolated premium original science fiction enemy spacecraft, physically integrated hard surface aerospace construction. A jellyfish inspired oceanic repair spacecraft, wide domed upper armor, five rigid slender backward trailing repair booms attached to the hull, aqua medical reactor and recessed engine outlets. Compact interceptor warship, clear forward prow and rear engine outlets, two integrated forward cannons, sturdy small forms optimized for many simultaneous enemies. Nose along negative Z, top positive Y. No base, no ground, no stand, no scenery, no detached ships, no exhaust flames. Real game ready 3D model with mechanical depth, armored panel seams, strong readable silhouette.",
+      "texture": "Premium realistic PBR science fiction military model. Planetary armor color #305b81 over dark graphite titanium structure. Restrained emissive accents #63f9cf. Detailed ceramic and metal paneling, machined seams, normal mapped vents, subtle edge wear, variable roughness, realistic metallic finish, dark recessed cavities. No text, no insignia, no logos, no cartoon style, no baked shadows or scenery."
+    },
+    {
+      "id": "enemy-nereid-capital",
+      "planet": "nereid",
+      "role": "capital",
+      "name": "심해 해파리 수복자",
+      "polycount": 10000,
+      "prompt": "One isolated premium original science fiction enemy spacecraft, physically integrated hard surface aerospace construction. A jellyfish inspired oceanic repair spacecraft, wide domed upper armor, five rigid slender backward trailing repair booms attached to the hull, aqua medical reactor and recessed engine outlets. Large imposing command carrier and boss battleship, elaborate multi deck bridge, four integrated weapon towers, armored hangar mouths, heavy stepped broad hull. Preserve the planetary silhouette at capital scale. Nose along negative Z, top positive Y. No base, no ground, no stand, no scenery, no detached ships, no exhaust flames. Real game ready 3D model with mechanical depth, armored panel seams, strong readable silhouette.",
+      "texture": "Premium realistic PBR science fiction military model. Planetary armor color #305b81 over dark graphite titanium structure. Restrained emissive accents #63f9cf. Detailed ceramic and metal paneling, machined seams, normal mapped vents, subtle edge wear, variable roughness, realistic metallic finish, dark recessed cavities. No text, no insignia, no logos, no cartoon style, no baked shadows or scenery."
+    },
+    {
+      "id": "enemy-nereid-fortress",
+      "planet": "nereid",
+      "role": "fortress",
+      "name": "심해 해파리 수복자",
+      "polycount": 10000,
+      "prompt": "One isolated premium original science fiction enemy orbital fortress, physically integrated hard surface aerospace construction. A jellyfish inspired oceanic repair spacecraft, wide domed upper armor, five rigid slender backward trailing repair booms attached to the hull, aqua medical reactor and recessed engine outlets. Stationary orbital defense fortress, monumental central structure, four defensive tower bastions, docking struts and recessed gun emplacements, no landing base or terrain. Preserve the planetary silhouette as a military space station. Nose along negative Z, top positive Y. No base, no ground, no stand, no scenery, no detached ships, no exhaust flames. Real game ready 3D model with mechanical depth, armored panel seams, strong readable silhouette.",
+      "texture": "Premium realistic PBR science fiction military model. Planetary armor color #305b81 over dark graphite titanium structure. Restrained emissive accents #63f9cf. Detailed ceramic and metal paneling, machined seams, normal mapped vents, subtle edge wear, variable roughness, realistic metallic finish, dark recessed cavities. No text, no insignia, no logos, no cartoon style, no baked shadows or scenery."
+    },
+    {
+      "id": "enemy-prism-fighter",
+      "planet": "prism",
+      "role": "fighter",
+      "name": "수정 공명 광학체",
+      "polycount": 6000,
+      "prompt": "One isolated premium original science fiction enemy spacecraft, physically integrated hard surface aerospace construction. A crystalline optical warship, central elongated faceted crystal reactor encased in real metal armor, six radial mechanical prism blades, refractive laser apertures and shielded rear engines. Compact interceptor warship, clear forward prow and rear engine outlets, two integrated forward cannons, sturdy small forms optimized for many simultaneous enemies. Nose along negative Z, top positive Y. No base, no ground, no stand, no scenery, no detached ships, no exhaust flames. Real game ready 3D model with mechanical depth, armored panel seams, strong readable silhouette.",
+      "texture": "Premium realistic PBR science fiction military model. Planetary armor color #8eabc8 over dark graphite titanium structure. Restrained emissive accents #e0b6ff. Detailed ceramic and metal paneling, machined seams, normal mapped vents, subtle edge wear, variable roughness, realistic metallic finish, dark recessed cavities. No text, no insignia, no logos, no cartoon style, no baked shadows or scenery."
+    },
+    {
+      "id": "enemy-prism-capital",
+      "planet": "prism",
+      "role": "capital",
+      "name": "수정 공명 광학체",
+      "polycount": 10000,
+      "prompt": "One isolated premium original science fiction enemy spacecraft, physically integrated hard surface aerospace construction. A crystalline optical warship, central elongated faceted crystal reactor encased in real metal armor, six radial mechanical prism blades, refractive laser apertures and shielded rear engines. Large imposing command carrier and boss battleship, elaborate multi deck bridge, four integrated weapon towers, armored hangar mouths, heavy stepped broad hull. Preserve the planetary silhouette at capital scale. Nose along negative Z, top positive Y. No base, no ground, no stand, no scenery, no detached ships, no exhaust flames. Real game ready 3D model with mechanical depth, armored panel seams, strong readable silhouette.",
+      "texture": "Premium realistic PBR science fiction military model. Planetary armor color #8eabc8 over dark graphite titanium structure. Restrained emissive accents #e0b6ff. Detailed ceramic and metal paneling, machined seams, normal mapped vents, subtle edge wear, variable roughness, realistic metallic finish, dark recessed cavities. No text, no insignia, no logos, no cartoon style, no baked shadows or scenery."
+    },
+    {
+      "id": "enemy-prism-fortress",
+      "planet": "prism",
+      "role": "fortress",
+      "name": "수정 공명 광학체",
+      "polycount": 10000,
+      "prompt": "One isolated premium original science fiction enemy orbital fortress, physically integrated hard surface aerospace construction. A crystalline optical warship, central elongated faceted crystal reactor encased in real metal armor, six radial mechanical prism blades, refractive laser apertures and shielded rear engines. Stationary orbital defense fortress, monumental central structure, four defensive tower bastions, docking struts and recessed gun emplacements, no landing base or terrain. Preserve the planetary silhouette as a military space station. Nose along negative Z, top positive Y. No base, no ground, no stand, no scenery, no detached ships, no exhaust flames. Real game ready 3D model with mechanical depth, armored panel seams, strong readable silhouette.",
+      "texture": "Premium realistic PBR science fiction military model. Planetary armor color #8eabc8 over dark graphite titanium structure. Restrained emissive accents #e0b6ff. Detailed ceramic and metal paneling, machined seams, normal mapped vents, subtle edge wear, variable roughness, realistic metallic finish, dark recessed cavities. No text, no insignia, no logos, no cartoon style, no baked shadows or scenery."
+    },
+    {
+      "id": "enemy-cinder-fighter",
+      "planet": "cinder",
+      "role": "fighter",
+      "name": "화산 분화구 주조병",
+      "polycount": 6000,
+      "prompt": "One isolated premium original science fiction enemy spacecraft, physically integrated hard surface aerospace construction. A volcanic caldera shaped spacecraft, squat circular layered black basalt armor, octagonal raised reactor rim with glowing orange cracks, recessed lava furnace core, stern engine pods. Compact interceptor warship, clear forward prow and rear engine outlets, two integrated forward cannons, sturdy small forms optimized for many simultaneous enemies. Nose along negative Z, top positive Y. No base, no ground, no stand, no scenery, no detached ships, no exhaust flames. Real game ready 3D model with mechanical depth, armored panel seams, strong readable silhouette.",
+      "texture": "Premium realistic PBR science fiction military model. Planetary armor color #51423a over dark graphite titanium structure. Restrained emissive accents #ff7826. Detailed ceramic and metal paneling, machined seams, normal mapped vents, subtle edge wear, variable roughness, realistic metallic finish, dark recessed cavities. No text, no insignia, no logos, no cartoon style, no baked shadows or scenery."
+    },
+    {
+      "id": "enemy-cinder-capital",
+      "planet": "cinder",
+      "role": "capital",
+      "name": "화산 분화구 주조병",
+      "polycount": 10000,
+      "prompt": "One isolated premium original science fiction enemy spacecraft, physically integrated hard surface aerospace construction. A volcanic caldera shaped spacecraft, squat circular layered black basalt armor, octagonal raised reactor rim with glowing orange cracks, recessed lava furnace core, stern engine pods. Large imposing command carrier and boss battleship, elaborate multi deck bridge, four integrated weapon towers, armored hangar mouths, heavy stepped broad hull. Preserve the planetary silhouette at capital scale. Nose along negative Z, top positive Y. No base, no ground, no stand, no scenery, no detached ships, no exhaust flames. Real game ready 3D model with mechanical depth, armored panel seams, strong readable silhouette.",
+      "texture": "Premium realistic PBR science fiction military model. Planetary armor color #51423a over dark graphite titanium structure. Restrained emissive accents #ff7826. Detailed ceramic and metal paneling, machined seams, normal mapped vents, subtle edge wear, variable roughness, realistic metallic finish, dark recessed cavities. No text, no insignia, no logos, no cartoon style, no baked shadows or scenery."
+    },
+    {
+      "id": "enemy-cinder-fortress",
+      "planet": "cinder",
+      "role": "fortress",
+      "name": "화산 분화구 주조병",
+      "polycount": 10000,
+      "prompt": "One isolated premium original science fiction enemy orbital fortress, physically integrated hard surface aerospace construction. A volcanic caldera shaped spacecraft, squat circular layered black basalt armor, octagonal raised reactor rim with glowing orange cracks, recessed lava furnace core, stern engine pods. Stationary orbital defense fortress, monumental central structure, four defensive tower bastions, docking struts and recessed gun emplacements, no landing base or terrain. Preserve the planetary silhouette as a military space station. Nose along negative Z, top positive Y. No base, no ground, no stand, no scenery, no detached ships, no exhaust flames. Real game ready 3D model with mechanical depth, armored panel seams, strong readable silhouette.",
+      "texture": "Premium realistic PBR science fiction military model. Planetary armor color #51423a over dark graphite titanium structure. Restrained emissive accents #ff7826. Detailed ceramic and metal paneling, machined seams, normal mapped vents, subtle edge wear, variable roughness, realistic metallic finish, dark recessed cavities. No text, no insignia, no logos, no cartoon style, no baked shadows or scenery."
+    },
+    {
+      "id": "enemy-ferrum-fighter",
+      "planet": "ferrum",
+      "role": "fighter",
+      "name": "철벽 궤도 공성차",
+      "polycount": 6000,
+      "prompt": "One isolated premium original science fiction enemy spacecraft, physically integrated hard surface aerospace construction. An industrial iron siege spacecraft, broad rectangular heavy central chassis, two armored longitudinal side tracks made of continuous segmented metal machinery, massive recessed forward railguns. Compact interceptor warship, clear forward prow and rear engine outlets, two integrated forward cannons, sturdy small forms optimized for many simultaneous enemies. Nose along negative Z, top positive Y. No base, no ground, no stand, no scenery, no detached ships, no exhaust flames. Real game ready 3D model with mechanical depth, armored panel seams, strong readable silhouette.",
+      "texture": "Premium realistic PBR science fiction military model. Planetary armor color #66747c over dark graphite titanium structure. Restrained emissive accents #b4d2ee. Detailed ceramic and metal paneling, machined seams, normal mapped vents, subtle edge wear, variable roughness, realistic metallic finish, dark recessed cavities. No text, no insignia, no logos, no cartoon style, no baked shadows or scenery."
+    },
+    {
+      "id": "enemy-ferrum-capital",
+      "planet": "ferrum",
+      "role": "capital",
+      "name": "철벽 궤도 공성차",
+      "polycount": 10000,
+      "prompt": "One isolated premium original science fiction enemy spacecraft, physically integrated hard surface aerospace construction. An industrial iron siege spacecraft, broad rectangular heavy central chassis, two armored longitudinal side tracks made of continuous segmented metal machinery, massive recessed forward railguns. Large imposing command carrier and boss battleship, elaborate multi deck bridge, four integrated weapon towers, armored hangar mouths, heavy stepped broad hull. Preserve the planetary silhouette at capital scale. Nose along negative Z, top positive Y. No base, no ground, no stand, no scenery, no detached ships, no exhaust flames. Real game ready 3D model with mechanical depth, armored panel seams, strong readable silhouette.",
+      "texture": "Premium realistic PBR science fiction military model. Planetary armor color #66747c over dark graphite titanium structure. Restrained emissive accents #b4d2ee. Detailed ceramic and metal paneling, machined seams, normal mapped vents, subtle edge wear, variable roughness, realistic metallic finish, dark recessed cavities. No text, no insignia, no logos, no cartoon style, no baked shadows or scenery."
+    },
+    {
+      "id": "enemy-ferrum-fortress",
+      "planet": "ferrum",
+      "role": "fortress",
+      "name": "철벽 궤도 공성차",
+      "polycount": 10000,
+      "prompt": "One isolated premium original science fiction enemy orbital fortress, physically integrated hard surface aerospace construction. An industrial iron siege spacecraft, broad rectangular heavy central chassis, two armored longitudinal side tracks made of continuous segmented metal machinery, massive recessed forward railguns. Stationary orbital defense fortress, monumental central structure, four defensive tower bastions, docking struts and recessed gun emplacements, no landing base or terrain. Preserve the planetary silhouette as a military space station. Nose along negative Z, top positive Y. No base, no ground, no stand, no scenery, no detached ships, no exhaust flames. Real game ready 3D model with mechanical depth, armored panel seams, strong readable silhouette.",
+      "texture": "Premium realistic PBR science fiction military model. Planetary armor color #66747c over dark graphite titanium structure. Restrained emissive accents #b4d2ee. Detailed ceramic and metal paneling, machined seams, normal mapped vents, subtle edge wear, variable roughness, realistic metallic finish, dark recessed cavities. No text, no insignia, no logos, no cartoon style, no baked shadows or scenery."
+    },
+    {
+      "id": "enemy-vulcan-fighter",
+      "planet": "vulcan",
+      "role": "fighter",
+      "name": "용광로 쌍동 전함",
+      "polycount": 6000,
+      "prompt": "One isolated premium original science fiction enemy spacecraft, physically integrated hard surface aerospace construction. A twin hulled furnace battleship with parallel heavy long industrial hulls, luminous slotted furnace vents on top, central reinforced bridge, chunky exhaust machinery. Compact interceptor warship, clear forward prow and rear engine outlets, two integrated forward cannons, sturdy small forms optimized for many simultaneous enemies. Nose along negative Z, top positive Y. No base, no ground, no stand, no scenery, no detached ships, no exhaust flames. Real game ready 3D model with mechanical depth, armored panel seams, strong readable silhouette.",
+      "texture": "Premium realistic PBR science fiction military model. Planetary armor color #945d3b over dark graphite titanium structure. Restrained emissive accents #ffb344. Detailed ceramic and metal paneling, machined seams, normal mapped vents, subtle edge wear, variable roughness, realistic metallic finish, dark recessed cavities. No text, no insignia, no logos, no cartoon style, no baked shadows or scenery."
+    },
+    {
+      "id": "enemy-vulcan-capital",
+      "planet": "vulcan",
+      "role": "capital",
+      "name": "용광로 쌍동 전함",
+      "polycount": 10000,
+      "prompt": "One isolated premium original science fiction enemy spacecraft, physically integrated hard surface aerospace construction. A twin hulled furnace battleship with parallel heavy long industrial hulls, luminous slotted furnace vents on top, central reinforced bridge, chunky exhaust machinery. Large imposing command carrier and boss battleship, elaborate multi deck bridge, four integrated weapon towers, armored hangar mouths, heavy stepped broad hull. Preserve the planetary silhouette at capital scale. Nose along negative Z, top positive Y. No base, no ground, no stand, no scenery, no detached ships, no exhaust flames. Real game ready 3D model with mechanical depth, armored panel seams, strong readable silhouette.",
+      "texture": "Premium realistic PBR science fiction military model. Planetary armor color #945d3b over dark graphite titanium structure. Restrained emissive accents #ffb344. Detailed ceramic and metal paneling, machined seams, normal mapped vents, subtle edge wear, variable roughness, realistic metallic finish, dark recessed cavities. No text, no insignia, no logos, no cartoon style, no baked shadows or scenery."
+    },
+    {
+      "id": "enemy-vulcan-fortress",
+      "planet": "vulcan",
+      "role": "fortress",
+      "name": "용광로 쌍동 전함",
+      "polycount": 10000,
+      "prompt": "One isolated premium original science fiction enemy orbital fortress, physically integrated hard surface aerospace construction. A twin hulled furnace battleship with parallel heavy long industrial hulls, luminous slotted furnace vents on top, central reinforced bridge, chunky exhaust machinery. Stationary orbital defense fortress, monumental central structure, four defensive tower bastions, docking struts and recessed gun emplacements, no landing base or terrain. Preserve the planetary silhouette as a military space station. Nose along negative Z, top positive Y. No base, no ground, no stand, no scenery, no detached ships, no exhaust flames. Real game ready 3D model with mechanical depth, armored panel seams, strong readable silhouette.",
+      "texture": "Premium realistic PBR science fiction military model. Planetary armor color #945d3b over dark graphite titanium structure. Restrained emissive accents #ffb344. Detailed ceramic and metal paneling, machined seams, normal mapped vents, subtle edge wear, variable roughness, realistic metallic finish, dark recessed cavities. No text, no insignia, no logos, no cartoon style, no baked shadows or scenery."
+    },
+    {
+      "id": "enemy-vesper-fighter",
+      "planet": "vesper",
+      "role": "fighter",
+      "name": "황혼 초승달 추격자",
+      "polycount": 6000,
+      "prompt": "One isolated premium original science fiction enemy spacecraft, physically integrated hard surface aerospace construction. A crescent shaped twilight predator spacecraft, thick asymmetric arc of angular connected armor, hooked forward blade tips, shadow graphite understructure and violet navigation strips. Compact interceptor warship, clear forward prow and rear engine outlets, two integrated forward cannons, sturdy small forms optimized for many simultaneous enemies. Nose along negative Z, top positive Y. No base, no ground, no stand, no scenery, no detached ships, no exhaust flames. Real game ready 3D model with mechanical depth, armored panel seams, strong readable silhouette.",
+      "texture": "Premium realistic PBR science fiction military model. Planetary armor color #514366 over dark graphite titanium structure. Restrained emissive accents #bd82ff. Detailed ceramic and metal paneling, machined seams, normal mapped vents, subtle edge wear, variable roughness, realistic metallic finish, dark recessed cavities. No text, no insignia, no logos, no cartoon style, no baked shadows or scenery."
+    },
+    {
+      "id": "enemy-vesper-capital",
+      "planet": "vesper",
+      "role": "capital",
+      "name": "황혼 초승달 추격자",
+      "polycount": 10000,
+      "prompt": "One isolated premium original science fiction enemy spacecraft, physically integrated hard surface aerospace construction. A crescent shaped twilight predator spacecraft, thick asymmetric arc of angular connected armor, hooked forward blade tips, shadow graphite understructure and violet navigation strips. Large imposing command carrier and boss battleship, elaborate multi deck bridge, four integrated weapon towers, armored hangar mouths, heavy stepped broad hull. Preserve the planetary silhouette at capital scale. Nose along negative Z, top positive Y. No base, no ground, no stand, no scenery, no detached ships, no exhaust flames. Real game ready 3D model with mechanical depth, armored panel seams, strong readable silhouette.",
+      "texture": "Premium realistic PBR science fiction military model. Planetary armor color #514366 over dark graphite titanium structure. Restrained emissive accents #bd82ff. Detailed ceramic and metal paneling, machined seams, normal mapped vents, subtle edge wear, variable roughness, realistic metallic finish, dark recessed cavities. No text, no insignia, no logos, no cartoon style, no baked shadows or scenery."
+    },
+    {
+      "id": "enemy-vesper-fortress",
+      "planet": "vesper",
+      "role": "fortress",
+      "name": "황혼 초승달 추격자",
+      "polycount": 10000,
+      "prompt": "One isolated premium original science fiction enemy orbital fortress, physically integrated hard surface aerospace construction. A crescent shaped twilight predator spacecraft, thick asymmetric arc of angular connected armor, hooked forward blade tips, shadow graphite understructure and violet navigation strips. Stationary orbital defense fortress, monumental central structure, four defensive tower bastions, docking struts and recessed gun emplacements, no landing base or terrain. Preserve the planetary silhouette as a military space station. Nose along negative Z, top positive Y. No base, no ground, no stand, no scenery, no detached ships, no exhaust flames. Real game ready 3D model with mechanical depth, armored panel seams, strong readable silhouette.",
+      "texture": "Premium realistic PBR science fiction military model. Planetary armor color #514366 over dark graphite titanium structure. Restrained emissive accents #bd82ff. Detailed ceramic and metal paneling, machined seams, normal mapped vents, subtle edge wear, variable roughness, realistic metallic finish, dark recessed cavities. No text, no insignia, no logos, no cartoon style, no baked shadows or scenery."
+    },
+    {
+      "id": "enemy-auris-fighter",
+      "planet": "auris",
+      "role": "fighter",
+      "name": "쌍성 왕관 근위대",
+      "polycount": 6000,
+      "prompt": "One isolated premium original science fiction enemy spacecraft, physically integrated hard surface aerospace construction. A twin star royal spacecraft, two mirrored elongated ivory gold hulls, paired brilliant reactor cores encased in protective spherical metal cages, elegant central reinforced bridge. Compact interceptor warship, clear forward prow and rear engine outlets, two integrated forward cannons, sturdy small forms optimized for many simultaneous enemies. Nose along negative Z, top positive Y. No base, no ground, no stand, no scenery, no detached ships, no exhaust flames. Real game ready 3D model with mechanical depth, armored panel seams, strong readable silhouette.",
+      "texture": "Premium realistic PBR science fiction military model. Planetary armor color #afa078 over dark graphite titanium structure. Restrained emissive accents #ffe2fa. Detailed ceramic and metal paneling, machined seams, normal mapped vents, subtle edge wear, variable roughness, realistic metallic finish, dark recessed cavities. No text, no insignia, no logos, no cartoon style, no baked shadows or scenery."
+    },
+    {
+      "id": "enemy-auris-capital",
+      "planet": "auris",
+      "role": "capital",
+      "name": "쌍성 왕관 근위대",
+      "polycount": 10000,
+      "prompt": "One isolated premium original science fiction enemy spacecraft, physically integrated hard surface aerospace construction. A twin star royal spacecraft, two mirrored elongated ivory gold hulls, paired brilliant reactor cores encased in protective spherical metal cages, elegant central reinforced bridge. Large imposing command carrier and boss battleship, elaborate multi deck bridge, four integrated weapon towers, armored hangar mouths, heavy stepped broad hull. Preserve the planetary silhouette at capital scale. Nose along negative Z, top positive Y. No base, no ground, no stand, no scenery, no detached ships, no exhaust flames. Real game ready 3D model with mechanical depth, armored panel seams, strong readable silhouette.",
+      "texture": "Premium realistic PBR science fiction military model. Planetary armor color #afa078 over dark graphite titanium structure. Restrained emissive accents #ffe2fa. Detailed ceramic and metal paneling, machined seams, normal mapped vents, subtle edge wear, variable roughness, realistic metallic finish, dark recessed cavities. No text, no insignia, no logos, no cartoon style, no baked shadows or scenery."
+    },
+    {
+      "id": "enemy-auris-fortress",
+      "planet": "auris",
+      "role": "fortress",
+      "name": "쌍성 왕관 근위대",
+      "polycount": 10000,
+      "prompt": "One isolated premium original science fiction enemy orbital fortress, physically integrated hard surface aerospace construction. A twin star royal spacecraft, two mirrored elongated ivory gold hulls, paired brilliant reactor cores encased in protective spherical metal cages, elegant central reinforced bridge. Stationary orbital defense fortress, monumental central structure, four defensive tower bastions, docking struts and recessed gun emplacements, no landing base or terrain. Preserve the planetary silhouette as a military space station. Nose along negative Z, top positive Y. No base, no ground, no stand, no scenery, no detached ships, no exhaust flames. Real game ready 3D model with mechanical depth, armored panel seams, strong readable silhouette.",
+      "texture": "Premium realistic PBR science fiction military model. Planetary armor color #afa078 over dark graphite titanium structure. Restrained emissive accents #ffe2fa. Detailed ceramic and metal paneling, machined seams, normal mapped vents, subtle edge wear, variable roughness, realistic metallic finish, dark recessed cavities. No text, no insignia, no logos, no cartoon style, no baked shadows or scenery."
+    },
+    {
+      "id": "enemy-aetherion-fighter",
+      "planet": "aetherion",
+      "role": "fighter",
+      "name": "황좌 공명 천체",
+      "polycount": 6000,
+      "prompt": "One isolated premium original science fiction enemy spacecraft, physically integrated hard surface aerospace construction. A grand crown shaped imperial spacecraft, central armored spear hull, seven thick crown towers connected on a horizontal halo ring, sculpted mechanical royal armor and violet reactor. Compact interceptor warship, clear forward prow and rear engine outlets, two integrated forward cannons, sturdy small forms optimized for many simultaneous enemies. Nose along negative Z, top positive Y. No base, no ground, no stand, no scenery, no detached ships, no exhaust flames. Real game ready 3D model with mechanical depth, armored panel seams, strong readable silhouette.",
+      "texture": "Premium realistic PBR science fiction military model. Planetary armor color #80619f over dark graphite titanium structure. Restrained emissive accents #dbb1ff. Detailed ceramic and metal paneling, machined seams, normal mapped vents, subtle edge wear, variable roughness, realistic metallic finish, dark recessed cavities. No text, no insignia, no logos, no cartoon style, no baked shadows or scenery."
+    },
+    {
+      "id": "enemy-aetherion-capital",
+      "planet": "aetherion",
+      "role": "capital",
+      "name": "황좌 공명 천체",
+      "polycount": 10000,
+      "prompt": "One isolated premium original science fiction enemy spacecraft, physically integrated hard surface aerospace construction. A grand crown shaped imperial spacecraft, central armored spear hull, seven thick crown towers connected on a horizontal halo ring, sculpted mechanical royal armor and violet reactor. Large imposing command carrier and boss battleship, elaborate multi deck bridge, four integrated weapon towers, armored hangar mouths, heavy stepped broad hull. Preserve the planetary silhouette at capital scale. Nose along negative Z, top positive Y. No base, no ground, no stand, no scenery, no detached ships, no exhaust flames. Real game ready 3D model with mechanical depth, armored panel seams, strong readable silhouette.",
+      "texture": "Premium realistic PBR science fiction military model. Planetary armor color #80619f over dark graphite titanium structure. Restrained emissive accents #dbb1ff. Detailed ceramic and metal paneling, machined seams, normal mapped vents, subtle edge wear, variable roughness, realistic metallic finish, dark recessed cavities. No text, no insignia, no logos, no cartoon style, no baked shadows or scenery."
+    },
+    {
+      "id": "enemy-aetherion-fortress",
+      "planet": "aetherion",
+      "role": "fortress",
+      "name": "황좌 공명 천체",
+      "polycount": 10000,
+      "prompt": "One isolated premium original science fiction enemy orbital fortress, physically integrated hard surface aerospace construction. A grand crown shaped imperial spacecraft, central armored spear hull, seven thick crown towers connected on a horizontal halo ring, sculpted mechanical royal armor and violet reactor. Stationary orbital defense fortress, monumental central structure, four defensive tower bastions, docking struts and recessed gun emplacements, no landing base or terrain. Preserve the planetary silhouette as a military space station. Nose along negative Z, top positive Y. No base, no ground, no stand, no scenery, no detached ships, no exhaust flames. Real game ready 3D model with mechanical depth, armored panel seams, strong readable silhouette.",
+      "texture": "Premium realistic PBR science fiction military model. Planetary armor color #80619f over dark graphite titanium structure. Restrained emissive accents #dbb1ff. Detailed ceramic and metal paneling, machined seams, normal mapped vents, subtle edge wear, variable roughness, realistic metallic finish, dark recessed cavities. No text, no insignia, no logos, no cartoon style, no baked shadows or scenery."
+    }
+  ]
+}

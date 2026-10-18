@@ -1,0 +1,22 @@
+VOID ARK PC session02 — callback 경계 진단 완료 / 2026-10-17T23:55:17.599Z
+
+제품 변경/실행본 교체 없음. 별도 WORK main+helper만 계측. 원래 src163 SHA 모두 session01과 일치. 기존 game-De5_jikA.js/Windows/612검사 체크포인트 유지. 새5검사는 진단용이며 제품617검사라고 합산하지 않음.
+
+고정 Float64 ring 1,048,576bytes, callback wrapper2개만 생성. receiver/단일인자/반환/예외 동일성·bounded chronology/reset·중첩 소유/실제 profiler·detach·실제 scheduler fallback/hidden/recovery/stop 정상대조 5/5 통과. 전체612검사 반복 없음. WORK build9.86초/game-k0ePIe14.js, engine500kB 경고/차단오류0.
+실제 FrameProfiler.capture가 켜진 Node callback8교대쌍×12000회에서 extra평균0.000924ms/사전상한0.1ms 통과. pair변동·음수관측도 원시에 보존. Node 비용이며 브라우저 계측효과/최대비용 보장 아님. export/1MiB reset은 timing 밖.
+
+127.0.0.1:4273 별도 QA/1280x720 HIGH scale1/LV22바스티온/120적+보스/선단10·요격기10/seed91471/무적·적생존 fixture. 30초 준비+90초 기록. 실제 일반캠페인/nativeSteam/모니터 표시 검수 아님. 캡처 중 빌드/검사/스크린샷/문서쓰기 없음; 가벼운5초 상태 읽기와 기존QA drive/skill timer는 존재. 호스트 외부작업 격리 아님.
+
+4004 scheduler callback/2705 game frame, 누락·drop·failed0. profiler retained36건 exact join36/36. frameInput 차이와 기존raw frame 불일치 최대7.1e-15ms, frame-entry 간격=직전frame처리+그뒤대기 분할 잔차0. 단순히 현재cpu를 이전rawgap에서 빼지 않음.
+평균30.0491FPS/CPU21.8222ms, frame p95 65.1/p99 98.2/max285.3ms, >50 326/>100 24. 새 진단 단일표본이며 이전39FPS와 성능향상/회귀 인과 비교 아님. 안 좋은 결과도 원시 그대로 보존.
+profiler.end 전체 hook구간 평균0.018595ms/p99.1/max4.2ms, 그뒤 frame near-return 평균.000813/max.1ms. 주된 긴 지연을 profiler 집계만으로 설명할 수 없음.
+>100 raw24 중 직전game처리 우세18/그뒤대기 우세6. 최대285.3ms는 직전처리11.8ms+그뒤대기273.5ms;195.1은180.5+14.6;194.4는184.2+10.2. 표본의 느린 main render167.2ms가 포함되나 render의 JS/GL/호스트 원인은 아직 미분리. phase는 중첩되므로 합산하지 않음.
+near-return은 반환 직전 샘플이며 마지막store/return/browser dispatch를 포함하지 않음. between interval에는 scheduler/browser/host와 계측 밖 QA timer가 포함돼 GC/GPU/드라이버/외부앱 원인으로 확정하지 않음.
+
+최종errors[]/배치audit valid·pending0/instance XYZ불일치0/별도origin savePreservedtrue. 사용자저장을 읽기·복제·쓰기하지 않음. readonly3키감사/사용자4290 storage불변 증명 아님.
+첫CDP 시작 입력 timeout/AX입력 뒤에도 준비 상태였고 visibility 표시 뒤 이미 시작 버튼disabled·전투10초를 확인. 중복 클릭을 성공2회로 세지 않음. 실제캡처 입력 원인을 확정하지 않음. 그뒤 진단은 정상완료. Native 창/입력 사용0.
+측정 뒤 paused PNG 보관/정상 검수종료로 저장차단 메뉴 확인. 자체탭14 닫음/viewport reset/이전visibility 복원/사용자1~5 보존·Steam5 handoff. 경로·commandline 확인한 자기 server13552/4273만 종료.
+
+다음 작업은 실제 native renderer main/PIP/postprocess sort와 index.prepare 비용 분리. Three의 renderLists.get/list.sort가 원래 comparator를 그대로 유지하는 국소 hook경계임을 소스 확인. projectObject/draw/GL나머지를 pureJS로 부르지 않음. 비용이 충분할 때만 보존 가능한 구현선정. Unit42 indexdeferral/Unit54 GL7 반복 없음.
+
+자료: callback-boundary-browser.json/analysis.json/validation.json/overhead.json/build.txt/paused.png, work/callback-boundary-probe.mjs/test.mjs/prepare·analyze·record 스크립트.

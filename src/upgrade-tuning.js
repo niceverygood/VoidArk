@@ -1,0 +1,25 @@
+export const TUNING_DEFS=[
+ ['cannonPower','고밀도 탄두','기관포 피해 +18%','cannon',.18,'cannon','화력'],
+ ['cannonRate','자동 장전장치','기관포 연사 속도 +12%','fireRate',.12,'cannon','연사'],
+ ['cannonPierce','텅스텐 관통탄','기관포가 적 1척을 추가 관통. 관통마다 피해 15% 감소','pierce',1,'cannon','관통'],
+ ['cannonRange','장거리 사격 보정','기관포 사거리 +14m','cannonRange',14,'cannon','사거리'],
+ ['ballistics','전자기 가속','모든 아군 투사체 초기 속도 +15%','shotSpeed',.15,null,'탄속'],
+ ['critCalibration','약점 조준 보정','직접 무장 치명타 확률 +5%p','critChance',.05,null,'치명타'],
+ ['critPayload','치명타 탄두','치명타 피해 배율 +15%p','critPower',.15,null,'치명타 피해'],
+ ['siegePayload','대형 표적 탄두','보스·행성 기지 피해 +12%','bossPower',.12,null,'대형 표적'],
+ ['missilePower','고폭 탄두','유도탄 피해 +18%','missile',.18,'missile','폭발 화력'],
+ ['missileBlast','확산 폭약','유도탄 폭발 반경 +2m','missileRadius',2,'missile','광역'],
+ ['chainPower','아크 출력 증폭','방전기 피해 +18%','chain',.18,'chain','전격 화력'],
+ ['chainFork','분기 방전','전격이 적 1척을 추가 연쇄','chainTargets',1,'chain','연쇄'],
+ ['chainReachTune','전도장 확장','전격 연결 거리 +5m','chainReach',5,'chain','전도 거리'],
+ ['laserPower','집광 렌즈','관통포 피해 +18%','laser',.18,'laser','광선 화력'],
+ ['laserRangeTune','광선 안정화','관통포 사거리 +15m','laserRange',15,'laser','광선 사거리'],
+ ['fighterPower','호위기 탄두','호위 전투기 피해 +18%','fighter',.18,'fighter','호위 화력'],
+ ['fighterRate','편대 사격 지휘','호위 전투기 연사 속도 +12%','fighterHaste',.12,'fighter','호위 연사'],
+ ['shieldRecovery','실드 재충전 조율','초당 방어막 회복 +1 (총량 상한 적용)','shieldRegen',2,'shield','재생'],
+ ['damageDamping','충격 분산','받는 피해 감소 +3%p (총 감소 최대 50%)','resist',.03,null,'피해 감소'],
+ ['skillCycling','스킬 냉각 회로','스킬 재사용 대기시간 감소 +4%p (최소 45%)','cooldown',.04,null,'쿨타임'],
+ ['driveTune','추진 효율','기본 이동 속도 +6%','speed',.06,null,'기동'],
+ ['shieldHarvest','격파 에너지 회수','최근 3초 무피격 시 적 격파마다 방어막 1 회복','shieldOnKill',2,'shield','격파 회복']
+].map(([id,name,description,stat,value,requires,tag])=>({id,name,description:description+' · 단계마다 누적',stat,value,requires,tag:'성능 · '+tag,maxLevel:4,icon:requires||'reactor',art:requires||'reactor',color:requires==='missile'?'#ffbb68':requires==='chain'?'#c795ff':'#75eaff',tuning:true}));
+export function applyTuning(tech,upgrades){for(const d of TUNING_DEFS)tech[d.stat]=(tech[d.stat]||0)+(upgrades[d.id]||0)*d.value;return tech;}

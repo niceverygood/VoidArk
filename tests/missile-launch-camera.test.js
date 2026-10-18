@@ -1,0 +1,3 @@
+import test from 'node:test';import assert from 'node:assert/strict';import * as THREE from 'three';import {launchCorner} from '../src/missile-launch-camera.js';
+test('missile launch corners follow camera-relative direction including behind camera',()=>{const c=new THREE.PerspectiveCamera();c.updateMatrixWorld();assert.equal(launchCorner({x:10,y:4,z:-30},c),'top-right');assert.equal(launchCorner({x:-10,y:-4,z:-30},c),'bottom-left');assert.equal(launchCorner({x:10,y:4,z:30},c),'top-right');c.rotation.y=Math.PI;c.updateMatrixWorld();assert.equal(launchCorner({x:10,y:4,z:-30},c),'top-left');});
+

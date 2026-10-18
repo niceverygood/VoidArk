@@ -1,0 +1,100 @@
+{
+  "at": "2026-10-18T00:59:21.801Z",
+  "repository": "https://github.com/niceverygood/VoidArk",
+  "intendedBranch": "main",
+  "scope": "Fresh isolated checkout populated with the PC optimization checkpoint, on the same physical Windows machine; no claim of other-machine/native gameplay validation",
+  "runtime": {
+    "node": "v24.19.0",
+    "npm": "11.6.2",
+    "npmLauncher": "Bundled pnpm dlx; ordinary npm ci documented for receiving computer"
+  },
+  "install": {
+    "freshNpmCi": true,
+    "vulnerabilitiesReported": 0,
+    "dependencyLockUnchanged": true
+  },
+  "product": {
+    "sourceFiles": 163,
+    "matchedSourceHashes": 163,
+    "copiedFilesVerified": 1203,
+    "manifest": "qa/EXPORT_MANIFEST.json",
+    "copiedHashMismatches": [],
+    "intentionalExportOverrides": [
+      {
+        "path": "package.json",
+        "originalSha256": "067b65507c54a8c0dc13929c9c7a158199569d25f0023e47d5f1a7a290115a71",
+        "sha256": "909b548a3b0b486cce775c8a9354215073a1d52379cff2da05b5246d04d96ff5",
+        "reason": "Export-only serial-test command and shipped-manifest GLB validation command; product src and dependency lock unchanged"
+      }
+    ],
+    "gameBundle": "game-De5_jikA.js",
+    "buildPassed": true,
+    "buildSeconds": 8.21,
+    "tests": {
+      "total": 612,
+      "passed": 612,
+      "failed": 0,
+      "durationMs": 172536.6822,
+      "log": "qa/GITHUB_TESTS_FINAL_20261018.log"
+    }
+  },
+  "assets": {
+    "models": 248,
+    "bytes": 139975432,
+    "maxTriangles": 10284,
+    "check": "GLB container/chunks/accessors/embedded textures for every shipped manifest entry; no visual/native/API-generation claim"
+  },
+  "unadoptedGlow": {
+    "productIntegrated": false,
+    "workspaceLinksPrepared": true,
+    "linksIgnoredByGit": true,
+    "tests": {
+      "total": 8,
+      "passed": 8
+    },
+    "buildPassed": true,
+    "gameBundle": "game-C6llIJjW.js",
+    "buildSeconds": 15.41,
+    "historicalPixelEvidence": "qa/projectile-glow-pixel-validation.json",
+    "repeatCombatPerformancePending": true,
+    "contextAndNativeValidationPending": true
+  },
+  "initialFailure": {
+    "total": 596,
+    "passed": 587,
+    "failed": 9,
+    "missingFixtureTestModules": 8,
+    "onlineRecallTimeouts": 1,
+    "copiedTransitiveFixtureFiles": 26,
+    "productEdits": 0,
+    "testEdits": 0,
+    "timeoutEdits": 0,
+    "originalLog": "qa/GITHUB_TESTS_20261018.log",
+    "resolution": "Added missing regression-fixture closure; complete final suite then passed. Online timeout cause is not established."
+  },
+  "preserved": [
+    "Original other-chat source",
+    "PC product src and verified Windows executable",
+    "Steam frozen RC2 and submission/release records",
+    "Mobile/Android candidates and signing keys",
+    "User saves and browser profiles",
+    "Other app automations and publications"
+  ],
+  "excluded": [
+    "node_modules/junctions",
+    "dist",
+    "windows",
+    "release/frozen Steam RC2",
+    "mobile/Android/signing private",
+    "browser profiles",
+    "user saves and auth",
+    "unrelated projects/automations",
+    "31MB reference original trace"
+  ],
+  "notes": [
+    "Source/assets/handoff and minimal test fixtures are committed; generated dist/Windows binaries/dependencies/profiles are not.",
+    "Existing >500kB bundle warnings retained; zero build errors.",
+    "No performance capture, native combat, audio listening, physical other-machine execution, store submission, or user-save access was performed for Git export.",
+    "This validation is recorded before the initial Git commit. Verify the received commit with git rev-parse HEAD and remote main; final publication evidence is recorded on the sending machine."
+  ]
+}

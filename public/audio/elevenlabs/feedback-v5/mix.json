@@ -1,0 +1,27 @@
+{
+  "revision": "feedback-v5-mechanical-launch",
+  "method": "physical sample edit, not a new AI generation",
+  "assets": [
+    {
+      "id": "missile",
+      "duration": 0.78,
+      "peak": 0.6897,
+      "rms": 0.1986,
+      "sources": [
+        "physical-v2\\missile.mp3",
+        "physical-v2\\cannon.mp3"
+      ],
+      "filter": "[0:a]atrim=duration=0.66,asetpts=PTS-STARTPTS,asetrate=37485,aresample=48000,highpass=f=45,lowpass=f=1400,treble=g=-7:f=1000,bass=g=3:f=110,afade=t=in:d=0.012,afade=t=out:st=0.4:d=0.34,volume=0.75[rocket];[1:a]atrim=duration=0.16,asetpts=PTS-STARTPTS,highpass=f=50,lowpass=f=420,afade=t=in:d=0.008,afade=t=out:st=0.04:d=0.12,volume=0.18[clamp];[rocket][clamp]amix=inputs=2:normalize=0,apad,atrim=duration=0.78,alimiter=limit=0.78:level=false,volume=0.65[out]"
+    },
+    {
+      "id": "barrage",
+      "duration": 3.0,
+      "peak": 0.6509,
+      "rms": 0.1366,
+      "sources": [
+        "feedback-v5\\missile.mp3"
+      ],
+      "filter": "[0:a]asplit=7[s0][s1][s2][s3][s4][s5][s6];[s0]adelay=0|0,volume=1.000[d0];[s1]adelay=240|240,volume=0.935[d1];[s2]adelay=520|520,volume=0.870[d2];[s3]adelay=860|860,volume=0.805[d3];[s4]adelay=1280|1280,volume=0.740[d4];[s5]adelay=1780|1780,volume=0.675[d5];[s6]adelay=2220|2220,volume=0.610[d6];[d0][d1][d2][d3][d4][d5][d6]amix=inputs=7:normalize=0,apad,atrim=duration=3,afade=t=out:st=2.65:d=0.35,alimiter=limit=0.8:level=false,volume=0.65[out]"
+    }
+  ]
+}
