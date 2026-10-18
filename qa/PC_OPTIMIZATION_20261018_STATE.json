@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-18T00:42:55.689Z",
+  "at": "2026-10-18T01:38:31.164Z",
   "automationId": "void-ark-steam-pc-10-18-10",
   "status": "ACTIVE",
   "deadlineKST": "2026-10-18T22:00:00+09:00",
@@ -57,43 +57,65 @@
       "type": "guarded-identity-left-kernel-not-adopted",
       "productChanged": false,
       "evidence": "qa/identity-left-multiply-validation.json"
+    },
+    {
+      "id": "session-09",
+      "type": "github-push-and-portable-codex-handoff",
+      "productChanged": false,
+      "evidence": "qa/GITHUB_PUSH_20261018.json",
+      "commit": "258bb31e91904c8e99af2737fa074689dc3187ee"
+    },
+    {
+      "id": "session-10",
+      "type": "audio-mismatch-observation-and-cancelled-diagnostic",
+      "productChanged": false,
+      "evidence": "qa/projectile-glow-muted-validation.json"
+    },
+    {
+      "id": "session-11",
+      "type": "user-requested-muted-QA-start",
+      "productChanged": false,
+      "evidence": "qa/MUTED_QA_START_VALIDATION.json"
+    },
+    {
+      "id": "session-05",
+      "type": "transparent-projectile-glow-sharing-not-adopted",
+      "productChanged": false,
+      "helperTestsPassed": 4,
+      "integrationTestsPassed": 4,
+      "preparation": "qa/projectile-glow-preparation.json",
+      "files": [
+        "work/projectile-glow-project/src/projectile-visuals.js",
+        "work/projectile-glow-project/src/projectile-glow-pool.js",
+        "work/projectile-glow-project/src/main.js"
+      ],
+      "contract": "shareGlowMaterials=false default; WORK main opts in true for a common per-frame time",
+      "browserPreparation": "qa/projectile-glow-browser-preparation-validation.json",
+      "factoryCPU": "qa/projectile-glow-factory-cpu.json",
+      "workEntry": "game-C6llIJjW.js",
+      "workBuildSeconds": 70,
+      "browserPixelExecuted": true,
+      "battlePairsExecuted": 2,
+      "lastBrowserBlock": "Resolved by user manual opening of a normal supported HTTP QA page; no security bypass. Original error-page reject retained in evidence.",
+      "factoryCPULimit": "Mixed actual create/update/remove CPU results: sparse12 rate mean worsens47.85→64.52ms/600 logical frames;60/240 rates improve means378.06→225.58 and864.85→550.64. Faster pairs3/8,6/8,5/8; candidate max worse4/8,3/8,2/8. Large native and candidate stalls retained. No GC, GPU or Steam FPS attribution and no adoption from Node timings.",
+      "browserPolicyEvidence": "qa/projectile-glow-browser-policy-block.json",
+      "pixelEvidence": "qa/projectile-glow-pixel-validation.json",
+      "resourceAfterClear": {
+        "entries": 0,
+        "refs": 0,
+        "created": 46,
+        "released": 46
+      },
+      "decision": "not-adopted",
+      "battleEvidence": "qa/projectile-glow-muted-validation.json"
     }
   ],
-  "inProgress": {
-    "id": "session-05",
-    "type": "transparent-projectile-glow-sharing-WORK-candidate",
-    "productChanged": false,
-    "helperTestsPassed": 4,
-    "integrationTestsPassed": 4,
-    "preparation": "qa/projectile-glow-preparation.json",
-    "files": [
-      "work/projectile-glow-project/src/projectile-visuals.js",
-      "work/projectile-glow-project/src/projectile-glow-pool.js",
-      "work/projectile-glow-project/src/main.js"
-    ],
-    "contract": "shareGlowMaterials=false default; WORK main opts in true for a common per-frame time",
-    "browserPreparation": "qa/projectile-glow-browser-preparation-validation.json",
-    "factoryCPU": "qa/projectile-glow-factory-cpu.json",
-    "workEntry": "game-C6llIJjW.js",
-    "workBuildSeconds": 70,
-    "browserPixelExecuted": true,
-    "battlePairsExecuted": 0,
-    "lastBrowserBlock": "Resolved by user manual opening of a normal supported HTTP QA page; no security bypass. Original error-page reject retained in evidence.",
-    "factoryCPULimit": "Mixed actual create/update/remove CPU results: sparse12 rate mean worsens47.85→64.52ms/600 logical frames;60/240 rates improve means378.06→225.58 and864.85→550.64. Faster pairs3/8,6/8,5/8; candidate max worse4/8,3/8,2/8. Large native and candidate stalls retained. No GC, GPU or Steam FPS attribution and no adoption from Node timings.",
-    "browserPolicyEvidence": "qa/projectile-glow-browser-policy-block.json",
-    "pixelEvidence": "qa/projectile-glow-pixel-validation.json",
-    "resourceAfterClear": {
-      "entries": 0,
-      "refs": 0,
-      "created": 46,
-      "released": 46
-    }
-  },
+  "inProgress": null,
   "next": {
-    "title": "GitHub push and portable Codex handoff, then pending glow battle comparison",
-    "action": "Latest human request: push current PC source checkpoint to niceverygood/VoidArk and write portable continuation prompt for another computer using same Codex account. Repo verified public/empty/main/admin+push. Use clean export checkout; preserve original/source/exe and exclude credentials, private signing, saves, generated binaries/node_modules/junctions. Include unadopted glow WORK source/tests/pixel evidence and mixed CPU counterevidence. After task, continue authorized PC optimization until22:00KST; glow90s paired FPS/tails still required before adoption.",
-    "avoid": "Do not retry rejected DFS index or old Unit4/32/particle-active candidates. Do not claim material-only CPU test proves lower GC or Steam native FPS. Also skip Unit28 discarded quaternion (.005ms), Unit18 burst scratch (.0058ms/call), and session07 expired-alpha (.007786ms at1961). Session08 guarded identity-left mean gate numerically passes via outlier, but median savings small and5000 mean regresses; do not adopt/repeat.",
-    "fallback": "If browser remains unavailable, prepare a bounded low-overhead WORK visual/world subphase diagnostic from current source with native-call/order/exception fidelity tests and inspect measured reference subphases before choosing another implementation. Do not remeasure old final610/612, Unit61 fullcallback, or repeat already rejected candidates."
+    "title": "Measured main/PIP world-transform propagation gate",
+    "action": "Measure world-transform propagation inside actual main/PIP selection and primary restore paths before attempting a fresh camera-only reuse optimization; preserve late attachment/pose/reparent/layer/exception behavior and skip already rejected candidates Start every test muted from readiness; same muted high/scale1 configuration for comparisons. Keep current verified game-De5_jikA.js/612/Windows build and do not reapply glow sharing.",
+    "avoid": "Do not retry rejected DFS index or old Unit4/32/particle-active candidates. Do not claim material-only CPU test proves lower GC or Steam native FPS. Also skip Unit28 discarded quaternion (.005ms), Unit18 burst scratch (.0058ms/call), and session07 expired-alpha (.007786ms at1961). Session08 guarded identity-left mean gate numerically passes via outlier, but median savings small and5000 mean regresses; do not adopt/repeat. Do not retry the rejected glow candidate: both muted pairs worsened FPS and all long-frame measures.",
+    "fallback": "If current UI/capture is unavailable, use a bounded actual-class memory scene to identify repeated world propagation and test cache invalidation fidelity; no speculative product edit."
   },
   "finalReport": null,
   "protectedOriginal": "C:/Users/nicev/Documents/Codex/2026-10-10/new-chat-2/outputs/void-ark-transfer",
@@ -123,5 +145,38 @@
     "answer": "직접 열었어요",
     "verified": "User manually reloaded/opened tab16; title now VOID ARK PC 밀집 전투 검수. Normal supported HTTP page binding succeeded and actual controls/menu observed. No blocked error-page workaround.",
     "status": "resolved"
+  },
+  "githubHandoff": {
+    "at": "2026-10-18T01:02:45.478Z",
+    "atKST": "2026-10-18 10:02:45 KST",
+    "repository": "https://github.com/niceverygood/VoidArk",
+    "branch": "main",
+    "commit": "258bb31e91904c8e99af2737fa074689dc3187ee",
+    "remoteCommit": "258bb31e91904c8e99af2737fa074689dc3187ee",
+    "remoteVerified": true,
+    "checkoutClean": true,
+    "checkout": "C:\\Users\\nicev\\Documents\\Codex\\2026-10-13\\new-chat-2\\outputs\\void-ark-github-20261018",
+    "sourceRoot": "C:\\Users\\nicev\\Documents\\Codex\\2026-10-13\\new-chat-2\\outputs\\void-ark-pc-optimized-20261018",
+    "productSourceFilesMatched": 163,
+    "committedFiles": 1225,
+    "validation": "../void-ark-github-20261018/qa/GITHUB_HANDOFF_VALIDATION.json",
+    "fullTestsPassed": 612,
+    "glowWorkTestsPassed": 8,
+    "glbModelsChecked": 248,
+    "productBundle": "game-De5_jikA.js",
+    "unadoptedWorkBundle": "game-C6llIJjW.js",
+    "prompt": "https://github.com/niceverygood/VoidArk/blob/258bb31e91904c8e99af2737fa074689dc3187ee/CODEX_HANDOFF_PROMPT.txt",
+    "productChanged": false,
+    "nativeCombatPerformanceVerified": false,
+    "otherMachineExecutionVerified": false,
+    "deadlinePreserved": "2026-10-18 22:00 KST",
+    "automationChanged": false,
+    "next": "Continue unadopted glow combat ABBA comparisons with p95/p99/max/50・100ms exceedances; no adoption from CPU/pixel evidence alone."
+  },
+  "qaPreferences": {
+    "audio": "muted-from-start",
+    "userInstructionAt": "2026-10-18T01:38:31.164Z",
+    "evidence": "qa/MUTED_QA_START_VALIDATION.json",
+    "scope": "All future browser/native tests start muted unless the user changes this preference; preserve product default and OS volume"
   }
 }

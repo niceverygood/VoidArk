@@ -1,0 +1,23 @@
+{
+  "at": "2026-10-18T01:38:31.164Z",
+  "userInstruction": "테스트 시작할때 음소거 상태로 시작해줘",
+  "scope": "All future browser/native tests start muted unless the user changes this preference; preserve product default and OS volume",
+  "implementation": "Owned QA page uses normal sound control before enabling tests and before q.start, then reapplies setEnabled(false) after context construction; capture requires suspended context/no voices/no loops",
+  "harness": "work/projectile-glow-stress.html",
+  "harnessRevision": "muted-v3",
+  "initialDom": "qa/muted-qa-initial-dom.json",
+  "screenshot": "qa/muted-qa-start.png",
+  "actualVerification": {
+    "runs": 4,
+    "samples": 72,
+    "allMuted": true,
+    "allAudioSuspended": true,
+    "allLoaded31": true,
+    "playedCountsEmpty": true,
+    "voices": 0,
+    "loops": 0
+  },
+  "relatedValidation": "qa/projectile-glow-muted-validation.json",
+  "sourceChanged": false,
+  "inputTraceRemoved": true
+}

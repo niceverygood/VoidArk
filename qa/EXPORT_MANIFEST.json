@@ -6043,6 +6043,108 @@
       "bytes": 783,
       "sha256": "4397a39153043bd555800ac6751922c2ef44f463ad28c1a7e48a95fc7166009f",
       "reason": "Transitive regression-test fixture/module dependency"
+    },
+    {
+      "path": "qa/MUTED_QA_START_VALIDATION.json",
+      "bytes": 976,
+      "sha256": "319343a90910d29551f9e26fa6bcd9a176855eab50465b8658e8d2b67e35abbc",
+      "reason": "Validated muted-QA follow-up artifact"
+    },
+    {
+      "path": "qa/projectile-glow-muted-validation.json",
+      "bytes": 10905,
+      "sha256": "51dcb80a2f2f5dd28f234f9f3a05301bdcc66ebafe254daf48497c88161518e6",
+      "reason": "Validated muted-QA follow-up artifact"
+    },
+    {
+      "path": "qa/PC_GLOW_MUTED_BATTLE_RESULT.txt",
+      "bytes": 1615,
+      "sha256": "c86ae4d7fa5efc82370069170ab1b822f350090366d53de778641d43921c089c",
+      "reason": "Validated muted-QA follow-up artifact"
+    },
+    {
+      "path": "qa/muted-qa-start.png",
+      "bytes": 105101,
+      "sha256": "afbe2f92ae7b3e7e519cfcd038689f664401b1805b3e1e980b4d320f9a049d4e",
+      "reason": "Validated muted-QA follow-up artifact"
+    },
+    {
+      "path": "qa/muted-qa-initial-dom.json",
+      "bytes": 172,
+      "sha256": "d73c5c4dc353dc05f313b14fff4cf934e3895eae2d2faacdc8649d7dd8b571fa",
+      "reason": "Validated muted-QA follow-up artifact"
+    },
+    {
+      "path": "qa/projectile-glow-battle-A1.json",
+      "bytes": 84949,
+      "sha256": "cf55436987f144794dfc274e8d046f85b1b168352da1988989edd19af8b559d0",
+      "reason": "Validated muted-QA follow-up artifact"
+    },
+    {
+      "path": "qa/projectile-glow-battle-B1.json",
+      "bytes": 123790,
+      "sha256": "3985c9b2a434573c38d41ff5414cec078f320acfe51e43f9e7428a113c73c0f7",
+      "reason": "Validated muted-QA follow-up artifact"
+    },
+    {
+      "path": "qa/projectile-glow-battle-B2.json",
+      "bytes": 125283,
+      "sha256": "c04043aac75bc326b7644fcef693a62b34c82b42aded8393faa6146fb59cf84a",
+      "reason": "Validated muted-QA follow-up artifact"
+    },
+    {
+      "path": "qa/projectile-glow-battle-B2-cleanup.json",
+      "bytes": 207,
+      "sha256": "f0818b496b859c93c95329da1ce2f3a078d467ba6361058b4fcdb8fa269c0d85",
+      "reason": "Validated muted-QA follow-up artifact"
+    },
+    {
+      "path": "qa/projectile-glow-muted-A1.json",
+      "bytes": 64844,
+      "sha256": "84401a61676b6c1c4ce65f29ee4d1d43846b712a3c5b4395f268dc0dd5f90f92",
+      "reason": "Validated muted-QA follow-up artifact"
+    },
+    {
+      "path": "qa/projectile-glow-muted-A1-cleanup.json",
+      "bytes": 491,
+      "sha256": "a85fb6048eea9eadba8619e1df7b699fbf7028e3aeddad4479fb92ef49baf1be",
+      "reason": "Validated muted-QA follow-up artifact"
+    },
+    {
+      "path": "qa/projectile-glow-muted-B1.json",
+      "bytes": 66691,
+      "sha256": "3f14002d06ed28b7cd4a068fef18ee4840815f363311aa099450c3edf5c460be",
+      "reason": "Validated muted-QA follow-up artifact"
+    },
+    {
+      "path": "qa/projectile-glow-muted-B1-cleanup.json",
+      "bytes": 538,
+      "sha256": "98a7a38580e2c7258dc3481db56a6f7b2d3a1fb245216bd2606fe57bd7126e66",
+      "reason": "Validated muted-QA follow-up artifact"
+    },
+    {
+      "path": "qa/projectile-glow-muted-B2.json",
+      "bytes": 66578,
+      "sha256": "37b6f7a42135a33bc714430d067cdec11a64febbd02401beec775897acecf771",
+      "reason": "Validated muted-QA follow-up artifact"
+    },
+    {
+      "path": "qa/projectile-glow-muted-B2-cleanup.json",
+      "bytes": 539,
+      "sha256": "fe62339583f3bb44f4e40ed13d2e65ea41c259046f44e8298acb8af7c978e361",
+      "reason": "Validated muted-QA follow-up artifact"
+    },
+    {
+      "path": "qa/projectile-glow-muted-A2.json",
+      "bytes": 59878,
+      "sha256": "2590248f6107d9e72133531ad9a475c3e9c2e4011bfa605fc1f62175b2bae1bf",
+      "reason": "Validated muted-QA follow-up artifact"
+    },
+    {
+      "path": "qa/projectile-glow-muted-A2-cleanup.json",
+      "bytes": 492,
+      "sha256": "bba17848804d27cc201613b2d08a9f3229a50c88456ee43f0471a69d3f6730d9",
+      "reason": "Validated muted-QA follow-up artifact"
     }
   ],
   "excluded": [
@@ -6063,6 +6165,36 @@
       "originalSha256": "067b65507c54a8c0dc13929c9c7a158199569d25f0023e47d5f1a7a290115a71",
       "sha256": "909b548a3b0b486cce775c8a9354215073a1d52379cff2da05b5246d04d96ff5",
       "reason": "Export-only serial-test command and shipped-manifest GLB validation command; product src and dependency lock unchanged"
+    },
+    {
+      "path": "work/projectile-glow-stress.html",
+      "originalSha256": "127a9d0c4333e42338bc742ba0046c478c556bb761104c618e1f585acff46317",
+      "sha256": "7a9a7a0749dfaa25dacf35ed2e661d4c2d4dbcfbc021a56001e96a966dec58ab",
+      "reason": "Latest QA-only mute preference, rejected-candidate evidence or continuation metadata; product source unchanged"
+    },
+    {
+      "path": "CONTINUE_PC_OPTIMIZATION.txt",
+      "originalSha256": "c538ca3d60ba24a8c8ec9d212a0b5f4fb51a5a5feef37fe48225d0dd9e63459a",
+      "sha256": "b0ae8f92aa44a4384d4e26208dad00eb59e4047c87dd28ccaaa4f1985fe6bd7b",
+      "reason": "Latest QA-only mute preference, rejected-candidate evidence or continuation metadata; product source unchanged"
+    },
+    {
+      "path": "PC최적화검수결과.txt",
+      "originalSha256": "febb81f4325312e30ac00b7ba1fb013932bde4443805a81065a43f5751c441df",
+      "sha256": "937dec255e371ac56607b945f60c110ca4a7aeac2ddda0f245667cd413d4851e",
+      "reason": "Latest QA-only mute preference, rejected-candidate evidence or continuation metadata; product source unchanged"
+    },
+    {
+      "path": "qa/PC_OPTIMIZATION_20261018_STATE.json",
+      "originalSha256": "01cef065b50ba72904f19d1520f9af3319d44e2c1f63b821385a5ee921921166",
+      "sha256": "36ad3d321c6aa42af763470a7174adff1936c0808b7a61b14f05de41f9d7df77",
+      "reason": "Latest QA-only mute preference, rejected-candidate evidence or continuation metadata; product source unchanged"
+    },
+    {
+      "path": "qa/PC_OPTIMIZATION_20261018_PROGRESS.txt",
+      "originalSha256": "034e5ff44eee64f25f4a44e99ef7186d593ddc6a56d449f8b3cc6e47adf02cff",
+      "sha256": "f2cc561b9aa8031fb78a3e0c8dbddf22098efd720783b58b1b2bc4f3f4151475",
+      "reason": "Latest QA-only mute preference, rejected-candidate evidence or continuation metadata; product source unchanged"
     }
   ],
   "testDependencyClosure": {
@@ -6226,5 +6358,13 @@
         "reason": "Transitive regression-test fixture/module dependency"
       }
     ]
+  },
+  "latestFollowup": {
+    "at": "2026-10-18T01:39:53.576Z",
+    "sourceChanged": false,
+    "audio": "muted-before-test-start",
+    "glowDecision": "not-adopted",
+    "mutedRuns": 4,
+    "mutedSamples": 72
   }
 }

@@ -1,0 +1,426 @@
+{
+  "at": "2026-10-18T01:38:31.164Z",
+  "decision": "not-adopted",
+  "reason": "Both muted ABBA pairs have lower FPS and worse p95/p99/max and >50/>100ms counts; retain the verified product",
+  "runs": [
+    {
+      "id": "A1",
+      "file": "qa/projectile-glow-muted-A1.json",
+      "utc": [
+        "2026-10-18T01:26:06.047Z",
+        "2026-10-18T01:27:36.052Z"
+      ],
+      "variant": "baseline",
+      "frames": 4106,
+      "fps": 45.6176604561766,
+      "frame": {
+        "mean": 21.921334632245493,
+        "p95": 34.6,
+        "p99": 49.2,
+        "max": 155.80000001192093
+      },
+      "over50": 41,
+      "over100": 4,
+      "cpu": {
+        "mean": 17.50058451032151,
+        "p95": 27.2,
+        "p99": 38.3,
+        "max": 149
+      },
+      "world": {
+        "mean": 2.941987335188355,
+        "p95": 4.2,
+        "p99": 6.3,
+        "max": 27.80000001192093
+      },
+      "render": {
+        "mean": 4.93205065819849,
+        "p95": 7.6,
+        "p99": 12.2,
+        "max": 105.39999997615814
+      },
+      "pip": {
+        "mean": 10.8551136367023,
+        "p95": 15.2,
+        "p99": 19.1,
+        "max": 32.799999952316284
+      },
+      "cleanup": {
+        "audioEnabled": false,
+        "audioState": "suspended",
+        "soundAssets": {
+          "provider": "ElevenLabs",
+          "revision": "hostile-v6-low-rocket-double-warning",
+          "loaded": 31,
+          "total": 31,
+          "failed": [],
+          "voices": 0,
+          "loops": 0,
+          "loopMix": {},
+          "activeVoices": [],
+          "played": {},
+          "motion": {
+            "speed": 1.477859668596656,
+            "boost": false,
+            "stage": 2
+          },
+          "phase": "menu",
+          "state": "suspended"
+        },
+        "phase": "menu",
+        "models": {
+          "enemies": 0,
+          "shots": 0,
+          "pickups": 0
+        },
+        "glow": null,
+        "effects": {
+          "meshItems": 0,
+          "liveBeams": 0,
+          "liveAtlas": 0,
+          "liveParticles": 0,
+          "liveChunks": 0
+        }
+      }
+    },
+    {
+      "id": "B1",
+      "file": "qa/projectile-glow-muted-B1.json",
+      "utc": [
+        "2026-10-18T01:28:59.931Z",
+        "2026-10-18T01:30:29.979Z"
+      ],
+      "variant": "glow-candidate",
+      "frames": 3732,
+      "fps": 41.4463119223725,
+      "frame": {
+        "mean": 24.127599142547716,
+        "p95": 39.9,
+        "p99": 53.9,
+        "max": 230.4000000357628
+      },
+      "over50": 58,
+      "over100": 6,
+      "cpu": {
+        "mean": 19.397909968452566,
+        "p95": 31.9,
+        "p99": 43.6,
+        "max": 79.19999998807907
+      },
+      "world": {
+        "mean": 3.679394426261497,
+        "p95": 5.6,
+        "p99": 7.9,
+        "max": 29.299999952316284
+      },
+      "render": {
+        "mean": 5.159994641300949,
+        "p95": 8.2,
+        "p99": 14.6,
+        "max": 36.10000002384186
+      },
+      "pip": {
+        "mean": 11.546706583685504,
+        "p95": 16.4,
+        "p99": 20.6,
+        "max": 26.80000001192093
+      },
+      "cleanup": {
+        "audioEnabled": false,
+        "audioState": "suspended",
+        "soundAssets": {
+          "provider": "ElevenLabs",
+          "revision": "hostile-v6-low-rocket-double-warning",
+          "loaded": 31,
+          "total": 31,
+          "failed": [],
+          "voices": 0,
+          "loops": 0,
+          "loopMix": {},
+          "activeVoices": [],
+          "played": {},
+          "motion": {
+            "speed": 4.219774947826728,
+            "boost": false,
+            "stage": 2
+          },
+          "phase": "menu",
+          "state": "suspended"
+        },
+        "phase": "menu",
+        "models": {
+          "enemies": 0,
+          "shots": 0,
+          "pickups": 0
+        },
+        "glow": {
+          "entries": 0,
+          "refs": 0,
+          "created": 176,
+          "released": 176
+        },
+        "effects": {
+          "meshItems": 0,
+          "liveBeams": 0,
+          "liveAtlas": 0,
+          "liveParticles": 0,
+          "liveChunks": 0
+        }
+      }
+    },
+    {
+      "id": "B2",
+      "file": "qa/projectile-glow-muted-B2.json",
+      "utc": [
+        "2026-10-18T01:31:32.343Z",
+        "2026-10-18T01:33:02.393Z"
+      ],
+      "variant": "glow-candidate",
+      "frames": 3792,
+      "fps": 42.11690773933173,
+      "frame": {
+        "mean": 23.743433544294366,
+        "p95": 38.6,
+        "p99": 55.2,
+        "max": 135.19999998807907
+      },
+      "over50": 55,
+      "over100": 4,
+      "cpu": {
+        "mean": 19.12075421923009,
+        "p95": 31.1,
+        "p99": 42.4,
+        "max": 133.80000001192093
+      },
+      "world": {
+        "mean": 3.5747362862062104,
+        "p95": 5.2,
+        "p99": 7.6,
+        "max": 30.600000023841858
+      },
+      "render": {
+        "mean": 5.155221518946473,
+        "p95": 8.4,
+        "p99": 14.8,
+        "max": 74
+      },
+      "pip": {
+        "mean": 11.240000000070124,
+        "p95": 15.4,
+        "p99": 19.9,
+        "max": 27.80000001192093
+      },
+      "cleanup": {
+        "audioEnabled": false,
+        "audioState": "suspended",
+        "soundAssets": {
+          "provider": "ElevenLabs",
+          "revision": "hostile-v6-low-rocket-double-warning",
+          "loaded": 31,
+          "total": 31,
+          "failed": [],
+          "voices": 0,
+          "loops": 0,
+          "loopMix": {},
+          "activeVoices": [],
+          "played": {},
+          "motion": {
+            "speed": 3.4124714486287706,
+            "boost": false,
+            "stage": 2
+          },
+          "phase": "menu",
+          "state": "suspended"
+        },
+        "phase": "menu",
+        "models": {
+          "enemies": 0,
+          "shots": 0,
+          "pickups": 0
+        },
+        "glow": {
+          "entries": 0,
+          "refs": 0,
+          "created": 204,
+          "released": 204
+        },
+        "effects": {
+          "meshItems": 0,
+          "liveBeams": 0,
+          "liveAtlas": 0,
+          "liveParticles": 0,
+          "liveChunks": 0
+        }
+      }
+    },
+    {
+      "id": "A2",
+      "file": "qa/projectile-glow-muted-A2.json",
+      "utc": [
+        "2026-10-18T01:33:57.541Z",
+        "2026-10-18T01:35:27.567Z"
+      ],
+      "variant": "baseline",
+      "frames": 4280,
+      "fps": 47.54308870117243,
+      "frame": {
+        "mean": 21.03355140187473,
+        "p95": 33.9,
+        "p99": 45.1,
+        "max": 97.20000004768372
+      },
+      "over50": 26,
+      "over100": 0,
+      "cpu": {
+        "mean": 17.339182242138364,
+        "p95": 27.5,
+        "p99": 36.7,
+        "max": 89.40000003576279
+      },
+      "world": {
+        "mean": 3.3427570094015,
+        "p95": 4.7,
+        "p99": 6.3,
+        "max": 36.19999998807907
+      },
+      "render": {
+        "mean": 4.547990654102553,
+        "p95": 6.8,
+        "p99": 10.9,
+        "max": 65
+      },
+      "pip": {
+        "mean": 11.087931033866159,
+        "p95": 14.6,
+        "p99": 20.2,
+        "max": 24.69999998807907
+      },
+      "cleanup": {
+        "audioEnabled": false,
+        "audioState": "suspended",
+        "soundAssets": {
+          "provider": "ElevenLabs",
+          "revision": "hostile-v6-low-rocket-double-warning",
+          "loaded": 31,
+          "total": 31,
+          "failed": [],
+          "voices": 0,
+          "loops": 0,
+          "loopMix": {},
+          "activeVoices": [],
+          "played": {},
+          "motion": {
+            "speed": 0.5539554574821655,
+            "boost": false,
+            "stage": 2
+          },
+          "phase": "menu",
+          "state": "suspended"
+        },
+        "phase": "menu",
+        "models": {
+          "enemies": 0,
+          "shots": 0,
+          "pickups": 0
+        },
+        "glow": null,
+        "effects": {
+          "meshItems": 0,
+          "liveBeams": 0,
+          "liveAtlas": 0,
+          "liveParticles": 0,
+          "liveChunks": 0
+        }
+      }
+    }
+  ],
+  "pairs": [
+    {
+      "baseline": "A1",
+      "candidate": "B1",
+      "fpsChangePercent": -9.14415270772463,
+      "meanFrameChangeMs": 2.2062645103022227,
+      "p95ChangeMs": 5.299999999999997,
+      "p99ChangeMs": 4.699999999999996,
+      "maxChangeMs": 74.60000002384186,
+      "over50Change": 17,
+      "over100Change": 2
+    },
+    {
+      "baseline": "A2",
+      "candidate": "B2",
+      "fpsChangePercent": -11.413185617675047,
+      "meanFrameChangeMs": 2.7098821424196373,
+      "p95ChangeMs": 4.700000000000003,
+      "p99ChangeMs": 10.100000000000001,
+      "maxChangeMs": 37.999999940395355,
+      "over50Change": 29,
+      "over100Change": 4
+    }
+  ],
+  "scene": {
+    "actualMainWebGL": true,
+    "normalCampaign": false,
+    "invulnerable": true,
+    "enemiesHeldAlive": true,
+    "enemies": 120,
+    "quality": "high",
+    "resolution": [
+      1280,
+      720
+    ],
+    "scale": 1,
+    "seed": 91471,
+    "warmupSeconds": 30,
+    "captureSeconds": 90,
+    "audio": "muted-from-before-start"
+  },
+  "sourceIntegrity": {
+    "productSourceFilesMatched": 163,
+    "productChanged": false,
+    "entry": "game-De5_jikA.js",
+    "unadoptedEntry": "game-C6llIJjW.js"
+  },
+  "excludedEarlierCaptures": [
+    {
+      "file": "qa/projectile-glow-battle-A1.json",
+      "reason": "Audio-on baseline without a matched audio-on candidate; no muted-pair inclusion"
+    },
+    {
+      "file": "qa/projectile-glow-battle-B1.json",
+      "reason": "Ended with audio disabled/suspended; incompatible with audio-on baseline"
+    },
+    {
+      "file": "qa/projectile-glow-battle-B2.json",
+      "reason": "Audio changed from on/running to off/suspended during capture; no causal performance claim"
+    }
+  ],
+  "cancelledAudioTrace": {
+    "completed": false,
+    "reason": "Latest user asked for all tests to start muted; stopped and navigated away; no complete input-trace report"
+  },
+  "limits": [
+    "Browser rAF and scripted memory-controlled scene, not Steam native/physical monitor/human campaign FPS",
+    "Host was not externally isolated; do not attribute worse timings solely to material sharing or a GC/GPU/driver cause",
+    "Muted results cannot establish normal audio-on performance",
+    "Save equality covers the owned QA origin single save string only; no user-origin access or global storage proof",
+    "Lease counts prove tracked material releases, not all GPU/RAM release"
+  ],
+  "cleanup": {
+    "tab17Closed": true,
+    "viewportReset": true,
+    "visibilityRestored": true,
+    "ownedServersStopped": [
+      41132,
+      7888
+    ],
+    "userTabsPreserved": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "otherAutomationsChanged": false
+  },
+  "next": "Measure world-transform propagation inside actual main/PIP selection and primary restore paths before attempting a fresh camera-only reuse optimization; preserve late attachment/pose/reparent/layer/exception behavior and skip already rejected candidates"
+}

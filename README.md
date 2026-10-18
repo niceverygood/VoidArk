@@ -20,7 +20,11 @@ Codex에서 이 폴더를 열고 [CODEX_HANDOFF_PROMPT.txt](CODEX_HANDOFF_PROMPT
 
 기본 src163개는 로컬 game-De5_jikA.js / 612검사 체크포인트와 같습니다. 유휴 파편 행렬 계산 감소만 이 PC 후보에 들어 있으며 절감은 약0.01ms입니다. 최신 기준46.50/42.58FPS보다39.00FPS였던 반대 기록도 보존합니다. 무끊김·안정60FPS·Steam native 전투 성능을 입증하지 않았습니다.
 
-투명 투사체 발광 재질 공유는 work/projectile-glow-project에만 있습니다. 메모리검사4+4와 실제 같은 paused장면25GLB/3색의 main1280x720·PIP320x180 픽셀 차이0/최종lease0을 확인했습니다. 아직 전후90초 반복성능/긴 프레임·context/native 검수는 없으므로 기본 게임에 반영하지 않았습니다. 상세는 [HANDOFF.md](HANDOFF.md)와 qa/PC_OPTIMIZATION_20261018_STATE.json을 읽으세요.
+투명 투사체 발광 재질 공유는 WORK에만 있으며 미채택으로 확정했습니다. 음소거·HIGH·1280x720·120척의 ABBA 두 비교쌍에서 기준45.62/47.54FPS 대비 후보41.45/42.12FPS였고 p95/p99/max와50·100ms초과도 모두 악화했습니다. 메모리/픽셀 검사 성공은 이 반대 성능 증거를 대체하지 않습니다. 상세는 HANDOFF.md와 qa/projectile-glow-muted-validation.json을 읽으세요.
+
+## 테스트 음소거
+
+최신 사용자 요청에 따라 모든 테스트는 준비 화면부터 음소거로 시작합니다. 이 검수 페이지의 기준/후보/픽셀/일반 조작 모드에 적용했으며 4회 전투·72표본 모두 audio enabled=false, context suspended, voices/loops 0, played={}를 확인했습니다. 제품의 기본 음향과 OS 음량은 변경하지 않습니다. 다른 검수나 native QA도 플레이 전에 정상 UI로 음소거를 적용하고 확인하세요.
 
 ## 검사
 
@@ -45,6 +49,6 @@ Electron44.7.0 잠금파일을 사용하며 생성물은 release 아래에만 �
     npx vite build work/projectile-glow-project --outDir ../projectile-glow-build
     node work/serve-projectile-glow.mjs
 
-별도 검수 페이지: http://127.0.0.1:4276/stress.html?pixel . 기존 public/node_modules를 checkout 안에서만 연결합니다. baseline은 기본 dist를 빌드한 뒤 node work/serve-projectile-glow-baseline.mjs / 4275를 씁니다. 중복 서버와 사용자 origin을 건드리지 마세요. FPS 측정은 30초 준비+90초, ABBA 등 반복쌍의 평균·p95/p99/max/50·100ms초과를 모두 보존하고 측정 중 빌드·검사·스크린샷·문서쓰기를 멈추세요.
+별도 검수 페이지: http://127.0.0.1:4276/stress.html?pixel . 기존 public/node_modules를 checkout 안에서만 연결합니다. baseline은 기본 dist를 빌드한 뒤 node work/serve-projectile-glow-baseline.mjs / 4275를 씁니다. 중복 서버와 사용자 origin을 건드리지 마세요. 현재 발광 후보는 성능 역효과로 미채택이므로 같은 실험을 반복하지 마세요. 향후 다른 후보의 FPS 측정은 30초 준비+90초, ABBA 등 반복쌍의 평균·p95/p99/max/50·100ms초과를 모두 보존하고 측정 중 빌드·검사·스크린샷·문서쓰기를 멈추세요.
 
 서명키·토큰·개인 저장·node_modules·dist·Windows 생성 실행본·원본 Steam RC2 ZIP·브라우저 프로필은 제외했습니다. 에셋 생성 도구는 외부 API 비용이 생길 수 있으므로 인계 검수 중 실행하지 마세요.

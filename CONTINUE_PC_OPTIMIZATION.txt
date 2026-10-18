@@ -42,3 +42,20 @@ Next: single own-tab retry when attach works, actual paused primary/PIP pixel or
 [2026-10-18T00:39:04.672Z] Session08 항등inverse곱셈WORK feasibility: unguarded2671행렬.208319→.037812ms/상한.170507이나Infinity반례존재. 정확양수identity/finiteaffine+0/zero정규화/nativefallback helper4검수통과. 보호비용포함2671평균.423011→.125049msgate수치상true지만native123.1123msoutlier영향·medianpair절감0.032021ms/5000평균퇴행·일부max악화로제품미채택. rawgate와모든p95/p99/max유지/임계값사후교체·숫자제외0. 원본Unit47readonly제안과다른실험/이제둘모두반복금지. src163SHA동일/612·Windows유지.
 
 [2026-10-18T00:42:55.689Z] Session05 WORK발광실제픽셀검수완료: 사용자정상HTTP직접열기후25root모두GLBready/3색/common time1/69materialbindings; primary1280x720/PIP320x180모든RGBA차이0,272calls/1454993triangles동일/renderer복원true. clear뒤entries0/refs0/created46=released46. auditvalid/pending0/instance638불일치0/errors[]/별도origin저장동일. 25root한고정장면·3색범위/전체6look·자세·context/기기/FPS검수아님. 전후90s성능pair0/제품미채택유지. 탭16닫음/viewportreset/수동표시true유지/4276PID31128경로확인종료/사용자1~5보존. 최신사용자GitHub niceverygood/VoidArk푸시+다른컴퓨터Codex인수인계프롬프트요청우선진행.
+
+
+[Session09 GitHub 인계 완료 2026-10-18 10:02:45 KST]
+https://github.com/niceverygood/VoidArk / main / 258bb31e91904c8e99af2737fa074689dc3187ee
+원격 main SHA 일치·checkout clean 확인. 별도 Git checkout: C:\Users\nicev\Documents\Codex\2026-10-13\new-chat-2\outputs\void-ark-github-20261018
+원래 PC 게임 소스163개 동일/제품 변경0. 새 checkout npm ci(취약점0), 빌드game-De5_jikA.js, 전체612/612, WORK8/8와별도game-C6llIJjW.js, manifest248GLB 검수. 첫 누락8보조모듈+online timeout 실패 기록을 남기고 fixture연쇄26파일추가뒤최종전체통과; timeout/게임/테스트코드무변경·원인미확정.
+인수인계: https://github.com/niceverygood/VoidArk/blob/258bb31e91904c8e99af2737fa074689dc3187ee/CODEX_HANDOFF_PROMPT.txt
+실행방법 README.md·상태 HANDOFF.md·qa/GITHUB_HANDOFF_VALIDATION.json 포함. 키/토큰/사용자저장/프로필/의존성/생성 실행본/SteamRC2 ZIP 제외. 같은물리머신의 새checkout 검수이며 새컴퓨터/native 성능입증아님. 원본·제출본·다른앱·자동화·사용자서버 변경0.
+발광후보는미채택/전투90초반복쌍·긴프레임검수는남음. 마감22:00KST와기존PC자동화유지. Git은이번시점스냅샷이며 이후개발변경이자동으로원격에동기화되지는않음. 다른컴퓨터의새커밋을덮거나force-push하지말것.
+
+
+[2026-10-18T01:38:31.164Z Session10–12 / 최신 사용자: 모든 테스트 시작부터 음소거]
+QA muted-v3는 메뉴 준비부터 실제 음향 끄기→전투 시작뒤다시음소거 확인. 제품 기본음향/OS음량/게임소스 변경0. 4실행×18표본 모두enabledfalse/context suspended/31loaded/voices0/loops0/played{}·120척/playing/scale1/hiddenfalse. 코드의 시작guard도같은조건확인.
+발광후보ABBA(각30s준비+90s): A1 45.62FPS/p95 34.6/p99 49.2/max 155.8ms/>50 41/>100 4; B1 41.45/39.9/53.9/230.4/58/6; B2 42.12/38.6/55.2/135.2/55/4; A2 47.54/33.9/45.1/97.2/26/0. 두쌍모두평균·tail악화로미채택확정. 자원종료B1 176=176/B2 204=204/entries·refs0. 감사valid/pending0/instance불일치0/error0/ownQA한키동일4. 원인·GPU/GC·native/일반audioON성능인과주장없음.
+이전음향ON A1/B1/B2기록은조건불일치로이비교에서제외·원시보존. 음향전환원인미확정; 제한진단은최신사용자음소거지시로중단/완료자료없음/입력추적은현재harness에서제거.
+제품src163SHA같음/game-De5_jikA.js/612검증실행본/Windows유지. QA HTML만변경으로전체612·빌드·픽셀검수반복없음. 자기탭17·서버4275/76 PID41132/7888정리/viewport·visibility복원/사용자1~4·원본·4290·다른자동화보존.
+자료 qa/MUTED_QA_START_VALIDATION.json·projectile-glow-muted-validation.json·4raw/cleanup·muted-qa-start.png. 다음은actual main/PIP/world복원경로의반복world행렬전파비용gate. 이미미채택한glow·alpha·identity·tree·sort등반복금지. 22:00KST마감유지.

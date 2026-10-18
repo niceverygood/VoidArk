@@ -96,5 +96,15 @@
     "Existing >500kB bundle warnings retained; zero build errors.",
     "No performance capture, native combat, audio listening, physical other-machine execution, store submission, or user-save access was performed for Git export.",
     "This validation is recorded before the initial Git commit. Verify the received commit with git rev-parse HEAD and remote main; final publication evidence is recorded on the sending machine."
-  ]
+  ],
+  "latestQaOnlyFollowup": {
+    "at": "2026-10-18T01:39:53.603Z",
+    "evidence": "qa/MUTED_QA_START_VALIDATION.json",
+    "performanceEvidence": "qa/projectile-glow-muted-validation.json",
+    "source163Unchanged": true,
+    "glowDecision": "not-adopted",
+    "fullSuiteRerun": false,
+    "buildRerun": false,
+    "note": "Original fresh-install/build/612-suite evidence remains the initial snapshot; latest change affects only QA HTML, records and handoff docs"
+  }
 }

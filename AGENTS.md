@@ -2,6 +2,10 @@
 
 이 저장소는 Steam PC 전투 최적화의 독립적인 Git 체크포인트입니다. 최신 사용자 지시를 우선하고 CODEX_HANDOFF_PROMPT.txt, README.md, HANDOFF.md, qa/GITHUB_HANDOFF_VALIDATION.json, qa/PC_OPTIMIZATION_20261018_STATE.json과 qa/PC_OPTIMIZATION_20261018_PROGRESS.txt를 먼저 읽으세요. 과거 절대경로·PID·탭 ID는 증거 출처이며 현재 실행환경의 값이 아닙니다.
 
+## 최신 테스트 요청
+
+모든 테스트는 준비 화면부터 음소거로 시작합니다. 브라우저/native 플레이 전에 정상 UI로 확인하고 제품 기본 음향·OS 음량은 바꾸지 마세요. qa/MUTED_QA_START_VALIDATION.json과 qa/projectile-glow-muted-validation.json을 우선 읽으세요. 발광 공유는 두 muted ABBA 쌍에서 역효과로 미채택 확정했으므로 반복하지 않습니다.
+
 ## 작업 범위
 
 - 목표는 Steam PC 전투 중 순간 끊김 감소입니다. 기본 화질·장비·이펙트를 임의로 낮추지 마세요.

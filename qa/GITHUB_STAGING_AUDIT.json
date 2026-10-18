@@ -1,9 +1,9 @@
 {
-  "at": "2026-10-18T00:59:38.002Z",
+  "at": "2026-10-18T01:40:21.982Z",
   "scope": "Git staged paths and current working-file bytes; pattern scan is not a guarantee of all secret formats",
-  "files": 1225,
-  "bytes": 185268288,
-  "textFilesScanned": 642,
+  "files": 1242,
+  "bytes": 186002877,
+  "textFilesScanned": 658,
   "largestFile": {
     "file": "public/moodboard.png",
     "bytes": 2952150

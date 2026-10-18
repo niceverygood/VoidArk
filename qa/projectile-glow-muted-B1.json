@@ -1,0 +1,2590 @@
+{
+  "beforeCapture": {
+    "audioEnabled": false,
+    "audioState": "suspended",
+    "loaded": 31,
+    "voices": 0,
+    "loops": 0
+  },
+  "variant": "glow-candidate",
+  "captureStartedUTC": "2026-10-18T01:28:59.931Z",
+  "captureFinishedUTC": "2026-10-18T01:30:29.979Z",
+  "profile": {
+    "wallSeconds": 90.04820000004769,
+    "frames": 3732,
+    "fps": 41.4463119223725,
+    "over33": 398,
+    "over50": 58,
+    "over100": 6,
+    "times": {
+      "frame": {
+        "mean": 24.127599142547716,
+        "p95": 39.9,
+        "p99": 53.9,
+        "max": 230.4000000357628
+      },
+      "cpu": {
+        "mean": 19.397909968452566,
+        "p95": 31.9,
+        "p99": 43.6,
+        "max": 79.19999998807907
+      },
+      "simulation": {
+        "mean": 1.4738745984859916,
+        "p95": 3.9,
+        "p99": 7.4,
+        "max": 20.19999998807907
+      },
+      "camera": {
+        "mean": 0.030412647453918334,
+        "p95": 0.2,
+        "p99": 0.2,
+        "max": 5.400000035762787
+      },
+      "visuals": {
+        "mean": 4.767524115413843,
+        "p95": 7.6,
+        "p99": 11.5,
+        "max": 37.80000001192093
+      },
+      "feedbackAudio": {
+        "mean": 0.5277063241438084,
+        "p95": 1.2,
+        "p99": 2.1,
+        "max": 9.699999988079071
+      },
+      "batch": {
+        "mean": 5.211066452237315,
+        "p95": 7.9,
+        "p99": 11.2,
+        "max": 30.899999976158142
+      },
+      "batchWorld": {
+        "mean": 3.679394426261497,
+        "p95": 5.6,
+        "p99": 7.9,
+        "max": 29.299999952316284
+      },
+      "batchSearch": {
+        "mean": 0.0422829583143498,
+        "p95": 0.2,
+        "p99": 0.3,
+        "max": 10.5
+      },
+      "batchBuffers": {
+        "mean": 0.009994641042215648,
+        "p95": 0.2,
+        "p99": 0.2,
+        "max": 1.300000011920929
+      },
+      "batchInstances": {
+        "mean": 1.4590568061267193,
+        "p95": 2.6,
+        "p99": 4.2,
+        "max": 25.100000023841858
+      },
+      "batchEvents": {
+        "mean": 0.05758306529424837,
+        "p95": 0.3,
+        "p99": 0.4,
+        "max": 16.30000001192093
+      },
+      "render": {
+        "mean": 5.159994641300949,
+        "p95": 8.2,
+        "p99": 14.6,
+        "max": 36.10000002384186
+      },
+      "launchCamera": {
+        "mean": 0.522454447796746,
+        "p95": 0.2,
+        "p99": 13.9,
+        "max": 26.80000001192093
+      },
+      "hudSnapshot": {
+        "mean": 0.22258842446604726,
+        "p95": 0.7,
+        "p99": 1.4,
+        "max": 17.69999998807907
+      },
+      "hud": {
+        "mean": 0.3172561629472694,
+        "p95": 1.4,
+        "p99": 2.3,
+        "max": 10.700000047683716
+      },
+      "radar": {
+        "mean": 0.10415326870203273,
+        "p95": 0.6,
+        "p99": 0.9,
+        "max": 10.100000023841858
+      },
+      "hudDOM": {
+        "mean": 0.21310289424523662,
+        "p95": 0.9,
+        "p99": 1.4,
+        "max": 5.899999976158142
+      }
+    },
+    "launchRenders": 167,
+    "launchRenderCPU": {
+      "mean": 11.546706583685504,
+      "p95": 16.4,
+      "p99": 20.6,
+      "max": 26.80000001192093
+    },
+    "stalls": [
+      {
+        "simulation": 1.199999988079071,
+        "camera": 0,
+        "visuals": 3.600000023841858,
+        "feedbackAudio": 0.3999999761581421,
+        "batch": 3.100000023841858,
+        "batchWorld": 2.200000047683716,
+        "batchSearch": 0.09999996423721313,
+        "batchBuffers": 0,
+        "batchInstances": 0.800000011920929,
+        "batchEvents": 0,
+        "engineFlames": 0.699999988079071,
+        "preparation": 0,
+        "render": 3.199999988079071,
+        "launchRendered": false,
+        "launchCamera": 0,
+        "hudSnapshot": 0.40000003576278687,
+        "hud": 0.800000011920929,
+        "radar": 0.30000001192092896,
+        "hudDOM": 0.5,
+        "cpu": 13.400000035762787,
+        "frame": 153.5999999642372,
+        "startedAt": 68513,
+        "finishedAt": 68526.5,
+        "gameTimeBefore": 305.1765999999045,
+        "gameTimeAfter": 305.2265999999045,
+        "phaseBefore": "playing",
+        "phaseAfter": "playing",
+        "levelBefore": 22,
+        "levelAfter": 22
+      },
+      {
+        "simulation": 2.100000023841858,
+        "camera": 0.09999996423721313,
+        "visuals": 6.900000035762787,
+        "feedbackAudio": 0.699999988079071,
+        "batch": 4.899999976158142,
+        "batchWorld": 3.599999964237213,
+        "batchSearch": 0,
+        "batchBuffers": 0,
+        "batchInstances": 1.300000011920929,
+        "batchEvents": 0.10000002384185791,
+        "engineFlames": 0.9000000357627869,
+        "preparation": 0,
+        "render": 5.199999988079071,
+        "launchRendered": false,
+        "launchCamera": 0,
+        "hudSnapshot": 0.3999999761581421,
+        "hud": 1.199999988079071,
+        "radar": 0.5,
+        "hudDOM": 0.699999988079071,
+        "cpu": 22.399999976158142,
+        "frame": 116.5,
+        "startedAt": 68649.80000001192,
+        "finishedAt": 68672.30000001192,
+        "gameTimeBefore": 305.24539999991646,
+        "gameTimeAfter": 305.29539999991647,
+        "phaseBefore": "playing",
+        "phaseAfter": "playing",
+        "levelBefore": 22,
+        "levelAfter": 22
+      },
+      {
+        "simulation": 2.300000011920929,
+        "camera": 0,
+        "visuals": 5.300000011920929,
+        "feedbackAudio": 0.2999999523162842,
+        "batch": 4.600000023841858,
+        "batchWorld": 3.200000047683716,
+        "batchSearch": 0.09999996423721313,
+        "batchBuffers": 0.10000002384185791,
+        "batchInstances": 1.199999988079071,
+        "batchEvents": 0,
+        "engineFlames": 1,
+        "preparation": 0,
+        "render": 4.600000023841858,
+        "launchRendered": false,
+        "launchCamera": 0,
+        "hudSnapshot": 0.5,
+        "hud": 0.8999999761581421,
+        "radar": 0.5,
+        "hudDOM": 0.3999999761581421,
+        "cpu": 19.5,
+        "frame": 152,
+        "startedAt": 73223.30000001192,
+        "finishedAt": 73242.80000001192,
+        "gameTimeBefore": 309.59139999991663,
+        "gameTimeAfter": 309.64139999991664,
+        "phaseBefore": "playing",
+        "phaseAfter": "playing",
+        "levelBefore": 22,
+        "levelAfter": 22
+      },
+      {
+        "simulation": 2.300000011920929,
+        "camera": 0,
+        "visuals": 5.5,
+        "feedbackAudio": 0.30000001192092896,
+        "batch": 6,
+        "batchWorld": 4.099999964237213,
+        "batchSearch": 0.10000002384185791,
+        "batchBuffers": 0,
+        "batchInstances": 1.800000011920929,
+        "batchEvents": 0,
+        "engineFlames": 1,
+        "preparation": 0,
+        "render": 5.699999988079071,
+        "launchRendered": false,
+        "launchCamera": 0,
+        "hudSnapshot": 0.699999988079071,
+        "hud": 1.199999988079071,
+        "radar": 0.5,
+        "hudDOM": 0.699999988079071,
+        "cpu": 22.69999998807907,
+        "frame": 155.30000001192093,
+        "startedAt": 73399,
+        "finishedAt": 73421.69999998808,
+        "gameTimeBefore": 309.6617999998928,
+        "gameTimeAfter": 309.71179999989283,
+        "phaseBefore": "playing",
+        "phaseAfter": "playing",
+        "levelBefore": 22,
+        "levelAfter": 22
+      },
+      {
+        "simulation": 1.199999988079071,
+        "camera": 0,
+        "visuals": 5.899999976158142,
+        "feedbackAudio": 0.40000003576278687,
+        "batch": 6.599999964237213,
+        "batchWorld": 4.700000047683716,
+        "batchSearch": 0,
+        "batchBuffers": 0,
+        "batchInstances": 1.7999999523162842,
+        "batchEvents": 0.10000002384185791,
+        "engineFlames": 1.100000023841858,
+        "preparation": 0,
+        "render": 6.800000011920929,
+        "launchRendered": false,
+        "launchCamera": 0,
+        "hudSnapshot": 0.3999999761581421,
+        "hud": 1.100000023841858,
+        "radar": 0.5,
+        "hudDOM": 0.6000000238418579,
+        "cpu": 23.5,
+        "frame": 230.4000000357628,
+        "startedAt": 73717.60000002384,
+        "finishedAt": 73741.10000002384,
+        "gameTimeBefore": 309.7999999998809,
+        "gameTimeAfter": 309.84999999988094,
+        "phaseBefore": "playing",
+        "phaseAfter": "playing",
+        "levelBefore": 22,
+        "levelAfter": 22
+      },
+      {
+        "simulation": 7.800000011920929,
+        "camera": 0.10000002384185791,
+        "visuals": 14.299999952316284,
+        "feedbackAudio": 3.300000011920929,
+        "batch": 21.100000023841858,
+        "batchWorld": 13.100000023841858,
+        "batchSearch": 0.09999996423721313,
+        "batchBuffers": 0,
+        "batchInstances": 7.900000035762787,
+        "batchEvents": 0.40000009536743164,
+        "engineFlames": 1.300000011920929,
+        "preparation": 0.09999996423721313,
+        "render": 13,
+        "launchRendered": true,
+        "launchCamera": 13.300000011920929,
+        "hudSnapshot": 0.3999999761581421,
+        "hud": 1.4000000357627869,
+        "radar": 0.5,
+        "hudDOM": 0.9000000357627869,
+        "cpu": 76.10000002384186,
+        "frame": 109.5,
+        "startedAt": 106880.5,
+        "finishedAt": 106956.60000002384,
+        "gameTimeBefore": 342.7794999998213,
+        "gameTimeAfter": 342.82949999982134,
+        "phaseBefore": "playing",
+        "phaseAfter": "playing",
+        "levelBefore": 22,
+        "levelAfter": 22
+      }
+    ],
+    "stallCount": 6,
+    "worstCPU": [
+      {
+        "simulation": 3.600000023841858,
+        "camera": 0.09999996423721313,
+        "visuals": 37.80000001192093,
+        "feedbackAudio": 0.40000003576278687,
+        "batch": 4.599999964237213,
+        "batchWorld": 2.599999964237213,
+        "batchSearch": 0,
+        "batchBuffers": 0,
+        "batchInstances": 2,
+        "batchEvents": 0,
+        "engineFlames": 1.300000011920929,
+        "preparation": 0,
+        "render": 7.100000023841858,
+        "launchRendered": false,
+        "launchCamera": 0,
+        "hudSnapshot": 17.69999998807907,
+        "hud": 6.599999964237213,
+        "radar": 0.699999988079071,
+        "hudDOM": 5.899999976158142,
+        "cpu": 79.19999998807907,
+        "frame": 22.5,
+        "startedAt": 79681.5,
+        "finishedAt": 79760.80000001192,
+        "gameTimeBefore": 315.79139999985716,
+        "gameTimeAfter": 315.81389999985714,
+        "phaseBefore": "playing",
+        "phaseAfter": "playing",
+        "levelBefore": 22,
+        "levelAfter": 22
+      },
+      {
+        "simulation": 1.2999999523162842,
+        "camera": 0.10000002384185791,
+        "visuals": 11.800000011920929,
+        "feedbackAudio": 0.5999999642372131,
+        "batch": 17.5,
+        "batchWorld": 12.700000047683716,
+        "batchSearch": 0,
+        "batchBuffers": 0,
+        "batchInstances": 4.799999952316284,
+        "batchEvents": 0.10000002384185791,
+        "engineFlames": 2.700000047683716,
+        "preparation": 0,
+        "render": 14.699999988079071,
+        "launchRendered": true,
+        "launchCamera": 26.80000001192093,
+        "hudSnapshot": 0.5999999642372131,
+        "hud": 1.699999988079071,
+        "radar": 0.699999988079071,
+        "hudDOM": 1,
+        "cpu": 77.79999995231628,
+        "frame": 23.600000023841858,
+        "startedAt": 106770.90000003576,
+        "finishedAt": 106848.69999998808,
+        "gameTimeBefore": 342.75589999979746,
+        "gameTimeAfter": 342.7794999998213,
+        "phaseBefore": "playing",
+        "phaseAfter": "playing",
+        "levelBefore": 22,
+        "levelAfter": 22
+      },
+      {
+        "simulation": 7.800000011920929,
+        "camera": 0.10000002384185791,
+        "visuals": 14.299999952316284,
+        "feedbackAudio": 3.300000011920929,
+        "batch": 21.100000023841858,
+        "batchWorld": 13.100000023841858,
+        "batchSearch": 0.09999996423721313,
+        "batchBuffers": 0,
+        "batchInstances": 7.900000035762787,
+        "batchEvents": 0.40000009536743164,
+        "engineFlames": 1.300000011920929,
+        "preparation": 0.09999996423721313,
+        "render": 13,
+        "launchRendered": true,
+        "launchCamera": 13.300000011920929,
+        "hudSnapshot": 0.3999999761581421,
+        "hud": 1.4000000357627869,
+        "radar": 0.5,
+        "hudDOM": 0.9000000357627869,
+        "cpu": 76.10000002384186,
+        "frame": 109.5,
+        "startedAt": 106880.5,
+        "finishedAt": 106956.60000002384,
+        "gameTimeBefore": 342.7794999998213,
+        "gameTimeAfter": 342.82949999982134,
+        "phaseBefore": "playing",
+        "phaseAfter": "playing",
+        "levelBefore": 22,
+        "levelAfter": 22
+      },
+      {
+        "simulation": 4.099999964237213,
+        "camera": 0.10000002384185791,
+        "visuals": 16.80000001192093,
+        "feedbackAudio": 3.699999988079071,
+        "batch": 6,
+        "batchWorld": 4.699999988079071,
+        "batchSearch": 0,
+        "batchBuffers": 0.10000002384185791,
+        "batchInstances": 1.199999988079071,
+        "batchEvents": 0.09999996423721313,
+        "engineFlames": 5.100000023841858,
+        "preparation": 0,
+        "render": 32.09999996423721,
+        "launchRendered": false,
+        "launchCamera": 0,
+        "hudSnapshot": 0.5,
+        "hud": 1.199999988079071,
+        "radar": 0.5,
+        "hudDOM": 0.699999988079071,
+        "cpu": 69.59999996423721,
+        "frame": 25.5,
+        "startedAt": 72654.60000002384,
+        "finishedAt": 72724.19999998808,
+        "gameTimeBefore": 309.2136999999285,
+        "gameTimeAfter": 309.23919999992853,
+        "phaseBefore": "playing",
+        "phaseAfter": "playing",
+        "levelBefore": 22,
+        "levelAfter": 22
+      },
+      {
+        "simulation": 2.100000023841858,
+        "camera": 0,
+        "visuals": 10.799999952316284,
+        "feedbackAudio": 3.600000023841858,
+        "batch": 17.600000023841858,
+        "batchWorld": 9.899999976158142,
+        "batchSearch": 0,
+        "batchBuffers": 0,
+        "batchInstances": 7.700000047683716,
+        "batchEvents": 0.09999996423721313,
+        "engineFlames": 2.099999964237213,
+        "preparation": 0,
+        "render": 13.5,
+        "launchRendered": true,
+        "launchCamera": 17.900000035762787,
+        "hudSnapshot": 0.5,
+        "hud": 1.399999976158142,
+        "radar": 0.5,
+        "hudDOM": 0.8999999761581421,
+        "cpu": 69.5,
+        "frame": 40,
+        "startedAt": 107182.30000001192,
+        "finishedAt": 107251.80000001192,
+        "gameTimeBefore": 343.0445999998452,
+        "gameTimeAfter": 343.08459999984524,
+        "phaseBefore": "playing",
+        "phaseAfter": "playing",
+        "levelBefore": 22,
+        "levelAfter": 22
+      },
+      {
+        "simulation": 4.100000023841858,
+        "camera": 0.09999996423721313,
+        "visuals": 8.100000023841858,
+        "feedbackAudio": 0.5,
+        "batch": 28,
+        "batchWorld": 25.80000001192093,
+        "batchSearch": 0,
+        "batchBuffers": 0,
+        "batchInstances": 2.199999988079071,
+        "batchEvents": 0.10000002384185791,
+        "engineFlames": 2,
+        "preparation": 0,
+        "render": 22.099999964237213,
+        "launchRendered": false,
+        "launchCamera": 0,
+        "hudSnapshot": 0.7000000476837158,
+        "hud": 1.699999988079071,
+        "radar": 0.800000011920929,
+        "hudDOM": 0.8999999761581421,
+        "cpu": 67.30000001192093,
+        "frame": 30.69999998807907,
+        "startedAt": 66844.30000001192,
+        "finishedAt": 66911.60000002384,
+        "gameTimeBefore": 303.6743999999166,
+        "gameTimeAfter": 303.7050999999047,
+        "phaseBefore": "playing",
+        "phaseAfter": "playing",
+        "levelBefore": 22,
+        "levelAfter": 22
+      },
+      {
+        "simulation": 2.100000023841858,
+        "camera": 0,
+        "visuals": 14.699999988079071,
+        "feedbackAudio": 0.30000001192092896,
+        "batch": 30.899999976158142,
+        "batchWorld": 29.299999952316284,
+        "batchSearch": 0,
+        "batchBuffers": 0,
+        "batchInstances": 1.600000023841858,
+        "batchEvents": 0.10000002384185791,
+        "engineFlames": 1.5,
+        "preparation": 0,
+        "render": 6.300000011920929,
+        "launchRendered": false,
+        "launchCamera": 0,
+        "hudSnapshot": 0,
+        "hud": 0,
+        "radar": 0,
+        "hudDOM": 0,
+        "cpu": 55.80000001192093,
+        "frame": 40.09999996423721,
+        "startedAt": 70934.80000001192,
+        "finishedAt": 70990.60000002384,
+        "gameTimeBefore": 307.51189999991664,
+        "gameTimeAfter": 307.5519999998809,
+        "phaseBefore": "playing",
+        "phaseAfter": "playing",
+        "levelBefore": 22,
+        "levelAfter": 22
+      },
+      {
+        "simulation": 1,
+        "camera": 0,
+        "visuals": 5.100000023841858,
+        "feedbackAudio": 0.3999999761581421,
+        "batch": 8.400000035762787,
+        "batchWorld": 5.400000035762787,
+        "batchSearch": 0.10000002384185791,
+        "batchBuffers": 0,
+        "batchInstances": 2.800000011920929,
+        "batchEvents": 0,
+        "engineFlames": 2,
+        "preparation": 0,
+        "render": 21.19999998807907,
+        "launchRendered": true,
+        "launchCamera": 15.899999976158142,
+        "hudSnapshot": 0.800000011920929,
+        "hud": 0.40000003576278687,
+        "radar": 0,
+        "hudDOM": 0.40000003576278687,
+        "cpu": 55.200000047683716,
+        "frame": 51.299999952316284,
+        "startedAt": 60342.19999998808,
+        "finishedAt": 60397.40000003576,
+        "gameTimeBefore": 297.21519999998816,
+        "gameTimeAfter": 297.26519999998817,
+        "phaseBefore": "playing",
+        "phaseAfter": "playing",
+        "levelBefore": 22,
+        "levelAfter": 22
+      },
+      {
+        "simulation": 10.800000011920929,
+        "camera": 0.10000002384185791,
+        "visuals": 17.899999976158142,
+        "feedbackAudio": 1.199999988079071,
+        "batch": 5.100000023841858,
+        "batchWorld": 3.700000047683716,
+        "batchSearch": 0,
+        "batchBuffers": 0,
+        "batchInstances": 1.399999976158142,
+        "batchEvents": 0.10000002384185791,
+        "engineFlames": 1.399999976158142,
+        "preparation": 0,
+        "render": 15.400000035762787,
+        "launchRendered": false,
+        "launchCamera": 0,
+        "hudSnapshot": 0.3999999761581421,
+        "hud": 1.199999988079071,
+        "radar": 0.40000003576278687,
+        "hudDOM": 0.7999999523162842,
+        "cpu": 53.5,
+        "frame": 51.59999996423721,
+        "startedAt": 71830.19999998808,
+        "finishedAt": 71883.69999998808,
+        "gameTimeBefore": 308.38529999989277,
+        "gameTimeAfter": 308.4352999998928,
+        "phaseBefore": "playing",
+        "phaseAfter": "playing",
+        "levelBefore": 22,
+        "levelAfter": 22
+      },
+      {
+        "simulation": 11.399999976158142,
+        "camera": 0,
+        "visuals": 22.600000023841858,
+        "feedbackAudio": 0.5999999642372131,
+        "batch": 11.5,
+        "batchWorld": 9.699999988079071,
+        "batchSearch": 0,
+        "batchBuffers": 0,
+        "batchInstances": 1.800000011920929,
+        "batchEvents": 0.3999999761581421,
+        "engineFlames": 1.5,
+        "preparation": 0,
+        "render": 4.900000035762787,
+        "launchRendered": false,
+        "launchCamera": 0,
+        "hudSnapshot": 0.699999988079071,
+        "hud": 0.30000001192092896,
+        "radar": 0,
+        "hudDOM": 0.30000001192092896,
+        "cpu": 53.5,
+        "frame": 58.10000002384186,
+        "startedAt": 100821.90000003576,
+        "finishedAt": 100875.40000003576,
+        "gameTimeBefore": 336.8469999998214,
+        "gameTimeAfter": 336.8969999998214,
+        "phaseBefore": "playing",
+        "phaseAfter": "playing",
+        "levelBefore": 22,
+        "levelAfter": 22
+      },
+      {
+        "simulation": 1.899999976158142,
+        "camera": 0,
+        "visuals": 7.199999988079071,
+        "feedbackAudio": 0.5,
+        "batch": 10.100000023841858,
+        "batchWorld": 5.800000011920929,
+        "batchSearch": 0,
+        "batchBuffers": 0,
+        "batchInstances": 4.199999988079071,
+        "batchEvents": 0,
+        "engineFlames": 0.800000011920929,
+        "preparation": 0,
+        "render": 32.59999996423721,
+        "launchRendered": false,
+        "launchCamera": 0,
+        "hudSnapshot": 0,
+        "hud": 0,
+        "radar": 0,
+        "hudDOM": 0,
+        "cpu": 53.09999996423721,
+        "frame": 36.30000001192093,
+        "startedAt": 107759.60000002384,
+        "finishedAt": 107812.69999998808,
+        "gameTimeBefore": 343.586199999869,
+        "gameTimeAfter": 343.6224999998809,
+        "phaseBefore": "playing",
+        "phaseAfter": "playing",
+        "levelBefore": 22,
+        "levelAfter": 22
+      },
+      {
+        "simulation": 7.199999988079071,
+        "camera": 0,
+        "visuals": 9.300000011920929,
+        "feedbackAudio": 0.5999999642372131,
+        "batch": 5.5,
+        "batchWorld": 3.900000035762787,
+        "batchSearch": 0,
+        "batchBuffers": 0,
+        "batchInstances": 1.5999999642372131,
+        "batchEvents": 0.5,
+        "engineFlames": 1.600000023841858,
+        "preparation": 0,
+        "render": 24.600000023841858,
+        "launchRendered": false,
+        "launchCamera": 0,
+        "hudSnapshot": 1.5999999642372131,
+        "hud": 1.699999988079071,
+        "radar": 0.5,
+        "hudDOM": 1.199999988079071,
+        "cpu": 52.09999996423721,
+        "frame": 43,
+        "startedAt": 104320.60000002384,
+        "finishedAt": 104372.69999998808,
+        "gameTimeBefore": 340.31699999982123,
+        "gameTimeAfter": 340.35999999982124,
+        "phaseBefore": "playing",
+        "phaseAfter": "playing",
+        "levelBefore": 22,
+        "levelAfter": 22
+      }
+    ],
+    "worstBatchWorld": [
+      {
+        "simulation": 2.100000023841858,
+        "camera": 0,
+        "visuals": 14.699999988079071,
+        "feedbackAudio": 0.30000001192092896,
+        "batch": 30.899999976158142,
+        "batchWorld": 29.299999952316284,
+        "batchSearch": 0,
+        "batchBuffers": 0,
+        "batchInstances": 1.600000023841858,
+        "batchEvents": 0.10000002384185791,
+        "engineFlames": 1.5,
+        "preparation": 0,
+        "render": 6.300000011920929,
+        "launchRendered": false,
+        "launchCamera": 0,
+        "hudSnapshot": 0,
+        "hud": 0,
+        "radar": 0,
+        "hudDOM": 0,
+        "cpu": 55.80000001192093,
+        "frame": 40.09999996423721,
+        "startedAt": 70934.80000001192,
+        "finishedAt": 70990.60000002384,
+        "gameTimeBefore": 307.51189999991664,
+        "gameTimeAfter": 307.5519999998809,
+        "phaseBefore": "playing",
+        "phaseAfter": "playing",
+        "levelBefore": 22,
+        "levelAfter": 22
+      },
+      {
+        "simulation": 4.100000023841858,
+        "camera": 0.09999996423721313,
+        "visuals": 8.100000023841858,
+        "feedbackAudio": 0.5,
+        "batch": 28,
+        "batchWorld": 25.80000001192093,
+        "batchSearch": 0,
+        "batchBuffers": 0,
+        "batchInstances": 2.199999988079071,
+        "batchEvents": 0.10000002384185791,
+        "engineFlames": 2,
+        "preparation": 0,
+        "render": 22.099999964237213,
+        "launchRendered": false,
+        "launchCamera": 0,
+        "hudSnapshot": 0.7000000476837158,
+        "hud": 1.699999988079071,
+        "radar": 0.800000011920929,
+        "hudDOM": 0.8999999761581421,
+        "cpu": 67.30000001192093,
+        "frame": 30.69999998807907,
+        "startedAt": 66844.30000001192,
+        "finishedAt": 66911.60000002384,
+        "gameTimeBefore": 303.6743999999166,
+        "gameTimeAfter": 303.7050999999047,
+        "phaseBefore": "playing",
+        "phaseAfter": "playing",
+        "levelBefore": 22,
+        "levelAfter": 22
+      },
+      {
+        "simulation": 1.5,
+        "camera": 0,
+        "visuals": 4,
+        "feedbackAudio": 0.5,
+        "batch": 23.600000023841858,
+        "batchWorld": 20.900000035762787,
+        "batchSearch": 0.09999996423721313,
+        "batchBuffers": 0,
+        "batchInstances": 2.600000023841858,
+        "batchEvents": 0,
+        "engineFlames": 1.300000011920929,
+        "preparation": 0,
+        "render": 4.199999988079071,
+        "launchRendered": false,
+        "launchCamera": 0,
+        "hudSnapshot": 0.5,
+        "hud": 0.3999999761581421,
+        "radar": 0,
+        "hudDOM": 0.3999999761581421,
+        "cpu": 36,
+        "frame": 28.899999976158142,
+        "startedAt": 71417.69999998808,
+        "finishedAt": 71453.80000001192,
+        "gameTimeBefore": 307.99549999988085,
+        "gameTimeAfter": 308.024399999857,
+        "phaseBefore": "playing",
+        "phaseAfter": "playing",
+        "levelBefore": 22,
+        "levelAfter": 22
+      },
+      {
+        "simulation": 0.800000011920929,
+        "camera": 0,
+        "visuals": 6.899999976158142,
+        "feedbackAudio": 0.40000003576278687,
+        "batch": 16.5,
+        "batchWorld": 15.099999964237213,
+        "batchSearch": 0.10000002384185791,
+        "batchBuffers": 0,
+        "batchInstances": 1.300000011920929,
+        "batchEvents": 0.10000002384185791,
+        "engineFlames": 0.8999999761581421,
+        "preparation": 0,
+        "render": 3.699999988079071,
+        "launchRendered": false,
+        "launchCamera": 0,
+        "hudSnapshot": 0,
+        "hud": 0,
+        "radar": 0,
+        "hudDOM": 0,
+        "cpu": 29.19999998807907,
+        "frame": 20.19999998807907,
+        "startedAt": 101811.30000001192,
+        "finishedAt": 101840.5,
+        "gameTimeBefore": 337.84369999980936,
+        "gameTimeAfter": 337.8638999997974,
+        "phaseBefore": "playing",
+        "phaseAfter": "playing",
+        "levelBefore": 22,
+        "levelAfter": 22
+      },
+      {
+        "simulation": 2.799999952316284,
+        "camera": 0.10000002384185791,
+        "visuals": 4.5,
+        "feedbackAudio": 1,
+        "batch": 15.300000011920929,
+        "batchWorld": 14.199999988079071,
+        "batchSearch": 0,
+        "batchBuffers": 0,
+        "batchInstances": 1.100000023841858,
+        "batchEvents": 0.09999996423721313,
+        "engineFlames": 1.0999999642372131,
+        "preparation": 0,
+        "render": 12.100000023841858,
+        "launchRendered": false,
+        "launchCamera": 0,
+        "hudSnapshot": 0,
+        "hud": 0,
+        "radar": 0,
+        "hudDOM": 0,
+        "cpu": 36.89999997615814,
+        "frame": 42.60000002384186,
+        "startedAt": 112280.90000003576,
+        "finishedAt": 112317.90000003576,
+        "gameTimeBefore": 348.067199999869,
+        "gameTimeAfter": 348.10979999989286,
+        "phaseBefore": "playing",
+        "phaseAfter": "playing",
+        "levelBefore": 22,
+        "levelAfter": 22
+      },
+      {
+        "simulation": 0.8999999761581421,
+        "camera": 0,
+        "visuals": 3.600000023841858,
+        "feedbackAudio": 0.699999988079071,
+        "batch": 16.19999998807907,
+        "batchWorld": 14.100000023841858,
+        "batchSearch": 0.09999996423721313,
+        "batchBuffers": 0.10000002384185791,
+        "batchInstances": 1.899999976158142,
+        "batchEvents": 0.10000002384185791,
+        "engineFlames": 3.900000035762787,
+        "preparation": 0,
+        "render": 5.099999964237213,
+        "launchRendered": false,
+        "launchCamera": 0,
+        "hudSnapshot": 0.5,
+        "hud": 1.4000000357627869,
+        "radar": 0.699999988079071,
+        "hudDOM": 0.7000000476837158,
+        "cpu": 32.30000001192093,
+        "frame": 33.39999997615814,
+        "startedAt": 99842.80000001192,
+        "finishedAt": 99875.10000002384,
+        "gameTimeBefore": 335.8925999998452,
+        "gameTimeAfter": 335.92599999982133,
+        "phaseBefore": "playing",
+        "phaseAfter": "playing",
+        "levelBefore": 22,
+        "levelAfter": 22
+      },
+      {
+        "simulation": 3,
+        "camera": 0,
+        "visuals": 6.900000035762787,
+        "feedbackAudio": 1.899999976158142,
+        "batch": 16.600000023841858,
+        "batchWorld": 13.600000023841858,
+        "batchSearch": 0.09999996423721313,
+        "batchBuffers": 0,
+        "batchInstances": 2.900000035762787,
+        "batchEvents": 0,
+        "engineFlames": 1.5999999642372131,
+        "preparation": 0,
+        "render": 6.400000035762787,
+        "launchRendered": false,
+        "launchCamera": 0.09999996423721313,
+        "hudSnapshot": 0,
+        "hud": 0,
+        "radar": 0,
+        "hudDOM": 0,
+        "cpu": 36.5,
+        "frame": 43.30000001192093,
+        "startedAt": 104817.5,
+        "finishedAt": 104854,
+        "gameTimeBefore": 340.78729999977355,
+        "gameTimeAfter": 340.8305999997855,
+        "phaseBefore": "playing",
+        "phaseAfter": "playing",
+        "levelBefore": 22,
+        "levelAfter": 22
+      },
+      {
+        "simulation": 1.800000011920929,
+        "camera": 0,
+        "visuals": 4.599999964237213,
+        "feedbackAudio": 0.40000003576278687,
+        "batch": 14.699999988079071,
+        "batchWorld": 13.299999952316284,
+        "batchSearch": 0.10000002384185791,
+        "batchBuffers": 0.10000002384185791,
+        "batchInstances": 1.199999988079071,
+        "batchEvents": 0.19999998807907104,
+        "engineFlames": 1.199999988079071,
+        "preparation": 0,
+        "render": 4.5,
+        "launchRendered": false,
+        "launchCamera": 0,
+        "hudSnapshot": 0,
+        "hud": 0,
+        "radar": 0,
+        "hudDOM": 0,
+        "cpu": 27.19999998807907,
+        "frame": 34.60000002384186,
+        "startedAt": 43826.60000002384,
+        "finishedAt": 43853.80000001192,
+        "gameTimeBefore": 280.72880000001186,
+        "gameTimeAfter": 280.7634000000357,
+        "phaseBefore": "playing",
+        "phaseAfter": "playing",
+        "levelBefore": 22,
+        "levelAfter": 22
+      },
+      {
+        "simulation": 0.5999999642372131,
+        "camera": 0,
+        "visuals": 3.5,
+        "feedbackAudio": 0.40000003576278687,
+        "batch": 14.5,
+        "batchWorld": 13.299999952316284,
+        "batchSearch": 0,
+        "batchBuffers": 0,
+        "batchInstances": 1.100000023841858,
+        "batchEvents": 0,
+        "engineFlames": 1,
+        "preparation": 0,
+        "render": 3.699999988079071,
+        "launchRendered": false,
+        "launchCamera": 0,
+        "hudSnapshot": 0,
+        "hud": 0,
+        "radar": 0,
+        "hudDOM": 0,
+        "cpu": 23.69999998807907,
+        "frame": 18,
+        "startedAt": 43958.90000003576,
+        "finishedAt": 43982.60000002384,
+        "gameTimeBefore": 280.8777000000476,
+        "gameTimeAfter": 280.89570000004755,
+        "phaseBefore": "playing",
+        "phaseAfter": "playing",
+        "levelBefore": 22,
+        "levelAfter": 22
+      },
+      {
+        "simulation": 7.800000011920929,
+        "camera": 0.10000002384185791,
+        "visuals": 14.299999952316284,
+        "feedbackAudio": 3.300000011920929,
+        "batch": 21.100000023841858,
+        "batchWorld": 13.100000023841858,
+        "batchSearch": 0.09999996423721313,
+        "batchBuffers": 0,
+        "batchInstances": 7.900000035762787,
+        "batchEvents": 0.40000009536743164,
+        "engineFlames": 1.300000011920929,
+        "preparation": 0.09999996423721313,
+        "render": 13,
+        "launchRendered": true,
+        "launchCamera": 13.300000011920929,
+        "hudSnapshot": 0.3999999761581421,
+        "hud": 1.4000000357627869,
+        "radar": 0.5,
+        "hudDOM": 0.9000000357627869,
+        "cpu": 76.10000002384186,
+        "frame": 109.5,
+        "startedAt": 106880.5,
+        "finishedAt": 106956.60000002384,
+        "gameTimeBefore": 342.7794999998213,
+        "gameTimeAfter": 342.82949999982134,
+        "phaseBefore": "playing",
+        "phaseAfter": "playing",
+        "levelBefore": 22,
+        "levelAfter": 22
+      },
+      {
+        "simulation": 1.2999999523162842,
+        "camera": 0.10000002384185791,
+        "visuals": 11.800000011920929,
+        "feedbackAudio": 0.5999999642372131,
+        "batch": 17.5,
+        "batchWorld": 12.700000047683716,
+        "batchSearch": 0,
+        "batchBuffers": 0,
+        "batchInstances": 4.799999952316284,
+        "batchEvents": 0.10000002384185791,
+        "engineFlames": 2.700000047683716,
+        "preparation": 0,
+        "render": 14.699999988079071,
+        "launchRendered": true,
+        "launchCamera": 26.80000001192093,
+        "hudSnapshot": 0.5999999642372131,
+        "hud": 1.699999988079071,
+        "radar": 0.699999988079071,
+        "hudDOM": 1,
+        "cpu": 77.79999995231628,
+        "frame": 23.600000023841858,
+        "startedAt": 106770.90000003576,
+        "finishedAt": 106848.69999998808,
+        "gameTimeBefore": 342.75589999979746,
+        "gameTimeAfter": 342.7794999998213,
+        "phaseBefore": "playing",
+        "phaseAfter": "playing",
+        "levelBefore": 22,
+        "levelAfter": 22
+      },
+      {
+        "simulation": 1.100000023841858,
+        "camera": 0,
+        "visuals": 4.199999988079071,
+        "feedbackAudio": 0.5999999642372131,
+        "batch": 12.700000047683716,
+        "batchWorld": 11.400000035762787,
+        "batchSearch": 0.09999996423721313,
+        "batchBuffers": 0,
+        "batchInstances": 1.2000000476837158,
+        "batchEvents": 0,
+        "engineFlames": 0.8999999761581421,
+        "preparation": 0,
+        "render": 5,
+        "launchRendered": false,
+        "launchCamera": 0.10000002384185791,
+        "hudSnapshot": 0.2999999523162842,
+        "hud": 0.30000001192092896,
+        "radar": 0,
+        "hudDOM": 0.30000001192092896,
+        "cpu": 25.19999998807907,
+        "frame": 42.80000001192093,
+        "startedAt": 101251.80000001192,
+        "finishedAt": 101277,
+        "gameTimeBefore": 337.26159999978563,
+        "gameTimeAfter": 337.30439999979757,
+        "phaseBefore": "playing",
+        "phaseAfter": "playing",
+        "levelBefore": 22,
+        "levelAfter": 22
+      }
+    ],
+    "gpuSupported": false,
+    "gpu": null,
+    "gpuSamples": 0,
+    "measurement": {
+      "mode": "bounded-histogram",
+      "percentileError": "upper bound: <0.1ms below 100ms; <2% above 100ms",
+      "histogramBytes": 327680,
+      "detailLimit": 88,
+      "detailCopies": 150,
+      "frameContext": "synchronous start/end game time, phase and level when supplied"
+    }
+  },
+  "samples": [
+    {
+      "at": 35.053299999952316,
+      "phase": "playing",
+      "enemies": 120,
+      "bosses": 1,
+      "shots": 47,
+      "fleet": 10,
+      "allies": 10,
+      "liveParticles": 5197,
+      "liveChunks": 166,
+      "drawCalls": 359,
+      "scale": 1,
+      "fps": 42,
+      "scheduler": {
+        "rafCallbacks": 1479,
+        "timerFrames": 128,
+        "callbackFrames": 1477,
+        "recoveries": 5,
+        "fallbacks": 5,
+        "lastGapMs": 27.600000023841858,
+        "mode": "raf",
+        "running": true,
+        "scheduleBeforeWork": true,
+        "pollMs": 4,
+        "visible": true,
+        "sinceRafMs": 25.80000001192093
+      },
+      "hidden": false,
+      "audioEnabled": false,
+      "audioState": "suspended",
+      "audioLoaded": 31
+    },
+    {
+      "at": 40.022599999964235,
+      "phase": "playing",
+      "enemies": 120,
+      "bosses": 1,
+      "shots": 53,
+      "fleet": 10,
+      "allies": 10,
+      "liveParticles": 4640,
+      "liveChunks": 180,
+      "drawCalls": 367,
+      "scale": 1,
+      "fps": 49,
+      "scheduler": {
+        "rafCallbacks": 1703,
+        "timerFrames": 128,
+        "callbackFrames": 1701,
+        "recoveries": 5,
+        "fallbacks": 5,
+        "lastGapMs": 14.600000023841858,
+        "mode": "raf",
+        "running": true,
+        "scheduleBeforeWork": true,
+        "pollMs": 4,
+        "visible": true,
+        "sinceRafMs": 15.300000011920929
+      },
+      "hidden": false,
+      "audioEnabled": false,
+      "audioState": "suspended",
+      "audioLoaded": 31
+    },
+    {
+      "at": 45.0305,
+      "phase": "playing",
+      "enemies": 120,
+      "bosses": 1,
+      "shots": 17,
+      "fleet": 10,
+      "allies": 10,
+      "liveParticles": 4735,
+      "liveChunks": 180,
+      "drawCalls": 307,
+      "scale": 1,
+      "fps": 60,
+      "scheduler": {
+        "rafCallbacks": 1957,
+        "timerFrames": 128,
+        "callbackFrames": 1955,
+        "recoveries": 5,
+        "fallbacks": 5,
+        "lastGapMs": 18.399999976158142,
+        "mode": "raf",
+        "running": true,
+        "scheduleBeforeWork": true,
+        "pollMs": 4,
+        "visible": true,
+        "sinceRafMs": 17.30000001192093
+      },
+      "hidden": false,
+      "audioEnabled": false,
+      "audioState": "suspended",
+      "audioLoaded": 31
+    },
+    {
+      "at": 50.047,
+      "phase": "playing",
+      "enemies": 120,
+      "bosses": 1,
+      "shots": 66,
+      "fleet": 10,
+      "allies": 10,
+      "liveParticles": 5200,
+      "liveChunks": 180,
+      "drawCalls": 477,
+      "scale": 1,
+      "fps": 49,
+      "scheduler": {
+        "rafCallbacks": 2194,
+        "timerFrames": 128,
+        "callbackFrames": 2192,
+        "recoveries": 5,
+        "fallbacks": 5,
+        "lastGapMs": 21.30000001192093,
+        "mode": "raf",
+        "running": true,
+        "scheduleBeforeWork": true,
+        "pollMs": 4,
+        "visible": true,
+        "sinceRafMs": 29.19999998807907
+      },
+      "hidden": false,
+      "audioEnabled": false,
+      "audioState": "suspended",
+      "audioLoaded": 31
+    },
+    {
+      "at": 55.03619999998808,
+      "phase": "playing",
+      "enemies": 120,
+      "bosses": 1,
+      "shots": 45,
+      "fleet": 10,
+      "allies": 10,
+      "liveParticles": 4670,
+      "liveChunks": 164,
+      "drawCalls": 385,
+      "scale": 1,
+      "fps": 47,
+      "scheduler": {
+        "rafCallbacks": 2420,
+        "timerFrames": 128,
+        "callbackFrames": 2418,
+        "recoveries": 5,
+        "fallbacks": 5,
+        "lastGapMs": 23.600000023841858,
+        "mode": "raf",
+        "running": true,
+        "scheduleBeforeWork": true,
+        "pollMs": 4,
+        "visible": true,
+        "sinceRafMs": 17.899999976158142
+      },
+      "hidden": false,
+      "audioEnabled": false,
+      "audioState": "suspended",
+      "audioLoaded": 31
+    },
+    {
+      "at": 60.065299999952316,
+      "phase": "playing",
+      "enemies": 120,
+      "bosses": 1,
+      "shots": 67,
+      "fleet": 10,
+      "allies": 10,
+      "liveParticles": 3952,
+      "liveChunks": 155,
+      "drawCalls": 430,
+      "scale": 1,
+      "fps": 28,
+      "scheduler": {
+        "rafCallbacks": 2588,
+        "timerFrames": 167,
+        "callbackFrames": 2586,
+        "recoveries": 5,
+        "fallbacks": 6,
+        "lastGapMs": 49,
+        "mode": "timer",
+        "running": true,
+        "scheduleBeforeWork": true,
+        "pollMs": 4,
+        "visible": true,
+        "sinceRafMs": 38.10000002384186
+      },
+      "hidden": false,
+      "audioEnabled": false,
+      "audioState": "suspended",
+      "audioLoaded": 31
+    },
+    {
+      "at": 65.04469999998808,
+      "phase": "playing",
+      "enemies": 120,
+      "bosses": 1,
+      "shots": 51,
+      "fleet": 10,
+      "allies": 10,
+      "liveParticles": 4722,
+      "liveChunks": 180,
+      "drawCalls": 358,
+      "scale": 1,
+      "fps": 46,
+      "scheduler": {
+        "rafCallbacks": 2801,
+        "timerFrames": 188,
+        "callbackFrames": 2799,
+        "recoveries": 6,
+        "fallbacks": 6,
+        "lastGapMs": 19.900000035762787,
+        "mode": "raf",
+        "running": true,
+        "scheduleBeforeWork": true,
+        "pollMs": 4,
+        "visible": true,
+        "sinceRafMs": 34.299999952316284
+      },
+      "hidden": false,
+      "audioEnabled": false,
+      "audioState": "suspended",
+      "audioLoaded": 31
+    },
+    {
+      "at": 70.05259999996424,
+      "phase": "playing",
+      "enemies": 120,
+      "bosses": 1,
+      "shots": 58,
+      "fleet": 10,
+      "allies": 10,
+      "liveParticles": 4647,
+      "liveChunks": 166,
+      "drawCalls": 334,
+      "scale": 1,
+      "fps": 36,
+      "scheduler": {
+        "rafCallbacks": 2981,
+        "timerFrames": 198,
+        "callbackFrames": 2981,
+        "recoveries": 7,
+        "fallbacks": 7,
+        "lastGapMs": 18.5,
+        "mode": "raf",
+        "running": true,
+        "scheduleBeforeWork": true,
+        "pollMs": 4,
+        "visible": true,
+        "sinceRafMs": 41.30000001192093
+      },
+      "hidden": false,
+      "audioEnabled": false,
+      "audioState": "suspended",
+      "audioLoaded": 31
+    },
+    {
+      "at": 75.05129999995232,
+      "phase": "playing",
+      "enemies": 120,
+      "bosses": 1,
+      "shots": 60,
+      "fleet": 10,
+      "allies": 10,
+      "liveParticles": 4557,
+      "liveChunks": 180,
+      "drawCalls": 366,
+      "scale": 1,
+      "fps": 42,
+      "scheduler": {
+        "rafCallbacks": 3140,
+        "timerFrames": 218,
+        "callbackFrames": 3145,
+        "recoveries": 8,
+        "fallbacks": 8,
+        "lastGapMs": 42.39999997615814,
+        "mode": "raf",
+        "running": true,
+        "scheduleBeforeWork": true,
+        "pollMs": 4,
+        "visible": true,
+        "sinceRafMs": 25.099999964237213
+      },
+      "hidden": false,
+      "audioEnabled": false,
+      "audioState": "suspended",
+      "audioLoaded": 31
+    },
+    {
+      "at": 80.05039999997616,
+      "phase": "playing",
+      "enemies": 120,
+      "bosses": 1,
+      "shots": 54,
+      "fleet": 10,
+      "allies": 10,
+      "liveParticles": 5102,
+      "liveChunks": 163,
+      "drawCalls": 462,
+      "scale": 1,
+      "fps": 44,
+      "scheduler": {
+        "rafCallbacks": 3359,
+        "timerFrames": 218,
+        "callbackFrames": 3364,
+        "recoveries": 8,
+        "fallbacks": 8,
+        "lastGapMs": 25.400000035762787,
+        "mode": "raf",
+        "running": true,
+        "scheduleBeforeWork": true,
+        "pollMs": 4,
+        "visible": true,
+        "sinceRafMs": 25.5
+      },
+      "hidden": false,
+      "audioEnabled": false,
+      "audioState": "suspended",
+      "audioLoaded": 31
+    },
+    {
+      "at": 85.0485,
+      "phase": "playing",
+      "enemies": 120,
+      "bosses": 1,
+      "shots": 72,
+      "fleet": 10,
+      "allies": 10,
+      "liveParticles": 4982,
+      "liveChunks": 177,
+      "drawCalls": 396,
+      "scale": 1,
+      "fps": 54,
+      "scheduler": {
+        "rafCallbacks": 3570,
+        "timerFrames": 297,
+        "callbackFrames": 3575,
+        "recoveries": 9,
+        "fallbacks": 9,
+        "lastGapMs": 34.89999997615814,
+        "mode": "raf",
+        "running": true,
+        "scheduleBeforeWork": true,
+        "pollMs": 4,
+        "visible": true,
+        "sinceRafMs": 20.600000023841858
+      },
+      "hidden": false,
+      "audioEnabled": false,
+      "audioState": "suspended",
+      "audioLoaded": 31
+    },
+    {
+      "at": 90.03119999998808,
+      "phase": "playing",
+      "enemies": 120,
+      "bosses": 1,
+      "shots": 45,
+      "fleet": 10,
+      "allies": 10,
+      "liveParticles": 4313,
+      "liveChunks": 180,
+      "drawCalls": 337,
+      "scale": 1,
+      "fps": 53,
+      "scheduler": {
+        "rafCallbacks": 3794,
+        "timerFrames": 297,
+        "callbackFrames": 3799,
+        "recoveries": 9,
+        "fallbacks": 9,
+        "lastGapMs": 20,
+        "mode": "raf",
+        "running": true,
+        "scheduleBeforeWork": true,
+        "pollMs": 4,
+        "visible": true,
+        "sinceRafMs": 16.100000023841858
+      },
+      "hidden": false,
+      "audioEnabled": false,
+      "audioState": "suspended",
+      "audioLoaded": 31
+    },
+    {
+      "at": 95.02559999996424,
+      "phase": "playing",
+      "enemies": 120,
+      "bosses": 1,
+      "shots": 78,
+      "fleet": 10,
+      "allies": 10,
+      "liveParticles": 5084,
+      "liveChunks": 152,
+      "drawCalls": 379,
+      "scale": 1,
+      "fps": 55,
+      "scheduler": {
+        "rafCallbacks": 4056,
+        "timerFrames": 297,
+        "callbackFrames": 4061,
+        "recoveries": 9,
+        "fallbacks": 9,
+        "lastGapMs": 17.69999998807907,
+        "mode": "raf",
+        "running": true,
+        "scheduleBeforeWork": true,
+        "pollMs": 4,
+        "visible": true,
+        "sinceRafMs": 17.30000001192093
+      },
+      "hidden": false,
+      "audioEnabled": false,
+      "audioState": "suspended",
+      "audioLoaded": 31
+    },
+    {
+      "at": 100.04219999998809,
+      "phase": "playing",
+      "enemies": 120,
+      "bosses": 1,
+      "shots": 59,
+      "fleet": 10,
+      "allies": 10,
+      "liveParticles": 5113,
+      "liveChunks": 180,
+      "drawCalls": 401,
+      "scale": 1,
+      "fps": 30,
+      "scheduler": {
+        "rafCallbacks": 4267,
+        "timerFrames": 303,
+        "callbackFrames": 4271,
+        "recoveries": 10,
+        "fallbacks": 10,
+        "lastGapMs": 22.80000001192093,
+        "mode": "raf",
+        "running": true,
+        "scheduleBeforeWork": true,
+        "pollMs": 4,
+        "visible": true,
+        "sinceRafMs": 18.399999976158142
+      },
+      "hidden": false,
+      "audioEnabled": false,
+      "audioState": "suspended",
+      "audioLoaded": 31
+    },
+    {
+      "at": 105.0825,
+      "phase": "playing",
+      "enemies": 120,
+      "bosses": 1,
+      "shots": 52,
+      "fleet": 10,
+      "allies": 10,
+      "liveParticles": 4365,
+      "liveChunks": 139,
+      "drawCalls": 428,
+      "scale": 1,
+      "fps": 29,
+      "scheduler": {
+        "rafCallbacks": 4425,
+        "timerFrames": 372,
+        "callbackFrames": 4429,
+        "recoveries": 10,
+        "fallbacks": 11,
+        "lastGapMs": 23.600000023841858,
+        "mode": "timer",
+        "running": true,
+        "scheduleBeforeWork": true,
+        "pollMs": 4,
+        "visible": true,
+        "sinceRafMs": 80.89999997615814
+      },
+      "hidden": false,
+      "audioEnabled": false,
+      "audioState": "suspended",
+      "audioLoaded": 31
+    },
+    {
+      "at": 110.03629999995232,
+      "phase": "playing",
+      "enemies": 120,
+      "bosses": 1,
+      "shots": 57,
+      "fleet": 10,
+      "allies": 10,
+      "liveParticles": 4879,
+      "liveChunks": 180,
+      "drawCalls": 364,
+      "scale": 1,
+      "fps": 43,
+      "scheduler": {
+        "rafCallbacks": 4598,
+        "timerFrames": 387,
+        "callbackFrames": 4602,
+        "recoveries": 11,
+        "fallbacks": 11,
+        "lastGapMs": 22.600000023841858,
+        "mode": "raf",
+        "running": true,
+        "scheduleBeforeWork": true,
+        "pollMs": 4,
+        "visible": true,
+        "sinceRafMs": 18.80000001192093
+      },
+      "hidden": false,
+      "audioEnabled": false,
+      "audioState": "suspended",
+      "audioLoaded": 31
+    },
+    {
+      "at": 115.03159999996424,
+      "phase": "playing",
+      "enemies": 120,
+      "bosses": 1,
+      "shots": 41,
+      "fleet": 10,
+      "allies": 10,
+      "liveParticles": 4571,
+      "liveChunks": 177,
+      "drawCalls": 324,
+      "scale": 1,
+      "fps": 41,
+      "scheduler": {
+        "rafCallbacks": 4809,
+        "timerFrames": 387,
+        "callbackFrames": 4813,
+        "recoveries": 11,
+        "fallbacks": 11,
+        "lastGapMs": 19.399999976158142,
+        "mode": "raf",
+        "running": true,
+        "scheduleBeforeWork": true,
+        "pollMs": 4,
+        "visible": true,
+        "sinceRafMs": 17
+      },
+      "hidden": false,
+      "audioEnabled": false,
+      "audioState": "suspended",
+      "audioLoaded": 31
+    },
+    {
+      "at": 120.006,
+      "phase": "playing",
+      "enemies": 120,
+      "bosses": 1,
+      "shots": 66,
+      "fleet": 10,
+      "allies": 10,
+      "liveParticles": 5200,
+      "liveChunks": 180,
+      "drawCalls": 383,
+      "scale": 1,
+      "fps": 39,
+      "scheduler": {
+        "rafCallbacks": 5006,
+        "timerFrames": 387,
+        "callbackFrames": 5010,
+        "recoveries": 11,
+        "fallbacks": 11,
+        "lastGapMs": 21.399999976158142,
+        "mode": "raf",
+        "running": true,
+        "scheduleBeforeWork": true,
+        "pollMs": 4,
+        "visible": true,
+        "sinceRafMs": 29.5
+      },
+      "hidden": false,
+      "audioEnabled": false,
+      "audioState": "suspended",
+      "audioLoaded": 31
+    }
+  ],
+  "audit": {
+    "staticGeometry": {
+      "entries": 12,
+      "references": 20,
+      "bytes": 238848,
+      "builds": 28,
+      "hits": 8,
+      "releases": 16
+    },
+    "primaryCameraRestored": true,
+    "engineCameraRestored": true,
+    "instances": {
+      "checked": 582,
+      "mismatches": 0,
+      "maxRelativeError": 5.790629800913581e-8,
+      "examples": []
+    },
+    "factions": {
+      "enemy": 119,
+      "ally": 20,
+      "boss": 1
+    },
+    "markers": {
+      "total": 140,
+      "visible": 137
+    },
+    "player": {
+      "position": [
+        -6.274583318729439,
+        -2.2716936379551953,
+        -10.672309653653056
+      ],
+      "rotation": [
+        0,
+        -13.56853835802127,
+        0,
+        "XYZ"
+      ],
+      "modules": [
+        {
+          "id": "module-engine",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            1.5707963267948966,
+            0,
+            0,
+            "XYZ"
+          ],
+          "scale": [
+            1.0476816689251454,
+            1.0476816689251454,
+            1.0476816689251454
+          ]
+        },
+        {
+          "id": "module-cannon",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            "XYZ"
+          ],
+          "scale": [
+            0.8239007171009426,
+            0.8239007171009426,
+            0.8239007171009426
+          ]
+        },
+        {
+          "id": "module-engine",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            1.5707963267948966,
+            0,
+            0,
+            "XYZ"
+          ],
+          "scale": [
+            1.0476816689251454,
+            1.0476816689251454,
+            1.0476816689251454
+          ]
+        },
+        {
+          "id": "module-cannon",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            "XYZ"
+          ],
+          "scale": [
+            0.8239007171009426,
+            0.8239007171009426,
+            0.8239007171009426
+          ]
+        },
+        {
+          "id": "module-cannon",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            "XYZ"
+          ],
+          "scale": [
+            0.5862370487064399,
+            0.5862370487064399,
+            0.5862370487064399
+          ]
+        },
+        {
+          "id": "module-cannon",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            "XYZ"
+          ],
+          "scale": [
+            0.5862370487064399,
+            0.5862370487064399,
+            0.5862370487064399
+          ]
+        },
+        {
+          "id": "module-engine",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            1.5707963267948966,
+            0,
+            0,
+            "XYZ"
+          ],
+          "scale": [
+            0.6396372294490361,
+            0.6396372294490361,
+            0.6396372294490361
+          ]
+        },
+        {
+          "id": "module-cannon",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            "XYZ"
+          ],
+          "scale": [
+            0.7077095903302969,
+            0.7077095903302969,
+            0.7077095903302969
+          ]
+        },
+        {
+          "id": "module-cannon",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            "XYZ"
+          ],
+          "scale": [
+            0.4911715813486388,
+            0.4911715813486388,
+            0.4911715813486388
+          ]
+        },
+        {
+          "id": "module-engine",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            1.5707963267948966,
+            0,
+            0,
+            "XYZ"
+          ],
+          "scale": [
+            0.6396372294490361,
+            0.6396372294490361,
+            0.6396372294490361
+          ]
+        },
+        {
+          "id": "module-cannon",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            "XYZ"
+          ],
+          "scale": [
+            0.7077095903302969,
+            0.7077095903302969,
+            0.7077095903302969
+          ]
+        },
+        {
+          "id": "module-cannon",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            "XYZ"
+          ],
+          "scale": [
+            0.4911715813486388,
+            0.4911715813486388,
+            0.4911715813486388
+          ]
+        },
+        {
+          "id": "module-cannon",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            "XYZ"
+          ],
+          "scale": [
+            0.6654582715046076,
+            0.6654582715046076,
+            0.6654582715046076
+          ]
+        },
+        {
+          "id": "module-cannon",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            "XYZ"
+          ],
+          "scale": [
+            0.6654582715046076,
+            0.6654582715046076,
+            0.6654582715046076
+          ]
+        },
+        {
+          "id": "module-cannon",
+          "position": [
+            -2.7370000000000005,
+            0.8300000000000001,
+            -3.496
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            "XYZ"
+          ],
+          "scale": [
+            0.7816493982752531,
+            0.7816493982752531,
+            0.7816493982752531
+          ]
+        },
+        {
+          "id": "module-cannon",
+          "position": [
+            2.7370000000000005,
+            0.8300000000000001,
+            -3.496
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            "XYZ"
+          ],
+          "scale": [
+            0.7816493982752531,
+            0.7816493982752531,
+            0.7816493982752531
+          ]
+        },
+        {
+          "id": "module-cannon",
+          "position": [
+            -2.7370000000000005,
+            0.8300000000000001,
+            -2.796
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            "XYZ"
+          ],
+          "scale": [
+            0.7816493982752531,
+            0.7816493982752531,
+            0.7816493982752531
+          ]
+        },
+        {
+          "id": "module-cannon",
+          "position": [
+            2.7370000000000005,
+            0.8300000000000001,
+            -2.796
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            "XYZ"
+          ],
+          "scale": [
+            0.7816493982752531,
+            0.7816493982752531,
+            0.7816493982752531
+          ]
+        },
+        {
+          "id": "module-gravity",
+          "position": [
+            -2.7370000000000005,
+            0.8300000000000001,
+            -1.56
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            "XYZ"
+          ],
+          "scale": [
+            0.7795747218192878,
+            0.7795747218192878,
+            0.7795747218192878
+          ]
+        },
+        {
+          "id": "module-gravity",
+          "position": [
+            2.7370000000000005,
+            0.8300000000000001,
+            -1.56
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            "XYZ"
+          ],
+          "scale": [
+            0.7795747218192878,
+            0.7795747218192878,
+            0.7795747218192878
+          ]
+        },
+        {
+          "id": "module-gravity",
+          "position": [
+            -2.7370000000000005,
+            0.8300000000000001,
+            -0.86
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            "XYZ"
+          ],
+          "scale": [
+            0.7795747218192878,
+            0.7795747218192878,
+            0.7795747218192878
+          ]
+        },
+        {
+          "id": "module-gravity",
+          "position": [
+            2.7370000000000005,
+            0.8300000000000001,
+            -0.86
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            "XYZ"
+          ],
+          "scale": [
+            0.7795747218192878,
+            0.7795747218192878,
+            0.7795747218192878
+          ]
+        },
+        {
+          "id": "module-missile",
+          "position": [
+            -2.7370000000000005,
+            0.8300000000000001,
+            0.134
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            "XYZ"
+          ],
+          "scale": [
+            0.7798799299956503,
+            0.7798799299956503,
+            0.7798799299956503
+          ]
+        },
+        {
+          "id": "module-missile",
+          "position": [
+            2.7370000000000005,
+            0.8300000000000001,
+            0.134
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            "XYZ"
+          ],
+          "scale": [
+            0.7798799299956503,
+            0.7798799299956503,
+            0.7798799299956503
+          ]
+        },
+        {
+          "id": "module-missile",
+          "position": [
+            -2.7370000000000005,
+            0.8300000000000001,
+            0.834
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            "XYZ"
+          ],
+          "scale": [
+            0.7798799299956503,
+            0.7798799299956503,
+            0.7798799299956503
+          ]
+        },
+        {
+          "id": "module-missile",
+          "position": [
+            2.7370000000000005,
+            0.8300000000000001,
+            0.834
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            "XYZ"
+          ],
+          "scale": [
+            0.7798799299956503,
+            0.7798799299956503,
+            0.7798799299956503
+          ]
+        },
+        {
+          "id": "module-laser",
+          "position": [
+            -2.7370000000000005,
+            0.785,
+            -4.4639999999999995
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            "XYZ"
+          ],
+          "scale": [
+            0.721427244468297,
+            0.721427244468297,
+            0.721427244468297
+          ]
+        },
+        {
+          "id": "module-laser",
+          "position": [
+            2.7370000000000005,
+            0.785,
+            -4.4639999999999995
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            "XYZ"
+          ],
+          "scale": [
+            0.721427244468297,
+            0.721427244468297,
+            0.721427244468297
+          ]
+        },
+        {
+          "id": "module-laser",
+          "position": [
+            -2.7370000000000005,
+            0.785,
+            -3.764
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            "XYZ"
+          ],
+          "scale": [
+            0.721427244468297,
+            0.721427244468297,
+            0.721427244468297
+          ]
+        },
+        {
+          "id": "module-laser",
+          "position": [
+            2.7370000000000005,
+            0.785,
+            -3.764
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            "XYZ"
+          ],
+          "scale": [
+            0.721427244468297,
+            0.721427244468297,
+            0.721427244468297
+          ]
+        },
+        {
+          "id": "module-hangar",
+          "position": [
+            -2.7370000000000005,
+            0.8300000000000001,
+            3.28
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            "XYZ"
+          ],
+          "scale": [
+            0.7806088164607199,
+            0.7806088164607199,
+            0.7806088164607199
+          ]
+        },
+        {
+          "id": "module-hangar",
+          "position": [
+            2.7370000000000005,
+            0.8300000000000001,
+            3.28
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            "XYZ"
+          ],
+          "scale": [
+            0.7806088164607199,
+            0.7806088164607199,
+            0.7806088164607199
+          ]
+        },
+        {
+          "id": "module-hangar",
+          "position": [
+            -2.7370000000000005,
+            0.8300000000000001,
+            3.98
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            "XYZ"
+          ],
+          "scale": [
+            0.7806088164607199,
+            0.7806088164607199,
+            0.7806088164607199
+          ]
+        },
+        {
+          "id": "module-hangar",
+          "position": [
+            2.7370000000000005,
+            0.8300000000000001,
+            3.98
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            "XYZ"
+          ],
+          "scale": [
+            0.7806088164607199,
+            0.7806088164607199,
+            0.7806088164607199
+          ]
+        },
+        {
+          "id": "module-shield",
+          "position": [
+            -2.7370000000000005,
+            0.785,
+            2.554
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            "XYZ"
+          ],
+          "scale": [
+            0.7219737536103807,
+            0.7219737536103807,
+            0.7219737536103807
+          ]
+        },
+        {
+          "id": "module-shield",
+          "position": [
+            2.7370000000000005,
+            0.785,
+            2.554
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            "XYZ"
+          ],
+          "scale": [
+            0.7219737536103807,
+            0.7219737536103807,
+            0.7219737536103807
+          ]
+        },
+        {
+          "id": "module-shield",
+          "position": [
+            -2.7370000000000005,
+            0.785,
+            3.254
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            "XYZ"
+          ],
+          "scale": [
+            0.7219737536103807,
+            0.7219737536103807,
+            0.7219737536103807
+          ]
+        },
+        {
+          "id": "module-shield",
+          "position": [
+            2.7370000000000005,
+            0.785,
+            3.254
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            "XYZ"
+          ],
+          "scale": [
+            0.7219737536103807,
+            0.7219737536103807,
+            0.7219737536103807
+          ]
+        },
+        {
+          "id": "module-cannon",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            "XYZ"
+          ],
+          "scale": [
+            0.6733803937844243,
+            0.6733803937844243,
+            0.6733803937844243
+          ]
+        },
+        {
+          "id": "module-cannon",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            "XYZ"
+          ],
+          "scale": [
+            0.6733803937844243,
+            0.6733803937844243,
+            0.6733803937844243
+          ]
+        },
+        {
+          "id": "module-cannon",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            "XYZ"
+          ],
+          "scale": [
+            0.3802618694312043,
+            0.3802618694312043,
+            0.3802618694312043
+          ]
+        },
+        {
+          "id": "module-cannon",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            "XYZ"
+          ],
+          "scale": [
+            0.3802618694312043,
+            0.3802618694312043,
+            0.3802618694312043
+          ]
+        },
+        {
+          "id": "vessel-bastion",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            "XYZ"
+          ],
+          "scale": [
+            6.378364444270727,
+            6.378364444270727,
+            6.378364444270727
+          ]
+        }
+      ]
+    },
+    "viewport": [
+      0,
+      0,
+      1280,
+      720
+    ],
+    "scissorTest": false,
+    "targetIsDefault": true,
+    "audit": {
+      "valid": true,
+      "errors": [],
+      "eligible": 2753,
+      "registered": 5072,
+      "members": 2650,
+      "pending": 0,
+      "fullSceneScans": 1,
+      "auditScans": 1
+    }
+  },
+  "savePreserved": true,
+  "errors": [],
+  "config": {
+    "harnessRevision": "muted-v3",
+    "audioMode": "muted-before-start",
+    "width": 1280,
+    "height": 720,
+    "quality": "high",
+    "scale": 1,
+    "level": 22,
+    "count": 120,
+    "seed": 91471,
+    "warmupSeconds": 30,
+    "captureSeconds": 90,
+    "normalCampaign": false,
+    "invulnerable": true,
+    "enemiesHeldAlive": true
+  },
+  "afterCapture": {
+    "glow": {
+      "entries": 4,
+      "refs": 61,
+      "created": 176,
+      "released": 168
+    },
+    "phase": "paused",
+    "gameTime": 357.61199999988094,
+    "audioEnabled": false,
+    "audioState": "suspended",
+    "soundAssets": {
+      "provider": "ElevenLabs",
+      "revision": "hostile-v6-low-rocket-double-warning",
+      "loaded": 31,
+      "total": 31,
+      "failed": [],
+      "voices": 0,
+      "loops": 0,
+      "loopMix": {},
+      "activeVoices": [],
+      "played": {},
+      "motion": {
+        "speed": 4.219774947826728,
+        "boost": false,
+        "stage": 2
+      },
+      "phase": "menu",
+      "state": "suspended"
+    },
+    "renderScale": 1
+  }
+}
